@@ -1,0 +1,11 @@
+
+ {
+  "name": "Nautiloidea",
+  "version": "0.1",
+  "manifest_version": 1,
+  "description": "Data structures for music composition",
+  "author": "Reid Netterville III",
+  "default locale": "en",
+  "homepage url": "http://reidiiius.blogspot.com/p/docs.html", 
+  } 
+  
