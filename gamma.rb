@@ -141,7 +141,7 @@ flat_5 = [
 {:tone => cancer, :function => vesta, :invert => mars },
 {:tone => gemini, :function => mars, :invert => vesta } ], 
  
-sharp_1_2_6_flat_5 = [
+sharp_126_flat_5 = [
 {:tone => leo, :function => vesta, :invert => mars },
 {:tone => cancer, :function => mars, :invert => vesta },
 {:tone => gemini, :function => mercury, :invert => moon },
@@ -168,7 +168,7 @@ flat_5_sharp_6 = [
 {:tone => sagittarius, :function => saturn, :invert => moon },
 {:tone => libra, :function => sun, :invert => sun } ], 
 
-flat_2_5_sharp_6 = [
+flat_25_sharp_6 = [
 {:tone => leo, :function => juno, :invert => mars },
 {:tone => cancer, :function => venus, :invert => chiron },
 {:tone => gemini, :function => saturn, :invert => moon },
@@ -177,7 +177,7 @@ flat_2_5_sharp_6 = [
 {:tone => sagittarius, :function => mars, :invert => juno },
 {:tone => scorpio, :function => mercury, :invert => jupiter } ], 
 
-sharp_2_6_flat_5 = [
+sharp_26_flat_5 = [
 {:tone => leo, :function => juno, :invert => mars },
 {:tone => cancer, :function => venus, :invert => chiron },
 {:tone => gemini, :function => saturn, :invert => moon },
@@ -213,7 +213,7 @@ sharp_1_flat_6 = [
 {:tone => leo, :function => sun, :invert => mercury },
 {:tone => cancer, :function => neptune, :invert => mars } ], 
 
-sharp_1_6 = [
+sharp_16 = [
 {:tone => leo, :function => jupiter, :invert => saturn },
 {:tone => cancer, :function => uranus, :invert => venus },
 {:tone => taurus, :function => saturn, :invert => jupiter },
@@ -222,7 +222,7 @@ sharp_1_6 = [
 {:tone => scorpio, :function => mars, :invert => neptune },
 {:tone => libra, :function => mercury, :invert => sun } ], 
 
-sharp_5_6 = [
+sharp_56 = [
 {:tone => leo, :function => venus, :invert => uranus },
 {:tone => cancer, :function => saturn, :invert => jupiter },
 {:tone => aries, :function => neptune, :invert => mars },
@@ -231,7 +231,7 @@ sharp_5_6 = [
 {:tone => sagittarius, :function => mercury, :invert => sun },
 {:tone => libra, :function => jupiter, :invert => saturn } ], 
 
-flat_5_6 = [
+flat_56 = [
 {:tone => cancer, :function => neptune, :invert => mars },
 {:tone => gemini, :function => moon, :invert => titan },
 {:tone => aries, :function => mars, :invert => neptune },
@@ -240,7 +240,7 @@ flat_5_6 = [
 {:tone => libra, :function => saturn, :invert => jupiter },
 {:tone => leo, :function => sun, :invert => mercury } ],
 
-sharp_1_2_7 = [
+sharp_127 = [
 {:tone => pisces, :function => venus, :invert => uranus },
 {:tone => sagittarius, :function => sun, :invert => mercury },
 {:tone => scorpio, :function => neptune, :invert => mars },
@@ -249,7 +249,7 @@ sharp_1_2_7 = [
 {:tone => cancer, :function => mercury, :invert => sun },
 {:tone => taurus, :function => jupiter, :invert => saturn } ], 
 
-sharp_1_2_7_flat_5 = [
+sharp_127_flat_5 = [
 {:tone => pisces, :function => neptune, :invert => mars },
 {:tone => sagittarius, :function => mars, :invert => neptune },
 {:tone => scorpio, :function => mercury, :invert => sun },
@@ -258,7 +258,7 @@ sharp_1_2_7_flat_5 = [
 {:tone => cancer, :function => venus, :invert => pallas },
 {:tone => gemini, :function => saturn, :invert => jupiter } ],  
 
-flat_3_4_sharp_5 = [
+flat_34_sharp_5 = [
 {:tone => libra, :function => titan, :invert => moon },
 {:tone => virgo, :function => mars, :invert => neptune },
 {:tone => leo, :function => mercury, :invert => sun },
@@ -285,7 +285,7 @@ sharp_2 = [
 {:tone => sagittarius, :function => neptune, :invert => venus }, 
 {:tone => virgo, :function => mars, :invert => pluto } ], 
 
-sharp_2_5 = [
+sharp_25 = [
 {:tone => leo, :function => mercury, :invert => mercury },
 {:tone => cancer, :function => pluto, :invert => mars },
 {:tone => aries, :function => venus, :invert => neptune },
@@ -294,7 +294,7 @@ sharp_2_5 = [
 {:tone => sagittarius, :function => neptune, :invert => venus }, 
 {:tone => virgo, :function => mars, :invert => pluto } ], 
 
-flat_2_3 = [
+flat_23 = [
 {:tone => sagittarius, :function => mercury, :invert => mercury }, 
 {:tone => scorpio, :function => pluto, :invert => mars }, 
 {:tone => virgo, :function => uranus, :invert => moon }, 
@@ -303,7 +303,7 @@ flat_2_3 = [
 {:tone => pisces, :function => moon, :invert => uranus },
 {:tone => capricorn, :function => mars, :invert => pluto } ], 
 
-flat_2_3_sharp_6 = [
+flat_23_sharp_6 = [
 {:tone => sagittarius, :function => mercury, :invert => mercury }, 
 {:tone => scorpio, :function => pluto, :invert => mars }, 
 {:tone => virgo, :function => uranus, :invert => moon }, 
@@ -312,7 +312,7 @@ flat_2_3_sharp_6 = [
 {:tone => aquarius, :function => titan, :invert => jupiter },
 {:tone => capricorn, :function => mars, :invert => pluto } ], 
 
-sharp_2_flat_5_6 = [ 
+sharp_2_flat_56 = [ 
 {:tone => cancer, :function => pluto, :invert => mars }, 
 {:tone => gemini, :function => jupiter, :invert => titan }, 
 {:tone => aries, :function => venus, :invert => neptune }, 
@@ -321,7 +321,7 @@ sharp_2_flat_5_6 = [
 {:tone => virgo, :function => mars, :invert => pluto },
 {:tone => leo, :function => mercury, :invert => mercury } ], 
 
-flat_2_sharp_5_6 = [ 
+flat_2_sharp_56 = [ 
 {:tone => leo, :function => venus, :invert => neptune },
 {:tone => cancer, :function => saturn, :invert => sun },
 {:tone => aries, :function => neptune, :invert => venus },
@@ -348,7 +348,7 @@ sharp_2_flat_5 = [
 {:tone => sagittarius, :function => neptune, :invert => venus }, 
 {:tone => virgo, :function => mars, :invert => pluto } ], 
 
-sharp_1_2_flat_5 = [
+sharp_12_flat_5 = [
 {:tone => leo, :function => mercury, :invert => mercury },
 {:tone => cancer, :function => pluto, :invert => mars },
 {:tone => gemini, :function => jupiter, :invert => titan },
@@ -357,7 +357,7 @@ sharp_1_2_flat_5 = [
 {:tone => scorpio, :function => moon, :invert => uranus },
 {:tone => virgo, :function => mars, :invert => pluto } ], 
 
-flat_3_4_sharp_6 = [
+flat_34_sharp_6 = [
 {:tone => taurus, :function => neptune, :invert => venus },
 {:tone => aquarius, :function => mars, :invert => pluto },
 {:tone => capricorn, :function => mercury, :invert => mercury },
@@ -366,7 +366,7 @@ flat_3_4_sharp_6 = [
 {:tone => virgo, :function => venus, :invert => neptune }, 
 {:tone => leo, :function => saturn, :invert => sun } ], 
 
-flat_3_4_sharp_1_6 = [
+flat_34_sharp_16 = [
 {:tone => taurus, :function => venus, :invert => neptune },
 {:tone => aquarius, :function => sun, :invert => saturn },
 {:tone => capricorn, :function => neptune, :invert => venus },
@@ -375,7 +375,7 @@ flat_3_4_sharp_1_6 = [
 {:tone => virgo, :function => mercury, :invert => mercury }, 
 {:tone => leo, :function => pluto, :invert => mars } ], 
 
-doublesharp_1_sharp_2_flat_5 = [ 
+x_1_sharp_2_flat_5 = [ 
 {:tone => leo, :function => mercury, :invert => mercury },
 {:tone => cancer, :function => pluto, :invert => mars },
 {:tone => gemini, :function => jupiter, :invert => titan },
@@ -384,7 +384,7 @@ doublesharp_1_sharp_2_flat_5 = [
 {:tone => libra, :function => titan, :invert => jupiter },
 {:tone => virgo, :function => mars, :invert => pluto } ], 
 
-doublesharp_1_sharp_2_6_flat_5 = [
+x_1_sharp_26_flat_5 = [
 {:tone => leo, :function => pluto, :invert => mars },
 {:tone => cancer, :function => jupiter, :invert => titan },
 {:tone => gemini, :function => uranus, :invert => moon },
@@ -429,7 +429,7 @@ flat_2_sharp_5 = [
 {:tone => sagittarius, :function => mars, :invert => venus },
 {:tone => scorpio, :function => mercury, :invert => pallas } ], 
 
-sharp_2_6 = [
+sharp_26 = [
 {:tone => sagittarius, :function => mercury, :invert => pallas },
 {:tone => virgo, :function => pallas, :invert => mercury },
 {:tone => leo, :function => venus, :invert => mars },
@@ -438,7 +438,7 @@ sharp_2_6 = [
 {:tone => aquarius, :function => ceres, :invert => saturn },
 {:tone => capricorn, :function => mars, :invert => venus } ], 
 
-flat_2_5 = [ 
+flat_25 = [ 
 {:tone => leo, :function => pallas, :invert => mercury },
 {:tone => cancer, :function => venus, :invert => mars },
 {:tone => gemini, :function => saturn, :invert => ceres },
@@ -453,62 +453,62 @@ puts 'sharp_6'
 puts sharp_6 
 puts 'flat_5'
 puts flat_5
-puts 'sharp_1_2_6_flat_5'
-puts sharp_1_2_6_flat_5
+puts 'sharp_126_flat_5'
+puts sharp_126_flat_5
 puts 'flat_3'
 puts flat_3
 puts 'flat_5_sharp_6'
 puts flat_5_sharp_6
-puts 'flat_2_5_sharp_6'
-puts flat_2_5_sharp_6
-puts 'sharp_2_6_flat_5'
-puts sharp_2_6_flat_5 
+puts 'flat_25_sharp_6'
+puts flat_25_sharp_6
+puts 'sharp_26_flat_5'
+puts sharp_26_flat_5 
 puts 'flat_6'
 puts flat_6 
 puts 'sharp_5'
 puts sharp_5 
 puts 'sharp_1_flat_6'
 puts sharp_1_flat_6 
-puts 'sharp_1_6'
-puts sharp_1_6 
-puts 'sharp_5_6'
-puts sharp_5_6 
-puts 'flat_5_6'
-puts flat_5_6 
-puts 'sharp_1_2_7'
-puts sharp_1_2_7 
-puts 'sharp_1_2_7_flat_5'
-puts sharp_1_2_7_flat_5 
-puts 'flat_3_4_sharp_5'
-puts flat_3_4_sharp_5 
+puts 'sharp_16'
+puts sharp_16 
+puts 'sharp_56'
+puts sharp_56 
+puts 'flat_56'
+puts flat_56 
+puts 'sharp_127'
+puts sharp_127 
+puts 'sharp_127_flat_5'
+puts sharp_127_flat_5 
+puts 'flat_34_sharp_5'
+puts flat_34_sharp_5 
 puts 'flat_2'
 puts flat_2 
 puts 'sharp_2'
 puts sharp_2 
-puts 'sharp_2_5'
-puts sharp_2_5 
-puts 'flat_2_3'
-puts flat_2_3 
-puts 'flat_2_3_sharp_6'
-puts flat_2_3_sharp_6 
-puts 'sharp_2_flat_5_6'
-puts sharp_2_flat_5_6 
-puts 'flat_2_sharp_5_6'
-puts flat_2_sharp_5_6 
+puts 'sharp_25'
+puts sharp_25 
+puts 'flat_23'
+puts flat_23 
+puts 'flat_23_sharp_6'
+puts flat_23_sharp_6 
+puts 'sharp_2_flat_56'
+puts sharp_2_flat_56 
+puts 'flat_2_sharp_56'
+puts flat_2_sharp_56 
 puts 'flat_2_sharp_6'
 puts flat_2_sharp_6 
 puts 'sharp_2_flat_5'
 puts sharp_2_flat_5 
-puts 'sharp_1_2_flat_5'
-puts sharp_1_2_flat_5 
-puts 'flat_3_4_sharp_6'
-puts flat_3_4_sharp_6 
-puts 'flat_3_4_sharp_1_6'
-puts flat_3_4_sharp_1_6
-puts 'doublesharp_1_sharp_2_flat_5'
-puts doublesharp_1_sharp_2_flat_5 
-puts 'doublesharp_1_sharp_2_6_flat_5'
-puts doublesharp_1_sharp_2_6_flat_5 
+puts 'sharp_12_flat_5'
+puts sharp_12_flat_5 
+puts 'flat_34_sharp_6'
+puts flat_34_sharp_6 
+puts 'flat_34_sharp_16'
+puts flat_34_sharp_16
+puts 'x_1_sharp_2_flat_5'
+puts x_1_sharp_2_flat_5 
+puts 'x_1_sharp_26_flat_5'
+puts x_1_sharp_26_flat_5 
 puts 'flat_3_sharp_6'
 puts flat_3_sharp_6 
 puts 'sharp_1_flat_5'
@@ -517,7 +517,7 @@ puts 'sharp_2_flat_6'
 puts sharp_2_flat_6 
 puts 'flat_2_sharp_5'
 puts flat_2_sharp_5 
-puts 'sharp_2_6'
-puts sharp_2_6 
-puts 'flat_2_5'
-puts flat_2_5 
+puts 'sharp_26'
+puts sharp_26 
+puts 'flat_25'
+puts flat_25 
