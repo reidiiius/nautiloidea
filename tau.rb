@@ -1,93 +1,27 @@
 #!/usr/bin/env ruby 
- /
- an0 = 21
- bj0 = 22 
- bn0 = 23
- cn1 = 24
- dj1 = 25,
- dn1 = 26
- ej1 = 27
- en1 = 28
- fn1 = 29
- gj1 = 30
- gn1 = 31
- aj1 = 32
- an1 = 33
- bj1 = 34
- bn1 = 35
- cn2 = 36
- dj2 = 37
- dn2 = 38
- ej2 = 39
- en2 = 40
- fn2 = 41
- gj2 = 42
- gn2 = 43
- aj2 = 44
- an2 = 45
- bj2 = 46
- bn2 = 47
- cn3 = 48
- dj3 = 49
- dn3 = 50
- ej3 = 51
- en3 = 52
- fn3 = 53
- gj3 = 54
- gn3 = 55
- aj3 = 56
- an3 = 57
- bj3 = 58
- bn3 = 59
- cn4 = 60
- dj4 = 61
- dn4 = 62
- ej4 = 63
- en4 = 64
- fn4 = 65
- gj4 = 66
- gn4 = 67
- aj4 = 68
- an4 = 69
- bj4 = 70
- bn4 = 71
- cn5 = 72
- dj5 = 73
- dn5 = 74
- ej5 = 75
- en5 = 76
- fn5 = 77
- gj5 = 78
- gn5 = 79
- aj5 = 80
- an5 = 81
- bj5 = 82
- bn5 = 83
- cn6 = 84
- dj6 = 85
- dn6 = 86
- ej6 = 87
- en6 = 88
- fn6 = 89
- gj6 = 90
- gn6 = 91
- aj6 = 92
- an6 = 93
- bj6 = 94
- bn6 = 95
- cn7 = 96
- dj7 = 97
- dn7 = 98
- ej7 = 99
- en7 = 100
- fn7 = 101
- gj7 = 102
- gn7 = 103
- aj7 = 104
- an7 = 105
- bj7 = 106
- bn7 = 107
- cn8 = 108 /
+
+   / an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93, an7 = 105,
+     as0 = 22, as1 = 34, as2 = 46, as3 = 58, as4 = 70, as5 = 82, as6 = 94, as7 = 106,
+     bj0 = 22, bj1 = 34, bj2 = 46, bj3 = 58, bj4 = 70, bj5 = 82, bj6 = 94, bj7 = 106,
+     bn0 = 23, bn1 = 35, bn2 = 47, bn3 = 59, bn4 = 71, bn5 = 83, bn6 = 95, bn7 = 107,
+     cj1 = 23, cj2 = 35, cj3 = 47, cj4 = 59, cj5 = 71, cj6 = 83, cj7 = 95, cj8 = 107,
+     cn1 = 24, cn2 = 36, cn3 = 48, cn4 = 60, cn5 = 72, cn6 = 84, cn7 = 96, cn8 = 108,
+     cs1 = 25, cs2 = 37, cs3 = 49, cs4 = 61, cs5 = 73, cs6 = 85, cs7 = 97,
+     dj1 = 25, dj2 = 37, dj3 = 49, dj4 = 61, dj5 = 73, dj6 = 85, dj7 = 97,
+     cx1 = 26, cx2 = 38, cx3 = 50, cx4 = 62, cx5 = 74, cx6 = 86, cx7 = 98,
+     dn1 = 26, dn2 = 38, dn3 = 50, dn4 = 62, dn5 = 74, dn6 = 86, dn7 = 98,
+     ds1 = 27, ds2 = 39, ds3 = 51, ds4 = 63, ds5 = 75, ds6 = 87, ds7 = 99,
+     ej1 = 27, ej2 = 39, ej3 = 51, ej4 = 63, ej5 = 75, ej6 = 87, ej7 = 99,
+     en1 = 28, en2 = 40, en3 = 52, en4 = 64, en5 = 76, en6 = 88, en7 = 100,
+     fj1 = 28, fj2 = 40, fj3 = 52, fj4 = 64, fj5 = 76, fj6 = 88, fj7 = 100,
+     es1 = 29, es2 = 41, es3 = 53, es4 = 65, es5 = 77, es6 = 89, es7 = 101,
+     fn1 = 29, fn2 = 41, fn3 = 53, fn4 = 65, fn5 = 77, fn6 = 89, fn7 = 101,
+     fs1 = 30, fs2 = 42, fs3 = 54, fs4 = 66, fs5 = 78, fs6 = 90, fs7 = 102,
+     gj1 = 30, gj2 = 42, gj3 = 54, gj4 = 66, gj5 = 78, gj6 = 90, gj7 = 102,
+     gn1 = 31, gn2 = 43, gn3 = 55, gn4 = 67, gn5 = 79, gn6 = 91, gn7 = 103,
+     gs1 = 32, gs2 = 44, gs3 = 56, gs4 = 68, gs5 = 80, gs6 = 92, gs7 = 104,
+     aj1 = 32, aj2 = 44, aj3 = 56, aj4 = 68, aj5 = 80, aj6 = 92, aj7 = 104, /
+	
  
 def natural 
 [
@@ -543,51 +477,77 @@ def flat_25
 
 end 
 
-puts
-puts ' natural'
-puts 
+puts 'natural'
 puts natural 
-puts 
-puts ' sharp_6'
-puts 
-puts sharp_6
-puts 
-puts ' flat_5'
-puts 
-puts flat_5 
-puts 
-puts ' flat_3'
-puts 
-puts flat_3 
-puts 
-puts ' flat_6'
-puts 
+puts 'sharp_6'
+puts sharp_6 
+puts 'flat_5'
+puts flat_5
+puts 'sharp_126_flat_5'
+puts sharp_126_flat_5
+puts 'flat_3'
+puts flat_3
+puts 'flat_5_sharp_6'
+puts flat_5_sharp_6
+puts 'flat_25_sharp_6'
+puts flat_25_sharp_6
+puts 'sharp_26_flat_5'
+puts sharp_26_flat_5 
+puts 'flat_6'
 puts flat_6 
-puts 
-puts ' sharp_5'
-puts 
+puts 'sharp_5'
 puts sharp_5 
-puts 
-puts ' flat_2'
-puts 
+puts 'sharp_1_flat_6'
+puts sharp_1_flat_6 
+puts 'sharp_16'
+puts sharp_16 
+puts 'sharp_56'
+puts sharp_56 
+puts 'flat_56'
+puts flat_56 
+puts 'sharp_127'
+puts sharp_127 
+puts 'sharp_127_flat_5'
+puts sharp_127_flat_5 
+puts 'flat_34_sharp_5'
+puts flat_34_sharp_5 
+puts 'flat_2'
 puts flat_2 
-puts 
-puts ' sharp_2'
-puts 
-puts sharp_2
-puts 
-puts ' sharp_25'
-puts 
+puts 'sharp_2'
+puts sharp_2 
+puts 'sharp_25'
 puts sharp_25 
-puts 
-puts ' flat_3_sharp_6'
-puts 
+puts 'flat_23'
+puts flat_23 
+puts 'flat_23_sharp_6'
+puts flat_23_sharp_6 
+puts 'sharp_2_flat_56'
+puts sharp_2_flat_56 
+puts 'flat_2_sharp_56'
+puts flat_2_sharp_56 
+puts 'flat_2_sharp_6'
+puts flat_2_sharp_6 
+puts 'sharp_2_flat_5'
+puts sharp_2_flat_5 
+puts 'sharp_12_flat_5'
+puts sharp_12_flat_5 
+puts 'flat_34_sharp_6'
+puts flat_34_sharp_6 
+puts 'flat_34_sharp_16'
+puts flat_34_sharp_16
+puts 'x_1_sharp_2_flat_5'
+puts x_1_sharp_2_flat_5 
+puts 'x_1_sharp_26_flat_5'
+puts x_1_sharp_26_flat_5 
+puts 'flat_3_sharp_6'
 puts flat_3_sharp_6 
-puts 
-puts ' sharp_2_flat_6'
-puts 
-puts sharp_2_flat_6
-puts 
-puts ' flat_2_sharp_5'
-puts 
+puts 'sharp_1_flat_5'
+puts sharp_1_flat_5 
+puts 'sharp_2_flat_6'
+puts sharp_2_flat_6 
+puts 'flat_2_sharp_5'
 puts flat_2_sharp_5 
+puts 'sharp_26'
+puts sharp_26 
+puts 'flat_25'
+puts flat_25 

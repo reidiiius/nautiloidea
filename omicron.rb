@@ -55,7 +55,7 @@ natabhairavi = [
 {:tone => 'taurus', :function => 'sun', :invert => 'moon'} ]
  
  # sharp_6 
-naganandini = [
+naganandini = [ 
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
 {:tone => 'libra', :function => 'jupiter', :invert => 'sun'},
 {:tone => 'leo', :function => 'venus', :invert => 'saturn'},
@@ -110,7 +110,7 @@ gamanasrama = [
 {:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
 {:tone => 'leo', :function => 'moon', :invert => 'mercury'} ] 
 
- # sharp_1_2_6_flat_5th 
+ # sharp_126_flat_5th 
 pavani = [
 {:tone => 'leo', :function => 'vesta', :invert => 'mars'},
 {:tone => 'cancer', :function => 'mars', :invert => 'vesta'},
@@ -167,7 +167,7 @@ jalarnavam = [
 {:tone => 'sagittarius', :function => 'saturn', :invert => 'moon'},
 {:tone => 'libra', :function => 'sun', :invert => 'sun'} ] 
 
- # flat_2_5_sharp_6 
+ # flat_25_sharp_6 
 salagam = [
 {:tone => 'leo', :function => 'juno', :invert => 'mars'},
 {:tone => 'cancer', :function => 'venus', :invert => 'chiron'},
@@ -177,7 +177,7 @@ salagam = [
 {:tone => 'sagittarius', :function => 'mars', :invert => 'juno'},
 {:tone => 'scorpio', :function => 'mercury', :invert => 'jupiter'} ]
 
- # sharp_2_6_flat_5
+ # sharp_26_flat_5
 jhalavarali = [
 {:tone => 'leo', :function => 'juno', :invert => 'mars'},
 {:tone => 'cancer', :function => 'venus', :invert => 'chiron'},
@@ -262,7 +262,7 @@ ramapriya = [
 {:tone => 'leo', :function => 'sun', :invert => 'mercury'},
 {:tone => 'cancer', :function => 'neptune', :invert => 'mars'} ] 
 
- # sharp_1_6 
+ # sharp_16 
 shadvidhamargini = [
 {:tone => 'leo', :function => 'jupiter', :invert => 'saturn'},
 {:tone => 'cancer', :function => 'uranus', :invert => 'venus'},
@@ -281,7 +281,7 @@ nasikabhusani = [
 {:tone => 'leo', :function => 'jupiter', :invert => 'saturn'},
 {:tone => 'cancer', :function => 'uranus', :invert => 'venus'} ]
 
- # sharp_5_6 
+ # sharp_56 
 namanarayani = [
 {:tone => 'leo', :function => 'venus', :invert => 'uranus'},
 {:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
@@ -291,7 +291,7 @@ namanarayani = [
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
 {:tone => 'libra', :function => 'jupiter', :invert => 'saturn'} ] 
 
- # flat_5_6 
+ # flat_56 
 suvarnangi = [
 {:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
 {:tone => 'gemini', :function => 'moon', :invert => 'titan'},
@@ -301,7 +301,7 @@ suvarnangi = [
 {:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
 {:tone => 'leo', :function => 'sun', :invert => 'mercury'} ] 
 
- # sharp_1_2_7 
+ # sharp_127 
 jyotiswarupini = [
 {:tone => 'pisces', :function => 'venus', :invert => 'uranus'},
 {:tone => 'sagittarius', :function => 'sun', :invert => 'mercury'},
@@ -311,7 +311,7 @@ jyotiswarupini = [
 {:tone => 'cancer', :function => 'mercury', :invert => 'sun'},
 {:tone => 'taurus', :function => 'jupiter', :invert => 'saturn'} ] 
 
- # sharp_1_2_7_flat_5 
+ # sharp_127_flat_5 
 sucharitra = [
 {:tone => 'pisces', :function => 'neptune', :invert => 'mars'},
 {:tone => 'sagittarius', :function => 'mars', :invert => 'neptune'},
@@ -321,7 +321,7 @@ sucharitra = [
 {:tone => 'cancer', :function => 'venus', :invert => 'pallas'},
 {:tone => 'gemini', :function => 'saturn', :invert => 'jupiter'} ] 
 
- # flat_3_4_sharp_5 
+ # flat_34_sharp_5 
 navaneetam = [
 {:tone => 'libra', :function => 'titan', :invert => 'moon'},
 {:tone => 'virgo', :function => 'mars', :invert => 'neptune'},
@@ -396,7 +396,7 @@ sulini = [
 {:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
 {:tone => 'capricorn', :function => 'sun', :invert => 'saturn'} ] 
 
- # sharp_2_5 
+ # sharp_25 
 mayamalavagowla = [
 {:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
@@ -424,7 +424,7 @@ simhendramadhyamam = [
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
 {:tone => 'aries', :function => 'venus', :invert => 'neptune'} ] 
 
- # flat_2_3 
+ # flat_23 
 kokilapriya = [
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'}, 
 {:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
@@ -443,7 +443,7 @@ rishabhapriya = [
 {:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
 {:tone => 'virgo', :function => 'uranus', :invert => 'moon'} ] 
 
- # flat_2_3_sharp_6 
+ # flat_23_sharp_6 
 rupavati = [
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'}, 
 {:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
@@ -453,7 +453,7 @@ rupavati = [
 {:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'},
 {:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ] 
 
- # sharp_2_flat_5_6 
+ # sharp_2_flat_56 
 divyamani = [ 
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'}, 
 {:tone => 'gemini', :function => 'jupiter', :invert => 'titan'}, 
@@ -463,7 +463,7 @@ divyamani = [
 {:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
 {:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ] 
  
- # flat_2_sharp_5_6 
+ # flat_2_sharp_56 
 dhavalambari = [ 
 {:tone => 'leo', :function => 'venus', :invert => 'neptune'},
 {:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
@@ -520,7 +520,7 @@ syamalangi = [
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
 {:tone => 'gemini', :function => 'jupiter', :invert => 'titan'} ] 
 
- # sharp_1_2_flat_5 
+ # sharp_12_flat_5 
 manavati = [
 {:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
@@ -539,7 +539,7 @@ kantamani = [
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
 {:tone => 'gemini', :function => 'jupiter', :invert => 'titan'} ] 
 
- # flat_3_4_sharp_6  
+ # flat_34_sharp_6  
 yagapriya = [
 {:tone => 'taurus', :function => 'neptune', :invert => 'venus'},
 {:tone => 'aquarius', :function => 'mars', :invert => 'pluto'},
@@ -549,7 +549,7 @@ yagapriya = [
 {:tone => 'virgo', :function => 'venus', :invert => 'neptune'}, 
 {:tone => 'leo', :function => 'saturn', :invert => 'sun'} ] 
 
- # flat_3_4_sharp_1_6 
+ # flat_34_sharp_16 
 sucharitra = [
 {:tone => 'taurus', :function => 'venus', :invert => 'neptune'},
 {:tone => 'aquarius', :function => 'sun', :invert => 'saturn'},
@@ -559,7 +559,7 @@ sucharitra = [
 {:tone => 'virgo', :function => 'mercury', :invert => 'mercury'}, 
 {:tone => 'leo', :function => 'pluto', :invert => 'mars'} ] 
 
- # doublesharp_1_sharp_2_flat_5 
+ # x_1_sharp_2_flat_5 
 tanarupi = [ 
 {:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
@@ -569,7 +569,7 @@ tanarupi = [
 {:tone => 'libra', :function => 'titan', :invert => 'jupiter'},
 {:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
 
- # doublesharp_1_sharp_2_6_flat_5 
+ # x_1_sharp_26_flat_5 
 raghupriya = [
 {:tone => 'leo', :function => 'pluto', :invert => 'mars'},
 {:tone => 'cancer', :function => 'jupiter', :invert => 'titan'},
@@ -655,7 +655,7 @@ dhatuvardhini = [
 {:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'},
 {:tone => 'leo', :function => 'pallas', :invert => 'mercury'} ] 
 
- # sharp_2_6 
+ # sharp_26 
 chalanata = [
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
 {:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
@@ -674,7 +674,7 @@ subhapantuvarali = [
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
 {:tone => 'virgo', :function => 'pallas', :invert => 'mercury'} ] 
 
- # flat_2_5 
+ # flat_25 
 kanakangi = [ 
 {:tone => 'leo', :function => 'pallas', :invert => 'mercury'},
 {:tone => 'cancer', :function => 'venus', :invert => 'mars'},
@@ -699,37 +699,37 @@ index = [
 ' Naganandini, Bhavapriya, Vagadheeswari', # flat_5 
 ' Jhankaradhwani, Ratnangi, Gamanasrama, Pavani', # flat_3
 ' Gourimanohari, Natakapriya, Vachaspati, Charukesi', # flat_5_sharp_6
-' Jalarnavam', # flat_2_5_Sharp_6
-' Salagam', # sharp_2_6_flat_5
+' Jalarnavam', # flat_25_Sharp_6
+' Salagam', # sharp_26_flat_5
 ' Jhalavarali', # flat_6
 ' Sarasangi, Dharmavati, Chakravakam', # sharp_5
 ' Keeravani, Hemavati, Vakulabharanam, Kosalam', # sharp_1_flat_6
-' Ramapriya ', # sharp_1_6
-' Shadvidhamargini, Nasikabhusani ', # sharp_5_6
-' Namanarayani', # flat_5_6
-' Suvarnangi', # sharp_1_2_7
-' Jyotiswarupini', # sharp_1_2_7_flat_5
-' Sucharitra', # flat_3_4_sharp_5
+' Ramapriya ', # sharp_16
+' Shadvidhamargini, Nasikabhusani ', # sharp_56
+' Namanarayani', # flat_56
+' Suvarnangi', # sharp_127
+' Jyotiswarupini', # sharp_127_flat_5
+' Sucharitra', # flat_34_sharp_5
 ' Navaneetam', # flat_2
 ' Suryakantam, Senavati, Latangi', # sharp_2
-' Dhenuka, Shanmukhapriya, Sulini, Chitrambhari', # sharp_2_5
-' Mayamalavagowla, Rasikapriya, Simhendramadhyamam', # flat_2_3
-' Kokilapriya, Rishabhapriya', # flat_2_3_sharp_6
-' Rupavati', # sharp_2_flat_5_6
-' Divyamani', # flat_2_sharp_5_6
+' Dhenuka, Shanmukhapriya, Sulini, Chitrambhari', # sharp_25
+' Mayamalavagowla, Rasikapriya, Simhendramadhyamam', # flat_23
+' Kokilapriya, Rishabhapriya', # flat_23_sharp_6
+' Rupavati', # sharp_2_flat_56
+' Divyamani', # flat_2_sharp_56
 ' Dhavalambari', # flat_2_sharp_6
 ' Hatakambari, Gavambodhi', # sharp_2_flat_5
-' Ganamurti, Viswambhari, Syamalangi', # sharp_1_2_flat_5
-' Manavati, Kantamani', # flat_3_4_sharp_6
-' Yagapriya', # flat_3_4_sharp_1_6
-' Sucharitra', # doublesharp_1_sharp_2_flat_5
-' Tanarupi', # doublesharp_1_sharp_2_6_flat_5
+' Ganamurti, Viswambhari, Syamalangi', # sharp_12_flat_5
+' Manavati, Kantamani', # flat_34_sharp_6
+' Yagapriya', # flat_34_sharp_16
+' Sucharitra', # x_1_sharp_2_flat_5
+' Tanarupi', # x_1_sharp_26_flat_5
 ' Raghupriya', # flat_3_sharp_6
 ' Varunapriya, Ragavardhini', # sharp_1_flat_5
 ' Mararanjani, Vanaspati', # sharp_2_flat_6
 ' Gangeyabhusani, Neetimati', # flat_2_sharp_5
-' Gayakapriya, Dhatuvardhini', # sharp_2_6
-' Chalanata, Subhapantuvarali ', # flat_2_5
+' Gayakapriya, Dhatuvardhini', # sharp_26
+' Chalanata, Subhapantuvarali ', # flat_25
 ' Kanakangi, Kamavardhini' ] 
 
 puts ' Alchemy a la mode'.upcase
@@ -765,7 +765,7 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
   puts gamanasrama
  elsif (raganame == 'Pavani' or raganame == 'pavani') 
-  puts pavani # sharp_1_2_6_flat_5th 
+  puts pavani # sharp_126_flat_5th 
  elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
   puts gourimanohari # flat_3
  elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
@@ -777,9 +777,9 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam') 
   puts jalarnavam # flat_5_sharp_6 
  elsif (raganame == 'Salagam' or raganame == 'salagam') 
-  puts salagam # flat_2_5_sharp_6 
+  puts salagam # flat_25_sharp_6 
  elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali') 
-  puts jhalavarali # sharp_2_6_flat_5 
+  puts jhalavarali # sharp_26_flat_5 
  elsif (raganame == 'Sarasangi' or raganame == 'sarasangi') 
   puts sarasangi # flat_6 
  elsif (raganame == 'Dharmavati' or raganame == 'dharmavati') 
@@ -797,19 +797,19 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Ramapriya' or raganame == 'ramapriya') 
   puts ramapriya # sharp_1_flat_6 
  elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini') 
-  puts shadvidhamargini # sharp_1_6 
+  puts shadvidhamargini # sharp_16 
  elsif (raganame == 'Nasikabhusani' or raganame == 'nasikabhusani') 
   puts nasikabhusani 
  elsif (raganame == 'Namanarayani' or raganame == 'namanarayani') 
-  puts namanarayani # sharp_5_6 
+  puts namanarayani # sharp_56 
  elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi') 
-  puts suvarnangi # flat_5_6 
+  puts suvarnangi # flat_56 
  elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini') 
-  puts jyotiswarupini # sharp_1_2_7 
+  puts jyotiswarupini # sharp_127 
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
-  puts sucharitra # sharp_1_2_7_flat_5 
+  puts sucharitra # sharp_127_flat_5 
  elsif (raganame == 'Navaneetam' or raganame == 'navaneetam') 
-  puts navaneetam # flat_3_4_sharp_5 
+  puts navaneetam # flat_34_sharp_5 
  elsif (raganame == 'Suryakantam' or raganame == 'suryakantam') 
   puts suryakantam # flat_2 
  elsif (raganame == 'Senavati' or raganame == 'senavati') 
@@ -825,21 +825,21 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Sulini' or raganame == 'sulini') 
   puts sulini 
  elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla') 
-  puts mayamalavagowla # sharp_2_5 
+  puts mayamalavagowla # sharp_25 
  elsif (raganame == 'Rasikapriya' or raganame == 'rasikapriya') 
   puts rasikapriya 
  elsif (raganame == 'Simhendramadhyamam' or raganame == 'simhendramadhyamam') 
   puts simhendramadhyamam 
  elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya') 
-  puts kokilapriya # flat_2_3 
+  puts kokilapriya # flat_23 
  elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya') 
   puts rishabhapriya 
  elsif (raganame == 'Rupavati' or raganame == 'rupavati') 
-  puts rupavati # flat_2_3_sharp_6 
+  puts rupavati # flat_23_sharp_6 
  elsif (raganame == 'Divyamani' or raganame == 'divyamani') 
-  puts divyamani # sharp_2_flat_5_6 
+  puts divyamani # sharp_2_flat_56 
  elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari') 
-  puts dhavalambari # flat_2_sharp_5_6 
+  puts dhavalambari # flat_2_sharp_56 
  elsif (raganame == 'Hatakambari' or raganame == 'hatakambari') 
   puts hatakambari # flat_2_sharp_6 
  elsif (raganame == 'Gavambodhi' or raganame == 'gavambodhi') 
@@ -851,17 +851,17 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Syamalangi' or raganame == 'syamalangi') 
   puts syamalangi 
  elsif (raganame == 'Manavati' or raganame == 'manavati') 
-  puts manavati # sharp_1_2_flat_5 
+  puts manavati # sharp_12_flat_5 
  elsif (raganame == 'Kantamani' or raganame == 'kantamani') 
   puts kantamani 
  elsif (raganame == 'Yagapriya' or raganame == 'yagapriya') 
-  puts yagapriya # flat_3_4_sharp_6 
+  puts yagapriya # flat_34_sharp_6 
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
-  puts sucharitra # flat_3_4_sharp_1_6 
+  puts sucharitra # flat_34_sharp_1_6 
  elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
-  puts tanarupi # doublesharp_1_sharp_2_flat_5 
+  puts tanarupi # x_1_sharp_2_flat_5 
  elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
-  puts raghupriya # doublesharp_1_sharp_2_6_flat_5 
+  puts raghupriya # x_1_sharp_26_flat_5 
  elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
   puts varunapriya # flat_3_sharp_6 
  elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
@@ -879,11 +879,11 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Dhatuvardhini' or raganame == 'dhatuvardhini') 
   puts dhatuvardhini 
  elsif (raganame == 'Chalanata' or raganame == 'chalanata') 
-  puts chalanata # sharp_2_6 
+  puts chalanata # sharp_26 
  elsif (raganame == 'Subhapantuvarali' or raganame == 'subhapantuvarali') 
   puts subhapantuvarali 
  elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
-  puts kanakangi # flat_2_5 
+  puts kanakangi # flat_25 
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
   puts kamavardhini
  elsif (raganame == 'exit' or raganame == 'quit')
