@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby 
 
-   / an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93, an7 = 105,
+     an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93, an7 = 105, 
+     by0 = 21, by1 = 33, by2 = 45, by3 = 57, by4 = 69, by5 = 81, by6 = 93, by7 = 105,
      as0 = 22, as1 = 34, as2 = 46, as3 = 58, as4 = 70, as5 = 82, as6 = 94, as7 = 106,
      bj0 = 22, bj1 = 34, bj2 = 46, bj3 = 58, bj4 = 70, bj5 = 82, bj6 = 94, bj7 = 106,
      bn0 = 23, bn1 = 35, bn2 = 47, bn3 = 59, bn4 = 71, bn5 = 83, bn6 = 95, bn7 = 107,
@@ -9,7 +10,8 @@
      cs1 = 25, cs2 = 37, cs3 = 49, cs4 = 61, cs5 = 73, cs6 = 85, cs7 = 97,
      dj1 = 25, dj2 = 37, dj3 = 49, dj4 = 61, dj5 = 73, dj6 = 85, dj7 = 97,
      cx1 = 26, cx2 = 38, cx3 = 50, cx4 = 62, cx5 = 74, cx6 = 86, cx7 = 98,
-     dn1 = 26, dn2 = 38, dn3 = 50, dn4 = 62, dn5 = 74, dn6 = 86, dn7 = 98,
+     dn1 = 26, dn2 = 38, dn3 = 50, dn4 = 62, dn5 = 74, dn6 = 86, dn7 = 98, 
+	 ey1 = 26, ey2 = 38, ey3 = 50, ey4 = 62, ey5 = 74, ey6 = 86, ey7 = 98, 
      ds1 = 27, ds2 = 39, ds3 = 51, ds4 = 63, ds5 = 75, ds6 = 87, ds7 = 99,
      ej1 = 27, ej2 = 39, ej3 = 51, ej4 = 63, ej5 = 75, ej6 = 87, ej7 = 99,
      en1 = 28, en2 = 40, en3 = 52, en4 = 64, en5 = 76, en6 = 88, en7 = 100,
@@ -17,10 +19,11 @@
      es1 = 29, es2 = 41, es3 = 53, es4 = 65, es5 = 77, es6 = 89, es7 = 101,
      fn1 = 29, fn2 = 41, fn3 = 53, fn4 = 65, fn5 = 77, fn6 = 89, fn7 = 101,
      fs1 = 30, fs2 = 42, fs3 = 54, fs4 = 66, fs5 = 78, fs6 = 90, fs7 = 102,
-     gj1 = 30, gj2 = 42, gj3 = 54, gj4 = 66, gj5 = 78, gj6 = 90, gj7 = 102,
+     gj1 = 30, gj2 = 42, gj3 = 54, gj4 = 66, gj5 = 78, gj6 = 90, gj7 = 102, 
+	 fx1 = 31, fx2 = 43, fx3 = 55, fx4 = 67, fx5 = 79, fx6 = 91, fx7 = 103,
      gn1 = 31, gn2 = 43, gn3 = 55, gn4 = 67, gn5 = 79, gn6 = 91, gn7 = 103,
      gs1 = 32, gs2 = 44, gs3 = 56, gs4 = 68, gs5 = 80, gs6 = 92, gs7 = 104,
-     aj1 = 32, aj2 = 44, aj3 = 56, aj4 = 68, aj5 = 80, aj6 = 92, aj7 = 104, /
+     aj1 = 32, aj2 = 44, aj3 = 56, aj4 = 68, aj5 = 80, aj6 = 92, aj7 = 104, 
 	
  
 def natural 
@@ -477,77 +480,222 @@ def flat_25
 
 end 
 
-puts 'natural'
-puts natural 
-puts 'sharp_6'
-puts sharp_6 
-puts 'flat_5'
-puts flat_5
-puts 'sharp_126_flat_5'
-puts sharp_126_flat_5
-puts 'flat_3'
-puts flat_3
-puts 'flat_5_sharp_6'
-puts flat_5_sharp_6
-puts 'flat_25_sharp_6'
-puts flat_25_sharp_6
-puts 'sharp_26_flat_5'
-puts sharp_26_flat_5 
-puts 'flat_6'
-puts flat_6 
-puts 'sharp_5'
-puts sharp_5 
-puts 'sharp_1_flat_6'
-puts sharp_1_flat_6 
-puts 'sharp_16'
-puts sharp_16 
-puts 'sharp_56'
-puts sharp_56 
-puts 'flat_56'
-puts flat_56 
-puts 'sharp_127'
-puts sharp_127 
-puts 'sharp_127_flat_5'
-puts sharp_127_flat_5 
-puts 'flat_34_sharp_5'
-puts flat_34_sharp_5 
-puts 'flat_2'
-puts flat_2 
-puts 'sharp_2'
-puts sharp_2 
-puts 'sharp_25'
-puts sharp_25 
-puts 'flat_23'
-puts flat_23 
-puts 'flat_23_sharp_6'
-puts flat_23_sharp_6 
-puts 'sharp_2_flat_56'
-puts sharp_2_flat_56 
-puts 'flat_2_sharp_56'
-puts flat_2_sharp_56 
-puts 'flat_2_sharp_6'
-puts flat_2_sharp_6 
-puts 'sharp_2_flat_5'
-puts sharp_2_flat_5 
-puts 'sharp_12_flat_5'
-puts sharp_12_flat_5 
-puts 'flat_34_sharp_6'
-puts flat_34_sharp_6 
-puts 'flat_34_sharp_16'
-puts flat_34_sharp_16
-puts 'x_1_sharp_2_flat_5'
-puts x_1_sharp_2_flat_5 
-puts 'x_1_sharp_26_flat_5'
-puts x_1_sharp_26_flat_5 
-puts 'flat_3_sharp_6'
-puts flat_3_sharp_6 
-puts 'sharp_1_flat_5'
-puts sharp_1_flat_5 
-puts 'sharp_2_flat_6'
-puts sharp_2_flat_6 
-puts 'flat_2_sharp_5'
-puts flat_2_sharp_5 
-puts 'sharp_26'
-puts sharp_26 
-puts 'flat_25'
-puts flat_25 
+index = [
+' Sankarabharanam, Kharaharapriya, Hanumatodi', # natural
+' Mechakalyani, Harikambhoji, Natabhairavi', # sharp_6 
+' Naganandini, Bhavapriya, Vagadheeswari', # flat_5 
+' Jhankaradhwani, Ratnangi, Gamanasrama, Pavani', # flat_3
+' Gourimanohari, Natakapriya, Vachaspati, Charukesi', # flat_5_sharp_6
+' Jalarnavam', # flat_25_Sharp_6
+' Salagam', # sharp_26_flat_5
+' Jhalavarali', # flat_6
+' Sarasangi, Dharmavati, Chakravakam', # sharp_5
+' Keeravani, Hemavati, Vakulabharanam, Kosalam', # sharp_1_flat_6
+' Ramapriya ', # sharp_16
+' Shadvidhamargini, Nasikabhusani ', # sharp_56
+' Namanarayani', # flat_56
+' Suvarnangi', # sharp_127
+' Jyotiswarupini', # sharp_127_flat_5
+' Sucharitra', # flat_34_sharp_5
+' Navaneetam', # flat_2
+' Suryakantam, Senavati, Latangi', # sharp_2
+' Dhenuka, Shanmukhapriya, Sulini, Chitrambhari', # sharp_25
+' Mayamalavagowla, Rasikapriya, Simhendramadhyamam', # flat_23
+' Kokilapriya, Rishabhapriya', # flat_23_sharp_6
+' Rupavati', # sharp_2_flat_56
+' Divyamani', # flat_2_sharp_56
+' Dhavalambari', # flat_2_sharp_6
+' Hatakambari, Gavambodhi', # sharp_2_flat_5
+' Ganamurti, Viswambhari, Syamalangi', # sharp_12_flat_5
+' Manavati, Kantamani', # flat_34_sharp_6
+' Yagapriya', # flat_34_sharp_16
+' Sucharitra', # x_1_sharp_2_flat_5
+' Tanarupi', # x_1_sharp_26_flat_5
+' Raghupriya', # flat_3_sharp_6
+' Varunapriya, Ragavardhini', # sharp_1_flat_5
+' Mararanjani, Vanaspati', # sharp_2_flat_6
+' Gangeyabhusani, Neetimati', # flat_2_sharp_5
+' Gayakapriya, Dhatuvardhini', # sharp_26
+' Chalanata, Subhapantuvarali ', # flat_25
+' Kanakangi, Kamavardhini' ] 
+
+puts 
+puts index 
+puts 
+puts ' Alchemy a la mode'.upcase
+x_reply = false
+while (not x_reply) 
+puts
+puts ' Enter Raga name:'
+ raganame = gets.chomp 
+ if (raganame == 'index' or raganame == 'list')
+  puts index 
+ elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam')   
+  puts natural
+ elsif (raganame == 'Karaharapriya' or raganame == 'karaharapriya') 
+  puts natural 
+ elsif (raganame == 'Hanumatodi' or raganame == 'hanumatodi') 
+  puts natural 
+ elsif (raganame == 'Mechakalyani' or raganame == 'mechakalyani') 
+  puts natural
+ elsif (raganame == 'Harikambhoji' or raganame == 'harikambhoji') 
+  puts natural
+ elsif (raganame == 'Natabhairavi' or raganame == 'natabhairavi') 
+  puts natural
+ elsif (raganame == 'Naganandini' or raganame == 'naganandini') 
+  puts sharp_6
+ elsif (raganame == 'Bhavapriya' or raganame == 'bhavapriya') 
+  puts sharp_6 
+ elsif (raganame == 'Vagadheeswari' or raganame == 'vagadheeswari') 
+  puts sharp_6 
+ elsif (raganame == 'Jhankaradhwani' or raganame == 'jhankaradhwani') 
+  puts flat_5
+ elsif (raganame == 'Ratnangi' or raganame == 'ratnangi') 
+  puts flat_5 
+ elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
+  puts flat_5
+ elsif (raganame == 'Pavani' or raganame == 'pavani') 
+  puts sharp_126_flat_5th 
+ elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
+  puts flat_3
+ elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
+  puts flat_3 
+ elsif (raganame == 'Vachaspati' or raganame == 'vachaspati') 
+  puts flat_3 
+ elsif (raganame == 'Charukesi' or raganame == 'charukesi') 
+  puts flat_3 
+ elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam') 
+  puts flat_5_sharp_6 
+ elsif (raganame == 'Salagam' or raganame == 'salagam') 
+  puts flat_25_sharp_6 
+ elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali') 
+  puts sharp_26_flat_5 
+ elsif (raganame == 'Sarasangi' or raganame == 'sarasangi') 
+  puts flat_6 
+ elsif (raganame == 'Dharmavati' or raganame == 'dharmavati') 
+  puts flat_6 
+ elsif (raganame == 'Chakravakam' or raganame == 'chakravakam') 
+  puts flat_6 
+ elsif (raganame == 'Keeravani' or raganame == 'keeravani') 
+  puts sharp_5 
+ elsif (raganame == 'Hemavati' or raganame == 'hemavati') 
+  puts sharp_5 
+ elsif (raganame == 'Vakulabharanam' or raganame == 'vakulabharanam') 
+  puts sharp_5 
+ elsif (raganame == 'Kosalam' or raganame == 'kosalam') 
+  puts sharp_5 
+ elsif (raganame == 'Ramapriya' or raganame == 'ramapriya') 
+  puts sharp_1_flat_6 
+ elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini') 
+  puts sharp_16 
+ elsif (raganame == 'Nasikabhusani' or raganame == 'nasikabhusani') 
+  puts sharp_16 
+ elsif (raganame == 'Namanarayani' or raganame == 'namanarayani') 
+  puts sharp_56 
+ elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi') 
+  puts flat_56 
+ elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini') 
+  puts sharp_127 
+ elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+  puts sharp_127_flat_5 
+ elsif (raganame == 'Navaneetam' or raganame == 'navaneetam') 
+  puts flat_34_sharp_5 
+ elsif (raganame == 'Suryakantam' or raganame == 'suryakantam') 
+  puts flat_2 
+ elsif (raganame == 'Senavati' or raganame == 'senavati') 
+  puts flat_2 
+ elsif (raganame == 'Latangi' or raganame == 'latangi') 
+  puts flat_2 
+ elsif (raganame == 'Dhenuka' or raganame == 'dhenuka') 
+  puts sharp_2 
+ elsif (raganame == 'Chitrambhari' or raganame == 'chitrambhari') 
+  puts sharp_2 
+ elsif (raganame == 'Shanmukhapriya' or raganame == 'shanmukhapriya') 
+  puts sharp_2 
+ elsif (raganame == 'Sulini' or raganame == 'sulini') 
+  puts sharp_2 
+ elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla') 
+  puts sharp_25 
+ elsif (raganame == 'Rasikapriya' or raganame == 'rasikapriya') 
+  puts sharp_25 
+ elsif (raganame == 'Simhendramadhyamam' or raganame == 'simhendramadhyamam') 
+  puts sharp_25 
+ elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya') 
+  puts flat_23 
+ elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya') 
+  puts flat_23 
+ elsif (raganame == 'Rupavati' or raganame == 'rupavati') 
+  puts flat_23_sharp_6 
+ elsif (raganame == 'Divyamani' or raganame == 'divyamani') 
+  puts sharp_2_flat_56 
+ elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari') 
+  puts flat_2_sharp_56 
+ elsif (raganame == 'Hatakambari' or raganame == 'hatakambari') 
+  puts flat_2_sharp_6 
+ elsif (raganame == 'Gavambodhi' or raganame == 'gavambodhi') 
+  puts flat_2_sharp_6 
+ elsif (raganame == 'Ganamurti' or raganame == 'ganamurti') 
+  puts sharp_2_flat_5 
+ elsif (raganame == 'Viswambhari' or raganame == 'viswambhari') 
+  puts sharp_2_flat_5 
+ elsif (raganame == 'Syamalangi' or raganame == 'syamalangi') 
+  puts sharp_2_flat_5 
+ elsif (raganame == 'Manavati' or raganame == 'manavati') 
+  puts sharp_12_flat_5 
+ elsif (raganame == 'Kantamani' or raganame == 'kantamani') 
+  puts sharp_12_flat_5 
+ elsif (raganame == 'Yagapriya' or raganame == 'yagapriya') 
+  puts flat_34_sharp_6 
+ elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+  puts flat_34_sharp_1_6 
+ elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
+  puts x_1_sharp_2_flat_5 
+ elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
+  puts x_1_sharp_26_flat_5 
+ elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
+  puts flat_3_sharp_6 
+ elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
+  puts flat_3_sharp_6 
+ elsif (raganame == 'Mararanjani' or raganame == 'mararanjani') 
+  puts sharp_1_flat_5 
+ elsif (raganame == 'Vanaspati' or raganame == 'vanaspati') 
+  puts sharp_1_flat_5 
+ elsif (raganame == 'Gangeyabhusani' or raganame == 'gangeyabhusani') 
+  puts sharp_2_flat_6 
+ elsif (raganame == 'Neetimati' or raganame == 'neetimati') 
+  puts sharp_2_flat_6 
+ elsif (raganame == 'Gayakapriya' or raganame == 'gayakapriya') 
+  puts flat_2_sharp_5 
+ elsif (raganame == 'Dhatuvardhini' or raganame == 'dhatuvardhini') 
+  puts flat_2_sharp_5 
+ elsif (raganame == 'Chalanata' or raganame == 'chalanata') 
+  puts sharp_26 
+ elsif (raganame == 'Subhapantuvarali' or raganame == 'subhapantuvarali') 
+  puts sharp_26 
+ elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
+  puts flat_25 
+ elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
+  puts flat_25
+ elsif (raganame == 'exit' or raganame == 'quit')
+ x_reply = true
+ else 
+  puts ' For a table of contents,'
+  puts ' just type "index" or "list".'
+  puts ' If you want to leave the program,'
+  puts ' just type "exit" or "quit".'
+  puts ' Would you like to continue?'
+  puts ' "yes" or "no"?'
+  reply = gets.chomp
+   if (reply == 'yes')
+    x_reply = false
+   elsif (reply == 'no')
+    x_reply = true 
+   elsif (reply == 'exit' or reply == 'quit')
+    x_reply = true
+   elsif (reply == 'index' or reply == 'list')
+    puts index 
+   else 
+   puts ' Check your spelling and try again!'
+   end 
+  end
+ end 
