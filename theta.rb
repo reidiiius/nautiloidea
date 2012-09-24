@@ -140,45 +140,69 @@ def flat_2_sharp_5
  loc_dim3aug6 = '111001100110' 
 end 
 
+clave_list = [
+' natural',
+' sharp_6',
+' flat_5',
+' flat_3',
+' flat_6', 
+' sharp_5', 
+' flat_2',
+' sharp_2',
+' flat_26', 
+' flat_23',
+' flat_34',
+' sharp_17',
+' sharp_2_flat_6',
+' flat_2_sharp_5' ]
+
 puts 
-puts ' natural'
-puts natural  
-puts 
-puts ' sharp_6'
-puts sharp_6  
+puts 'For the Table of Contents,'
+puts 'type the word "index" or "list".'
+puts 'To exit and leave the program,'
+puts 'type the word "exit" or "quit".'
+
+x_status = false
+while (not x_status)
 puts
-puts ' flat_5'
-puts flat_5  
-puts
-puts ' flat_3'
-puts flat_3 
-puts
-puts ' flat_6'
-puts flat_6  
-puts
-puts ' sharp_5'
-puts sharp_5  
-puts
-puts ' flat_2'
-puts flat_2  
-puts 
-puts ' sharp_2'
-puts sharp_2  
-puts 
-puts ' flat_26'
-puts flat_26  
-puts 
-puts ' flat_23'
-puts flat_23  
-puts 
-puts ' flat_34'
-puts flat_34  
-puts 
-puts ' sharp_17'
-puts sharp_17  
-puts 
-puts ' sharp_2_flat_6'
-puts sharp_2_flat_6  
-puts 
-puts ' flat_2_sharp_5'
-puts flat_2_sharp_5  
+puts ' Select Clave'
+select_clave = gets.chomp 
+ if (select_clave == 'index' or select_clave == 'list')
+  puts clave_list 
+ elsif select_clave == 'natural' 
+  puts natural 
+ elsif select_clave == 'sharp_6' 
+  puts sharp_6 
+ elsif select_clave == 'flat_5' 
+  puts flat_5 
+ elsif select_clave == 'flat_3' 
+  puts flat_3 
+ elsif select_clave == 'flat_6' 
+  puts flat_6 
+ elsif select_clave == 'sharp_5' 
+  puts sharp_5 
+ elsif select_clave == 'flat_2' 
+  puts flat_2 
+ elsif select_clave == 'sharp_2' 
+  puts sharp_2
+ elsif select_clave == 'flat_26' 
+  puts flat_26 
+ elsif select_clave == 'flat_23' 
+  puts flat_23 
+ elsif select_clave == 'flat_34' 
+  puts flat_34 
+ elsif select_clave == 'sharp_17' 
+  puts sharp_17 
+ elsif select_clave == 'sharp_2_flat_6' 
+  puts sharp_2_flat_6 
+ elsif select_clave == 'flat_2_sharp_5' 
+  puts flat_2_sharp_5
+ elsif select_clave == 'help'
+  puts 'For Table of Contents,'
+  puts 'type the word "index" or "list".'
+  puts 'To exit and leave the program,'
+  puts 'type the words "exit" or "quit".'  
+ elsif (select_clave == 'exit' or select_clave == 'quit')
+  x_status = true
+ end
+end   
