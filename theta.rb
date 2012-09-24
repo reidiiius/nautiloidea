@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby 
 
-def nat_bata
+def natural 
  ion_nat = '101011010101',
  dor_nat = '101101010110',
  phry_nat = '110101011010',
@@ -10,7 +10,7 @@ def nat_bata
  loc_nat = '110101101010' 
 end 
 
-def aug6_bata
+def sharp_6 
  ion_aug6 = '101011010011',
  dor_aug5 = '101101001110',
  phry_aug4 = '110100111010',
@@ -20,7 +20,7 @@ def aug6_bata
  loc_aug7 = '110101101001' 
 end 
 
-def dim5_bata
+def flat_5 
  ion_dim5 = '101011100101',
  dor_dim4 = '101110010110',
  phry_dim3 = '111001011010',
@@ -30,7 +30,7 @@ def dim5_bata
  loc_dim6 = '110101110010' 
 end 
 
-def dim3_bata
+def flat_3 
  ion_dim3 = '101101010101',
  dor_dim2 = '110101010110',
  phry_dim1 = '010101011011',
@@ -40,7 +40,7 @@ def dim3_bata
  loc_dim4 = '110110101010' 
 end 
 
-def dim6_bata
+def flat_6 
  ion_dim6 = '101011011001',
  dor_dim5 = '101101100110',
  phry_dim4 = '110110011010',
@@ -50,7 +50,7 @@ def dim6_bata
  loc_dim7 = '110101101100' 
 end
 
-def aug5_bata
+def sharp_5 
  ion_aug5 = '101011001101',
  dor_aug4 = '101100110110',
  phry_aug3 = '110011011010',
@@ -60,7 +60,7 @@ def aug5_bata
  loc_aug6 = '110101100110' 
 end 
 
-def dim2_bata 
+def flat_2 
  ion_dim2 = '110011010101',
  dor_dim1 = '001101010111',
  phry_dim7 = '110101011100',
@@ -70,7 +70,7 @@ def dim2_bata
  loc_dim3 = '111001101010' 
 end 
 
-def aug2_bata
+def sharp_2 
  ion_aug2 = '100111010101',
  dor_aug1 = '011101010110',
  phry_aug7 = '110101011001',
@@ -80,7 +80,7 @@ def aug2_bata
  loc_aug3 = '110011101010' 
 end 
 
-def dim26_bata
+def flat_26 
  ion_dim26 = '110011011001',
  dor_dim15 = '001101100111',
  phry_dim47 = '110110011100',
@@ -90,7 +90,7 @@ def dim26_bata
  loc_dim37 = '111001101100' 
 end 
 
-def dim23_bata
+def flat_23 
  ion_dim23 = '110101010101',
  dor_dim12 = '010101010111',
  phry_dim17 = '010101011101',
@@ -100,7 +100,7 @@ def dim23_bata
  loc_dim34 = '111010101010' 
 end 
 
-def dim34_bata
+def flat_34 
  ion_dim34 = '101110010101',
  dor_dim23 = '111001010110',
  phry_dim12 = '100101011011',
@@ -110,7 +110,7 @@ def dim34_bata
  loc_dim45 = '110111001010' 
 end
 
-def aug17_bata
+def sharp_17 
  ion_aug17 = '111011010100',
  dor_aug67 = '101101010011',
  phry_aug56 = '110101001110',
@@ -120,7 +120,7 @@ def aug17_bata
  loc_aug12 = '011101101010' 
 end 
 
-def aug2dim6_bata
+def sharp_2_flat_6 
  ion_aug2dim6 = '100111011001',
  dor_aug1dim5 = '011101100110',
  phry_dim4aug7 = '110110011001',
@@ -130,7 +130,7 @@ def aug2dim6_bata
  loc_aug3dim7 = '110011101100'
 end 
 
-def dim2aug5_bata
+def flat_2_sharp_5 
  ion_dim2aug5 = '110011001101',
  dor_dim1aug4 = '001100110111',
  phry_aug3dim7 = '110011011100',
@@ -141,44 +141,44 @@ def dim2aug5_bata
 end 
 
 puts 
-puts ' nat_bata'
-puts nat_bata 
+puts ' natural'
+puts natural  
 puts 
-puts ' aug6_bata'
-puts aug6_bata 
+puts ' sharp_6'
+puts sharp_6  
 puts
-puts ' dim5_bata'
-puts dim5_bata 
+puts ' flat_5'
+puts flat_5  
 puts
-puts ' dim3_bata'
-puts dim3_bata
+puts ' flat_3'
+puts flat_3 
 puts
-puts ' dim6_bata'
-puts dim6_bata 
+puts ' flat_6'
+puts flat_6  
 puts
-puts ' aug5_bata'
-puts aug5_bata 
+puts ' sharp_5'
+puts sharp_5  
 puts
-puts ' dim2_bata'
-puts dim2_bata 
+puts ' flat_2'
+puts flat_2  
 puts 
-puts ' aug2_bata'
-puts aug2_bata 
+puts ' sharp_2'
+puts sharp_2  
 puts 
-puts ' dim26_bata'
-puts dim26_bata 
+puts ' flat_26'
+puts flat_26  
 puts 
-puts ' dim23_bata'
-puts dim23_bata 
+puts ' flat_23'
+puts flat_23  
 puts 
-puts ' dim34_bata'
-puts dim34_bata 
+puts ' flat_34'
+puts flat_34  
 puts 
-puts ' aug17_bata'
-puts aug17_bata 
+puts ' sharp_17'
+puts sharp_17  
 puts 
-puts 'aug2dim6_bata'
-puts aug2dim6_bata 
+puts ' sharp_2_flat_6'
+puts sharp_2_flat_6  
 puts 
-puts 'dim2aug5_bata'
-puts dim2aug5_bata 
+puts ' flat_2_sharp_5'
+puts flat_2_sharp_5  
