@@ -18,7 +18,8 @@ Nautiloidea
 
      cx1 = 26, cx2 = 38, cx3 = 50, cx4 = 62, cx5 = 74, cx6 = 86, cx7 = 98,
      dn1 = 26, dn2 = 38, dn3 = 50, dn4 = 62, dn5 = 74, dn6 = 86, dn7 = 98,
-
+     ey1 = 26, ey2 = 38, ey3 = 50, ey4 = 62, ey5 = 74, ey6 = 86, ey7 = 98, 
+     	 
      ds1 = 27, ds2 = 39, ds3 = 51, ds4 = 63, ds5 = 75, ds6 = 87, ds7 = 99,
      ej1 = 27, ej2 = 39, ej3 = 51, ej4 = 63, ej5 = 75, ej6 = 87, ej7 = 99,
 
@@ -418,6 +419,7 @@ Nautiloidea
      en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 
 
 
--
+
+	 
  
 > Copyright &copy; 2012 Reid Netterville III.

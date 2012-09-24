@@ -166,7 +166,7 @@
  cj1 = bn0 
  as0 = bj0 
  
- chromatic = [ an0, bj0, bn0, cn1,
+ chromatic = [                           an0, bj0, bn0, cn1,
  dj1, dn1, ej1, en1, fn1, gj1, gn1, aj1, an1, bj1, bn1, cn2,
  dj2, dn2, ej2, en2, fn2, gj2, gn2, aj2, an2, bj2, bn2, cn3,
  dj3, dn3, ej3, en3, fn3, gj3, gn3, aj3, an3, bj3, bn3, cn4,
@@ -177,8 +177,8 @@
  
  linewidth = 40.5 
  
- puts ''
- puts 'Scientific Pitch C256 Hertz'.center linewidth 
- puts ''
+ puts 
+ puts 'Scientific Pitch C256 Hertz' .center linewidth 
+ puts 
  puts chromatic 
  
