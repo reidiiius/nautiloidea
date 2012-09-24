@@ -1,7 +1,7 @@
 
  {
   "name": "Nautiloidea",
-  "version": "0.4",
+  "version": "0.5",
   "manifest_version": 2,
   "description": "Data structures for music composition",
   "author": "Reid Netterville III",
