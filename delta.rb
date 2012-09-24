@@ -171,6 +171,8 @@ chord_list = [
 ' dom7+5' ]
 
 puts 
+puts ' Alchemy a la mode' .upcase
+puts 
 puts 'For the Table of Contents,'
 puts 'type the word "index" or "list".'
 puts 'To exit and leave the program,'
@@ -179,7 +181,7 @@ puts 'type the word "exit" or "quit".'
 x_status = false
 while (not x_status)
 puts
-puts ' Select a chord'
+puts ' Select Chord'
 select_chord = gets.chomp 
  if (select_chord == 'index' or select_chord == 'list')
   puts chord_list 

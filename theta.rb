@@ -154,8 +154,10 @@ clave_list = [
 ' flat_34',
 ' sharp_17',
 ' sharp_2_flat_6',
-' flat_2_sharp_5' ]
+' flat_2_sharp_5' ] 
 
+puts 
+puts ' Alchemy a la mode' .upcase
 puts 
 puts 'For the Table of Contents,'
 puts 'type the word "index" or "list".'
