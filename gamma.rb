@@ -1,51 +1,51 @@
 #!/usr/bin/env ruby 
 
  def aries 
-   aries = [32,44,56,68,80,92,104] 
+   aries = ' gs | aj '  # [32,44,56,68,80,92,104]
  end
 
  def taurus 
-   taurus = [31,43,55,67,79,91,103] 
+   taurus = ' fx | gn '  # [31,43,55,67,79,91,103] 
  end
 
  def gemini 
-   gemini = [30,42,54,66,78,90,102] 
+   gemini = ' fs | gj '  # [30,42,54,66,78,90,102] 
  end
 
  def cancer 
-   cancer = [29,41,53,65,77,89,101] 
+   cancer = ' es | fn '  # [29,41,53,65,77,89,101] 
  end
 
  def leo 
-   leo = [28,40,52,64,76,88,100] 
+   leo = ' en | fj '  # [28,40,52,64,76,88,100] 
  end
 
  def virgo 
-   virgo = [27,39,51,63,75,87,99] 
+   virgo = ' ds | ej '  # [27,39,51,63,75,87,99] 
  end
 
  def libra 
-   libra = [26,38,50,62,74,86,98] 
+   libra = ' dn | ey ' # [26,38,50,62,74,86,98] 
  end
 
  def scorpio 
-   scorpio = [25,37,49,61,73,85,97] 
+   scorpio = ' cs | dj '  # [25,37,49,61,73,85,97] 
  end 
 
  def sagittarius 
-   sagittarius = [24,36,48,60,72,84,96,108] 
+   sagittarius = ' bs | cn '  # [24,36,48,60,72,84,96,108] 
  end 
 
  def capricorn 
-   capricorn = [23,35,47,59,71,83,95,107] 
+   capricorn = ' bn | cj '  # [23,35,47,59,71,83,95,107] 
  end
 
  def aquarius 
-   aquarius = [22,34,46,58,70,82,94,106] 
+   aquarius = ' as | bj '  # [22,34,46,58,70,82,94,106] 
  end 
  
  def pisces 
-   pisces = [21,33,45,57,69,81,93,105] 
+   pisces = ' an | by '  # [21,33,45,57,69,81,93,105] 
  end 
  
  def ceres 

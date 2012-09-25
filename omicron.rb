@@ -732,6 +732,9 @@ index = [
 ' Chalanata, Subhapantuvarali ', # flat_25
 ' Kanakangi, Kamavardhini' ] 
 
+puts
+puts index 
+puts 
 puts ' Alchemy a la mode'.upcase
 x_reply = false
 while (not x_reply) 

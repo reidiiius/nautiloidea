@@ -11,6 +11,16 @@ def sus7
   105]  
 end 
 
+def sus7_guitar 
+[
+' en6 ___ ___ gn6 ___ an6 ___ ___ ___ ___ dn7 ___ en7 ', 
+' ___ ___ ___ dn6 ___ en6 ___ ___ gn6 ___ an6 ___ ___ ',
+' gn5 ___ an5 ___ ___ ___ ___ dn6 ___ en6 ___ ___ gn6 ',
+' dn5 ___ en5 ___ ___ gn5 ___ an5 ___ ___ ___ ___ dn6 ',
+' an4 ___ ___ ___ ___ dn5 ___ en5 ___ ___ gn5 ___ an5 ',
+' en4 ___ ___ gn4 ___ an4 ___ ___ ___ ___ dn5 ___ en5 '] 
+end 
+  
 def min7 
  [21, 24, 28, 31,
   33, 36, 40, 43,
@@ -22,137 +32,267 @@ def min7
   105,108]
 end 
 
-def maj7 
- [21, 25, 28, 32,
-  33, 37, 40, 44,
-  45, 49, 52, 56,
-  57, 61, 64, 68,
-  69, 73, 76, 80,
-  81, 85, 88, 92,
-  93, 97, 100,104,
-  105,106] 
-end 
- 
-def maj7_aug4 
- [21, 25, 27, 32,
-  33, 37, 39, 44,
-  45, 49, 51, 56,
-  57, 61, 63, 68,
-  69, 73, 75, 80,
-  81, 85, 87, 92,
-  93, 97, 99,104,
-  105,106] 
+def min7_guitar 
+[
+' en6 ___ ___ gn6 ___ an6 ___ ___ cn7 ___ ___ ___ en7 ',
+' ___ cn6 ___ ___ ___ en6 ___ ___ gn6 ___ an6 ___ ___ ',
+' gn5 ___ an5 ___ ___ cn6 ___ ___ ___ en6 ___ ___ gn6 ', 
+' ___ ___ en5 ___ ___ gn5 ___ an5 ___ ___ cn6 ___ ___ ', 
+' an4 ___ ___ cn5 ___ ___ ___ en5 ___ ___ gn5 ___ an5 ',
+' en4 ___ ___ gn4 ___ an4 ___ ___ cn5 ___ ___ ___ en5 '] 
 end 
 
-def min_dim5 
- [21, 24, 27, 31,
-  33, 36, 39, 43,
-  45, 48, 51, 55,
-  57, 60, 63, 67,
-  69, 72, 75, 79,
-  81, 84, 87, 91,
-  93, 96, 99,103,
-  105,108]
+def maj7 
+ [23, 24, 28, 31,
+  35, 36, 40, 43,
+  46, 48, 52, 55,
+  59, 60, 64, 67,
+  71, 72, 76, 79,
+  83, 84, 88, 91,
+  95, 96, 100,103,
+  107,108] 
 end 
+
+def maj7_guitar 
+[
+' en6 ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ___ en7 ', 
+' bn5 cn6 ___ ___ ___ en6 ___ ___ gn6 ___ ___ ___ bn6 ', 
+' gn5 ___ ___ ___ bn5 cn6 ___ ___ ___ en6 ___ ___ gn6 ', 
+' ___ ___ en5 ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ', 
+' ___ ___ bn4 cn5 ___ ___ ___ en5 ___ ___ gn5 ___ ___ ', 
+' en4 ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ___ en5 '] 
+end 
+
+def maj7_aug4 
+ [21, 23, 28, 29,
+  33, 35, 40, 41,
+  45, 47, 52, 53,
+  57, 59, 64, 65,
+  69, 71, 76, 77,
+  81, 83, 88, 89,
+  93, 95, 100,101,
+  105,107] 
+end 
+
+def maj7_aug4_guitar 
+[
+' en6 fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ___ en7 ', 
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ an6 ___ bn6 ', 
+' ___ ___ an5 ___ bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ', 
+' ___ ___ en5 fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ', 
+' an4 ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ an5 ', 
+' en4 fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ___ en5 '] 
+end
+
+def min_6 
+ [21, 23, 26, 29,
+  33, 35, 38, 41,
+  45, 47, 50, 53,
+  57, 59, 62, 65,
+  69, 71, 74, 77,
+  81, 83, 86, 89,
+  93, 95, 98, 101,
+  105,107]
+end 
+
+def min_6_guitar 
+[
+' ___ fn6 ___ ___ ___ an6 ___ bn6 ___ ___ dn7 ___ ___ ', 
+' bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ___ an6 ___ bn6 ', 
+' ___ ___ an5 ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ', 
+' dn5 ___ ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ dn6 ', 
+' an4 ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ ___ an5 ', 
+' ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ dn5 ___ ___ '] 
+end
 
 def dom7 
- [21, 25, 28, 31,
-  33, 37, 40, 43,
-  45, 49, 52, 55,
-  57, 61, 64, 67,
-  69, 73, 76, 79,
-  81, 85, 88, 91,
-  93, 97, 100,103,
-  105,106] 
+ [23, 26, 29, 31,
+  35, 38, 41, 43,
+  47, 50, 53, 55,
+  59, 62, 65, 67,
+  71, 74, 77, 79,
+  83, 86, 89, 91,
+  95, 98, 101,103,
+  107] 
+end 
+
+def dom7_guitar 
+[
+' ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ___ ___ ', 
+' bn5 ___ ___ dn6 ___ ___ fn6 ___ gn6 ___ ___ ___ bn6 ', 
+' gn5 ___ ___ ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ gn6 ', 
+' dn5 ___ ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ', 
+' ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ gn5 ___ ___ ', 
+' ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ___ ___ '] 
 end 
  
-def dom7_dim5 
- [21, 25, 27, 31,
-  33, 37, 39, 43,
-  45, 49, 51, 55,
-  57, 61, 63, 67,
-  69, 73, 75, 79,
-  81, 85, 87, 91,
-  93, 97, 99, 103,
-  105] 
+def dim2aug4 
+ [22, 23, 28, 29,
+  34, 35, 40, 41,
+  46, 47, 52, 53,
+  58, 59, 64, 65,
+  70, 71, 76, 77,
+  82, 83, 88, 89,
+  94, 95, 100,101,
+  106,107] 
 end 
+
+def dim2aug4_guitar 
+[
+' en6 fn6 ___ ___ ___ ___ as6 bn6 ___ ___ ___ ___ en7 ', 
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ as6 bn6 ',
+' ___ ___ ___ as5 bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ ___ ___ as5 bn5 ___ ___ ___ ',
+' ___ as4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ ',
+' en4 fn4 ___ ___ ___ ___ as4 bn4 ___ ___ ___ ___ en5 '] 
+end 
+ 
+def dom7_aug4 
+ [21, 23, 27, 29,
+  33, 35, 39, 41,
+  45, 47, 51, 53,
+  57, 59, 63, 65,
+  69, 71, 75, 77,
+  81, 83, 87, 89,
+  93, 95, 99, 101,
+  105,107] 
+end 
+
+def dom7_aug4_guitar 
+[
+' ___ fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ej7 ___ ',
+' bn5 ___ ___ ___ ej6 ___ fn6 ___ ___ ___ an6 ___ bn6 ',
+' ___ ___ an5 ___ bn5 ___ ___ ___ ej6 ___ fn6 ___ ___ ',
+' ___ ej5 ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ',
+' an4 ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ ___ ___ an5 ',
+' ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ej5 ___ '] 
+end
 
 def dim_6 
- [21, 24, 27, 30,
-  33, 36, 39, 42,
-  45, 48, 51, 54,
-  57, 60, 63, 66,
-  69, 72, 75, 78,
-  81, 84, 87, 90,
-  93, 96, 99, 102,
-  105,108] 
+ [23, 26, 29, 32,
+  35, 38, 41, 44,
+  47, 50, 53, 56,
+  59, 62, 65, 68,
+  71, 74, 77, 80,
+  83, 86, 89, 92,
+  95, 98, 101,104,
+  107] 
 end 
 
-def dim2aug4 
- [21, 22, 27, 28,
-  33, 34, 39, 40,
-  45, 46, 51, 52,
-  57, 58, 63, 64,
-  69, 70, 75, 76,
-  81, 82, 87, 88,
-  93, 94, 99, 100,
-  105,106] 
-end 
+def dim_6_guitar  
+[
+' ___ fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ dn7 ___ ___ ',
+' bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ',
+' dn5 ___ ___ fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ dn6 ',
+' ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ aj5 ___ ',
+' ___ fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ dn5 ___ ___ '] 
+end
  
 def maj_dim2 
- [21, 24, 27, 32,
-  33, 36, 39, 44,
-  45, 48, 51, 56,
-  57, 60, 63, 68,
-  69, 72, 75, 80,
-  81, 84, 87, 92,
-  93, 96, 99,104,
-  105,108]
+ [23, 28, 29, 32, 
+  35, 40, 41, 44,
+  47, 52, 53, 56,
+  59, 64, 65, 68, 
+  71, 76, 77, 80,
+  83, 88, 89, 92, 
+  95, 100,101,104, 
+  107]
 end 
 
+def maj_dim2_guitar  
+[
+' en6 fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ ___ ___ en7 ',
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ ___ ',
+' ___ ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ aj5 ___ ',
+' en4 fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ ___ ___ en5 '] 
+end
+
 def min_aug4
- [21, 24, 27, 28,
-  33, 36, 39, 40,
-  45, 48, 51, 52,
-  57, 60, 63, 64,
-  69, 72, 75, 76,
-  81, 84, 87, 88,
-  93, 96, 99, 100,
-  105,108]  
+ [23, 24, 29, 32,
+  35, 36, 41, 44,
+  47, 48, 53, 56,
+  59, 60, 65, 68,
+  71, 72, 77, 80,
+  83, 84, 89, 92,
+  95, 96, 101,104,
+  107]  
 end 
- 
-def maj7_aug5 
- [21, 25, 29, 32,
-  33, 37, 41, 44,
-  45, 49, 53, 56,
-  57, 61, 65, 68,
-  69, 73, 77, 80,
-  81, 85, 89, 92,
-  93, 97, 101,104,
-  105,106] 
+
+def min_aug4_guitar  
+[
+' ___ fn6 ___ ___ aj6 ___ ___ bn6 cn7 ___ ___ ___ ___ ',
+' bn5 cn6 ___ ___ ___ ___ fn6 ___ ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 cn6 ___ ___ ___ ___ fn6 ___ ___ ',
+' ___ ___ ___ fn5 ___ ___ aj5 ___ ___ bn5 cn6 ___ ___ ',
+' ___ ___ bn4 cn5 ___ ___ ___ ___ fn5 ___ ___ aj5 ___ ',
+' ___ fn4 ___ ___ aj4 ___ ___ bn4 cn5 ___ ___ ___ ___ '] 
 end 
 
 def min_aug7 
- [21, 24, 28, 32,
-  33, 36, 40, 44,
-  45, 48, 52, 56,
-  57, 60, 64, 68,
-  69, 72, 76, 80,
-  81, 84, 88, 92,
-  93, 96, 100,104,
-  105,108]
+ [23, 24, 27, 31, 
+  35, 36, 39, 43, 
+  47, 48, 51, 55, 
+  59, 60, 63, 67, 
+  71, 72, 75, 79, 
+  83, 84, 87, 91, 
+  95, 96, 99, 103, 
+  107]  
+end 
+
+def min_aug7_guitar 
+[
+' ___ ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ej7 ___ ',
+' bn5 cn6 ___ ___ ej6 ___ ___ ___ gn6 ___ ___ ___ bn6 ',
+' gn5 ___ ___ ___ bn5 cn6 ___ ___ ej6 ___ ___ ___ gn6 ',
+' ___ ej5 ___ ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ',
+' ___ ___ bn4 cn5 ___ ___ ej5 ___ ___ ___ gn5 ___ ___ ',
+' ___ ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ej5 ___ '] 
+end
+
+def maj7_aug5 
+ [23, 26, 27, 31, 
+  35, 38, 39, 43, 
+  47, 50, 51, 55, 
+  59, 62, 63, 67, 
+  71, 74, 75, 79, 
+  83, 86, 87, 91, 
+  95, 98, 99, 103, 
+  107] 
+end 
+
+def maj7_aug5_guitar 
+[
+' ___ ___ ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ej7 ___ ',
+' bn5 ___ ___ dn6 ej6 ___ ___ ___ gn6 ___ ___ ___ bn6 ',
+' gn5 ___ ___ ___ bn5 ___ ___ dn6 ej6 ___ ___ ___ gn6 ',
+' dn5 ej5 ___ ___ ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ',
+' ___ ___ bn4 ___ ___ dn5 ej5 ___ ___ ___ gn5 ___ ___ ',
+' ___ ___ ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ej5 ___ '] 
 end 
 
 def dom7_aug5 
- [21, 25, 29, 31,
-  33, 37, 41, 43,
-  45, 49, 53, 55,
-  57, 61, 65, 67,
-  69, 73, 77, 79,
-  81, 85, 89, 91,
-  93, 97, 101,103,
-  105,106] 
+ [23, 27, 29, 31, 
+  35, 39, 41, 43, 
+  47, 51, 53, 55, 
+  59, 63, 65, 67, 
+  71, 75, 77, 79, 
+  83, 87, 89, 91, 
+  95, 99, 101,103, 
+  107]  
 end 
+
+def dom7_aug5_guitar 
+[
+' ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ ___ ej7 ___ ',
+' bn5 ___ ___ ___ ej6 ___ fn6 ___ gn6 ___ ___ ___ bn6 ',
+' gn5 ___ ___ ___ bn5 ___ ___ ___ ej6 ___ fn6 ___ gn6 ',
+' ___ ej5 ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ ___ ',
+' ___ ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ ___ ej5 ___ '] 
+end
 
 chord_list = [
 ' sus7',
@@ -160,14 +300,14 @@ chord_list = [
 ' maj7',
 ' maj7+4',
 ' min7-5', 
-' dom7', 
-' dom7-5',
-' dim6',
+' dom7',
 ' funk', 
+' dom7-5',
+' dim6', 
 ' maj-2',
-' min+4',
-' maj7+5',
+' min+4', 
 ' min+7',
+' maj7+5',
 ' dom7+5' ]
 
 puts 
@@ -185,34 +325,76 @@ puts ' Select Chord'
 select_chord = gets.chomp 
  if (select_chord == 'index' or select_chord == 'list')
   puts chord_list 
- elsif select_chord == 'sus7' 
-  puts sus7[16..24].reverse 
- elsif select_chord == 'min7' 
-  puts min7[16..24].reverse 
- elsif select_chord == 'maj7' 
-  puts maj7[16..24].reverse 
- elsif select_chord == 'maj7+4' 
-  puts maj7_aug4[16..24].reverse 
- elsif select_chord == 'min7-5' 
-  puts min_dim5[16..24].reverse 
- elsif select_chord == 'dom7' 
-  puts dom7[16..24].reverse 
- elsif select_chord == 'dom7-5' 
-  puts dom7_dim5[16..24].reverse 
- elsif select_chord == 'dim6' 
-  puts dim_6[16..24].reverse 
- elsif select_chord == 'funk' 
-  puts dim2aug4[16..24].reverse 
- elsif select_chord == 'maj-2' 
-  puts maj_dim2[16..24].reverse 
- elsif select_chord == 'min+4' 
-  puts min_aug4[16..24].reverse 
- elsif select_chord == 'maj7+5' 
-  puts maj7_aug5[16..24].reverse 
- elsif select_chord == 'min+7' 
-  puts min_aug7[16..24].reverse 
- elsif select_chord == 'dom7+5' 
-  puts dom7_aug5[16..24].reverse 
+ elsif (select_chord == 'sus7' or select_chord == '7sus') 
+  puts 
+  puts sus7[14..26].to_s 
+  puts 
+  puts sus7_guitar
+ elsif (select_chord == 'min7' or select_chord == 'mi7')
+  puts 
+  puts min7[14..26].to_s 
+  puts 
+  puts min7_guitar 
+ elsif (select_chord == 'maj7' or select_chord == 'M7')
+  puts 
+  puts maj7[14..26].to_s 
+  puts 
+  puts maj7_guitar
+ elsif (select_chord == 'maj7+4' or select_chord == 'maj7-5')
+  puts 
+  puts maj7_aug4[14..26].to_s 
+  puts 
+  puts maj7_aug4_guitar
+ elsif (select_chord == 'min7-5' or select_chord == 'mi6')  
+  puts  
+  puts min_6[14..26].to_s 
+  puts 
+  puts min_6_guitar
+ elsif (select_chord == 'dom7' or select_chord == '7')
+  puts  
+  puts dom7[13..25].to_s 
+  puts 
+  puts dom7_guitar
+ elsif (select_chord == 'funk' or select_chord == '-2+4') 
+  puts  
+  puts dim2aug4[14..26].to_s 
+  puts 
+  puts dim2aug4_guitar
+ elsif (select_chord == 'dom7-5' or select_chord == '7-5')
+  puts 
+  puts dom7_aug4[14..26].to_s 
+  puts 
+  puts dom7_aug4_guitar
+ elsif (select_chord == 'dim6' or select_chord == 'o6')
+  puts  
+  puts dim_6[13..25].to_s 
+  puts 
+  puts dim_6_guitar
+ elsif (select_chord == 'maj-2' or select_chord == 'dim+7')
+  puts  
+  puts maj_dim2[13..25].to_s 
+  puts 
+  puts maj_dim2_guitar
+ elsif (select_chord == 'min+4' or select_chord == '6+9')
+  puts  
+  puts min_aug4[13..25].to_s 
+  puts 
+  puts min_aug4_guitar
+ elsif (select_chord == 'min+7' or select_chord == 'mi+7')
+  puts  
+  puts min_aug7[14..26].to_s 
+  puts 
+  puts min_aug7_guitar
+ elsif (select_chord == 'maj7+5' or select_chord == 'maj-6')
+  puts  
+  puts maj7_aug5[14..26].to_s 
+  puts 
+  puts maj7_aug5_guitar
+ elsif (select_chord == 'dom7+5' or select_chord == '7+5')
+  puts  
+  puts dom7_aug5[13..25].to_s 
+  puts 
+  puts dom7_aug5_guitar
  elsif select_chord == 'help'
   puts 'For Table of Contents,'
   puts 'type the word "index" or "list".'
