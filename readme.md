@@ -66,7 +66,7 @@ Nautiloidea
      ___ ___ ___ as5 bn5 ___ cs6 ___ ds6 en6 fn6 gj6 ___ 
      ___ ds5 en5 fn5 gj5 ___ ___ ___ as5 bn5 ___ cs6 ___ 
      ___ as4 bn4 ___ cs5 ___ ds5 en5 fn5 gj5 ___ ___ an5 
-     en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ cs5 ___ ds5 en5 
+     en4 fn4 gj4 ___ ___ ___ as4 bn4 ___ cs5 ___ ds5 en5 
 
 
     flat_3 
