@@ -535,7 +535,7 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
   puts flat_5
  elsif (raganame == 'Pavani' or raganame == 'pavani') 
-  puts sharp_126_flat_5th 
+  puts sharp_126_flat_5 
  elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
   puts flat_3
  elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 

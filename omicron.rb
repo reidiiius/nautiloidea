@@ -110,7 +110,7 @@ gamanasrama = [
 {:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
 {:tone => 'leo', :function => 'moon', :invert => 'mercury'} ] 
 
- # sharp_126_flat_5th 
+ # sharp_126_flat_5 
 pavani = [
 {:tone => 'leo', :function => 'vesta', :invert => 'mars'},
 {:tone => 'cancer', :function => 'mars', :invert => 'vesta'},
@@ -252,7 +252,7 @@ kosalam = [
 {:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
 {:tone => 'leo', :function => 'sun', :invert => 'mercury'} ] 
 
-  # sharp_1_flat_6 
+ # sharp_1_flat_6 
 ramapriya = [
 {:tone => 'taurus', :function => 'titan', :invert => 'moon'},
 {:tone => 'aries', :function => 'mars', :invert => 'neptune'},
