@@ -436,6 +436,12 @@ index = [
 ' Chalanata, Subhapantuvarali ', # flat_25
 ' Kanakangi, Kamavardhini' ] 
 
+help = [ 
+' For a table of contents,',
+' just type "index" or "list".',
+' If you want to leave the program,',
+' just type "exit" or "quit".'] 
+
 puts 
 puts index 
 puts 
@@ -447,173 +453,229 @@ puts ' Enter Raga name:'
  raganame = gets.chomp 
  if (raganame == 'index' or raganame == 'list')
   puts index 
- elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam')   
+ elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam') 
+  puts ' shadja cn5'  
   puts natural
- elsif (raganame == 'Karaharapriya' or raganame == 'karaharapriya') 
+ elsif (raganame == 'Kharaharapriya' or raganame == 'kharaharapriya') 
+  puts ' shadja dn5' 
   puts natural 
  elsif (raganame == 'Hanumatodi' or raganame == 'hanumatodi') 
+  puts ' shadja en5'
   puts natural 
  elsif (raganame == 'Mechakalyani' or raganame == 'mechakalyani') 
+  puts ' shadja fn5' 
   puts natural
  elsif (raganame == 'Harikambhoji' or raganame == 'harikambhoji') 
+  puts ' shadja gn5'
   puts natural
  elsif (raganame == 'Natabhairavi' or raganame == 'natabhairavi') 
+  puts ' shadja an5' 
   puts natural
  elsif (raganame == 'Naganandini' or raganame == 'naganandini') 
+  puts ' shadja cn5' 
   puts sharp_6
  elsif (raganame == 'Bhavapriya' or raganame == 'bhavapriya') 
+  puts ' shadja en5'
   puts sharp_6 
  elsif (raganame == 'Vagadheeswari' or raganame == 'vagadheeswari') 
+  puts ' shadja gn5' 
   puts sharp_6 
  elsif (raganame == 'Jhankaradhwani' or raganame == 'jhankaradhwani') 
+  puts ' shadja an4' 
   puts flat_5
  elsif (raganame == 'Ratnangi' or raganame == 'ratnangi') 
+  puts ' shadja en5'
   puts flat_5 
  elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
+  puts ' shadja fn5' 
   puts flat_5
  elsif (raganame == 'Pavani' or raganame == 'pavani') 
-  puts sharp_126_flat_5th 
+  puts ' shadja en4' 
+  puts sharp_126_flat_5 
  elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
+  puts ' shadja cn5'
   puts flat_3
  elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
+  puts ' shadja dn5' 
   puts flat_3 
  elsif (raganame == 'Vachaspati' or raganame == 'vachaspati') 
+  puts ' shadja fn5'
   puts flat_3 
  elsif (raganame == 'Charukesi' or raganame == 'charukesi') 
+  puts ' shadja gn5'
   puts flat_3 
  elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam') 
+  puts ' shadja en4'
   puts flat_5_sharp_6 
  elsif (raganame == 'Salagam' or raganame == 'salagam') 
+  puts ' shadja en4' 
   puts flat_25_sharp_6 
  elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali') 
+  puts ' shadja en4' 
   puts sharp_26_flat_5 
  elsif (raganame == 'Sarasangi' or raganame == 'sarasangi') 
+  puts ' shadja cn5' 
   puts flat_6 
  elsif (raganame == 'Dharmavati' or raganame == 'dharmavati') 
+  puts ' shadja fn5' 
   puts flat_6 
  elsif (raganame == 'Chakravakam' or raganame == 'chakravakam') 
+  puts ' shadja gn5'
   puts flat_6 
  elsif (raganame == 'Keeravani' or raganame == 'keeravani') 
+  puts ' shadja an4' 
   puts sharp_5 
  elsif (raganame == 'Hemavati' or raganame == 'hemavati') 
+  puts ' shadja dn5' 
   puts sharp_5 
  elsif (raganame == 'Vakulabharanam' or raganame == 'vakulabharanam') 
+  puts ' shadja en5'
   puts sharp_5 
  elsif (raganame == 'Kosalam' or raganame == 'kosalam') 
+  puts ' shadja fn5' 
   puts sharp_5 
  elsif (raganame == 'Ramapriya' or raganame == 'ramapriya') 
+  puts ' shadja gn4'
   puts sharp_1_flat_6 
  elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini') 
+  puts ' shadja en4' 
   puts sharp_16 
  elsif (raganame == 'Nasikabhusani' or raganame == 'nasikabhusani') 
+  puts ' shadja gn4'
   puts sharp_16 
  elsif (raganame == 'Namanarayani' or raganame == 'namanarayani') 
+  puts ' shadja en4' 
   puts sharp_56 
  elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi') 
+  puts ' shadja fn4' 
   puts flat_56 
  elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini') 
+  puts ' shadja an4' 
   puts sharp_127 
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+  puts ' shadja an4' 
   puts sharp_127_flat_5 
  elsif (raganame == 'Navaneetam' or raganame == 'navaneetam') 
+  puts ' shadja dn5'
   puts flat_34_sharp_5 
  elsif (raganame == 'Suryakantam' or raganame == 'suryakantam') 
+  puts ' shadja cn5' 
   puts flat_2 
  elsif (raganame == 'Senavati' or raganame == 'senavati') 
+  puts ' shadja en5' 
   puts flat_2 
  elsif (raganame == 'Latangi' or raganame == 'latangi') 
+  puts ' shadja fn5' 
   puts flat_2 
  elsif (raganame == 'Dhenuka' or raganame == 'dhenuka') 
+  puts ' shadja en4' 
   puts sharp_2 
  elsif (raganame == 'Chitrambhari' or raganame == 'chitrambhari') 
+  puts ' shadja fn4' 
   puts sharp_2 
  elsif (raganame == 'Shanmukhapriya' or raganame == 'shanmukhapriya') 
+  puts ' shadja an4' 
   puts sharp_2 
  elsif (raganame == 'Sulini' or raganame == 'sulini') 
+  puts ' shadja cn5' 
   puts sharp_2 
  elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla') 
+  puts ' shadja en4'
   puts sharp_25 
  elsif (raganame == 'Rasikapriya' or raganame == 'rasikapriya') 
+  puts ' shadja fn4'
   puts sharp_25 
  elsif (raganame == 'Simhendramadhyamam' or raganame == 'simhendramadhyamam') 
+  puts ' shadja an4'
   puts sharp_25 
  elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya') 
+  puts ' shadja cn5'
   puts flat_23 
- elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya') 
+ elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya')
+  puts ' shadja fn5'
   puts flat_23 
  elsif (raganame == 'Rupavati' or raganame == 'rupavati') 
+  puts ' shadja cn5' 
   puts flat_23_sharp_6 
  elsif (raganame == 'Divyamani' or raganame == 'divyamani') 
+  puts ' shadja fn4' 
   puts sharp_2_flat_56 
- elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari') 
+ elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari')
+  puts ' shadja en4' 
   puts flat_2_sharp_56 
  elsif (raganame == 'Hatakambari' or raganame == 'hatakambari') 
+  puts ' shadja cn5' 
   puts flat_2_sharp_6 
  elsif (raganame == 'Gavambodhi' or raganame == 'gavambodhi') 
+  puts ' shadja en5' 
   puts flat_2_sharp_6 
  elsif (raganame == 'Ganamurti' or raganame == 'ganamurti') 
+  puts ' shadja en4' 
   puts sharp_2_flat_5 
  elsif (raganame == 'Viswambhari' or raganame == 'viswambhari') 
+  puts ' shadja fn4' 
   puts sharp_2_flat_5 
- elsif (raganame == 'Syamalangi' or raganame == 'syamalangi') 
+ elsif (raganame == 'Syamalangi' or raganame == 'syamalangi')
+  puts ' shadja an4' 
   puts sharp_2_flat_5 
  elsif (raganame == 'Manavati' or raganame == 'manavati') 
+  puts ' shadja en4' 
   puts sharp_12_flat_5 
  elsif (raganame == 'Kantamani' or raganame == 'kantamani') 
+  puts ' shadja an4' 
   puts sharp_12_flat_5 
  elsif (raganame == 'Yagapriya' or raganame == 'yagapriya') 
+  puts ' shadja gn4' 
   puts flat_34_sharp_6 
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+  puts ' shadja an4' 
   puts flat_34_sharp_1_6 
  elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
+  puts ' shadja en4'
   puts x_1_sharp_2_flat_5 
  elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
+  puts ' shadja en4'
   puts x_1_sharp_26_flat_5 
  elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
+  puts ' shadja cn5'
   puts flat_3_sharp_6 
  elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
+  puts ' shadja gn5'
   puts flat_3_sharp_6 
  elsif (raganame == 'Mararanjani' or raganame == 'mararanjani') 
+  puts ' shadja an4' 
   puts sharp_1_flat_5 
  elsif (raganame == 'Vanaspati' or raganame == 'vanaspati') 
+  puts ' shadja en5' 
   puts sharp_1_flat_5 
  elsif (raganame == 'Gangeyabhusani' or raganame == 'gangeyabhusani') 
+  puts ' shadja cn5'
   puts sharp_2_flat_6 
  elsif (raganame == 'Neetimati' or raganame == 'neetimati') 
+  puts ' shadja fn5'
   puts sharp_2_flat_6 
  elsif (raganame == 'Gayakapriya' or raganame == 'gayakapriya') 
+  puts ' shadja en4' 
   puts flat_2_sharp_5 
  elsif (raganame == 'Dhatuvardhini' or raganame == 'dhatuvardhini') 
+  puts ' shadja fn4' 
   puts flat_2_sharp_5 
  elsif (raganame == 'Chalanata' or raganame == 'chalanata') 
+  puts ' shadja cn5' 
   puts sharp_26 
  elsif (raganame == 'Subhapantuvarali' or raganame == 'subhapantuvarali') 
+  puts ' shadja en5' 
   puts sharp_26 
  elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
+  puts ' shadja en4' 
   puts flat_25 
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
+  puts ' shadja fn4'
   puts flat_25
  elsif (raganame == 'exit' or raganame == 'quit')
- x_reply = true
- else 
-  puts ' For a table of contents,'
-  puts ' just type "index" or "list".'
-  puts ' If you want to leave the program,'
-  puts ' just type "exit" or "quit".'
-  puts ' Would you like to continue?'
-  puts ' "yes" or "no"?'
-  reply = gets.chomp
-   if (reply == 'yes')
-    x_reply = false
-   elsif (reply == 'no')
-    x_reply = true 
-   elsif (reply == 'exit' or reply == 'quit')
-    x_reply = true
-   elsif (reply == 'index' or reply == 'list')
-    puts index 
-   else 
-   puts ' Check your spelling and try again!'
-   end 
+  x_reply = true 
+ elsif (raganame == 'help' or raganame == '-h')
+  puts help
   end
  end 
  

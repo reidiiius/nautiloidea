@@ -732,6 +732,12 @@ index = [
 ' Chalanata, Subhapantuvarali ', # flat_25
 ' Kanakangi, Kamavardhini' ] 
 
+help = [ 
+' For a table of contents,',
+' just type "index" or "list".',
+' If you want to leave the program,',
+' just type "exit" or "quit".'] 
+
 puts
 puts index 
 puts 
@@ -745,7 +751,7 @@ puts ' Enter Raga name:'
   puts index 
  elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam')   
   puts sankarabharanam # natural
- elsif (raganame == 'Karaharapriya' or raganame == 'karaharapriya') 
+ elsif (raganame == 'Kharaharapriya' or raganame == 'kharaharapriya') 
   puts kharaharapriya 
  elsif (raganame == 'Hanumatodi' or raganame == 'hanumatodi') 
   puts hanumatodi 
@@ -768,7 +774,7 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
   puts gamanasrama
  elsif (raganame == 'Pavani' or raganame == 'pavani') 
-  puts pavani # sharp_126_flat_5th 
+  puts pavani # sharp_126_flat_5 
  elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
   puts gourimanohari # flat_3
  elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
@@ -890,26 +896,9 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
   puts kamavardhini
  elsif (raganame == 'exit' or raganame == 'quit')
- x_reply = true
- else 
-  puts ' For a table of contents,'
-  puts ' just type "index" or "list".'
-  puts ' If you want to leave the program,'
-  puts ' just type "exit" or "quit".'
-  puts ' Would you like to continue?'
-  puts ' "yes" or "no"?'
-  reply = gets.chomp
-   if (reply == 'yes')
-    x_reply = false
-   elsif (reply == 'no')
-    x_reply = true 
-   elsif (reply == 'exit' or reply == 'quit')
-    x_reply = true
-   elsif (reply == 'index' or reply == 'list')
-    puts index 
-   else 
-   puts ' Check your spelling and try again!'
-   end 
+  x_reply = true
+ elsif (raganame == 'help' or raganame == '-h')
+  puts help
   end
  end 
  

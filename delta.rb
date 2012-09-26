@@ -395,7 +395,7 @@ select_chord = gets.chomp
   puts dom7_aug5[13..25].to_s 
   puts 
   puts dom7_aug5_guitar
- elsif select_chord == 'help'
+ elsif (select_chord == 'help' or select_chord == '-h')
   puts 'For Table of Contents,'
   puts 'type the word "index" or "list".'
   puts 'To exit and leave the program,'

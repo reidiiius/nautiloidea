@@ -199,7 +199,7 @@ select_clave = gets.chomp
   puts sharp_2_flat_6 
  elsif select_clave == 'flat_2_sharp_5' 
   puts flat_2_sharp_5
- elsif select_clave == 'help'
+ elsif (select_clave == 'help' or select_clave == '-h')
   puts 'For Table of Contents,'
   puts 'type the word "index" or "list".'
   puts 'To exit and leave the program,'
