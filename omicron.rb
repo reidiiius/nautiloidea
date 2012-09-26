@@ -697,7 +697,8 @@ index = [
 ' Sankarabharanam, Kharaharapriya, Hanumatodi', # natural
 ' Mechakalyani, Harikambhoji, Natabhairavi', # sharp_6 
 ' Naganandini, Bhavapriya, Vagadheeswari', # flat_5 
-' Jhankaradhwani, Ratnangi, Gamanasrama, Pavani', # flat_3
+' Jhankaradhwani, Ratnangi, Gamanasrama', # sharp_126_flat_5 
+' Pavani', # flat_3
 ' Gourimanohari, Natakapriya, Vachaspati, Charukesi', # flat_5_sharp_6
 ' Jalarnavam', # flat_25_Sharp_6
 ' Salagam', # sharp_26_flat_5
