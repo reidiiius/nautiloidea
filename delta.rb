@@ -308,16 +308,18 @@ chord_list = [
 ' min+4', 
 ' min+7',
 ' maj7+5',
-' dom7+5' ]
+' dom7+5' ] 
+
+help = [
+'For the Table of Contents,',
+'type the word "index" or "list".',
+'To exit and leave the program,',
+'type the word "exit" or "quit".']
 
 puts 
 puts ' Alchemy a la mode' .upcase
 puts 
-puts 'For the Table of Contents,'
-puts 'type the word "index" or "list".'
-puts 'To exit and leave the program,'
-puts 'type the word "exit" or "quit".'
-
+puts help 
 x_status = false
 while (not x_status)
 puts
@@ -396,10 +398,7 @@ select_chord = gets.chomp
   puts 
   puts dom7_aug5_guitar
  elsif (select_chord == 'help' or select_chord == '-h')
-  puts 'For Table of Contents,'
-  puts 'type the word "index" or "list".'
-  puts 'To exit and leave the program,'
-  puts 'type the words "exit" or "quit".'  
+  puts help   
  elsif (select_chord == 'exit' or select_chord == 'quit')
   x_status = true
  end
