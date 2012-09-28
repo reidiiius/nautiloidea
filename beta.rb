@@ -111,7 +111,7 @@ gamanasrama = [
 {:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
 {:tone => 'leo', :function => 'moon', :invert => 'mercury'} ] 
 
- # sharp_126_flat_5th 
+ # sharp_126_flat_5 
 pavani = [
 {:tone => 'leo', :function => 'vesta', :invert => 'mars'},
 {:tone => 'cancer', :function => 'mars', :invert => 'vesta'},
@@ -721,6 +721,7 @@ puts ' Ratnangi '
 puts ratnangi 
 puts ' Gamanasrama ' 
 puts gamanasrama 
+# sharp_126_flat_5 
 puts ' Pavani ' 
 puts pavani 
 # flat_3
