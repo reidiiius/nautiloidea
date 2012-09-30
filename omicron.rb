@@ -738,11 +738,11 @@ help = [
 ' just type "index" or "list".',
 ' If you want to leave the program,',
 ' just type "exit" or "quit".'] 
-
-puts
-puts index 
+ 
 puts 
-puts ' Alchemy a la mode'.upcase
+puts ' Alchemy a la mode'.upcase 
+puts
+puts help 
 x_reply = false
 while (not x_reply) 
 puts

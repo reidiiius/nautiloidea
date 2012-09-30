@@ -768,7 +768,7 @@ puts help
 x_status = false
 while (not x_status)
 puts
-puts ' Select Ragam'
+puts ' Select Ragam:'
 puts 
 select_ragam = gets.chomp 
  if (select_ragam == 'n' or select_ragam == '')  

@@ -718,7 +718,7 @@ puts help
 x_status = false
 while (not x_status)
 puts
-puts ' Select Madhyama'
+puts ' Select Madhyama:'
 puts 
 puts ' "Shuddha" or "Prati" '
 select_madhyama = gets.chomp 

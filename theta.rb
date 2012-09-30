@@ -374,13 +374,13 @@ help = [
 'type the word "exit" or "quit".']
 
 puts 
-puts ' Alchemy a la mode' .upcase
+puts ' Clave Patterns' .upcase
 puts 
 puts help 
 x_status = false
 while (not x_status)
 puts
-puts ' Select Clave'
+puts ' Select Clave:'
 select_clave = gets.chomp 
  if (select_clave == 'index' or select_clave == 'list')
   puts clave_list 

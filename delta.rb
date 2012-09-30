@@ -301,7 +301,7 @@ chord_list = [
 ' maj7+4',
 ' min7-5', 
 ' dom7',
-' funk', 
+' 13+9', 
 ' dom7-5',
 ' dim6', 
 ' maj-2',
@@ -317,13 +317,14 @@ help = [
 'type the word "exit" or "quit".']
 
 puts 
-puts ' Alchemy a la mode' .upcase
+puts ' Guitar Chords' .upcase 
+puts 'standard tuning'
 puts 
 puts help 
 x_status = false
 while (not x_status)
 puts
-puts ' Select Chord'
+puts ' Select Chord:'
 select_chord = gets.chomp 
  if (select_chord == 'index' or select_chord == 'list')
   puts chord_list 
@@ -357,7 +358,7 @@ select_chord = gets.chomp
   puts dom7[13..25].to_s 
   puts 
   puts dom7_guitar
- elsif (select_chord == 'funk' or select_chord == '-2+4') 
+ elsif (select_chord == '13+9' or select_chord == '-2+4') 
   puts  
   puts dim2aug4[14..26].to_s 
   puts 
