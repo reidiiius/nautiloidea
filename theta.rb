@@ -384,7 +384,7 @@ puts ' Select Clave:'
 select_clave = gets.chomp 
  if (select_clave == 'index' or select_clave == 'list')
   puts clave_list 
- elsif select_clave == 'natural' 
+ elsif (select_clave == 'natural' or select_clave == 'n') 
   puts 
   puts natural 
  elsif select_clave == 'mercury_venus'
@@ -408,7 +408,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_saturn'
   puts 
   puts mars_saturn 
- elsif select_clave == 'sharp_6' 
+ elsif (select_clave == 'sharp_6' or select_clave == 'k6') 
   puts
   puts sharp_6 
  elsif select_clave == 'mercury_moon_k6'
@@ -432,7 +432,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_vesta_k6'
   puts 
   puts mars_vesta_k6 
- elsif select_clave == 'flat_5' 
+ elsif (select_clave == 'flat_5' or select_clave == 'j5') 
   puts
   puts flat_5 
  elsif select_clave == 'saturn_venus_j5'
@@ -456,7 +456,7 @@ select_clave = gets.chomp
  elsif select_clave == 'venus_saturn_j5'
   puts 
   puts venus_saturn_j5
- elsif select_clave == 'flat_3' 
+ elsif (select_clave == 'flat_3' or select_clave == 'j3') 
   puts
   puts flat_3 
  elsif select_clave == 'mercury_jupiter'
@@ -480,7 +480,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_uranus'
   puts 
   puts mars_uranus 
- elsif select_clave == 'flat_6' 
+ elsif (select_clave == 'flat_6' or select_clave == 'j6') 
   puts
   puts flat_6 
  elsif select_clave == 'mercury_sun_j6'
@@ -504,7 +504,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_neptune_j6'
   puts 
   puts mars_neptune_j6 
- elsif select_clave == 'sharp_5' 
+ elsif (select_clave == 'sharp_5' or select_clave == 'k5') 
   puts
   puts sharp_5 
  elsif select_clave == 'uranus_venus_k5'
@@ -528,7 +528,7 @@ select_clave = gets.chomp
  elsif select_clave == 'jupiter_saturn_k5'
   puts 
   puts jupiter_saturn_k5 
- elsif select_clave == 'flat_2' 
+ elsif (select_clave == 'flat_2' or select_clave == 'j2') 
   puts
   puts flat_2 
  elsif select_clave == 'mercury_mercury_j2'
@@ -552,7 +552,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_pluto_j2'
   puts 
   puts mars_pluto_j2
- elsif select_clave == 'sharp_2' 
+ elsif (select_clave == 'sharp_2'  or select_clave == 'k2')
   puts
   puts sharp_2 
  elsif select_clave == 'neptune_mars_k2'
@@ -576,7 +576,7 @@ select_clave = gets.chomp
  elsif select_clave == 'sun_saturn_k2'
   puts 
   puts sun_saturn_k2 
- elsif select_clave == 'flat_26' 
+ elsif (select_clave == 'flat_26' or select_clave == 'j26') 
   puts
   puts flat_26 
  elsif select_clave == 'mercury_mercury_j26'
@@ -600,7 +600,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_pluto_j26'
   puts 
   puts mars_pluto_j26 
- elsif select_clave == 'flat_23' 
+ elsif (select_clave == 'flat_23' or select_clave == 'j23') 
   puts
   puts flat_23 
  elsif select_clave == 'mercury_mercury_j23'
@@ -624,7 +624,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_pluto_j23'
   puts 
   puts mars_pluto_j23 
- elsif select_clave == 'flat_34' 
+ elsif (select_clave == 'flat_34' or select_clave == 'j34') 
   puts
   puts flat_34 
  elsif select_clave == 'neptune_jupiter_j34'
@@ -648,7 +648,7 @@ select_clave = gets.chomp
  elsif select_clave == 'sun_uranus_j34'
   puts 
   puts sun_uranus_j34 
- elsif select_clave == 'sharp_17' 
+ elsif (select_clave == 'sharp_17' or select_clave == 'k17') 
   puts
   puts sharp_17 
  elsif select_clave == 'chiron_mercury_k17'
@@ -672,7 +672,7 @@ select_clave = gets.chomp
  elsif select_clave == 'sun_uranus_k17'
   puts 
   puts sun_uranus_k17 
- elsif select_clave == 'sharp_2_flat_6' 
+ elsif (select_clave == 'sharp_2_flat_6' or select_clave == 'k2j6') 
   puts
   puts sharp_2_flat_6 
  elsif select_clave == 'mercury_pallas_k2j6'
@@ -696,7 +696,7 @@ select_clave = gets.chomp
  elsif select_clave == 'mars_venus_k2j6'
   puts 
   puts mars_venus_k2j6 
- elsif select_clave == 'flat_2_sharp_5' 
+ elsif (select_clave == 'flat_2_sharp_5' or select_clave == 'j2k5') 
   puts
   puts flat_2_sharp_5 
  elsif select_clave == 'mars_venus_j2k5'
