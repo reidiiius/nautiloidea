@@ -693,7 +693,86 @@ kamavardhini = [
 {:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
 {:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'},
 {:tone => 'leo', :function => 'pallas', :invert => 'mercury'} ] 
-=begin
+
+index = [ 
+'',
+' n',
+'', 
+' k6', 
+' j5', 
+'',
+' k126j5', 
+'',
+' j3', 
+'',
+' j5k6', 
+' j25k6', 
+' k26j5', 
+'',
+' j6', 
+' k5', 
+'',
+' k1j6', 
+' k16', 
+'',
+' k56', 
+' j56', 
+'',
+' k127', 
+' k127j5', 
+'',
+' j34k5', 
+'',
+' j2', 
+' k2',
+'',
+' k25',
+' j2k6', 
+' k2j5',
+'', 
+' j23', 
+'',
+' k2j56', 
+' j2k56',  
+'',
+' k12j5',
+' j23k6',
+'',
+' j34k6', 
+' j34k16', 
+'',
+' x1k2j5', 
+' x1k26j5', 
+'',
+' j3k6', 
+' k1j5', 
+'',
+' k2j6', 
+' j2k5',
+'', 
+' k26', 
+' j25'] 
+
+help = [
+'For the Table of Contents,',
+'type the word "index" or "list".',
+'the letter "n" = natural,',
+' "k" = sharp, and "j" = flat.',
+'To exit and leave the program,',
+'type the word "exit" or "quit".']
+
+puts 
+puts ' Graha bhedam' .upcase
+puts 
+puts help 
+x_status = false
+while (not x_status)
+puts
+puts ' Select Ragam'
+puts 
+select_ragam = gets.chomp 
+ if (select_ragam == 'n' or select_ragam == '')
+  puts 
 # natural
 puts ' Sankarabharanam ' 
 puts sankarabharanam
@@ -707,6 +786,8 @@ puts ' Harikambhoji '
 puts harikambhoji 
 puts ' Natabhairavi ' 
 puts natabhairavi 
+ elsif (select_ragam == 'k6' or select_ragam == 'j5') 
+ puts
 # sharp_6
 puts ' Naganandini ' 
 puts naganandini 
@@ -721,9 +802,13 @@ puts ' Ratnangi '
 puts ratnangi 
 puts ' Gamanasrama ' 
 puts gamanasrama 
+ elsif (select_ragam == 'k126j5' or select_ragam == 'pavani') 
+ puts
 # sharp_126_flat_5 
 puts ' Pavani ' 
 puts pavani 
+ elsif (select_ragam == 'j3' or select_ragam == 'k1') 
+ puts 
 # flat_3
 puts ' Gourimanohari ' 
 puts gourimanohari
@@ -733,15 +818,21 @@ puts ' Vachaspati '
 puts vachaspati 
 puts ' Charukesi ' 
 puts charukesi 
+ elsif (select_ragam == 'j5k6' or select_ragam == 'jalarnavam') 
+ puts
 # flat_5_sharp_6
 puts ' Jalarnavam ' 
 puts jalarnavam 
+ elsif (select_ragam == 'j25k6' or select_ragam == 'k26j5') 
+ puts
 # flat_25_Sharp_6
 puts ' Salagam ' 
 puts salagam 
 # sharp_26_flat_5
 puts ' Jhalavarali ' 
 puts jhalavarali 
+ elsif (select_ragam == 'j6' or select_ragam == 'k5') 
+ puts
 # flat_6
 puts ' Sarasangi '
 puts sarasangi
@@ -758,6 +849,8 @@ puts ' Vakulabharanam '
 puts vakulabharanam 
 puts ' Kosalam '
 puts kosalam 
+ elsif (select_ragam == 'k1j6' or select_ragam == 'k16') 
+ puts
 # sharp_1_flat_6
 puts ' Ramapriya '
 puts ramapriya 
@@ -766,25 +859,32 @@ puts ' Shadvidhamargini '
 puts shadvidhamargini 
 puts ' Nasikabhusani '
 puts nasikabhusani 
+ elsif (select_ragam == 'k56' or select_ragam == 'j56') 
+ puts
 # sharp_56
 puts ' Namanarayani '
 puts namanarayani 
 # flat_56
 puts ' Suvarnangi '
 puts suvarnangi 
+ elsif (select_ragam == 'k127' or select_ragam == 'k127j5') 
+ puts
 # sharp_127
 puts ' Jyotiswarupini '
 puts jyotiswarupini 
 # sharp_127_flat_5
 puts ' Sucharitra '
 puts sucharitra 
+ elsif (select_ragam == 'j34k5' or select_ragam == 'navaneetam') 
+ puts
 # flat_34_sharp_5
 puts ' Navaneetam '
 puts navaneetam 
+ elsif (select_ragam == 'j2' or select_ragam == 'k2') 
+ puts
 # flat_2
 puts ' Suryakantam '
 puts suryakantam
-=end 
 puts ' Senavati '
 puts senavati 
 puts ' Latangi '
@@ -798,6 +898,8 @@ puts ' Sulini '
 puts sulini 
 puts ' Chitrambhari '
 puts chitrambhari 
+ elsif (select_ragam == 'k25' or select_ragam == 'j26') 
+ puts
 # sharp_25
 puts ' Mayamalavagowla '
 puts mayamalavagowla
@@ -805,20 +907,8 @@ puts ' Rasikapriya '
 puts rasikapriya 
 puts ' Simhendramadhyamam '
 puts simhendramadhyamam 
-# flat_23
-puts ' Kokilapriya '
-puts kokilapriya
-puts ' Rishabhapriya '
-puts rishabhapriya 
-# flat_23_sharp_6
-puts ' Rupavati '
-puts rupavati 
-# sharp_2_flat_56
-puts ' Divyamani '
-puts divyamani 
-# flat_2_sharp_56
-puts ' Dhavalambari '
-puts dhavalambari 
+ elsif (select_ragam == 'j2k6' or select_ragam == 'k2j5') 
+ puts
 # flat_2_sharp_6
 puts ' Hatakambari '
 puts hatakambari 
@@ -831,23 +921,49 @@ puts ' Viswambhari '
 puts viswambhari
 puts ' Syamalangi '
 puts syamalangi 
+ elsif (select_ragam == 'j23' or select_ragam == 'k12') 
+ puts
+# flat_23
+puts ' Kokilapriya '
+puts kokilapriya
+puts ' Rishabhapriya '
+puts rishabhapriya 
+ elsif (select_ragam == 'k2j56' or select_ragam == 'j2k56') 
+ puts
+# sharp_2_flat_56
+puts ' Divyamani '
+puts divyamani 
+# flat_2_sharp_56
+puts ' Dhavalambari '
+puts dhavalambari 
+ elsif (select_ragam == 'k12j5' or select_ragam == 'j23k6')
+ puts
 # sharp_12_flat_5
 puts ' Manavati '
 puts manavati
 puts ' Kantamani '
 puts kantamani 
+# flat_23_sharp_6
+puts ' Rupavati '
+puts rupavati 
+ elsif (select_ragam == 'j34k6' or select_ragam == 'j34k16') 
+ puts
 # flat_34_sharp_6
 puts ' Yagapriya '
 puts yagapriya 
 # flat_34_sharp_16
 puts ' Sucharitra '
 puts sucharitra 
+ elsif (select_ragam == 'x1k2j5' or select_ragam == 'x1k26j5') 
+ puts
 # x_1_sharp_2_flat_5
 puts ' Tanarupi '
 puts tanarupi 
 # x_1_sharp_26_flat_5
 puts ' Raghupriya '
 puts raghupriya 
+ elsif (select_ragam == 'j3k6' or select_ragam == 'k1j5') 
+ puts
 # flat_3_sharp_6
 puts ' Varunapriya '
 puts varunapriya
@@ -858,6 +974,8 @@ puts ' Mararanjani '
 puts mararanjani
 puts ' Vanaspati '
 puts vanaspati 
+ elsif (select_ragam == 'k2j6' or select_ragam == 'j2k5') 
+ puts
 # sharp_2_flat_6
 puts ' Gangeyabhusani '
 puts gangeyabhusani
@@ -868,6 +986,7 @@ puts ' Gayakapriya '
 puts gayakapriya
 puts ' Dhatuvardhini '
 puts dhatuvardhini 
+ elsif (select_ragam =='k26' or select_ragam == 'j25')
 # sharp_26
 puts ' Chalanata '
 puts chalanata
@@ -878,3 +997,11 @@ puts ' Kanakangi '
 puts kanakangi
 puts ' kamavardhini '
 puts kamavardhini 
+elsif (select_ragam == 'index' or select_ragam == 'list')
+  puts index
+ elsif (select_ragam == 'help' or select_ragam == '-h')
+  puts help  
+ elsif (select_ragam == 'exit' or select_ragam == 'quit')
+  x_status = true
+ end
+end 
