@@ -771,8 +771,7 @@ puts
 puts ' Select Ragam'
 puts 
 select_ragam = gets.chomp 
- if (select_ragam == 'n' or select_ragam == '')
-  puts 
+ if (select_ragam == 'n' or select_ragam == '')  
 # natural
 puts ' Sankarabharanam ' 
 puts sankarabharanam
@@ -802,7 +801,7 @@ puts ' Ratnangi '
 puts ratnangi 
 puts ' Gamanasrama ' 
 puts gamanasrama 
- elsif (select_ragam == 'k126j5' or select_ragam == 'pavani') 
+ elsif (select_ragam == 'k126j5' or select_ragam == 'j5k126') 
  puts
 # sharp_126_flat_5 
 puts ' Pavani ' 
@@ -818,7 +817,7 @@ puts ' Vachaspati '
 puts vachaspati 
 puts ' Charukesi ' 
 puts charukesi 
- elsif (select_ragam == 'j5k6' or select_ragam == 'jalarnavam') 
+ elsif (select_ragam == 'j5k6' or select_ragam == 'k6j5') 
  puts
 # flat_5_sharp_6
 puts ' Jalarnavam ' 
@@ -875,7 +874,7 @@ puts jyotiswarupini
 # sharp_127_flat_5
 puts ' Sucharitra '
 puts sucharitra 
- elsif (select_ragam == 'j34k5' or select_ragam == 'navaneetam') 
+ elsif (select_ragam == 'j34k5' or select_ragam == 'k5j34') 
  puts
 # flat_34_sharp_5
 puts ' Navaneetam '

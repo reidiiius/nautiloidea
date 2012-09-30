@@ -605,7 +605,7 @@ rasikapriya = [
 ] 
 
 index = [ '', 
-'Shuddha Madyama'.upcase, # shuddha_madhyama 
+'Shuddha Madhyama'.upcase, # shuddha_madhyama 
 # indu_chakra 
 'Indu',  
 ' kanakangi',  
