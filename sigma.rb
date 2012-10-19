@@ -473,11 +473,11 @@ index = [
 ' Kanakangi, Kamavardhini' ] 
 
 help = [ 
-' If you want a table of contents,',
+' If you want the table of contents,',
 ' for Ragas type "index" or "list",',
 ' and for Chords just type "chords".',
 ' If you want to leave the program,',
-' simply type "exit" or "quit".'] 
+' simply type "exit", "quit" or "fin".'] 
  
 puts 
 puts ' Mandolin & Violin'.upcase
@@ -493,7 +493,7 @@ puts ' Enter name:'
   puts index 
  elsif (raganame == 'Chords' or raganame == 'chords')
   puts chord_list
- elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam')   
+ elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam' or raganame == 'n')   
   puts n
  elsif (raganame == 'Kharaharapriya' or raganame == 'kharaharapriya') 
   puts n 
@@ -505,21 +505,21 @@ puts ' Enter name:'
   puts n
  elsif (raganame == 'Natabhairavi' or raganame == 'natabhairavi') 
   puts n
- elsif (raganame == 'Naganandini' or raganame == 'naganandini') 
+ elsif (raganame == 'Naganandini' or raganame == 'naganandini' or raganame == 'k6') 
   puts k6
  elsif (raganame == 'Bhavapriya' or raganame == 'bhavapriya') 
   puts k6 
  elsif (raganame == 'Vagadheeswari' or raganame == 'vagadheeswari') 
   puts k6 
- elsif (raganame == 'Jhankaradhwani' or raganame == 'jhankaradhwani') 
+ elsif (raganame == 'Jhankaradhwani' or raganame == 'jhankaradhwani' or raganame == 'j5') 
   puts j5
  elsif (raganame == 'Ratnangi' or raganame == 'ratnangi') 
   puts j5 
  elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
   puts j5
- elsif (raganame == 'Pavani' or raganame == 'pavani') 
+ elsif (raganame == 'Pavani' or raganame == 'pavani' or raganame == 'k126j5') 
   puts k126j5 
- elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
+ elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari' or raganame == 'j3') 
   puts j3
  elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
   puts j3 
@@ -527,19 +527,19 @@ puts ' Enter name:'
   puts j3 
  elsif (raganame == 'Charukesi' or raganame == 'charukesi') 
   puts j3 
- elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam') 
+ elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam' or raganame == 'j5k6') 
   puts j5k6 
- elsif (raganame == 'Salagam' or raganame == 'salagam') 
+ elsif (raganame == 'Salagam' or raganame == 'salagam' or raganame == 'j25k6') 
   puts j25k6 
- elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali') 
+ elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali' or raganame == 'k26j5') 
   puts k26j5 
- elsif (raganame == 'Sarasangi' or raganame == 'sarasangi') 
+ elsif (raganame == 'Sarasangi' or raganame == 'sarasangi' or raganame == 'j6') 
   puts j6 
  elsif (raganame == 'Dharmavati' or raganame == 'dharmavati') 
   puts j6 
  elsif (raganame == 'Chakravakam' or raganame == 'chakravakam') 
   puts j6 
- elsif (raganame == 'Keeravani' or raganame == 'keeravani') 
+ elsif (raganame == 'Keeravani' or raganame == 'keeravani' or raganame == 'k5') 
   puts k5 
  elsif (raganame == 'Hemavati' or raganame == 'hemavati') 
   puts k5 
@@ -547,23 +547,23 @@ puts ' Enter name:'
   puts k5 
  elsif (raganame == 'Kosalam' or raganame == 'kosalam') 
   puts k5 
- elsif (raganame == 'Ramapriya' or raganame == 'ramapriya') 
+ elsif (raganame == 'Ramapriya' or raganame == 'ramapriya' or raganame == 'k1j6') 
   puts k1j6 
- elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini') 
+ elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini' or raganame == 'k16') 
   puts k16 
  elsif (raganame == 'Nasikabhusani' or raganame == 'nasikabhusani') 
   puts k16 
- elsif (raganame == 'Namanarayani' or raganame == 'namanarayani') 
+ elsif (raganame == 'Namanarayani' or raganame == 'namanarayani' or raganame == 'k56') 
   puts k56 
- elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi') 
+ elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi' or raganame == 'j56') 
   puts j56 
- elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini') 
+ elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini' or raganame == 'k127') 
   puts k127 
- elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+ elsif (raganame == 'Sucharitra' or raganame == 'sucharitra' or raganame == 'k127j5') 
   puts k127j5 
- elsif (raganame == 'Navaneetam' or raganame == 'navaneetam') 
+ elsif (raganame == 'Navaneetam' or raganame == 'navaneetam' or raganame == 'j34k5') 
   puts j34k5 
- elsif (raganame == 'Suryakantam' or raganame == 'suryakantam') 
+ elsif (raganame == 'Suryakantam' or raganame == 'suryakantam' or raganame == 'j2') 
   puts j2 
  elsif (raganame == 'Senavati' or raganame == 'senavati') 
   puts j2 
@@ -571,105 +571,105 @@ puts ' Enter name:'
   puts j2 
  elsif (raganame == 'Dhenuka' or raganame == 'dhenuka') 
   puts k2 
- elsif (raganame == 'Chitrambhari' or raganame == 'chitrambhari') 
+ elsif (raganame == 'Chitrambhari' or raganame == 'chitrambhari' or raganame == 'k2') 
   puts k2 
  elsif (raganame == 'Shanmukhapriya' or raganame == 'shanmukhapriya') 
   puts k2 
  elsif (raganame == 'Sulini' or raganame == 'sulini') 
   puts k2 
- elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla') 
+ elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla' or raganame == 'k25') 
   puts k25 
  elsif (raganame == 'Rasikapriya' or raganame == 'rasikapriya') 
   puts k25 
  elsif (raganame == 'Simhendramadhyamam' or raganame == 'simhendramadhyamam') 
   puts k25 
- elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya') 
+ elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya' or raganame == 'j23') 
   puts j23 
  elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya') 
   puts j23 
- elsif (raganame == 'Rupavati' or raganame == 'rupavati') 
+ elsif (raganame == 'Rupavati' or raganame == 'rupavati' or raganame == 'j23k6') 
   puts j23k6 
- elsif (raganame == 'Divyamani' or raganame == 'divyamani') 
+ elsif (raganame == 'Divyamani' or raganame == 'divyamani' or raganame == 'k2j56') 
   puts k2j56 
- elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari') 
+ elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari' or raganame == 'j2k56') 
   puts j2k56 
- elsif (raganame == 'Hatakambari' or raganame == 'hatakambari') 
+ elsif (raganame == 'Hatakambari' or raganame == 'hatakambari' or raganame == 'j2k6') 
   puts j2k6 
  elsif (raganame == 'Gavambodhi' or raganame == 'gavambodhi') 
   puts j2k6 
- elsif (raganame == 'Ganamurti' or raganame == 'ganamurti') 
+ elsif (raganame == 'Ganamurti' or raganame == 'ganamurti' or raganame == 'k2j5') 
   puts k2j5 
  elsif (raganame == 'Viswambhari' or raganame == 'viswambhari') 
   puts k2j5 
  elsif (raganame == 'Syamalangi' or raganame == 'syamalangi') 
   puts k2j5 
- elsif (raganame == 'Manavati' or raganame == 'manavati') 
+ elsif (raganame == 'Manavati' or raganame == 'manavati' or raganame == 'k12j5') 
   puts k12j5 
  elsif (raganame == 'Kantamani' or raganame == 'kantamani') 
   puts k12j5 
- elsif (raganame == 'Yagapriya' or raganame == 'yagapriya') 
+ elsif (raganame == 'Yagapriya' or raganame == 'yagapriya' or raganame == 'j34k6') 
   puts j34k6 
- elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+ elsif (raganame == 'Sucharitra' or raganame == 'sucharitra' or raganame == 'j34k16') 
   puts j34k16 
- elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
+ elsif (raganame == 'Tanarupi' or raganame == 'tanarupi' or raganame == 'x1k2j5') 
   puts x1k2j5 
- elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
+ elsif (raganame == 'Raghupriya' or raganame == 'raghupriya' or raganame == 'x1k26j5') 
   puts x1k26j5 
- elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
+ elsif (raganame == 'Varunapriya' or raganame == 'varunapriya' or raganame == 'j3k6') 
   puts j3k6 
  elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
   puts j3k6 
- elsif (raganame == 'Mararanjani' or raganame == 'mararanjani') 
+ elsif (raganame == 'Mararanjani' or raganame == 'mararanjani' or raganame == 'k1j5') 
   puts k1j5 
  elsif (raganame == 'Vanaspati' or raganame == 'vanaspati') 
   puts k1j5 
- elsif (raganame == 'Gangeyabhusani' or raganame == 'gangeyabhusani') 
+ elsif (raganame == 'Gangeyabhusani' or raganame == 'gangeyabhusani' or raganame == 'k2j6') 
   puts k2j6 
  elsif (raganame == 'Neetimati' or raganame == 'neetimati') 
   puts k2j6 
- elsif (raganame == 'Gayakapriya' or raganame == 'gayakapriya') 
+ elsif (raganame == 'Gayakapriya' or raganame == 'gayakapriya' or raganame == 'j2k5') 
   puts j2k5 
  elsif (raganame == 'Dhatuvardhini' or raganame == 'dhatuvardhini') 
   puts j2k5 
- elsif (raganame == 'Chalanata' or raganame == 'chalanata') 
+ elsif (raganame == 'Chalanata' or raganame == 'chalanata' or raganame == 'k26') 
   puts k26 
  elsif (raganame == 'Subhapantuvarali' or raganame == 'subhapantuvarali') 
   puts k26 
- elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
+ elsif (raganame == 'Kanakangi' or raganame == 'kanakangi' or raganame == 'j25') 
   puts j25 
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
   puts j25 
- elsif (raganame == 'sus7' or raganame == '7sus') 
+ elsif (raganame == 'sus7' or raganame == '7sus' or raganame == 'sus') 
   puts sus 
- elsif (raganame == 'min7' or raganame == 'mi7') 
+ elsif (raganame == 'min7' or raganame == 'mi7' or raganame == 'M6') 
   puts mi7 
- elsif (raganame == 'maj7' or raganame == 'M7') 
+ elsif (raganame == 'maj7' or raganame == 'M7' or raganame == 'ma7') 
   puts ma7 
- elsif (raganame == 'maj7+4' or raganame == 'maj7-5') 
+ elsif (raganame == 'maj7+4' or raganame == 'maj7-5' or raganame == 'ma7k4') 
   puts ma7k4 
- elsif (raganame == 'min7-5' or raganame == 'mi6') 
+ elsif (raganame == 'min7-5' or raganame == 'mi7b5' or raganame == 'mi6') 
   puts mi6 
- elsif (raganame == 'dom7' or raganame == '7') 
+ elsif (raganame == 'dom7' or raganame == 'v7' or raganame == '7') 
   puts dom7 
- elsif (raganame == '13+9' or raganame == '-2+4') 
+ elsif (raganame == '13+9' or raganame == '-2+4' or raganame == 'j2k4') 
   puts r5j2k4 
- elsif (raganame == 'dom7-5' or raganame == '7-5') 
+ elsif (raganame == 'dom7-5' or raganame == '7-5' or raganame == '7j5') 
   puts dom7j5 
- elsif (raganame == 'dim6' or raganame == 'o6') 
+ elsif (raganame == 'dim6' or raganame == 'O' or raganame == 'o6') 
   puts o6 
- elsif (raganame == 'maj-2' or raganame == 'dim+7') 
+ elsif (raganame == 'maj-2' or raganame == 'dim+7' or raganame == 'ok7') 
   puts ok7 
- elsif (raganame == 'min+4' or raganame == '6+9') 
+ elsif (raganame == 'min+4' or raganame == '6+9' or raganame == 'mik4') 
   puts mik4 
- elsif (raganame == 'min+7' or raganame == 'mi+7') 
+ elsif (raganame == 'min+7' or raganame == 'mi+7' or raganame == 'mik7') 
   puts mik7 
- elsif (raganame == 'dom7+5' or raganame == '7+5') 
+ elsif (raganame == 'dom7+5' or raganame == '7+5' or raganame == '7k5') 
   puts dom7k5 
- elsif (raganame == 'maj7+5' or raganame == 'maj-6') 
+ elsif (raganame == 'maj7+5' or raganame == 'maj-6' or raganame == 'ma7k5') 
   puts ma7k5 
- elsif (raganame == 'exit' or raganame == 'quit')
+ elsif (raganame == 'exit' or raganame == 'quit' or raganame == 'fin')
   x_reply = true 
- elsif (raganame == 'help' or raganame == '-h')
+ elsif (raganame == 'help' or raganame == '-h' or raganame == '')
   puts help
   end
  end 
