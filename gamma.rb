@@ -395,7 +395,700 @@ flat_25 = [
 {:tone => ' an4 ', :function => neptune, :invert => sun },
 {:tone => ' bn4 ', :function => ceres, :invert => saturn },
 {:tone => ' cn5 ', :function => mars, :invert => venus },
-{:tone => ' dj5 ', :function => mercury, :invert => pallas } ]  
+{:tone => ' dj5 ', :function => mercury, :invert => pallas } ] 
+
+sankarabharanam = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'} ]
+
+kharaharapriya = [
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'} ]
+
+hanumatodi = [
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'}, 
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'} ] 
+
+mechakalyani = [  
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'}, 
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'} ]
+
+harikambhoji = [
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'}, 
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'} ] 
+
+natabhairavi = [
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'}, 
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'} ]
+ 
+ # sharp_6 
+naganandini = [ 
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'leo', :function => 'venus', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'venus'},
+{:tone => 'taurus', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'vesta', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'vesta'} ] 
+
+bhavapriya = [
+{:tone => 'leo', :function => 'venus', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'venus'},
+{:tone => 'taurus', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'vesta', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'vesta'}, 
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'sun'} ] 
+
+vagadheeswari = [ 
+{:tone => 'taurus', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'vesta', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'vesta'}, 
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'leo', :function => 'venus', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'venus'} ]
+
+ # flat_5 
+jhankaradhwani = [
+{:tone => 'pisces', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'venus'},
+{:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'moon', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'vesta', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mars', :invert => 'vesta'} ]
+
+ratnangi = [
+{:tone => 'leo', :function => 'moon', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'vesta', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mars', :invert => 'vesta'},
+{:tone => 'pisces', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'venus'},
+{:tone => 'libra', :function => 'sun', :invert => 'jupiter'} ]
+
+gamanasrama = [
+{:tone => 'cancer', :function => 'vesta', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mars', :invert => 'vesta'},
+{:tone => 'pisces', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'venus'},
+{:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'moon', :invert => 'mercury'} ] 
+
+ # sharp_126_flat_5 
+pavani = [
+{:tone => 'leo', :function => 'vesta', :invert => 'mars'},
+{:tone => 'cancer', :function => 'mars', :invert => 'vesta'},
+{:tone => 'gemini', :function => 'mercury', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'venus', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'saturn', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'virgo', :function => 'moon', :invert => 'mercury'} ] 
+ 
+ # flat_3 
+gourimanohari = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'}, 
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'}, 
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'}, 
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'} ]
+
+natakapriya = [
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'}, 
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'}, 
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'} ] 
+
+vachaspati = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'}, 
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'} ] 
+
+charukesi = [
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'}, 
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'} ] 
+
+ # flat_5_sharp_6
+jalarnavam = [
+{:tone => 'leo', :function => 'moon', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'chiron', :invert => 'venus'},
+{:tone => 'gemini', :function => 'mars', :invert => 'juno'},
+{:tone => 'aquarius', :function => 'juno', :invert => 'mars'}, 
+{:tone => 'capricorn', :function => 'venus', :invert => 'chiron'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'moon'},
+{:tone => 'libra', :function => 'sun', :invert => 'sun'} ] 
+
+ # flat_25_sharp_6 
+salagam = [
+{:tone => 'leo', :function => 'juno', :invert => 'mars'},
+{:tone => 'cancer', :function => 'venus', :invert => 'chiron'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'moon', :invert => 'saturn'}, 
+{:tone => 'capricorn', :function => 'chiron', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'juno'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'jupiter'} ]
+
+ # sharp_26_flat_5
+jhalavarali = [
+{:tone => 'leo', :function => 'juno', :invert => 'mars'},
+{:tone => 'cancer', :function => 'venus', :invert => 'chiron'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'moon', :invert => 'saturn'}, 
+{:tone => 'capricorn', :function => 'chiron', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'juno'},
+{:tone => 'virgo', :function => 'jupiter', :invert => 'mercury'} ]
+
+ # flat_6 
+sarasangi = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'taurus', :function => 'sun', :invert => 'mercury'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'} ] 
+
+dharmavati = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'taurus', :function => 'sun', :invert => 'mercury'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'} ] 
+
+chakravakam = [
+{:tone => 'taurus', :function => 'sun', :invert => 'mercury'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'} ] 
+
+ # sharp_5 
+keeravani = [
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'} ] 
+
+hemavati = [
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'} ] 
+
+vakulabharanam = [
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'} ] 
+
+kosalam = [
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'} ] 
+
+ # sharp_1_flat_6 
+ramapriya = [
+{:tone => 'taurus', :function => 'titan', :invert => 'moon'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'venus', :invert => 'uranus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'} ] 
+
+ # sharp_16 
+shadvidhamargini = [
+{:tone => 'leo', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'uranus', :invert => 'venus'},
+{:tone => 'taurus', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'moon', :invert => 'titan'},
+{:tone => 'scorpio', :function => 'mars', :invert => 'neptune'},
+{:tone => 'libra', :function => 'mercury', :invert => 'sun'} ] 
+
+nasikabhusani = [
+{:tone => 'taurus', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'moon', :invert => 'titan'},
+{:tone => 'scorpio', :function => 'mars', :invert => 'neptune'},
+{:tone => 'libra', :function => 'mercury', :invert => 'sun'},
+{:tone => 'leo', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'uranus', :invert => 'venus'} ]
+
+ # sharp_56 
+namanarayani = [
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aquarius', :function => 'titan', :invert => 'moon'},
+{:tone => 'capricor', :function => 'mars', :invert => 'neptune'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'} ] 
+
+ # flat_56 
+suvarnangi = [
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'gemini', :function => 'moon', :invert => 'titan'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'} ] 
+
+ # sharp_127 
+jyotiswarupini = [
+{:tone => 'pisces', :function => 'venus', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'sun', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'neptune', :invert => 'mars'},
+{:tone => 'virgo', :function => 'titan', :invert => 'moon'},
+{:tone => 'leo', :function => 'mars', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'mercury', :invert => 'sun'},
+{:tone => 'taurus', :function => 'jupiter', :invert => 'saturn'} ] 
+
+ # sharp_127_flat_5 
+sucharitra = [
+{:tone => 'pisces', :function => 'neptune', :invert => 'mars'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'neptune'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'sun'},
+{:tone => 'virgo', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'pallas', :invert => 'venus'},
+{:tone => 'cancer', :function => 'venus', :invert => 'pallas'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'jupiter'} ] 
+
+ # flat_34_sharp_5 
+navaneetam = [
+{:tone => 'libra', :function => 'titan', :invert => 'moon'},
+{:tone => 'virgo', :function => 'mars', :invert => 'neptune'},
+{:tone => 'leo', :function => 'mercury', :invert => 'sun'},
+{:tone => 'aries', :function => 'venus', :invert => 'uranus'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'mercury'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'mars'} ]
+
+ # flat_2
+suryakantam = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ] 
+
+senavati = [
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'} ] 
+
+latangi = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'} ] 
+
+ # sharp_2 
+dhenuka = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
+
+chitrambhari = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ] 
+
+shanmukhapriya = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'} ]
+
+sulini = [
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'} ] 
+
+ # sharp_25 
+mayamalavagowla = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
+
+rasikapriya = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ]
+
+simhendramadhyamam = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'} ] 
+
+ # flat_23 
+kokilapriya = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'}, 
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'moon'}, 
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'}, 
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ]
+
+rishabhapriya = [ 
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'}, 
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'moon'} ] 
+
+ # flat_23_sharp_6 
+rupavati = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'}, 
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
+{:tone => 'virgo', :function => 'uranus', :invert => 'moon'}, 
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'}, 
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ] 
+
+ # sharp_2_flat_56 
+divyamani = [ 
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'}, 
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'}, 
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'}, 
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'}, 
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ] 
+ 
+ # flat_2_sharp_56 
+dhavalambari = [ 
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'aries', :function => 'neptune', :invert => 'venus'},
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'}, 
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'} ] 
+
+ # flat_2_sharp_6 
+hatakambari = [ 
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'}, 
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'}, 
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'}, 
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'}, 
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'}, 
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ] 
+
+gavambodhi = [
+{:tone => 'leo', :function => 'venus', :invert => 'neptune' }, 
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun' }, 
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn' }, 
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter' },
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto' },
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury' }, 
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars' } ] 
+
+ # sharp_2_flat_5 
+ganamurti = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
+
+viswambhari = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ] 
+
+syamalangi = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'}, 
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'} ] 
+
+ # sharp_12_flat_5 
+manavati = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'moon', :invert => 'uranus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
+
+kantamani = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'moon', :invert => 'uranus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'} ] 
+
+ # flat_34_sharp_6  
+yagapriya = [
+{:tone => 'taurus', :function => 'neptune', :invert => 'venus'},
+{:tone => 'aquarius', :function => 'mars', :invert => 'pluto'},
+{:tone => 'capricorn', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'sagittarius', :function => 'pluto', :invert => 'mars'},
+{:tone => 'libra', :function => 'pallas', :invert => 'moon'},
+{:tone => 'virgo', :function => 'venus', :invert => 'neptune'}, 
+{:tone => 'leo', :function => 'saturn', :invert => 'sun'} ] 
+
+ # flat_34_sharp_16 
+sucharitra = [
+{:tone => 'taurus', :function => 'venus', :invert => 'neptune'},
+{:tone => 'aquarius', :function => 'sun', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'neptune', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'mars', :invert => 'pluto'},
+{:tone => 'virgo', :function => 'mercury', :invert => 'mercury'}, 
+{:tone => 'leo', :function => 'pluto', :invert => 'mars'} ] 
+
+ # x_1_sharp_2_flat_5 
+tanarupi = [ 
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'libra', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
+
+ # x_1_sharp_26_flat_5 
+raghupriya = [
+{:tone => 'leo', :function => 'pluto', :invert => 'mars'},
+{:tone => 'cancer', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'gemini', :function => 'uranus', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'sun', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'neptune', :invert => 'venus'},
+{:tone => 'libra', :function => 'mars', :invert => 'pluto'},
+{:tone => 'virgo', :function => 'mercury', :invert => 'mercury'} ] 
+
+ # flat_3_sharp_6 
+varunapriya = [ 
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'chiron'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'neptune'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'sun'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'saturn'},
+{:tone => 'taurus', :function => 'sun', :invert => 'uranus'},
+{:tone => 'aquarius', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'mars'} ] 
+
+ragavardhini = [
+{:tone => 'taurus', :function => 'sun', :invert => 'uranus'},
+{:tone => 'aquarius', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'mars'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'chiron'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'neptune'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'sun'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'saturn'} ] 
+
+ # sharp_1_flat_5 
+mararanjani = [
+{:tone => 'pisces', :function => 'uranus', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'saturn', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'sun', :invert => 'uranus'},
+{:tone => 'libra', :function => 'neptune', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'mars', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mercury', :invert => 'chiron'} ]
+
+vanaspati = [
+{:tone => 'leo', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'mars', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mercury', :invert => 'chiron'},
+{:tone => 'pisces', :function => 'uranus', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'saturn', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'sun', :invert => 'uranus'},
+{:tone => 'libra', :function => 'neptune', :invert => 'jupiter'} ] 
+
+ # sharp_2_flat_6 
+gangeyabhusani = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'leo', :function => 'venus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aries', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'} ] 
+
+neetimati = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aries', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'leo', :function => 'venus', :invert => 'mars'} ] 
+
+ # flat_2_sharp_5
+gayakapriya = [ 
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'aries', :function => 'sun', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'} ] 
+
+dhatuvardhini = [
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'aries', :function => 'sun', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'} ] 
+
+ # sharp_26 
+chalanata = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'leo', :function => 'venus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aquarius', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'} ] 
+
+subhapantuvarali = [
+{:tone => 'leo', :function => 'venus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aquarius', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'} ] 
+
+ # flat_25 
+kanakangi = [ 
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'} ] 
+
+kamavardhini = [
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'} ]  
 
 index = [
 ' Sankarabharanam, Kharaharapriya, Hanumatodi', # natural
@@ -452,230 +1145,376 @@ while (not x_reply)
 puts
 puts ' Enter Raga name:'
  raganame = gets.chomp 
- if (raganame == 'index' or raganame == 'list')
+ if (raganame == 'index' or raganame == 'list' or raganame == 'toc')
   puts index 
  elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam') 
   puts ' shadja cn5'  
-  puts natural
+  puts natural 
+  puts 
+  puts sankarabharanam # natural 
  elsif (raganame == 'Kharaharapriya' or raganame == 'kharaharapriya') 
   puts ' shadja dn5' 
   puts natural 
+  puts 
+  puts kharaharapriya 
  elsif (raganame == 'Hanumatodi' or raganame == 'hanumatodi') 
   puts ' shadja en5'
   puts natural 
+  puts 
+  puts hanumatodi 
  elsif (raganame == 'Mechakalyani' or raganame == 'mechakalyani') 
   puts ' shadja fn5' 
-  puts natural
+  puts natural 
+  puts 
+  puts mechakalyani 
  elsif (raganame == 'Harikambhoji' or raganame == 'harikambhoji') 
   puts ' shadja gn5'
-  puts natural
+  puts natural 
+  puts 
+  puts harikambhoji 
  elsif (raganame == 'Natabhairavi' or raganame == 'natabhairavi') 
   puts ' shadja an5' 
-  puts natural
+  puts natural 
+  puts 
+  puts natabhairavi 
  elsif (raganame == 'Naganandini' or raganame == 'naganandini') 
   puts ' shadja cn5' 
-  puts sharp_6
+  puts sharp_6 
+  puts 
+  puts naganandini # sharp_6 
  elsif (raganame == 'Bhavapriya' or raganame == 'bhavapriya') 
   puts ' shadja en5'
   puts sharp_6 
+  puts 
+  puts bhavapriya 
  elsif (raganame == 'Vagadheeswari' or raganame == 'vagadheeswari') 
   puts ' shadja gn5' 
   puts sharp_6 
+  puts 
+  puts vagadheeswari 
  elsif (raganame == 'Jhankaradhwani' or raganame == 'jhankaradhwani') 
   puts ' shadja an4' 
-  puts flat_5
+  puts flat_5 
+  puts 
+  puts jhankaradhwani # flat_5 
  elsif (raganame == 'Ratnangi' or raganame == 'ratnangi') 
   puts ' shadja en5'
   puts flat_5 
+  puts 
+  puts ratnangi 
  elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
   puts ' shadja fn5' 
-  puts flat_5
+  puts flat_5 
+  puts 
+  puts gamanasrama 
  elsif (raganame == 'Pavani' or raganame == 'pavani') 
   puts ' shadja en4' 
   puts sharp_126_flat_5 
+  puts 
+  puts pavani # sharp_126_flat_5 
  elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
   puts ' shadja cn5'
-  puts flat_3
+  puts flat_3 
+  puts 
+  puts gourimanohari # flat_3 
  elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
   puts ' shadja dn5' 
   puts flat_3 
+  puts 
+  puts natakapriya 
  elsif (raganame == 'Vachaspati' or raganame == 'vachaspati') 
   puts ' shadja fn5'
   puts flat_3 
+  puts 
+  puts vachaspati   
  elsif (raganame == 'Charukesi' or raganame == 'charukesi') 
   puts ' shadja gn5'
   puts flat_3 
+  puts 
+  puts charukesi 
  elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam') 
   puts ' shadja en4'
   puts flat_5_sharp_6 
+  puts 
+  puts jalarnavam # flat_5_sharp_6 
  elsif (raganame == 'Salagam' or raganame == 'salagam') 
   puts ' shadja en4' 
   puts flat_25_sharp_6 
+  puts 
+  puts salagam # flat_25_sharp_6 
  elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali') 
   puts ' shadja en4' 
   puts sharp_26_flat_5 
+  puts 
+  puts jhalavarali # sharp_26_flat_5 
  elsif (raganame == 'Sarasangi' or raganame == 'sarasangi') 
   puts ' shadja cn5' 
   puts flat_6 
+  puts 
+  puts sarasangi # flat_6 
  elsif (raganame == 'Dharmavati' or raganame == 'dharmavati') 
   puts ' shadja fn5' 
   puts flat_6 
+  puts 
+  puts dharmavati 
  elsif (raganame == 'Chakravakam' or raganame == 'chakravakam') 
   puts ' shadja gn5'
   puts flat_6 
+  puts 
+  puts chakravakam 
  elsif (raganame == 'Keeravani' or raganame == 'keeravani') 
   puts ' shadja an4' 
   puts sharp_5 
+  puts 
+  puts keeravani # sharp_5 
  elsif (raganame == 'Hemavati' or raganame == 'hemavati') 
   puts ' shadja dn5' 
   puts sharp_5 
+  puts 
+  puts hemavati   
  elsif (raganame == 'Vakulabharanam' or raganame == 'vakulabharanam') 
   puts ' shadja en5'
   puts sharp_5 
+  puts 
+  puts vakulabharanam 
  elsif (raganame == 'Kosalam' or raganame == 'kosalam') 
   puts ' shadja fn5' 
   puts sharp_5 
+  puts 
+  puts kosalam 
  elsif (raganame == 'Ramapriya' or raganame == 'ramapriya') 
   puts ' shadja gn4'
   puts sharp_1_flat_6 
+  puts 
+  puts ramapriya # sharp_1_flat_6 
  elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini') 
   puts ' shadja en4' 
   puts sharp_16 
+  puts 
+  puts shadvidhamargini # sharp_16 
  elsif (raganame == 'Nasikabhusani' or raganame == 'nasikabhusani') 
   puts ' shadja gn4'
   puts sharp_16 
+  puts 
+  puts nasikabhusani 
  elsif (raganame == 'Namanarayani' or raganame == 'namanarayani') 
   puts ' shadja en4' 
   puts sharp_56 
+  puts 
+  puts namanarayani # sharp_56 
  elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi') 
   puts ' shadja fn4' 
   puts flat_56 
+  puts 
+  puts puts suvarnangi # flat_56 
  elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini') 
   puts ' shadja an4' 
   puts sharp_127 
+  puts 
+  puts jyotiswarupini # sharp_127 
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
   puts ' shadja an4' 
   puts sharp_127_flat_5 
+  puts 
+  puts sucharitra # sharp_127_flat_5 
  elsif (raganame == 'Navaneetam' or raganame == 'navaneetam') 
   puts ' shadja dn5'
-  puts flat_34_sharp_5 
+  puts flat_34_sharp_5
+  puts 
+  puts navaneetam # flat_34_sharp_5   
  elsif (raganame == 'Suryakantam' or raganame == 'suryakantam') 
   puts ' shadja cn5' 
   puts flat_2 
+  puts 
+  puts suryakantam # flat_2 
  elsif (raganame == 'Senavati' or raganame == 'senavati') 
   puts ' shadja en5' 
   puts flat_2 
+  puts 
+  puts senavati 
  elsif (raganame == 'Latangi' or raganame == 'latangi') 
   puts ' shadja fn5' 
   puts flat_2 
+  puts 
+  puts latangi 
  elsif (raganame == 'Dhenuka' or raganame == 'dhenuka') 
   puts ' shadja en4' 
   puts sharp_2 
+  puts 
+  puts dhenuka # sharp_2 
  elsif (raganame == 'Chitrambhari' or raganame == 'chitrambhari') 
   puts ' shadja fn4' 
   puts sharp_2 
+  puts 
+  puts chitrambhari   
  elsif (raganame == 'Shanmukhapriya' or raganame == 'shanmukhapriya') 
   puts ' shadja an4' 
   puts sharp_2 
+  puts 
+  puts shanmukhapriya 
  elsif (raganame == 'Sulini' or raganame == 'sulini') 
   puts ' shadja cn5' 
   puts sharp_2 
+  puts 
+  puts sulini 
  elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla') 
   puts ' shadja en4'
   puts sharp_25 
+  puts 
+  puts mayamalavagowla # sharp_25 
  elsif (raganame == 'Rasikapriya' or raganame == 'rasikapriya') 
   puts ' shadja fn4'
   puts sharp_25 
+  puts 
+  puts rasikapriya 
  elsif (raganame == 'Simhendramadhyamam' or raganame == 'simhendramadhyamam') 
   puts ' shadja an4'
   puts sharp_25 
+  puts 
+  puts simhendramadhyamam   
  elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya') 
   puts ' shadja cn5'
   puts flat_23 
+  puts 
+  puts kokilapriya # flat_23 
  elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya')
   puts ' shadja fn5'
   puts flat_23 
+  puts 
+  puts rishabhapriya 
  elsif (raganame == 'Rupavati' or raganame == 'rupavati') 
   puts ' shadja cn5' 
   puts flat_23_sharp_6 
+  puts 
+  puts rupavati # flat_23_sharp_6 
  elsif (raganame == 'Divyamani' or raganame == 'divyamani') 
   puts ' shadja fn4' 
   puts sharp_2_flat_56 
+  puts 
+  puts divyamani # sharp_2_flat_56 
  elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari')
   puts ' shadja en4' 
   puts flat_2_sharp_56 
+  puts 
+  puts dhavalambari # flat_2_sharp_56 
  elsif (raganame == 'Hatakambari' or raganame == 'hatakambari') 
   puts ' shadja cn5' 
   puts flat_2_sharp_6 
+  puts 
+  puts hatakambari # flat_2_sharp_6 
  elsif (raganame == 'Gavambodhi' or raganame == 'gavambodhi') 
   puts ' shadja en5' 
   puts flat_2_sharp_6 
+  puts 
+  puts gavambodhi 
  elsif (raganame == 'Ganamurti' or raganame == 'ganamurti') 
   puts ' shadja en4' 
   puts sharp_2_flat_5 
+  puts 
+  puts ganamurti # sharp_2_flat_5 
  elsif (raganame == 'Viswambhari' or raganame == 'viswambhari') 
   puts ' shadja fn4' 
   puts sharp_2_flat_5 
+  puts 
+  puts viswambhari 
  elsif (raganame == 'Syamalangi' or raganame == 'syamalangi')
   puts ' shadja an4' 
   puts sharp_2_flat_5 
+  puts 
+  puts syamalangi 
  elsif (raganame == 'Manavati' or raganame == 'manavati') 
   puts ' shadja en4' 
   puts sharp_12_flat_5 
+  puts 
+  puts manavati # sharp_12_flat_5 
  elsif (raganame == 'Kantamani' or raganame == 'kantamani') 
   puts ' shadja an4' 
   puts sharp_12_flat_5 
+  puts 
+  puts kantamani 
  elsif (raganame == 'Yagapriya' or raganame == 'yagapriya') 
   puts ' shadja gn4' 
   puts flat_34_sharp_6 
+  puts 
+  puts yagapriya # flat_34_sharp_6 
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
   puts ' shadja an4' 
   puts flat_34_sharp_1_6 
+  puts 
+  puts sucharitra # flat_34_sharp_1_6 
  elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
   puts ' shadja en4'
   puts x_1_sharp_2_flat_5 
+  puts 
+  puts tanarupi # x_1_sharp_2_flat_5 
  elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
   puts ' shadja en4'
   puts x_1_sharp_26_flat_5 
+  puts 
+  puts raghupriya # x_1_sharp_26_flat_5 
  elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
   puts ' shadja cn5'
   puts flat_3_sharp_6 
+  puts 
+  puts varunapriya # flat_3_sharp_6 
  elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
   puts ' shadja gn5'
   puts flat_3_sharp_6 
+  puts 
+  puts ragavardhini 
  elsif (raganame == 'Mararanjani' or raganame == 'mararanjani') 
   puts ' shadja an4' 
   puts sharp_1_flat_5 
+  puts 
+  puts mararanjani # sharp_1_flat_5 
  elsif (raganame == 'Vanaspati' or raganame == 'vanaspati') 
   puts ' shadja en5' 
   puts sharp_1_flat_5 
+  puts 
+  puts vanaspati 
  elsif (raganame == 'Gangeyabhusani' or raganame == 'gangeyabhusani') 
   puts ' shadja cn5'
   puts sharp_2_flat_6 
+  puts 
+  puts gangeyabhusani # sharp_2_flat_6 
  elsif (raganame == 'Neetimati' or raganame == 'neetimati') 
   puts ' shadja fn5'
   puts sharp_2_flat_6 
+  puts 
+  puts neetimati 
  elsif (raganame == 'Gayakapriya' or raganame == 'gayakapriya') 
   puts ' shadja en4' 
   puts flat_2_sharp_5 
+  puts 
+  puts gayakapriya # flat_2_sharp_5 
  elsif (raganame == 'Dhatuvardhini' or raganame == 'dhatuvardhini') 
   puts ' shadja fn4' 
   puts flat_2_sharp_5 
+  puts 
+  puts dhatuvardhini 
  elsif (raganame == 'Chalanata' or raganame == 'chalanata') 
   puts ' shadja cn5' 
   puts sharp_26 
+  puts 
+  puts chalanata # sharp_26 
  elsif (raganame == 'Subhapantuvarali' or raganame == 'subhapantuvarali') 
   puts ' shadja en5' 
   puts sharp_26 
+  puts 
+  puts subhapantuvarali 
  elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
   puts ' shadja en4' 
   puts flat_25 
+  puts 
+  puts kanakangi # flat_25 
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
   puts ' shadja fn4'
-  puts flat_25
- elsif (raganame == 'exit' or raganame == 'quit')
+  puts flat_25 
+  puts 
+  puts kamavardhini 
+ elsif (raganame == 'exit' or raganame == 'quit' or raganame == 'fin')
   x_reply = true 
- elsif (raganame == 'help' or raganame == '-h')
+ elsif (raganame == 'help' or raganame == '-h' or raganame == '')
   puts help
   end
  end 
