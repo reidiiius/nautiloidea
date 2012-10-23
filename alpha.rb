@@ -896,7 +896,7 @@ puts ' rasikapriya'
 puts melakarta[72] 
  elsif (select_madhyama == 'index' or select_madhyama == 'list')
   puts index
- elsif (select_madhyama == 'help' or select_madhyama == '-h')
+ elsif (select_madhyama == 'help' or select_madhyama == '-h' or select_madhyama == '')
   puts help  
  elsif (select_madhyama == 'exit' or select_madhyama == 'quit')
   x_status = true
