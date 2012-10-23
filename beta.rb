@@ -852,10 +852,12 @@ elsif (select_ragam == 'k56' or select_ragam == 'j56')
  puts namanarayani 
  puts ' Suvarnangi '  # flat_56
  puts suvarnangi 
-elsif (select_ragam == 'k127' or select_ragam == 'k127j5') 
+elsif (select_ragam == 'k127' or select_ragam == 'j234') 
  puts 
  puts ' Jyotiswarupini '  # sharp_127 
  puts jyotiswarupini 
+elsif (select_ragam == 'k127j5' or select_ragam == 'j234k6') 
+ puts
  puts ' Sucharitra '  # sharp_127_flat_5
  puts sucharitra 
 elsif (select_ragam == 'j34k5' or select_ragam == 'k5j34') 
@@ -924,10 +926,12 @@ elsif (select_ragam == 'j34k6' or select_ragam == 'j34k16')
  puts yagapriya  
  puts ' Sucharitra ' # flat_34_sharp_16
  puts sucharitra 
-elsif (select_ragam == 'x1k2j5' or select_ragam == 'x1k26j5') 
+elsif (select_ragam == 'x1k2j5' or select_ragam == 'x1k2j5') 
  puts  
  puts ' Tanarupi '  # x1_sharp_2_flat_5
- puts tanarupi  
+ puts tanarupi 
+elsif (select_ragam == 'x1k26j5' or select_ragam == 'x1k26j5') 
+ puts
  puts ' Raghupriya '  # x1_sharp_26_flat_5
  puts raghupriya  
 elsif (select_ragam == 'j3k6' or select_ragam == 'k1j5') 
