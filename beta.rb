@@ -926,9 +926,9 @@ elsif (select_ragam == 'j34k6' or select_ragam == 'j34k16')
  puts sucharitra 
 elsif (select_ragam == 'x1k2j5' or select_ragam == 'x1k26j5') 
  puts  
- puts ' Tanarupi '  # x_1_sharp_2_flat_5
+ puts ' Tanarupi '  # x1_sharp_2_flat_5
  puts tanarupi  
- puts ' Raghupriya '  # x_1_sharp_26_flat_5
+ puts ' Raghupriya '  # x1_sharp_26_flat_5
  puts raghupriya  
 elsif (select_ragam == 'j3k6' or select_ragam == 'k1j5') 
  puts 
@@ -962,7 +962,7 @@ elsif (select_ragam =='k26' or select_ragam == 'j25')
  puts kamavardhini 
 elsif (select_ragam == 'index' or select_ragam == 'list')
  puts index
-elsif (select_ragam == 'help' or select_ragam == '-h' or select_ragam == '')
+elsif (select_ragam == 'help' or select_ragam == '')
  puts help  
 elsif (select_ragam == 'exit' or select_ragam == 'quit')
  x_status = true
