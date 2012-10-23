@@ -79,7 +79,7 @@ sharp_6 = [
 {:tone => ' en5 ', :function => venus, :invert => saturn },
 {:tone => ' fn5 ', :function => saturn, :invert => venus},
 {:tone => ' gn5 ', :function => sun, :invert => jupiter },
-{:tone => ' as5 ', :function => vesta, :invert => mars },
+{:tone => ' ak5 ', :function => vesta, :invert => mars },
 {:tone => ' bn5 ', :function => mars, :invert => vesta } ] 
 
 flat_5 = [
@@ -95,9 +95,9 @@ sharp_126_flat_5 = [
 {:tone => ' en4 ', :function => vesta, :invert => mars },
 {:tone => ' fn4 ', :function => mars, :invert => vesta },
 {:tone => ' gj4 ', :function => mercury, :invert => moon },
-{:tone => ' as4 ', :function => venus, :invert => saturn },
+{:tone => ' ak4 ', :function => venus, :invert => saturn },
 {:tone => ' bn4 ', :function => saturn, :invert => venus },
-{:tone => ' cs5 ', :function => sun, :invert => jupiter },
+{:tone => ' ck5 ', :function => sun, :invert => jupiter },
 {:tone => ' ds5 ', :function => moon, :invert => mercury } ] 
 
 flat_3 = [
@@ -113,7 +113,7 @@ flat_5_sharp_6 = [
 {:tone => ' en4 ', :function => moon, :invert => saturn },
 {:tone => ' fn4 ', :function => chiron, :invert => venus },
 {:tone => ' gj4 ', :function => mars, :invert => juno },
-{:tone => ' as4 ', :function => juno, :invert => mars }, 
+{:tone => ' ak4 ', :function => juno, :invert => mars }, 
 {:tone => ' bn4 ', :function => venus, :invert => chiron },
 {:tone => ' cn5 ', :function => saturn, :invert => moon },
 {:tone => ' dn5 ', :function => sun, :invert => sun } ] 
@@ -122,7 +122,7 @@ flat_25_sharp_6 = [
 {:tone => ' en4 ', :function => juno, :invert => mars },
 {:tone => ' fn4 ', :function => venus, :invert => chiron },
 {:tone => ' gj4 ', :function => saturn, :invert => moon },
-{:tone => ' as4 ', :function => moon, :invert => saturn }, 
+{:tone => ' ak4 ', :function => moon, :invert => saturn }, 
 {:tone => ' bn4 ', :function => chiron, :invert => venus },
 {:tone => ' cn5 ', :function => mars, :invert => juno },
 {:tone => ' dj5 ', :function => mercury, :invert => jupiter } ] 
@@ -131,10 +131,10 @@ sharp_26_flat_5 = [
 {:tone => ' en4 ', :function => juno, :invert => mars },
 {:tone => ' fn4 ', :function => venus, :invert => chiron },
 {:tone => ' gj4 ', :function => saturn, :invert => moon },
-{:tone => ' as4 ', :function => moon, :invert => saturn }, 
+{:tone => ' ak4 ', :function => moon, :invert => saturn }, 
 {:tone => ' bn4 ', :function => chiron, :invert => venus },
 {:tone => ' cn5 ', :function => mars, :invert => juno },
-{:tone => ' ds5 ', :function => jupiter, :invert => mercury } ] 
+{:tone => ' dk5 ', :function => jupiter, :invert => mercury } ] 
 
 flat_6 = [
 {:tone => ' cn5 ', :function => mercury, :invert => sun },
@@ -152,13 +152,13 @@ sharp_5 = [
 {:tone => ' dn5 ', :function => saturn, :invert => jupiter },
 {:tone => ' en5 ', :function => sun, :invert => mercury },
 {:tone => ' fn5 ', :function => neptune, :invert => mars },
-{:tone => ' gs5 ', :function => mars, :invert => neptune } ] 
+{:tone => ' gk5 ', :function => mars, :invert => neptune } ] 
 
 sharp_1_flat_6 = [
 {:tone => ' gn4 ', :function => titan, :invert => moon },
 {:tone => ' aj4 ', :function => mars, :invert => neptune },
 {:tone => ' bn4 ', :function => jupiter, :invert => saturn },
-{:tone => ' cs5 ', :function => venus, :invert => uranus },
+{:tone => ' ck5 ', :function => venus, :invert => uranus },
 {:tone => ' dn5 ', :function => saturn, :invert => jupiter },
 {:tone => ' en5 ', :function => sun, :invert => mercury },
 {:tone => ' fn5 ', :function => neptune, :invert => mars } ] 
@@ -167,16 +167,16 @@ sharp_16 = [
 {:tone => ' en4 ', :function => jupiter, :invert => saturn },
 {:tone => ' fn4 ', :function => uranus, :invert => venus },
 {:tone => ' gn4 ', :function => saturn, :invert => jupiter },
-{:tone => ' as4 ', :function => neptune, :invert => mars },
+{:tone => ' ak4 ', :function => neptune, :invert => mars },
 {:tone => ' bn4 ', :function => moon, :invert => titan },
-{:tone => ' cs5 ', :function => mars, :invert => neptune },
+{:tone => ' ck5 ', :function => mars, :invert => neptune },
 {:tone => ' dn5 ', :function => mercury, :invert => sun } ] 
 
 sharp_56 = [
 {:tone => ' en4 ', :function => venus, :invert => uranus },
 {:tone => ' fn4 ', :function => saturn, :invert => jupiter },
-{:tone => ' gs4 ', :function => neptune, :invert => mars },
-{:tone => ' as4 ', :function => titan, :invert => moon },
+{:tone => ' gk4 ', :function => neptune, :invert => mars },
+{:tone => ' ak4 ', :function => titan, :invert => moon },
 {:tone => ' bn4 ', :function => mars, :invert => neptune },
 {:tone => ' cn5 ', :function => mercury, :invert => sun },
 {:tone => ' dn5 ', :function => jupiter, :invert => saturn } ] 
@@ -192,18 +192,18 @@ flat_56 = [
 
 sharp_127 = [
 {:tone => ' an4 ', :function => venus, :invert => uranus },
-{:tone => ' bs4 ', :function => sun, :invert => mercury },
-{:tone => ' cs5 ', :function => neptune, :invert => mars },
-{:tone => ' ds5 ', :function => titan, :invert => moon },
+{:tone => ' bk4 ', :function => sun, :invert => mercury },
+{:tone => ' ck5 ', :function => neptune, :invert => mars },
+{:tone => ' dk5 ', :function => titan, :invert => moon },
 {:tone => ' en5 ', :function => mars, :invert => neptune },
 {:tone => ' fn5 ', :function => mercury, :invert => sun },
 {:tone => ' gn5 ', :function => jupiter, :invert => saturn } ] 
 
 sharp_127_flat_5 = [
 {:tone => ' an4 ', :function => neptune, :invert => mars },
-{:tone => ' bs4 ', :function => mars, :invert => neptune },
-{:tone => ' cs5 ', :function => mercury, :invert => sun },
-{:tone => ' ds5 ', :function => jupiter, :invert => saturn },
+{:tone => ' bk4 ', :function => mars, :invert => neptune },
+{:tone => ' ck5 ', :function => mercury, :invert => sun },
+{:tone => ' dk5 ', :function => jupiter, :invert => saturn },
 {:tone => ' en5 ', :function => pallas, :invert => venus },
 {:tone => ' fn5 ', :function => venus, :invert => pallas },
 {:tone => ' gj5 ', :function => saturn, :invert => jupiter } ]  
@@ -212,7 +212,7 @@ flat_34_sharp_5 = [
 {:tone => ' dn5 ', :function => titan, :invert => moon },
 {:tone => ' ej5 ', :function => mars, :invert => neptune },
 {:tone => ' fj5 ', :function => mercury, :invert => sun },
-{:tone => ' gs5 ', :function => venus, :invert => uranus },
+{:tone => ' gk5 ', :function => venus, :invert => uranus },
 {:tone => ' an5 ', :function => saturn, :invert => jupiter },
 {:tone => ' bn5 ', :function => sun, :invert => mercury },
 {:tone => ' cn6 ', :function => neptune, :invert => mars } ] 
@@ -233,16 +233,16 @@ sharp_2 = [
 {:tone => ' an4 ', :function => saturn, :invert => sun },
 {:tone => ' bn4 ', :function => sun, :invert => saturn },
 {:tone => ' cn5 ', :function => neptune, :invert => venus }, 
-{:tone => ' ds5 ', :function => mars, :invert => pluto } ] 
+{:tone => ' dk5 ', :function => mars, :invert => pluto } ] 
 
 sharp_25 = [
 {:tone => ' en4 ', :function => mercury, :invert => mercury },
 {:tone => ' fn4 ', :function => pluto, :invert => mars },
-{:tone => ' gs4 ', :function => venus, :invert => neptune },
+{:tone => ' gk4 ', :function => venus, :invert => neptune },
 {:tone => ' an4 ', :function => saturn, :invert => sun },
 {:tone => ' bn4 ', :function => sun, :invert => saturn },
 {:tone => ' cn5 ', :function => neptune, :invert => venus }, 
-{:tone => ' ds5 ', :function => mars, :invert => pluto } ] 
+{:tone => ' dk5 ', :function => mars, :invert => pluto } ] 
 
 flat_23 = [
 {:tone => ' cn5 ', :function => mercury, :invert => mercury }, 
@@ -259,7 +259,7 @@ flat_23_sharp_6 = [
 {:tone => ' ej5 ', :function => uranus, :invert => moon }, 
 {:tone => ' fn5 ', :function => saturn, :invert => sun }, 
 {:tone => ' gn5 ', :function => sun, :invert => saturn }, 
-{:tone => ' as5 ', :function => titan, :invert => jupiter },
+{:tone => ' ak5 ', :function => titan, :invert => jupiter },
 {:tone => ' bn5 ', :function => mars, :invert => pluto } ] 
 
 sharp_2_flat_56 = [ 
@@ -268,14 +268,14 @@ sharp_2_flat_56 = [
 {:tone => ' aj4 ', :function => venus, :invert => neptune }, 
 {:tone => ' bn4 ', :function => sun, :invert => saturn }, 
 {:tone => ' cn5 ', :function => neptune, :invert => venus },
-{:tone => ' ds5 ', :function => mars, :invert => pluto },
+{:tone => ' dk5 ', :function => mars, :invert => pluto },
 {:tone => ' en5 ', :function => mercury, :invert => mercury } ] 
 
 flat_2_sharp_56 = [ 
 {:tone => ' en4 ', :function => venus, :invert => neptune },
 {:tone => ' fn4 ', :function => saturn, :invert => sun },
-{:tone => ' gs4 ', :function => neptune, :invert => venus },
-{:tone => ' as4 ', :function => titan, :invert => jupiter }, 
+{:tone => ' gk4 ', :function => neptune, :invert => venus },
+{:tone => ' ak4 ', :function => titan, :invert => jupiter }, 
 {:tone => ' bn4 ', :function => mars, :invert => pluto },
 {:tone => ' cn5 ', :function => mercury, :invert => mercury },
 {:tone => ' dj5 ', :function => pluto, :invert => mars } ] 
@@ -286,7 +286,7 @@ flat_2_sharp_6 = [
 {:tone => ' en5 ', :function => venus, :invert => neptune }, 
 {:tone => ' fn5 ', :function => saturn, :invert => sun }, 
 {:tone => ' gn5 ', :function => sun, :invert => saturn }, 
-{:tone => ' as5 ', :function => titan, :invert => jupiter },
+{:tone => ' ak5 ', :function => titan, :invert => jupiter },
 {:tone => ' bn5 ', :function => mars, :invert => pluto } ] 
 
 sharp_2_flat_5 = [
@@ -296,7 +296,7 @@ sharp_2_flat_5 = [
 {:tone => ' an4 ', :function => saturn, :invert => sun },
 {:tone => ' bn4 ', :function => sun, :invert => saturn },
 {:tone => ' cn5 ', :function => neptune, :invert => venus }, 
-{:tone => ' ds5 ', :function => mars, :invert => pluto } ] 
+{:tone => ' dk5 ', :function => mars, :invert => pluto } ] 
 
 sharp_12_flat_5 = [
 {:tone => ' en4 ', :function => mercury, :invert => mercury },
@@ -304,12 +304,12 @@ sharp_12_flat_5 = [
 {:tone => ' gj4 ', :function => jupiter, :invert => titan },
 {:tone => ' an4 ', :function => saturn, :invert => sun },
 {:tone => ' bn4 ', :function => sun, :invert => saturn },
-{:tone => ' cs5 ', :function => moon, :invert => uranus },
-{:tone => ' ds5 ', :function => mars, :invert => pluto } ] 
+{:tone => ' ck5 ', :function => moon, :invert => uranus },
+{:tone => ' dk5 ', :function => mars, :invert => pluto } ] 
 
 flat_34_sharp_6 = [
 {:tone => ' gn4 ', :function => neptune, :invert => venus },
-{:tone => ' as4 ', :function => mars, :invert => pluto },
+{:tone => ' ak4 ', :function => mars, :invert => pluto },
 {:tone => ' bn4 ', :function => mercury, :invert => mercury },
 {:tone => ' cn5 ', :function => pluto, :invert => mars },
 {:tone => ' dn5 ', :function => pallas, :invert => moon },
@@ -318,30 +318,30 @@ flat_34_sharp_6 = [
 
 flat_34_sharp_16 = [
 {:tone => ' gn4 ', :function => venus, :invert => neptune },
-{:tone => ' as4 ', :function => sun, :invert => saturn },
+{:tone => ' ak4 ', :function => sun, :invert => saturn },
 {:tone => ' bn4 ', :function => neptune, :invert => venus },
-{:tone => ' cs5 ', :function => titan, :invert => jupiter },
+{:tone => ' ck5 ', :function => titan, :invert => jupiter },
 {:tone => ' dn5 ', :function => mars, :invert => pluto },
 {:tone => ' ej5 ', :function => mercury, :invert => mercury }, 
 {:tone => ' fj5 ', :function => pluto, :invert => mars } ] 
 
-x_1_sharp_2_flat_5 = [ 
+x1_sharp_2_flat_5 = [ 
 {:tone => ' en4 ', :function => mercury, :invert => mercury },
 {:tone => ' fn4 ', :function => pluto, :invert => mars },
 {:tone => ' gj4 ', :function => jupiter, :invert => titan },
 {:tone => ' an4 ', :function => saturn, :invert => sun },
 {:tone => ' bn4 ', :function => sun, :invert => saturn },
 {:tone => ' cx5 ', :function => titan, :invert => jupiter },
-{:tone => ' ds5 ', :function => mars, :invert => pluto } ] 
+{:tone => ' dk5 ', :function => mars, :invert => pluto } ] 
 
-x_1_sharp_26_flat_5 = [
+x1_sharp_26_flat_5 = [
 {:tone => ' en4 ', :function => pluto, :invert => mars },
 {:tone => ' fn4 ', :function => jupiter, :invert => titan },
 {:tone => ' gj4 ', :function => uranus, :invert => moon },
-{:tone => ' as4 ', :function => sun, :invert => saturn },
+{:tone => ' ak4 ', :function => sun, :invert => saturn },
 {:tone => ' bn4 ', :function => neptune, :invert => venus },
 {:tone => ' cx5 ', :function => mars, :invert => pluto },
-{:tone => ' ds5 ', :function => mercury, :invert => mercury } ] 
+{:tone => ' dk5 ', :function => mercury, :invert => mercury } ] 
 
 flat_3_sharp_6 = [ 
 {:tone => ' cn5 ', :function => mercury, :invert => chiron },
@@ -349,13 +349,13 @@ flat_3_sharp_6 = [
 {:tone => ' ej5 ', :function => uranus, :invert => sun },
 {:tone => ' fn5 ', :function => saturn, :invert => saturn },
 {:tone => ' gn5 ', :function => sun, :invert => uranus},
-{:tone => ' as5 ', :function => chiron, :invert => mercury },
+{:tone => ' ak5 ', :function => chiron, :invert => mercury },
 {:tone => ' bn5 ', :function => mars, :invert => mars } ] 
 
 sharp_1_flat_5 = [
 {:tone => ' an4 ', :function => uranus, :invert => sun },
 {:tone => ' bn4 ', :function => saturn, :invert => saturn },
-{:tone => ' cs5 ', :function => sun, :invert => uranus },
+{:tone => ' ck5 ', :function => sun, :invert => uranus },
 {:tone => ' dn5 ', :function => neptune, :invert => jupiter },
 {:tone => ' en5 ', :function => chiron, :invert => mercury },
 {:tone => ' fn5 ', :function => mars, :invert => mars },
@@ -363,7 +363,7 @@ sharp_1_flat_5 = [
 
 sharp_2_flat_6 = [
 {:tone => ' cn5 ', :function => mercury, :invert => pallas },
-{:tone => ' ds5 ', :function => pallas, :invert => mercury },
+{:tone => ' dk5 ', :function => pallas, :invert => mercury },
 {:tone => ' en5 ', :function => venus, :invert => mars },
 {:tone => ' fn5 ', :function => saturn, :invert => ceres },
 {:tone => ' gn5 ', :function => sun, :invert => neptune },
@@ -373,7 +373,7 @@ sharp_2_flat_6 = [
 flat_2_sharp_5 = [ 
 {:tone => ' en4 ', :function => pallas, :invert => mercury },
 {:tone => ' fn4 ', :function => venus, :invert => mars },
-{:tone => ' gs4 ', :function => sun, :invert => neptune },
+{:tone => ' gk4 ', :function => sun, :invert => neptune },
 {:tone => ' an4 ', :function => neptune, :invert => sun },
 {:tone => ' bn4 ', :function => ceres, :invert => saturn },
 {:tone => ' cn5 ', :function => mars, :invert => venus },
@@ -381,11 +381,11 @@ flat_2_sharp_5 = [
 
 sharp_26 = [
 {:tone => ' cn5 ', :function => mercury, :invert => pallas },
-{:tone => ' ds5 ', :function => pallas, :invert => mercury },
+{:tone => ' dk5 ', :function => pallas, :invert => mercury },
 {:tone => ' en5 ', :function => venus, :invert => mars },
 {:tone => ' fn5 ', :function => saturn, :invert => ceres },
 {:tone => ' gn5 ', :function => sun, :invert => neptune },
-{:tone => ' as5 ', :function => ceres, :invert => saturn },
+{:tone => ' ak5 ', :function => ceres, :invert => saturn },
 {:tone => ' bn5 ', :function => mars, :invert => venus } ] 
 
 flat_25 = [ 
@@ -956,7 +956,7 @@ sucharitra = [
 {:tone => 'virgo', :function => 'mercury', :invert => 'mercury'}, 
 {:tone => 'leo', :function => 'pluto', :invert => 'mars'} ] 
 
- # x_1_sharp_2_flat_5 
+ # x1_sharp_2_flat_5 
 tanarupi = [ 
 {:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
 {:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
@@ -966,7 +966,7 @@ tanarupi = [
 {:tone => 'libra', :function => 'titan', :invert => 'jupiter'},
 {:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ] 
 
- # x_1_sharp_26_flat_5 
+ # x1_sharp_26_flat_5 
 raghupriya = [
 {:tone => 'leo', :function => 'pluto', :invert => 'mars'},
 {:tone => 'cancer', :function => 'jupiter', :invert => 'titan'},
@@ -1120,8 +1120,8 @@ index = [
 ' Ganamurti, Viswambhari, Syamalangi', # sharp_12_flat_5
 ' Manavati, Kantamani', # flat_34_sharp_6
 ' Yagapriya', # flat_34_sharp_16
-' Sucharitra', # x_1_sharp_2_flat_5
-' Tanarupi', # x_1_sharp_26_flat_5
+' Sucharitra', # x1_sharp_2_flat_5
+' Tanarupi', # x1_sharp_26_flat_5
 ' Raghupriya', # flat_3_sharp_6
 ' Varunapriya, Ragavardhini', # sharp_1_flat_5
 ' Mararanjani, Vanaspati', # sharp_2_flat_6
@@ -1444,14 +1444,14 @@ puts ' Enter Raga name:'
   puts sucharitra # flat_34_sharp_1_6 
  elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
   puts ' shadja en4'
-  puts x_1_sharp_2_flat_5 
+  puts x1_sharp_2_flat_5 
   puts 
-  puts tanarupi # x_1_sharp_2_flat_5 
+  puts tanarupi # x1_sharp_2_flat_5 
  elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
   puts ' shadja en4'
-  puts x_1_sharp_26_flat_5 
+  puts x1_sharp_26_flat_5 
   puts 
-  puts raghupriya # x_1_sharp_26_flat_5 
+  puts raghupriya # x1_sharp_26_flat_5 
  elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
   puts ' shadja cn5'
   puts flat_3_sharp_6 
