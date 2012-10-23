@@ -417,20 +417,20 @@ def ma7k5
 end 
 
 chord_list = [
-' sus7',
-' min7',
-' maj7',
-' maj7+4',
-' min7-5', 
+' sus',
+' mi7',
+' ma7',
+' ma7k4',
+' mi6', 
 ' dom7',
-' 13+9', 
-' dom7-5',
+' 13k9', 
+' dom7j5',
 ' dim6', 
-' maj-2',
-' min+4', 
-' min+7',
-' dom7+5',
-' maj7+5']
+' dimk7',
+' mik4', 
+' mik7',
+' dom7k5',
+' ma7k5']
 
 index = [
 ' Sankarabharanam, Kharaharapriya, Hanumatodi', # natural
@@ -462,8 +462,8 @@ index = [
 ' Ganamurti, Viswambhari, Syamalangi', # sharp_12_flat_5
 ' Manavati, Kantamani', # flat_34_sharp_6
 ' Yagapriya', # flat_34_sharp_16
-' Sucharitra', # x_1_sharp_2_flat_5
-' Tanarupi', # x_1_sharp_26_flat_5
+' Sucharitra', # x1_sharp_2_flat_5
+' Tanarupi', # x1_sharp_26_flat_5
 ' Raghupriya', # flat_3_sharp_6
 ' Varunapriya, Ragavardhini', # sharp_1_flat_5
 ' Mararanjani, Vanaspati', # sharp_2_flat_6
@@ -487,7 +487,7 @@ puts help
 x_reply = false
 while (not x_reply) 
 puts
-puts ' Enter name:'
+puts ' Enter selection:'
  raganame = gets.chomp 
  if (raganame == 'index' or raganame == 'list')
   puts index 
@@ -639,37 +639,37 @@ puts ' Enter name:'
   puts j25 
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
   puts j25 
- elsif (raganame == 'sus7' or raganame == '7sus' or raganame == 'sus') 
+ elsif (raganame == 'sus' or raganame == '7sus' or raganame == '711') 
   puts sus 
  elsif (raganame == 'min7' or raganame == 'mi7' or raganame == 'M6') 
   puts mi7 
  elsif (raganame == 'maj7' or raganame == 'M7' or raganame == 'ma7') 
   puts ma7 
- elsif (raganame == 'maj7+4' or raganame == 'maj7-5' or raganame == 'ma7k4') 
+ elsif (raganame == 'ma7k4' or raganame == 'ma7j5' or raganame == 'mij6') 
   puts ma7k4 
  elsif (raganame == 'min7-5' or raganame == 'mi7b5' or raganame == 'mi6') 
   puts mi6 
  elsif (raganame == 'dom7' or raganame == 'v7' or raganame == '7') 
   puts dom7 
- elsif (raganame == '13+9' or raganame == '-2+4' or raganame == 'j2k4') 
+ elsif (raganame == '13k9' or raganame == 'r5j2k4' or raganame == 'j2k4') 
   puts r5j2k4 
- elsif (raganame == 'dom7-5' or raganame == '7-5' or raganame == '7j5') 
+ elsif (raganame == 'dom7j5' or raganame == '7j5' or raganame == '7-5') 
   puts dom7j5 
- elsif (raganame == 'dim6' or raganame == 'O' or raganame == 'o6') 
+ elsif (raganame == 'dim6' or raganame == 'dim' or raganame == 'o6') 
   puts o6 
- elsif (raganame == 'maj-2' or raganame == 'dim+7' or raganame == 'ok7') 
+ elsif (raganame == 'ma-2' or raganame == 'dimk7' or raganame == 'ok7') 
   puts ok7 
- elsif (raganame == 'min+4' or raganame == '6+9' or raganame == 'mik4') 
+ elsif (raganame == 'mi+4' or raganame == '6k9' or raganame == 'mik4') 
   puts mik4 
- elsif (raganame == 'min+7' or raganame == 'mi+7' or raganame == 'mik7') 
+ elsif (raganame == 'auj2' or raganame == 'mi+7' or raganame == 'mik7') 
   puts mik7 
- elsif (raganame == 'dom7+5' or raganame == '7+5' or raganame == '7k5') 
+ elsif (raganame == 'dom7k5' or raganame == '7+5' or raganame == '7k5') 
   puts dom7k5 
- elsif (raganame == 'maj7+5' or raganame == 'maj-6' or raganame == 'ma7k5') 
+ elsif (raganame == 'auk2' or raganame == 'auk7' or raganame == 'ma7k5') 
   puts ma7k5 
  elsif (raganame == 'exit' or raganame == 'quit' or raganame == 'fin')
   x_reply = true 
- elsif (raganame == 'help' or raganame == '-h' or raganame == '')
+ elsif (raganame == 'help' or raganame == '?' or raganame == '')
   puts help
   end
  end 
