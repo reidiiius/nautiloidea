@@ -1,4 +1,299 @@
 #!/usr/bin/env ruby 
+
+def sus_midi
+ [21, 26, 28, 31,
+  33, 38, 40, 43,
+  45, 50, 52, 55,
+  57, 62, 64, 67,
+  69, 74, 76, 79,
+  81, 86, 88, 91,
+  93, 98, 100,103,
+  105]  
+end 
+
+def sus_guitar 
+[
+' en6 ___ ___ gn6 ___ an6 ___ ___ ___ ___ dn7 ___ en7 ', 
+' ___ ___ ___ dn6 ___ en6 ___ ___ gn6 ___ an6 ___ ___ ',
+' gn5 ___ an5 ___ ___ ___ ___ dn6 ___ en6 ___ ___ gn6 ',
+' dn5 ___ en5 ___ ___ gn5 ___ an5 ___ ___ ___ ___ dn6 ',
+' an4 ___ ___ ___ ___ dn5 ___ en5 ___ ___ gn5 ___ an5 ',
+' en4 ___ ___ gn4 ___ an4 ___ ___ ___ ___ dn5 ___ en5 '] 
+end
+
+def mi7_midi 
+ [21, 24, 28, 31,
+  33, 36, 40, 43,
+  45, 48, 52, 55,
+  57, 60, 64, 67,
+  69, 72, 76, 79,
+  81, 84, 88, 91,
+  93, 96, 100,103,
+  105,108]
+end 
+
+def mi7_guitar 
+[
+' en6 ___ ___ gn6 ___ an6 ___ ___ cn7 ___ ___ ___ en7 ',
+' ___ cn6 ___ ___ ___ en6 ___ ___ gn6 ___ an6 ___ ___ ',
+' gn5 ___ an5 ___ ___ cn6 ___ ___ ___ en6 ___ ___ gn6 ', 
+' ___ ___ en5 ___ ___ gn5 ___ an5 ___ ___ cn6 ___ ___ ', 
+' an4 ___ ___ cn5 ___ ___ ___ en5 ___ ___ gn5 ___ an5 ',
+' en4 ___ ___ gn4 ___ an4 ___ ___ cn5 ___ ___ ___ en5 '] 
+end 
+
+def ma7_midi 
+ [23, 24, 28, 31,
+  35, 36, 40, 43,
+  46, 48, 52, 55,
+  59, 60, 64, 67,
+  71, 72, 76, 79,
+  83, 84, 88, 91,
+  95, 96, 100,103,
+  107,108] 
+end 
+
+def ma7_guitar 
+[
+' en6 ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ___ en7 ', 
+' bn5 cn6 ___ ___ ___ en6 ___ ___ gn6 ___ ___ ___ bn6 ', 
+' gn5 ___ ___ ___ bn5 cn6 ___ ___ ___ en6 ___ ___ gn6 ', 
+' ___ ___ en5 ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ', 
+' ___ ___ bn4 cn5 ___ ___ ___ en5 ___ ___ gn5 ___ ___ ', 
+' en4 ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ___ en5 '] 
+end 
+
+def ma7k4_midi 
+ [21, 23, 28, 29,
+  33, 35, 40, 41,
+  45, 47, 52, 53,
+  57, 59, 64, 65,
+  69, 71, 76, 77,
+  81, 83, 88, 89,
+  93, 95, 100,101,
+  105,107] 
+end 
+
+def ma7k4_guitar 
+[
+' en6 fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ___ en7 ', 
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ an6 ___ bn6 ', 
+' ___ ___ an5 ___ bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ', 
+' ___ ___ en5 fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ', 
+' an4 ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ an5 ', 
+' en4 fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ___ en5 '] 
+end 
+
+def mi6_midi 
+ [21, 23, 26, 29,
+  33, 35, 38, 41,
+  45, 47, 50, 53,
+  57, 59, 62, 65,
+  69, 71, 74, 77,
+  81, 83, 86, 89,
+  93, 95, 98, 101,
+  105,107]
+end 
+
+def mi6_guitar 
+[
+' ___ fn6 ___ ___ ___ an6 ___ bn6 ___ ___ dn7 ___ ___ ', 
+' bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ___ an6 ___ bn6 ', 
+' ___ ___ an5 ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ', 
+' dn5 ___ ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ dn6 ', 
+' an4 ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ ___ an5 ', 
+' ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ dn5 ___ ___ '] 
+end 
+
+def dom7_midi 
+ [23, 26, 29, 31,
+  35, 38, 41, 43,
+  47, 50, 53, 55,
+  59, 62, 65, 67,
+  71, 74, 77, 79,
+  83, 86, 89, 91,
+  95, 98, 101,103,
+  107] 
+end 
+
+def dom7_guitar 
+[
+' ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ___ ___ ', 
+' bn5 ___ ___ dn6 ___ ___ fn6 ___ gn6 ___ ___ ___ bn6 ', 
+' gn5 ___ ___ ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ gn6 ', 
+' dn5 ___ ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ', 
+' ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ gn5 ___ ___ ', 
+' ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ___ ___ '] 
+end 
+
+def r5j2k4_midi 
+ [22, 23, 28, 29,
+  34, 35, 40, 41,
+  46, 47, 52, 53,
+  58, 59, 64, 65,
+  70, 71, 76, 77,
+  82, 83, 88, 89,
+  94, 95, 100,101,
+  106,107] 
+end 
+
+def r5j2k4_guitar 
+[
+' en6 fn6 ___ ___ ___ ___ as6 bn6 ___ ___ ___ ___ en7 ', 
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ as6 bn6 ',
+' ___ ___ ___ as5 bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ ___ ___ as5 bn5 ___ ___ ___ ',
+' ___ as4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ ',
+' en4 fn4 ___ ___ ___ ___ as4 bn4 ___ ___ ___ ___ en5 '] 
+end 
+
+def dom7j5_midi 
+ [21, 23, 27, 29,
+  33, 35, 39, 41,
+  45, 47, 51, 53,
+  57, 59, 63, 65,
+  69, 71, 75, 77,
+  81, 83, 87, 89,
+  93, 95, 99, 101,
+  105,107] 
+end 
+
+def dom7j5_guitar 
+[
+' ___ fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ej7 ___ ',
+' bn5 ___ ___ ___ ej6 ___ fn6 ___ ___ ___ an6 ___ bn6 ',
+' ___ ___ an5 ___ bn5 ___ ___ ___ ej6 ___ fn6 ___ ___ ',
+' ___ ej5 ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ',
+' an4 ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ ___ ___ an5 ',
+' ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ej5 ___ '] 
+end
+
+def o6_midi 
+ [23, 26, 29, 32,
+  35, 38, 41, 44,
+  47, 50, 53, 56,
+  59, 62, 65, 68,
+  71, 74, 77, 80,
+  83, 86, 89, 92,
+  95, 98, 101,104,
+  107] 
+end 
+
+def o6_guitar  
+[
+' ___ fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ dn7 ___ ___ ',
+' bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ',
+' dn5 ___ ___ fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ dn6 ',
+' ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ aj5 ___ ',
+' ___ fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ dn5 ___ ___ '] 
+end 
+
+def ok7 
+ [23, 28, 29, 32, 
+  35, 40, 41, 44,
+  47, 52, 53, 56,
+  59, 64, 65, 68, 
+  71, 76, 77, 80,
+  83, 88, 89, 92, 
+  95, 100,101,104, 
+  107]
+end 
+
+def ok7_guitar  
+[
+' en6 fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ ___ ___ en7 ',
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ ___ ',
+' ___ ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ aj5 ___ ',
+' en4 fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ ___ ___ en5 '] 
+end 
+
+def mik4_midi
+ [23, 24, 29, 32,
+  35, 36, 41, 44,
+  47, 48, 53, 56,
+  59, 60, 65, 68,
+  71, 72, 77, 80,
+  83, 84, 89, 92,
+  95, 96, 101,104,
+  107]  
+end 
+
+def mik4_guitar  
+[
+' ___ fn6 ___ ___ aj6 ___ ___ bn6 cn7 ___ ___ ___ ___ ',
+' bn5 cn6 ___ ___ ___ ___ fn6 ___ ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 cn6 ___ ___ ___ ___ fn6 ___ ___ ',
+' ___ ___ ___ fn5 ___ ___ aj5 ___ ___ bn5 cn6 ___ ___ ',
+' ___ ___ bn4 cn5 ___ ___ ___ ___ fn5 ___ ___ aj5 ___ ',
+' ___ fn4 ___ ___ aj4 ___ ___ bn4 cn5 ___ ___ ___ ___ '] 
+end 
+
+def mik7_midi 
+ [23, 24, 27, 31, 
+  35, 36, 39, 43, 
+  47, 48, 51, 55, 
+  59, 60, 63, 67, 
+  71, 72, 75, 79, 
+  83, 84, 87, 91, 
+  95, 96, 99, 103, 
+  107]  
+end 
+
+def mik7_guitar 
+[
+' ___ ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ej7 ___ ',
+' bn5 cn6 ___ ___ ej6 ___ ___ ___ gn6 ___ ___ ___ bn6 ',
+' gn5 ___ ___ ___ bn5 cn6 ___ ___ ej6 ___ ___ ___ gn6 ',
+' ___ ej5 ___ ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ',
+' ___ ___ bn4 cn5 ___ ___ ej5 ___ ___ ___ gn5 ___ ___ ',
+' ___ ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ej5 ___ '] 
+end 
+
+def ma7k5_midi 
+ [23, 26, 27, 31, 
+  35, 38, 39, 43, 
+  47, 50, 51, 55, 
+  59, 62, 63, 67, 
+  71, 74, 75, 79, 
+  83, 86, 87, 91, 
+  95, 98, 99, 103, 
+  107] 
+end 
+
+def ma7k5_guitar 
+[
+' ___ ___ ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ej7 ___ ',
+' bn5 ___ ___ dn6 ej6 ___ ___ ___ gn6 ___ ___ ___ bn6 ',
+' gn5 ___ ___ ___ bn5 ___ ___ dn6 ej6 ___ ___ ___ gn6 ',
+' dn5 ej5 ___ ___ ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ',
+' ___ ___ bn4 ___ ___ dn5 ej5 ___ ___ ___ gn5 ___ ___ ',
+' ___ ___ ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ej5 ___ '] 
+end 
+
+def dom7k5_midi 
+ [23, 27, 29, 31, 
+  35, 39, 41, 43, 
+  47, 51, 53, 55, 
+  59, 63, 65, 67, 
+  71, 75, 77, 79, 
+  83, 87, 89, 91, 
+  95, 99, 101,103, 
+  107]  
+end 
+
+def dom7k5_guitar 
+[
+' ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ ___ ej7 ___ ',
+' bn5 ___ ___ ___ ej6 ___ fn6 ___ gn6 ___ ___ ___ bn6 ',
+' gn5 ___ ___ ___ bn5 ___ ___ ___ ej6 ___ fn6 ___ gn6 ',
+' ___ ej5 ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ ___ ',
+' ___ ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ ___ ej5 ___ '] 
+end 
+  
  
 def natural 
 [
@@ -10,6 +305,7 @@ def natural
 ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
 
 end
+
 
 def sharp_6 
 [
@@ -359,7 +655,7 @@ def flat_34_sharp_16
 end
 
 
-def x_1_sharp_2_flat_5 
+def x1_sharp_2_flat_5 
 [
 ' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 ds7 en7 ',
 ' bn5 ___ ___ cx6 ds6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
@@ -371,7 +667,7 @@ def x_1_sharp_2_flat_5
 end
 
 
-def x_1_sharp_26_flat_5 
+def x1_sharp_26_flat_5 
 [
 ' en6 fn6 gj6 ___ ___ ___ as6 bn6 ___ ___ cx7 ds7 en7 ',
 ' bn5 ___ ___ cx6 ds6 en6 fn6 gj6 ___ ___ ___ as6 bn6 ',
@@ -454,6 +750,22 @@ def flat_25
 
 end 
 
+chord_list = [
+' sus',
+' mi7',
+' ma7',
+' ma7k4',
+' mi6', 
+' dom7',
+' 13k9', 
+' dom7j5',
+' dim6', 
+' dimk7',
+' mik4', 
+' mik7',
+' ma7k5',
+' dom7k5' ] 
+
 index = [
 ' Sankarabharanam, Kharaharapriya, Hanumatodi', # natural
 ' Mechakalyani, Harikambhoji, Natabhairavi', # sharp_6 
@@ -484,8 +796,8 @@ index = [
 ' Ganamurti, Viswambhari, Syamalangi', # sharp_12_flat_5
 ' Manavati, Kantamani', # flat_34_sharp_6
 ' Yagapriya', # flat_34_sharp_16
-' Sucharitra', # x_1_sharp_2_flat_5
-' Tanarupi', # x_1_sharp_26_flat_5
+' Sucharitra', # x1_sharp_2_flat_5
+' Tanarupi', # x1_sharp_26_flat_5
 ' Raghupriya', # flat_3_sharp_6
 ' Varunapriya, Ragavardhini', # sharp_1_flat_5
 ' Mararanjani, Vanaspati', # sharp_2_flat_6
@@ -496,7 +808,8 @@ index = [
 
 help = [ 
 ' For a table of contents,',
-' just type "index" or "list".',
+' just type "index" or "list".', 
+' for chords just type "Chords".',
 ' If you want to leave the program,',
 ' just type "exit" or "quit".'] 
  
@@ -508,10 +821,82 @@ puts help
 x_reply = false
 while (not x_reply) 
 puts
-puts ' Enter Raga name:'
+puts ' Enter selection:'
  raganame = gets.chomp 
  if (raganame == 'index' or raganame == 'list')
   puts index 
+ elsif (raganame == 'Chords' or raganame == 'chords') 
+  puts chord_list 
+ elsif (raganame == 'sus' or raganame == '7sus') 
+  puts 
+  puts sus_midi[14..26].to_s 
+  puts 
+  puts sus_guitar 
+ elsif (raganame == 'mi7' or raganame == 'M6')
+  puts 
+  puts mi7_midi[14..26].to_s 
+  puts 
+  puts mi7_guitar 
+ elsif (raganame == 'ma7' or raganame == 'M7')
+  puts 
+  puts ma7_midi[14..26].to_s 
+  puts 
+  puts ma7_guitar 
+ elsif (raganame == 'ma7k4' or raganame == 'ma7j5')
+  puts 
+  puts ma7k4_midi[14..26].to_s 
+  puts 
+  puts ma7k4_guitar 
+ elsif (raganame == 'mi6' or raganame == 'mi7j5')  
+  puts  
+  puts mi6_midi[14..26].to_s 
+  puts 
+  puts mi6_guitar 
+ elsif (raganame == 'dom7' or raganame == '7')
+  puts  
+  puts dom7_midi[13..25].to_s 
+  puts 
+  puts dom7_guitar 
+ elsif (raganame == 'r5j2k4' or raganame == '13k9') 
+  puts  
+  puts r5j2k4_midi[14..26].to_s 
+  puts 
+  puts r5j2k4_guitar 
+ elsif (raganame == 'dom7j5' or raganame == '7j5')
+  puts 
+  puts dom7j5_midi[14..26].to_s 
+  puts 
+  puts dom7j5_guitar 
+ elsif (raganame == 'o6' or raganame == 'dim6')
+  puts  
+  puts o6_midi[13..25].to_s 
+  puts 
+  puts o6_guitar 
+ elsif (raganame == 'ok7' or raganame == 'dimk7')
+  puts  
+  puts ok7_midi[13..25].to_s 
+  puts 
+  puts ok7_guitar 
+ elsif (raganame == 'mik4' or raganame == '6k9')
+  puts  
+  puts mik4_midi[13..25].to_s 
+  puts 
+  puts mik4_guitar 
+ elsif (raganame == 'mik7' or raganame == 'augj2')
+  puts  
+  puts mik7_midi[14..26].to_s 
+  puts 
+  puts mik7_guitar 
+ elsif (raganame == 'ma7k5' or raganame == 'augk7')
+  puts  
+  puts ma7k5_midi[14..26].to_s 
+  puts 
+  puts ma7k5_guitar 
+ elsif (raganame == 'dom7k5' or raganame == '7k5')
+  puts  
+  puts dom7k5_midi[13..25].to_s 
+  puts 
+  puts dom7k5_guitar
  elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam')   
   puts natural
  elsif (raganame == 'Kharaharapriya' or raganame == 'kharaharapriya') 
@@ -631,9 +1016,9 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
   puts flat_34_sharp_1_6 
  elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
-  puts x_1_sharp_2_flat_5 
+  puts x1_sharp_2_flat_5 
  elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
-  puts x_1_sharp_26_flat_5 
+  puts x1_sharp_26_flat_5 
  elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
   puts flat_3_sharp_6 
  elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
@@ -657,10 +1042,10 @@ puts ' Enter Raga name:'
  elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
   puts flat_25 
  elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
-  puts flat_25
+  puts flat_25 
+ elsif (raganame == 'help' or raganame == '-h' or raganame == '')
+  puts help
  elsif (raganame == 'exit' or raganame == 'quit')
   x_reply = true 
- elsif (raganame == 'help' or raganame == '-h')
-  puts help
   end
  end 
