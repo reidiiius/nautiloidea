@@ -139,12 +139,12 @@ end
 
 def r5j2k4_guitar 
 [
-' en6 fn6 ___ ___ ___ ___ as6 bn6 ___ ___ ___ ___ en7 ', 
-' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ as6 bn6 ',
-' ___ ___ ___ as5 bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ',
-' ___ ___ en5 fn5 ___ ___ ___ ___ as5 bn5 ___ ___ ___ ',
-' ___ as4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ ',
-' en4 fn4 ___ ___ ___ ___ as4 bn4 ___ ___ ___ ___ en5 '] 
+' en6 fn6 ___ ___ ___ ___ ak6 bn6 ___ ___ ___ ___ en7 ', 
+' bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ ak6 bn6 ',
+' ___ ___ ___ ak5 bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ ___ ___ ak5 bn5 ___ ___ ___ ',
+' ___ ak4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ ',
+' en4 fn4 ___ ___ ___ ___ ak4 bn4 ___ ___ ___ ___ en5 '] 
 end 
 
 def dom7j5_midi 
@@ -309,12 +309,12 @@ end
 
 def sharp_6 
 [
-' en6 fn6 ___ gn6 ___ ___ as6 bn6 cn7 ___ dn7 ___ en7 ', 
-' bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ',
-' dn5 ___ en5 fn5 ___ gn5 ___ ___ as5 bn5 cn6 ___ dn6 ',
-' ___ as4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
-' en4 fn4 ___ gn4 ___ ___ as4 bn4 cn5 ___ dn5 ___ en5 '] 
+' en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 ', 
+' bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ',
+' dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 '] 
 
 end
 
@@ -333,12 +333,12 @@ end
 
 def sharp_126_flat_5 
 [
-' en6 fn6 gj6 ___ ___ ___ as6 bn6 ___ cs7 ___ ds7 en7 ',
-' bn5 ___ cs6 ___ ds6 en6 fn6 gj6 ___ ___ ___ as6 bn6 ',
-' ___ ___ ___ as5 bn5 ___ cs6 ___ ds6 en6 fn6 gj6 ___ ',
-' ___ ds5 en5 fn5 gj5 ___ ___ ___ as5 bn5 ___ cs6 ___ ',
-' ___ as4 bn4 ___ cs5 ___ ds5 en5 fn5 gj5 ___ ___ an5 ',
-' en4 fn4 gj4 ___ ___ ___ as4 bn4 ___ cs5 ___ ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ck7 ___ dk7 en7 ',
+' bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ',
+' ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ',
+' ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ ',
+' ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5 '] 
 
 end
 
@@ -357,36 +357,36 @@ end
 
 def flat_5_sharp_6 
 [
-' en6 fn6 gj6 ___ ___ ___ as6 bn6 cn7 ___ dn7 ___ en7 ',
-' bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ as6 bn6 ',
-' ___ ___ ___ as5 bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ',
-' dn5 ___ en5 fn5 gj5 ___ ___ ___ as5 bn5 cn6 ___ dn6 ',
-' ___ as4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ ',
-' en4 fn4 gj4 ___ ___ ___ as4 bn4 cn5 ___ dn5 ___ en5 '] 
+' en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 ',
+' bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 ',
+' ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ',
+' dn5 ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ ',
+' en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 '] 
 
 end
 
 
 def flat_25_sharp_6 
 [
-' en6 fn6 gj6 ___ ___ ___ as6 bn6 cn7 dj7 ___ ___ en7 ',
-' bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ as6 bn6 ',
-' ___ ___ ___ as5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ',
-' ___ ___ en5 fn5 gj5 ___ ___ ___ as5 bn5 cn6 dj5 ___ ',
-' ___ as4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ ',
-' en4 fn4 gj4 ___ ___ ___ as4 bn4 cn5 dj5 ___ ___ en5 '] 
+' en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 ',
+' bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 ',
+' ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ',
+' ___ ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj5 ___ ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ ',
+' en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 '] 
 
 end 
 
 
 def sharp_26_flat_5 
 [
-' en6 fn6 gj6 ___ ___ ___ as6 bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 gj6 ___ ___ ___ as6 bn6 ',
-' ___ ___ ___ as5 bn5 cn6 ___ ___ ds6 en6 fn6 gj6 ___ ',
-' ___ ds5 en5 fn5 gj5 ___ ___ ___ as5 bn5 cn6 ___ ___ ',
-' ___ as4 bn4 cn5 ___ ___ ds5 en5 fn5 gj5 ___ ___ ___ ',
-' en4 fn4 gj4 ___ ___ ___ as4 bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ',
+' ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ',
+' ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ ',
+' en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
@@ -405,48 +405,48 @@ end
 
 def sharp_5 
 [
-' en6 fn6 ___ ___ gs6 an6 ___ bn6 cn7 ___ dn7 ___ en7 ',
-' bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gs6 an6 ___ bn6 ',
-' ___ gs5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ ',
-' dn5 ___ en5 fn5 ___ ___ gs5 an5 ___ bn5 cn6 ___ dn6 ',
-' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gs5 an5 ',
-' en4 fn4 ___ ___ gs4 an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
+' en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 ',
+' bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 ',
+' ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ ',
+' dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
+' en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
 
 end
 
 
 def sharp_1_flat_6 
 [
-' en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ cs7 dn7 ___ en7 ',
-' bn5 ___ cs6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 ',
-' gn5 aj5 ___ ___ bn5 ___ cs6 dn6 ___ en6 fn6 ___ gn6 ',
-' dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ cs6 dn6 ',
-' ___ ___ bn4 ___ cs5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
-' en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ cs5 dn5 ___ en5 '] 
+' en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ ck7 dn7 ___ en7 ',
+' bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 ',
+' gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ',
+' dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ',
+' ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ___ en5 '] 
 
 end
 
 
 def sharp_16 
 [
-' en6 fn6 ___ gn6 ___ ___ as6 bn6 ___ cs7 dn7 ___ en7 ',
-' bn5 ___ cs6 dn6 ___ en6 fn6 ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 ___ cs6 dn6 ___ en6 fn6 ___ gn6 ',
-' dn5 ___ en5 fn5 ___ gn5 ___ ___ as5 bn5 ___ cs6 dn6 ',
-' ___ as4 bn4 ___ cs5 dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
-' en4 fn4 ___ gn4 ___ ___ as4 bn4 ___ cs5 dn5 ___ en5 '] 
+' en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ___ en7 ',
+' bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ',
+' dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ',
+' ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ___ en5 '] 
 
 end
 
 
 def sharp_56 
 [
-' en6 fn6 ___ ___ gs6 ___ as6 bn6 cn7 ___ dn7 ___ en7 ',
-' bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gs6 ___ as6 bn6 ',
-' ___ gs5 ___ as5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ ',
-' dn5 ___ en5 fn5 ___ ___ gs5 ___ as5 bn5 cn6 ___ dn6 ',
-' ___ as4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gs5 ___ ',
-' en4 fn4 ___ ___ gs4 ___ as4 bn4 cn5 ___ dn5 ___ en5 '] 
+' en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ dn7 ___ en7 ',
+' bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 ',
+' ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ ',
+' dn5 ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ ',
+' en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5 '] 
 
 end
 
@@ -465,12 +465,12 @@ end
 
 def sharp_127 
 [
-' en6 fn6 ___ gn6 ___ an6 ___ ___ bs6 cs7 ___ ds7 en7 ',
-' ___ bs5 cs6 ___ ds6 en6 fn6 ___ gn6 ___ an6 ___ ___ ',
-' gn5 ___ an5 ___ ___ bs5 cs6 ___ ds6 en6 fn6 ___ gn6 ',
-' ___ ds5 en5 fn5 ___ gn5 ___ an5 ___ ___ bs5 cs6 ___ ',
-' an4 ___ ___ bs4 cs5 ___ ds5 en5 fn5 ___ gn5 ___ an5 ',
-' en4 fn4 ___ gn4 ___ an4 ___ ___ bs4 cs5 ___ ds5 en5 '] 
+' en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 ',
+' ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ ',
+' gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ',
+' ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ ',
+' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 '] 
 
 end
 
@@ -489,24 +489,24 @@ end
 
 def sharp_127_flat_5 
 [
-' en6 fn6 gj6 ___ ___ an6 ___ ___ bs6 cs7 ___ ds7 en7 ', 
-' ___ bs5 cs6 ___ ds6 en6 fn6 gj6 ___ ___ an6 ___ ___ ',
-' ___ ___ an5 ___ ___ bs5 cs6 ___ ds6 en6 fn6 gj6 ___ ',
-' ___ ds5 en5 fn5 gj5 ___ ___ an5 ___ ___ bs5 cs6 ___ ',
-' an4 ___ ___ bs4 cs5 ___ ds5 en5 fn5 gj5 ___ ___ an5 ',
-' en4 fn4 gj4 ___ ___ an4 ___ ___ bs4 cs5 ___ ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 ', 
+' ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___ ',
+' ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ',
+' ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ ',
+' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 '] 
 
 end
 
 
 def flat_34_sharp_5 
 [
-' fj6 ___ ___ ___ gs6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ',
-' bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ gs6 an6 ___ bn6 ',
-' ___ gs5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ ',
-' dn5 ej5 fj5 ___ ___ ___ gs5 an5 ___ bn5 cn6 ___ dn6 ',
-' an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gs5 an5 ',
-' fj4 ___ ___ ___ gs4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5 '] 
+' fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ',
+' bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 ',
+' ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ ',
+' dn5 ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 ',
+' fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5 '] 
 
 end
 
@@ -515,7 +515,7 @@ def flat_2
 [
 ' en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 ',
 ' bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ',
-' gn5 ___ an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 ___ gn6 ',
+' gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ',
 ' ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ',
 ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
@@ -525,24 +525,24 @@ end
 
 def sharp_2 
 [
-' en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 ___ gn6 ___ an6 ___ bn6 ',
-' gn5 ___ an5 ___ bn5 cn6 ___ ___ ds6 en6 fn6 ___ gn6 ',
-' ___ ds5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ ',
-' an4 ___ bn4 cn5 ___ ___ ds5 en5 fn5 ___ gn5 ___ an5 ',
-' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 ',
+' gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ',
+' ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
 
 def sharp_25 
 [
-' en6 fn6 ___ ___ gs6 an6 ___ bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 ___ ___ gs6 an6 ___ bn6 ',
-' ___ gs5 an5 ___ bn5 cn6 ___ ___ ds6 en6 fn6 ___ ___ ',
-' ___ ds5 en5 fn5 ___ ___ gs5 an5 ___ bn5 cn6 ___ ___ ',
-' an4 ___ bn4 cn5 ___ ___ ds5 en5 fn5 ___ ___ gs5 an5 ',
-' en4 fn4 ___ ___ gs4 an4 ___ bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 ',
+' ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ ',
+' ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 ',
+' en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
@@ -551,7 +551,7 @@ def flat_23
 [
 ' ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ ',
 ' bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 ',
-' gn5 ___ an5 ___ bn5 cn6 dJ6 ___ ej6 ___ fn6 ___ gn6 ',
+' gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ',
 ' ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 ',
 ' ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ '] 
@@ -561,180 +561,180 @@ end
 
 def flat_23_sharp_6 
 [
-' ___ fn6 ___ gn6 ___ ___ as6 bn6 cn7 dj7 ___ ej7 ___ ',
-' bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 cn6 dJ6 ___ ej6 ___ fn6 ___ gn6 ',
-' ___ ej5 ___ fn5 ___ gn5 ___ ___ as5 bn5 cn6 dj6 ___ ',
-' ___ as4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
-' ___ fn4 ___ gn4 ___ ___ as4 bn4 cn5 dj5 ___ ej5 ___ '] 
+' ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ ',
+' bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ',
+' ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ',
+' ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ '] 
 
 end
 
 
 def sharp_2_flat_56 
 [
-' en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 ',
-' ___ aj5 ___ ___ bn5 cn6 ___ ___ ds6 en6 fn6 gj6 ___ ',
-' ___ ds5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ ',
-' ___ ___ bn4 cn5 ___ ___ ds5 en5 fn5 gj5 ___ aj5 ___ ',
-' en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 ',
+' ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ',
+' ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ',
+' en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
 
 def flat_2_sharp_56 
 [
-' en6 fn6 ___ ___ gs6 ___ as6 bn6 cn7 dj7 ___ ___ en7 ',
-' bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gs6 ___ as6 bn6 ',
-' ___ gs5 ___ as5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ ',
-' ___ ___ en5 fn5 ___ ___ gs5 ___ as5 bn5 cn6 dj6 ___ ',
-' ___ as4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gs5 ___ ',
-' en4 fn4 ___ ___ gs4 ___ as4 bn4 cn5 dj5 ___ ___ en5 '] 
+' en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7 ',
+' bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 ',
+' ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ',
+' en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 '] 
 
 end
 
 
 def flat_2_sharp_6 
 [
-' en6 fn6 ___ gn6 ___ ___ as6 bn6 cn7 dj7 ___ ___ en7 ', 
-' bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 cn6 dJ6 ___ ___ en6 fn6 ___ gn6 ',
-' ___ ___ en5 fn5 ___ gn5 ___ ___ as5 bn5 cn6 dj6 ___ ',
-' ___ as4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ',
-' en4 fn4 ___ gn4 ___ ___ as4 bn4 cn5 dj5 ___ ___ en5 '] 
+' en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 ', 
+' bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ',
+' ___ ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ',
+' en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 '] 
 
 end
 
 
 def sharp_2_flat_5 
 [
-' en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
-' ___ ___ an5 ___ bn5 cn6 ___ ___ ds6 en6 fn6 gj6 ___ ',
-' ___ ds5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ ',
-' an4 ___ bn4 cn5 ___ ___ ds5 en5 fn5 gj5 ___ ___ an5 ',
-' en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
+' ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ',
+' ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
 
 def sharp_12_flat_5 
 [
-' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ cs7 ___ ds7 en7 ',
-' bn5 ___ cs6 ___ ds6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
-' ___ ___ an5 ___ bn5 ___ cs6 ___ ds6 en6 fn6 gj6 ___ ',
-' ___ ds5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ cs6 ___ ',
-' an4 ___ bn4 ___ cs5 ___ ds5 en5 fn5 gj5 ___ ___ an5 ',
-' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ cs5 ___ ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 ',
+' bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
+' ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ',
+' ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ ',
+' an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 '] 
 
 end
 
 
 def flat_34_sharp_6 
 [
-' fj6 ___ ___ gn6 ___ ___ as6 bn6 cn7 ___ dn7 ej7 fj7 ',
-' bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ',
-' dn5 ej5 fj5 ___ ___ gn5 ___ ___ as5 bn5 cn6 ___ dn6 ',
-' ___ as4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
-' fj4 ___ ___ gn4 ___ ___ as4 bn4 cn5 ___ dn5 ej5 fj5 '] 
+' fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 fj7 ',
+' bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ',
+' dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
+' fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 '] 
 
 end
 
 
 def flat_34_sharp_16 
 [
-' fj6 ___ ___ gn6 ___ ___ as6 bn6 ___ cs7 dn7 ej7 fj7 ',
-' bn5 ___ cs6 dn6 ej6 fj6 ___ ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 ___ cs6 dn6 ej6 fj6 ___ ___ gn6 ',
-' dn5 ej5 fj5 ___ ___ gn5 ___ ___ as5 bn5 ___ cs6 dn6 ',
-' ___ as4 bn4 ___ cs5 dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
-' fj4 ___ ___ gn4 ___ ___ as4 bn4 ___ cs5 dn5 ej5 fj5 '] 
+' fj6 ___ ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ej7 fj7 ',
+' bn5 ___ ck6 dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ej6 fj6 ___ ___ gn6 ',
+' dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ',
+' ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
+' fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 '] 
 
 end
 
 
 def x1_sharp_2_flat_5 
 [
-' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 ds7 en7 ',
-' bn5 ___ ___ cx6 ds6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
-' ___ ___ an5 ___ bn5 ___ ___ cx6 ds6 en6 fn6 gj6 ___ ',
-' cx5 ds5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 ',
-' an4 ___ bn4 ___ ___ cx5 ds5 en5 fn5 gj5 ___ ___ an5 ',
-' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7 ',
+' bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
+' ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ',
+' cx5 dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 ',
+' an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 ',
+' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5 '] 
 
 end
 
 
 def x1_sharp_26_flat_5 
 [
-' en6 fn6 gj6 ___ ___ ___ as6 bn6 ___ ___ cx7 ds7 en7 ',
-' bn5 ___ ___ cx6 ds6 en6 fn6 gj6 ___ ___ ___ as6 bn6 ',
-' ___ ___ ___ as5 bn5 ___ ___ cx6 ds6 en6 fn6 gj6 ___ ',
-' cx5 ds5 en5 fn5 gj5 ___ ___ ___ as5 bn5 ___ ___ cx6 ',
-' ___ as4 bn4 ___ ___ cx5 ds5 en5 fn5 gj5 ___ ___ ___ ',
-' en4 fn4 gj4 ___ ___ ___ as4 bn4 ___ ___ cx5 ds5 en5 '] 
+' en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 ',
+' bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ',
+' ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ',
+' cx5 dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 ',
+' ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ ',
+' en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5 '] 
 
 end
 
 
 def flat_3_sharp_6 
 [
-' ___ fn6 ___ gn6 ___ ___ as6 bn6 cn7 ___ dn7 ej7 ___ ',
-' bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ',
-' dn5 ej5 ___ fn5 ___ gn5 ___ ___ as5 bn5 cn6 ___ dn6 ',
-' ___ as4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ ',
-' ___ fn4 ___ gn4 ___ ___ as4 bn4 cn5 ___ dn5 ej5 ___ '] 
+' ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___ ',
+' bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ',
+' dn5 ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 ___ '] 
 
 end
 
 
 def sharp_1_flat_5 
 [
-' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ cs7 dn7 ___ en7 ',
-' bn5 ___ cs6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
-' ___ ___ an5 ___ bn5 ___ cs6 dn6 ___ en6 fn6 gj6 ___ ',
-' dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ cs6 dn6 ',
-' an4 ___ bn4 ___ cs5 dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
-' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ cs5 dn5 ___ en5 '] 
+' en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 ',
+' bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
+' ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ ',
+' dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ',
+' an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 '] 
 
 end
 
 
 def sharp_2_flat_6 
 [
-' en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 ',
-' gn5 aj5 ___ ___ bn5 cn6 ___ ___ ds6 en6 fn6 ___ gn6 ',
-' ___ ds5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ ',
-' ___ ___ bn4 cn5 ___ ___ ds5 en5 fn5 ___ gn5 aj5 ___ ',
-' en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 ',
+' gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ',
+' ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ ',
+' en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
 
 def flat_2_sharp_5 
 [
-' en6 fn6 ___ ___ gs6 an6 ___ bn6 cn7 dj7 ___ ___ en7 ',
-' bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gs6 an6 ___ bn6 ',
-' ___ gs5 an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 ___ ___ ',
-' ___ ___ en5 fn5 ___ ___ gs5 an5 ___ bn5 cn6 dj6 ___ ',
-' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gs5 an5 ',
-' en4 fn4 ___ ___ gs4 an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
+' en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7 ',
+' bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 ',
+' ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ ',
+' ___ ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 ',
+' en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
 
 end
 
 
 def sharp_26 
 [
-' en6 fn6 ___ gn6 ___ ___ as6 bn6 cn7 ___ ___ ds7 en7 ',
-' bn5 cn6 ___ ___ ds6 en6 fn6 ___ gn6 ___ ___ as6 bn6 ',
-' gn5 ___ ___ as5 bn5 cn6 ___ ___ ds6 en6 fn6 ___ gn6 ',
-' ___ ds5 en5 fn5 ___ gn5 ___ ___ as5 bn5 cn6 ___ ___ ',
-' ___ as4 bn4 cn5 ___ ___ ds5 en5 fn5 ___ gn5 ___ ___ ',
-' en4 fn4 ___ gn4 ___ ___ as4 bn4 cn5 ___ ___ ds5 en5 '] 
+' en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 ',
+' bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6 ',
+' gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ',
+' ___ dk5 en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ ',
+' en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 '] 
 
 end
 
@@ -743,7 +743,7 @@ def flat_25
 [
 ' en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 ',
 ' bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ',
-' ___ ___ an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 gj6 ___ ',
+' ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ',
 ' ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
