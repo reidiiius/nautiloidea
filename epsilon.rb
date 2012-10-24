@@ -8,6 +8,105 @@ class Key
  
 def sig 
 
+ @n =  
+ [
+ ' en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 ', 
+ ' bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ', 
+ ' gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ', 
+ ' dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ', 
+ ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ', 
+ ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
+
+ @k4 =  
+ [
+ ' en6 ___ fk6 gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 ', 
+ ' bn5 cn6 ___ dn6 ___ en6 ___ fk6 gn6 ___ an6 ___ bn6 ', 
+ ' gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ___ fk6 gn6 ', 
+ ' dn5 ___ en5 ___ fk5 gn5 ___ an5 ___ bn5 cn6 ___ dn6 ', 
+ ' an4 ___ bn4 cn5 ___ dn5 ___ en5 ___ fk5 gn5 ___ an5 ', 
+ ' en4 ___ fk4 gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
+ 
+@j7 =  
+ [
+ ' en6 fn6 ___ gn6 ___ an6 bj6 ___ cn7 ___ dn7 ___ en7 ', 
+ ' ___ cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 bj6 ___ ', 
+ ' gn5 ___ an5 bj5 ___ cn6 ___ dn6 ___ en6 fn6 ___ gn6 ', 
+ ' dn5 ___ en5 fn5 ___ gn5 ___ an5 bj5 ___ cn6 ___ dn6 ', 
+ ' an4 bj4 ___ cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ', 
+ ' en4 fn4 ___ gn4 ___ an4 bj4 ___ cn5 ___ dn5 ___ en5 '] 
+
+ @k14 =  
+ [
+ ' en6 ___ fk6 gn6 ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 ', 
+ ' bn5 ___ ck6 dn6 ___ en6 ___ fk6 gn6 ___ an6 ___ bn6 ', 
+ ' gn5 ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 ___ fk6 gn6 ', 
+ ' dn5 ___ en5 ___ fk5 gn5 ___ an5 ___ bn5 ___ ck6 dn6 ', 
+ ' an4 ___ bn4 ___ ck5 dn5 ___ en5 ___ fk5 gn5 ___ an5 ', 
+ ' en4 ___ fk4 gn4 ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 ']  
+ 
+ @j37 =   
+ [
+ ' ___ fn6 ___ gn6 ___ an6 bj6 ___ cn7 ___ dn7 ej7 ___ ', 
+ ' ___ cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 bj6 ___ ', 
+ ' gn5 ___ an5 bj5 ___ cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ', 
+ ' dn5 ej5 ___ fn5 ___ gn5 ___ an5 bj5 ___ cn6 ___ dn6 ', 
+ ' an4 bj4 ___ cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ', 
+ ' ___ fn4 ___ gn4 ___ an4 bj4 ___ cn5 ___ dn5 ej5 ___ ']
+ 
+ @k145 =  
+ [
+ ' en6 ___ fk6 ___ gk6 an6 ___ bn6 ___ ck7 dn7 ___ en7 ', 
+ ' bn5 ___ ck6 dn6 ___ en6 ___ fk6 ___ gk6 an6 ___ bn6 ', 
+ ' ___ gk5 an5 ___ bn5 ___ ck6 dn6 ___ en6 ___ fk6 ___ ', 
+ ' dn5 ___ en5 ___ fk5 ___ gk5 an5 ___ bn5 ___ ck6 dn6 ', 
+ ' an4 ___ bn4 ___ ck5 dn5 ___ en5 ___ fk5 ___ gk5 an5 ', 
+ ' en4 ___ fk4 ___ gk4 an4 ___ bn4 ___ ck5 dn5 ___ en5 ']  
+ 
+ @j367 =  
+ [
+ ' ___ fn6 ___ gn6 aj6 ___ bj6 ___ cn7 ___ dn7 ej7 ___ ', 
+ ' ___ cn6 ___ dn6 ej6 ___ fn6 ___ gn6 aj6 ___ bj6 ___ ', 
+ ' gn5 aj5 ___ bj5 ___ cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ', 
+ ' dn5 ej5 ___ fn5 ___ gn5 aj5 ___ bj5 ___ cn6 ___ dn6 ', 
+ ' ___ bj4 ___ cn5 ___ dn5 ej5 ___ fn5 ___ gn5 aj5 ___ ', 
+ ' ___ fn4 ___ gn4 aj4 ___ bj4 ___ cn5 ___ dn5 ej5 ___ ']  
+ 
+ @n367 =  
+ [
+ ' en6 ___ fk6 ___ gk6 an6 ___ bn6 ___ ck7 ___ dk7 en7 ', 
+ ' bn5 ___ ck6 ___ dk6 en6 ___ fk6 ___ gk6 an6 ___ bn6 ', 
+ ' ___ gk5 an5 ___ bn5 ___ ck6 ___ dk6 en6 ___ fk6 ___ ', 
+ ' ___ dk5 en5 ___ fk5 ___ gk5 an5 ___ bn5 ___ ck6 ___ ', 
+ ' an4 ___ bn4 ___ ck5 ___ dk5 en5 ___ fk5 ___ gk5 an5 ', 
+ ' en4 ___ fk4 ___ gk4 an4 ___ bn4 ___ ck5 ___ dk5 en5 ']  
+ 
+ @n145 =  
+ [
+ ' ___ fn6 ___ gn6 aj6 ___ bj6 ___ cn7 dj7 ___ ej7 ___ ', 
+ ' ___ cn6 dj6 ___ ej6 ___ fn6 ___ gn6 aj6 ___ bj6 ___ ', 
+ ' gn5 aj5 ___ bj5 ___ cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ', 
+ ' ___ ej5 ___ fn5 ___ gn5 aj5 ___ bj5 ___ cn6 dj6 ___ ', 
+ ' ___ bj4 ___ cn5 dj5 ___ ej5 ___ fn5 ___ gn5 aj5 ___ ', 
+ ' ___ fn4 ___ gn4 aj4 ___ bj4 ___ cn5 dj5 ___ ej5 ___ ']  
+ 
+ @n37 =  
+ [
+ ' en6 ___ fk6 ___ gk6 ___ ak6 bn6 ___ ck7 ___ dk7 en7 ', 
+ ' bn5 ___ ck6 ___ dk6 en6 ___ fk6 ___ gk6 ___ ak6 bn6 ', 
+ ' ___ gk5 ___ ak5 bn5 ___ ck6 ___ dk6 en6 ___ fk6 ___ ', 
+ ' ___ dk5 en5 ___ fk5 ___ gk5 ___ ak5 bn5 ___ ck6 ___ ', 
+ ' ___ ak4 bn4 ___ ck5 ___ dk5 en5 ___ fk5 ___ gk5 ___ ', 
+ ' en4 ___ fk4 ___ gk4 ___ ak4 bn4 ___ ck5 ___ dk5 en5 ']  
+ 
+ @n14 =  
+ [
+ ' ___ fn6 gj6 ___ aj6 ___ bj6 ___ cn7 dj7 ___ ej7 ___ ', 
+ ' ___ cn6 dj6 ___ ej6 ___ fn6 gj6 ___ aj6 ___ bj6 ___ ', 
+ ' ___ aj5 ___ bj5 ___ cn6 dj6 ___ ej6 ___ fn6 gj6 ___ ', 
+ ' ___ ej5 ___ fn5 gj5 ___ aj5 ___ bj5 ___ cn6 dj6 ___ ', 
+ ' ___ bj4 ___ cn5 dj5 ___ ej5 ___ fn5 gj5 ___ aj5 ___ ', 
+ ' ___ fn4 gj4 ___ aj4 ___ bj4 ___ cn5 dj5 ___ ej5 ___ '] 
+
  @n4 =
  [
  ' ___ fn6 gj6 ___ aj6 ___ bj6 cj7 ___ dj7 ___ ej7 ___ ', 
@@ -154,6 +253,50 @@ def sig
  
 end 
 
+def n 
+ @n 
+end 
+
+def k4 
+ @k4 
+end 
+
+def j7 
+ @j7 
+end 
+
+def k14 
+ @k14 
+end 
+
+def j37 
+ @j37 
+end 
+
+def k145 
+ @k145 
+end 
+
+def j367 
+ @j367 
+end 
+
+def n367 
+ @n367 
+end 
+
+def n145 
+ @n145 
+end 
+
+def n37 
+ @n37 
+end 
+
+def n14 
+ @n14 
+end 
+
 def n4 
  @n4 
 end 
@@ -220,7 +363,7 @@ end
 
 end 
 
-sig_list = %w[ 'n4' 'n7' 'n34' 'n17' 'n1' 'n3' 'n24' 'n27' 'n46' 'n57' 'y2n45' 'x2n67' 'y6n24' 'x5n27' 'n346' 'n157' ] 
+sig_list = %w[ 'n' 'j7' 'k4' 'j37' 'k14' 'j367' 'k145' 'n145' 'n367' 'n14' 'n37' 'n4' 'n7' 'n34' 'n17' 'n1' 'n3' 'n24' 'n27' 'n46' 'n57' 'y2n45' 'x2n67' 'y6n24' 'x5n27' 'n346' 'n157' ] 
 
 help = [
 'For the Table of Contents,',
@@ -238,12 +381,57 @@ puts
 puts ' Select signature:'
 select_sig = gets.chomp 
  if (select_sig == 'index' or select_sig == 'list')
+  puts 
   puts sig_list 
- elsif (select_sig == 'n4' or select_sig == '4')    
+ elsif (select_sig == 'n' or select_sig == 'Am' or select_sig == 'C')    
+  puts 
+  puts 'n'  
+  puts Key.new.n 
+ elsif (select_sig == 'j7' or select_sig == 'Dm' or select_sig == 'F')    
+  puts 
+  puts 'j7'  
+  puts Key.new.j7 
+ elsif (select_sig == 'k4' or select_sig == 'Em' or select_sig == 'G')    
+  puts 
+  puts 'k4'  
+  puts Key.new.k4 
+ elsif (select_sig == 'j37' or select_sig == 'Gm' or select_sig == 'Bb')    
+  puts 
+  puts 'j37'  
+  puts Key.new.j37 
+ elsif (select_sig == 'k14' or select_sig == 'Bm' or select_sig == 'D')    
+  puts 
+  puts 'k14'  
+  puts Key.new.k14 
+ elsif (select_sig == 'j367' or select_sig == 'Cm' or select_sig == 'Eb')    
+  puts 
+  puts 'j367'  
+  puts Key.new.j367 
+ elsif (select_sig == 'k145' or select_sig == 'F#m' or select_sig == 'A')    
+  puts 
+  puts 'k145'  
+  puts Key.new.k145 
+ elsif (select_sig == 'n145' or select_sig == 'Fm' or select_sig == 'Ab')    
+  puts 
+  puts 'n145'  
+  puts Key.new.n145 
+ elsif (select_sig == 'n367' or select_sig == 'C#m' or select_sig == 'E')    
+  puts 
+  puts 'n367'  
+  puts Key.new.n367 
+ elsif (select_sig == 'n14' or select_sig == 'Bbm' or select_sig == 'Db')    
+  puts 
+  puts 'n14'  
+  puts Key.new.n14 
+ elsif (select_sig == 'n37' or select_sig == 'G#m' or select_sig == 'B')    
+  puts 
+  puts 'n37'  
+  puts Key.new.n37 
+ elsif (select_sig == 'n4' or select_sig == 'Ebm' or select_sig == 'Gb')    
   puts 
   puts 'n4'  
   puts Key.new.n4
- elsif (select_sig == 'n7' or select_sig == '7')
+ elsif (select_sig == 'n7' or select_sig == 'D#m' or select_sig == 'F#')
   puts 
   puts 'n7' 
   puts Key.new.n7 
@@ -303,7 +491,7 @@ select_sig = gets.chomp
   puts 
   puts 'n157' 
   puts Key.new.n157 
- elsif (select_sig == 'help' or select_sig == '-h' or select_sig == '')
+ elsif (select_sig == 'help' or select_sig == '?' or select_sig == '')
   puts help  
  elsif (select_sig == 'exit' or select_sig == 'quit')
   x_status = true
