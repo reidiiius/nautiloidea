@@ -112,6 +112,22 @@
  sun_neptune_j2k5 = '110111001100'
  neptune_sun_j2k5 = '101110011001'
  ceres_saturn_j2k5 = '111001100110' 
+# sharp_26
+ mercury_pallas_k26 = '100111010011'
+ pallas_mercury_k26 = '111010011100'
+ venus_mars_k26 = '110100111001'
+ saturn_ceres_k26 = '101001110011'
+ sun_neptune_k26 = '100111001110'
+ ceres_saturn_k26 = '111001110100'
+ mars_venus_k26 = '110011101001'
+# flat_25 
+ neptune_sun_j25 = '101110011100'
+ ceres_saturn_j25 = '111001110010' 
+ mars_venus_j25 = '110011100101'
+ mercury_pallas_j25 = '100111001011'
+ pallas_mercury_j25 = '111001011100'
+ venus_mars_j25 = '110010111001'
+ saturn_ceres_j25 = '100101110011' 
 
 def natural 
  @ion = '101011010101',
@@ -253,6 +269,26 @@ def flat_2_sharp_5
  @loc_j3k6 = '111001100110' 
 end 
 
+def sharp_26 
+ @ion_k26 = '100111010011',
+ @dor_k15 = '111010011100',
+ @phry_k47 = '110100111001',
+ @lyd_k36 = '101001110011',
+ @mixo_k25 = '100111001110',
+ @aeol_k14 = '111001110100',
+ @loc_k37 = '110011101001'
+end 
+
+def flat_25 
+ @ion_j25 = '110011100101',
+ @dor_j14 = '100111001011',
+ @phry_j37 = '111001011100',
+ @lyd_j26 = '110010111001',
+ @mixo_j15 = '100101110011',
+ @aeol_j47 = '101110011100',
+ @loc_j36 = '111001110010' 
+end 
+
 clave_list = [ 
 'natural', 
 ' mercury_venus',
@@ -365,7 +401,23 @@ clave_list = [
 ' venus_mars_j2k5',
 ' sun_neptune_j2k5',
 ' neptune_sun_j2k5',
-' ceres_saturn_j2k5' ] 
+' ceres_saturn_j2k5', 
+'sharp_26',
+' mercury_pallas_k26',
+' pallas_mercury_k26',
+' venus_mars_k26',
+' saturn_ceres_k26',
+' sun_neptune_k26',
+' ceres_saturn_k26',
+' mars_venus_k26',
+'flat_25',
+' neptune_sun_j25',
+' ceres_saturn_j25',
+' mars_venus_j25',
+' mercury_pallas_j25',
+' pallas_mercury_j25',
+' venus_mars_j25',
+' saturn_ceres_j25' ] 
 
 help = [
 'For the Table of Contents,',
@@ -720,7 +772,55 @@ select_clave = gets.chomp
  elsif select_clave == 'ceres_saturn_j2k5'
   puts 
   puts ceres_saturn_j2k5 
- elsif (select_clave == 'help' or select_clave == '-h')
+ elsif (select_clave == 'sharp_26' or select_clave == 'k26') 
+  puts
+  puts sharp_26 
+ elsif select_clave == 'mercury_pallas_k26'
+  puts 
+  puts mercury_pallas_k26
+ elsif select_clave == 'pallas_mercury_k26'
+  puts 
+  puts pallas_mercury_k26
+ elsif select_clave == 'venus_mars_k26'
+  puts 
+  puts venus_mars_k26
+ elsif select_clave == 'saturn_ceres_k26'
+  puts 
+  puts saturn_ceres_k26
+ elsif select_clave == 'sun_neptune_k26'
+  puts 
+  puts sun_neptune_k26
+ elsif select_clave == 'ceres_saturn_k26'
+  puts 
+  puts ceres_saturn_k26
+ elsif select_clave == 'mars_venus_k26'
+  puts 
+  puts mars_venus_k26 
+ elsif (select_clave == 'flat_25' or select_clave == 'j25') 
+  puts
+  puts flat_25 
+ elsif select_clave == 'neptune_sun_j25'
+  puts 
+  puts neptune_sun_j25
+ elsif select_clave == 'ceres_saturn_j25'
+  puts 
+  puts ceres_saturn_j25 
+ elsif select_clave == 'mars_venus_j25'
+  puts 
+  puts mars_venus_j25
+ elsif select_clave == 'mercury_pallas_j25'
+  puts 
+  puts mercury_pallas_j25
+ elsif select_clave == 'pallas_mercury_j25'
+  puts 
+  puts pallas_mercury_j25
+ elsif select_clave == 'venus_mars_j25'
+  puts 
+  puts venus_mars_j25
+ elsif select_clave == 'saturn_ceres_j25'
+  puts 
+  puts saturn_ceres_j25
+ elsif (select_clave == 'help' or select_clave == '')
   puts help  
  elsif (select_clave == 'exit' or select_clave == 'quit')
   x_status = true
