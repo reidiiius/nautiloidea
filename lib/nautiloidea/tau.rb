@@ -763,8 +763,8 @@ chord_list = [
 ' dimk7',
 ' mik4', 
 ' mik7',
-' ma7k5',
-' dom7k5' ] 
+' dom7k5', 
+' ma7k5'] 
 
 index = [
 ' Sankarabharanam, Kharaharapriya, Hanumatodi', # natural

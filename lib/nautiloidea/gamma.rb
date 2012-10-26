@@ -397,6 +397,7 @@ flat_25 = [
 {:tone => ' cn5 ', :function => mars, :invert => venus },
 {:tone => ' dj5 ', :function => mercury, :invert => pallas } ] 
 
+ # natural 
 sankarabharanam = [
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
 {:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
@@ -1130,23 +1131,282 @@ index = [
 ' Chalanata, Subhapantuvarali ', # flat_25
 ' Kanakangi, Kamavardhini' ] 
 
-help = [ 
-' For a table of contents,',
-' just type "index" or "list".',
-' If you want to leave the program,',
-' just type "exit" or "quit".'] 
- 
-puts 
-puts ' Functional Harmony'.upcase 
-puts 
-puts help 
-x_reply = false
+key_list = [ 
+'',
+' n',
+'', 
+' k6', 
+' j5', 
+'',
+' k126j5', 
+'',
+' j3', 
+'',
+' j5k6', 
+' j25k6', 
+' k26j5', 
+'',
+' j6', 
+' k5', 
+'',
+' k1j6', 
+' k16', 
+'',
+' k56', 
+' j56', 
+'',
+' k127', 
+' k127j5', 
+'',
+' j34k5', 
+'',
+' j2', 
+' k2',
+'',
+' k25',
+' j2k6', 
+' k2j5',
+'', 
+' j23', 
+'',
+' k2j56', 
+' j2k56',  
+'',
+' k12j5',
+' j23k6',
+'',
+' j34k6', 
+' j34k16', 
+'',
+' x1k2j5', 
+' x1k26j5', 
+'',
+' j3k6', 
+' k1j5', 
+'',
+' k2j6', 
+' j2k5',
+'', 
+' k26', 
+' j25'] 
+
+help = [
+'For the Table of Contents,',
+'type the word "index" or "list".',
+'for a key list type "key" or "jnk"', 
+'the letter "n" = natural,',
+'"k" = sharp, and "j" = flat.', 
+'To exit and leave the program,',
+'type the word "exit" or "quit".']
+
+ puts
+ puts ' Graha bhedam &' .upcase 
+ puts 'Functional Harmony' 
+ puts  
+ puts help 
+ x_reply = false
 while (not x_reply) 
-puts
-puts ' Enter Raga name:'
+ puts
+ puts ' Enter selection:'
  raganame = gets.chomp 
- if (raganame == 'index' or raganame == 'list' or raganame == 'toc')
-  puts index 
+if (raganame == 'index' or raganame == 'list' or raganame == 'toc')
+ puts index 
+elsif (raganame == 'key' or raganame == 'keys' or raganame == 'jnk')
+ puts key_list
+elsif (raganame == 'n' or raganame == '0' or raganame == '=') # natural
+ puts ' Sankarabharanam ' 
+ puts sankarabharanam
+ puts ' Kharaharapriya '
+ puts kharaharapriya 
+ puts ' Hanumatodi '
+ puts hanumatodi 
+ puts ' Mechakalyani '
+ puts mechakalyani 
+ puts ' Harikambhoji '
+ puts harikambhoji 
+ puts ' Natabhairavi ' 
+ puts natabhairavi 
+elsif (raganame == 'k6' or raganame == 'j5') 
+ puts 
+ puts ' Naganandini '  # sharp_6
+ puts naganandini 
+ puts ' Bhavapriya ' 
+ puts bhavapriya 
+ puts ' Vagadheeswari ' 
+ puts vagadheeswari 
+ puts ' Jhankaradhwani '  # flat_5 
+ puts jhankaradhwani 
+ puts ' Ratnangi ' 
+ puts ratnangi 
+ puts ' Gamanasrama ' 
+ puts gamanasrama 
+elsif (raganame == 'k126j5' or raganame == 'j5k126') 
+ puts  
+ puts ' Pavani '  # sharp_126_flat_5 
+ puts pavani 
+elsif (raganame == 'j3' or raganame == 'k1') 
+ puts 
+ puts ' Gourimanohari '  # flat_3 
+ puts gourimanohari
+ puts ' Natakapriya ' 
+ puts natakapriya 
+ puts ' Vachaspati ' 
+ puts vachaspati 
+ puts ' Charukesi ' 
+ puts charukesi 
+elsif (raganame == 'j5k6' or raganame == 'k6j5') 
+ puts 
+ puts ' Jalarnavam '  # flat_5_sharp_6 
+ puts jalarnavam 
+elsif (raganame == 'j25k6' or raganame == 'k26j5') 
+ puts 
+ puts ' Salagam '  # flat_25_Sharp_6 
+ puts salagam 
+ puts ' Jhalavarali '  # sharp_26_flat_5
+ puts jhalavarali 
+elsif (raganame == 'j6' or raganame == 'k5') 
+ puts 
+ puts ' Sarasangi '  # flat_6 
+ puts sarasangi
+ puts ' Dharmavati '
+ puts dharmavati
+ puts ' Chakravakam '
+ puts chakravakam 
+ puts ' Keeravani '  # sharp_5 
+ puts keeravani
+ puts ' Hemavati '
+ puts hemavati 
+ puts ' Vakulabharanam '
+ puts vakulabharanam 
+ puts ' Kosalam '
+ puts kosalam 
+elsif (raganame == 'k1j6' or raganame == 'k16') 
+ puts 
+ puts ' Ramapriya '  # sharp_1_flat_6 
+ puts ramapriya 
+ puts ' Shadvidhamargini '  # sharp_16
+ puts shadvidhamargini 
+ puts ' Nasikabhusani '
+ puts nasikabhusani 
+elsif (raganame == 'k56' or raganame == 'j56') 
+ puts 
+ puts ' Namanarayani '  # sharp_56 
+ puts namanarayani 
+ puts ' Suvarnangi '  # flat_56
+ puts suvarnangi 
+elsif (raganame == 'k127' or raganame == 'j234') 
+ puts 
+ puts ' Jyotiswarupini '  # sharp_127 
+ puts jyotiswarupini 
+elsif (raganame == 'k127j5' or raganame == 'j234k6') 
+ puts
+ puts ' Sucharitra '  # sharp_127_flat_5
+ puts sucharitra 
+elsif (raganame == 'j34k5' or raganame == 'k5j34') 
+ puts 
+ puts ' Navaneetam '  # flat_34_sharp_5 
+ puts navaneetam 
+elsif (raganame == 'j2' or raganame == 'k2') 
+ puts 
+ puts ' Suryakantam '  # flat_2 
+ puts suryakantam
+ puts ' Senavati '
+ puts senavati 
+ puts ' Latangi '
+ puts latangi  # sharp_2
+ puts ' Dhenuka '
+ puts dhenuka 
+ puts ' Shanmukhapriya '
+ puts shanmukhapriya 
+ puts ' Sulini '
+ puts sulini 
+ puts ' Chitrambhari '
+ puts chitrambhari 
+elsif (raganame == 'k25' or raganame == 'j26') 
+ puts 
+ puts ' Mayamalavagowla '  # sharp_25
+ puts mayamalavagowla
+ puts ' Rasikapriya '
+ puts rasikapriya 
+ puts ' Simhendramadhyamam '
+ puts simhendramadhyamam 
+elsif (raganame == 'j2k6' or raganame == 'k2j5') 
+ puts  
+ puts ' Hatakambari '  # flat_2_sharp_6
+ puts hatakambari 
+ puts ' Gavambodhi '
+ puts gavambodhi  
+ puts ' Ganamurti '  # sharp_2_flat_5
+ puts ganamurti
+ puts ' Viswambhari '
+ puts viswambhari
+ puts ' Syamalangi '
+ puts syamalangi 
+elsif (raganame == 'j23' or raganame == 'k12') 
+ puts 
+ puts ' Kokilapriya '  # flat_23
+ puts kokilapriya
+ puts ' Rishabhapriya '
+ puts rishabhapriya 
+elsif (raganame == 'k2j56' or raganame == 'j2k56') 
+ puts  
+ puts ' Divyamani '  # sharp_2_flat_56
+ puts divyamani 
+ puts ' Dhavalambari '  # flat_2_sharp_56
+ puts dhavalambari 
+elsif (raganame == 'k12j5' or raganame == 'j23k6')
+ puts  
+ puts ' Manavati '  # sharp_12_flat_5
+ puts manavati
+ puts ' Kantamani '
+ puts kantamani  
+ puts ' Rupavati '  # flat_23_sharp_6 
+ puts rupavati 
+elsif (raganame == 'j34k6' or raganame == 'j34k16') 
+ puts  
+ puts ' Yagapriya '  # flat_34_sharp_6
+ puts yagapriya  
+ puts ' Sucharitra ' # flat_34_sharp_16
+ puts sucharitra 
+elsif (raganame == 'x1k2j5' or raganame == 'x1k2j5') 
+ puts  
+ puts ' Tanarupi '  # x1_sharp_2_flat_5
+ puts tanarupi 
+elsif (raganame == 'x1k26j5' or raganame == 'x1k26j5') 
+ puts
+ puts ' Raghupriya '  # x1_sharp_26_flat_5
+ puts raghupriya  
+elsif (raganame == 'j3k6' or raganame == 'k1j5') 
+ puts 
+ puts ' Varunapriya '  # flat_3_sharp_6
+ puts varunapriya  
+ puts ' Ragavardhini '
+ puts ragavardhini 
+ puts ' Mararanjani '  # sharp_1_flat_5 
+ puts mararanjani  
+ puts ' Vanaspati '
+ puts vanaspati 
+elsif (raganame == 'k2j6' or raganame == 'j2k5') 
+ puts 
+ puts ' Gangeyabhusani '  # sharp_2_flat_6
+ puts gangeyabhusani   
+ puts ' Neetimati '
+ puts neetimati  
+ puts ' Gayakapriya '  # flat_2_sharp_5
+ puts gayakapriya  
+ puts ' Dhatuvardhini '
+ puts dhatuvardhini 
+elsif (raganame =='k26' or raganame == 'j25')  
+ puts 
+ puts ' Chalanata '  # sharp_26
+ puts chalanata  
+ puts ' Subhapantuvarali '
+ puts subhapantuvarali 
+ puts ' Kanakangi '  # flat_25
+ puts kanakangi   
+ puts ' kamavardhini '
+ puts kamavardhini 
+ # functional harmony 
  elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam') 
   puts ' shadja cn5'  
   puts natural 
