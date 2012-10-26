@@ -684,7 +684,7 @@ namanarayani = [
 {:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
 {:tone => 'aries', :function => 'neptune', :invert => 'mars'},
 {:tone => 'aquarius', :function => 'titan', :invert => 'moon'},
-{:tone => 'capricor', :function => 'mars', :invert => 'neptune'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'},
 {:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
 {:tone => 'libra', :function => 'jupiter', :invert => 'saturn'} ] 
 
