@@ -22,7 +22,6 @@ module Gemini
     def n7 
 	  @n7 
     end 
-
   end 
   
   class Castor             
