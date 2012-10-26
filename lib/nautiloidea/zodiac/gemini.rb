@@ -44,7 +44,6 @@ module Gemini
     def n4 
 	  @n4 
     end   
-
   end 
 
   puts 
