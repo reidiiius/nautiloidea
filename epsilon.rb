@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby 
 
-module Nautiloidea 
+module Epsilon 
 
 class Key 
 
