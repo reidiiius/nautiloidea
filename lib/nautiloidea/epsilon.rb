@@ -18,8 +18,8 @@ def signet
  ' dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ', 
  ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ', 
  ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
- 
- @k6 =  
+  
+@k6 =  
 [
 ' en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 ', 
 ' bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ',
@@ -872,7 +872,9 @@ end
 
 end 
 
-node_n = %w[ n k6 j5 k126j5 j3 j5k6 j25k6 k26j5 j6 k5 k1j6 k16 k56 j56 k127 k127j5 j34k5 j2 k2 k25 j2k6 k2j5 j23 k2j56 j2k56 k12j5 j23k6 j34k6 j34k16 x1k2j5 x1k26j5 j3k6 k1j5 k2j6 j2k5 k26 j25 ]
+node_n = %w[ n k6 j5 j3 j5k6 j25k6 k26j5 k126j5 j6 k5 k1j6 k16 k56 j56 
+k127 k127j5 j34k5 j2 j2k6 k2 k25 j23 j23k6 k12j5 k2j5 k2j56 j2k56 
+j34k6 j34k16 x1k2j5 x1k26j5 j3k6 k1j5 k2j6 j2k5 k26 j25 ]
 
 key_list = %w[ n j7 k4 j37 k14 j367 k145 n145 n367 n14 n37 n4 n7 j k ]
 
