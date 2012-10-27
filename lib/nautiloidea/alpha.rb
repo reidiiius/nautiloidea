@@ -808,7 +808,7 @@ puts ' sulini'      # ( shulini )
 puts melakarta[35]
 puts ' chalanata'  
 puts melakarta[36]   
- elsif select_madhyama =~ /rati/ 
+ elsif select_madhyama =~ /P|p(rati)/ 
   puts melakarta[0] 
  # rishi_chakra
 puts 'rishi' .upcase 
@@ -894,7 +894,7 @@ puts ' kosalam'
 puts melakarta[71] 
 puts ' rasikapriya'
 puts melakarta[72] 
- elsif select_madhyama =~ /dex|ist/
+ elsif select_madhyama =~ /ndex|ist/
   puts index
  elsif (select_madhyama =~ /\s|elp/ or select_madhyama == '') 
   puts help  

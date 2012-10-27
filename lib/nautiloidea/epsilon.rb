@@ -895,7 +895,7 @@ while (not x_status)
 puts
 puts ' Select signature:'
 select_sig = gets.chomp 
- if select_sig =~ /dex|ist/
+ if select_sig =~ /ndex|ist/
   puts 
   puts node_n 
   puts   

@@ -1209,11 +1209,11 @@ while (not x_reply)
  puts
  puts ' Enter selection:'
  raganame = gets.chomp 
-if (raganame == 'index' or raganame == 'list' or raganame == 'toc')
+if raganame =~ /ndex|ist/ 
  puts index 
-elsif (raganame == 'key' or raganame == 'keys' or raganame == 'jnk')
+elsif raganame =~ /key|jnk/
  puts key_list
-elsif (raganame == 'n' or raganame == '0' or raganame == '=') # natural
+elsif raganame =~ /n|0/ # natural
  puts ' Sankarabharanam ' 
  puts sankarabharanam
  puts ' Kharaharapriya '
@@ -1772,9 +1772,9 @@ elsif (raganame =='k26' or raganame == 'j25')
   puts flat_25 
   puts 
   puts kamavardhini 
- elsif (raganame == 'exit' or raganame == 'quit' or raganame == 'fin')
+ elsif raganame =~ /xit|uit/ 
   x_reply = true 
- elsif (raganame == 'help' or raganame == '-h' or raganame == '')
+ elsif (raganame =~ /\s|elp/ or raganame == '')
   puts help
   end
  end 

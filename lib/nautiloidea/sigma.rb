@@ -489,9 +489,9 @@ while (not x_reply)
 puts
 puts ' Enter selection:'
  raganame = gets.chomp 
- if (raganame == 'index' or raganame == 'list')
+ if raganame =~ /ndex|ist/ 
   puts index 
- elsif (raganame == 'Chords' or raganame == 'chords')
+ elsif raganame =~ /hord|ords/
   puts chord_list
  elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam' or raganame == 'n')   
   puts n
@@ -667,9 +667,9 @@ puts ' Enter selection:'
   puts dom7k5 
  elsif (raganame == 'auk2' or raganame == 'auk7' or raganame == 'ma7k5') 
   puts ma7k5 
- elsif (raganame == 'exit' or raganame == 'quit' or raganame == 'fin')
+ elsif raganame =~ /xit|uit/ 
   x_reply = true 
- elsif (raganame == 'help' or raganame == '?' or raganame == '')
+ elsif (raganame =~ /\s|elp/ or raganame == '')  
   puts help
   end
  end 

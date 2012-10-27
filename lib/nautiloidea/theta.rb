@@ -434,9 +434,9 @@ while (not x_status)
 puts
 puts ' Select Clave:'
 select_clave = gets.chomp 
- if (select_clave == 'index' or select_clave == 'list')
+ if select_clave =~ /ndex|ist/ 
   puts clave_list 
- elsif (select_clave == 'natural' or select_clave == 'n') 
+ elsif (select_clave =~ /n|0/ or select_clave == 'natural') 
   puts 
   puts natural 
  elsif select_clave == 'mercury_venus'
@@ -820,9 +820,9 @@ select_clave = gets.chomp
  elsif select_clave == 'saturn_ceres_j25'
   puts 
   puts saturn_ceres_j25
- elsif (select_clave == 'help' or select_clave == '')
+ elsif (select_clave =~ /\s|elp/ or select_clave == '')
   puts help  
- elsif (select_clave == 'exit' or select_clave == 'quit')
+ elsif select_clave =~ /xit|uit/ 
   x_status = true
  end
 end   
