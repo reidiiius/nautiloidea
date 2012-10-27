@@ -478,7 +478,7 @@ help = [
 ' and for Chords just type "chords".',
 ' for the next section, type "next".', 
 ' If you want to leave the program,',
-' simply type "exit", "quit" or "fin".'] 
+' simply type "exit" or "quit".'] 
  
 puts 
 puts ' Mandolin & Violin'.upcase
