@@ -887,7 +887,7 @@ help = [
 'type the word "exit" or "quit".'] 
 
 puts 
-puts 'key signatures' .upcase
+puts ' key signatures' .upcase
 puts 
 puts help 
 x_status = false
