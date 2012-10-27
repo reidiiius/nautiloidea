@@ -895,7 +895,7 @@ while (not x_status)
 puts
 puts ' Select signature:'
 select_sig = gets.chomp 
- if (select_sig == 'index' or select_sig == 'list')
+ if select_sig =~ /dex|ist/
   puts 
   puts node_n 
   puts   
@@ -1097,9 +1097,9 @@ select_sig = gets.chomp
  elsif (select_sig == 'n157' or select_sig == '157')
   puts  
   puts Key.new.n157 
- elsif (select_sig == 'help' or select_sig == '?' or select_sig == '')
-  puts help  
- elsif (select_sig == 'exit' or select_sig == 'quit')
+ elsif (select_sig =~ /\s|elp/ or select_sig == '')
+  puts help 
+ elsif select_sig =~ /xit|uit/
   x_status = true
  end
  end 

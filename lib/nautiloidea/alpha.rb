@@ -722,7 +722,7 @@ puts ' Select Madhyama:'
 puts 
 puts ' "Shuddha" or "Prati" '
 select_madhyama = gets.chomp 
- if (select_madhyama == 'Shuddha' or select_madhyama == 'shuddha')
+ if select_madhyama =~ /hud|udd/
   puts melakarta[0] 
  # indu_chakra   
 puts 'indu' .upcase  
@@ -808,7 +808,7 @@ puts ' sulini'      # ( shulini )
 puts melakarta[35]
 puts ' chalanata'  
 puts melakarta[36]   
- elsif (select_madhyama == 'Prati' or select_madhyama == 'prati') 
+ elsif select_madhyama =~ /rati/ 
   puts melakarta[0] 
  # rishi_chakra
 puts 'rishi' .upcase 
@@ -894,11 +894,11 @@ puts ' kosalam'
 puts melakarta[71] 
 puts ' rasikapriya'
 puts melakarta[72] 
- elsif (select_madhyama == 'index' or select_madhyama == 'list')
+ elsif select_madhyama =~ /dex|ist/
   puts index
- elsif (select_madhyama == 'help' or select_madhyama == '-h' or select_madhyama == '')
+ elsif (select_madhyama =~ /\s|elp/ or select_madhyama == '') 
   puts help  
- elsif (select_madhyama == 'exit' or select_madhyama == 'quit')
+ elsif select_madhyama =~ /xit|uit/
   x_status = true
  end
 end 
