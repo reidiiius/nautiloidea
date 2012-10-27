@@ -809,7 +809,8 @@ index = [
 help = [ 
 ' For a table of contents,',
 ' just type "index" or "list".', 
-' for chords just type "Chords".',
+' for chords just type "Chords".', 
+' for the next section, type "next".',
 ' If you want to leave the program,',
 ' just type "exit" or "quit".'] 
  
@@ -818,8 +819,8 @@ puts ' Guitar Tab'.upcase
 puts 'standard tuning'
 puts 
 puts help 
-x_reply = false
-while (not x_reply) 
+x_status = false
+while (not x_status) 
 puts
 puts ' Enter selection:'
  raganame = gets.chomp 
@@ -1045,7 +1046,9 @@ puts ' Enter selection:'
   puts flat_25 
  elsif (raganame =~ /\s|elp/ or raganame == '')
   puts help
- elsif raganame =~ /xit|uit/ 
-  x_reply = true 
+ elsif raganame =~ /next/
+  x_status = true 
+ elsif raganame =~ /^exit|quit/ 
+ exit
   end
  end 

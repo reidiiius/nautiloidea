@@ -881,10 +881,11 @@ key_list = %w[ n j7 k4 j37 k14 j367 k145 n145 n367 n14 n37 n4 n7 j k ]
 node_u = %w[ n4 n7 n34 n17 n1 n3 n24 n27 n46 n57 y2n45 x2n67 y6n24 x5n27 n346 n157 ] 
 
 help = [
-'For the Table of Contents,',
-'type the word "index" or "list".',
-'To exit and leave the program,',
-'type the word "exit" or "quit".'] 
+' For the Table of Contents,',
+' type the word "index" or "list".',
+' for the next section, type "next".',
+' To exit and leave the program,',
+' type the word "exit" or "quit".'] 
 
 puts 
 puts ' key signatures' .upcase
@@ -1099,8 +1100,10 @@ select_sig = gets.chomp
   puts Key.new.n157 
  elsif (select_sig =~ /\s|elp/ or select_sig == '')
   puts help 
- elsif select_sig =~ /xit|uit/
-  x_status = true
+ elsif select_sig =~ /next/
+  x_status = true 
+ elsif select_sig =~ /^exit|quit/ 
+ exit
  end
  end 
 end 

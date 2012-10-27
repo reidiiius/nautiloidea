@@ -476,6 +476,7 @@ help = [
 ' If you want the table of contents,',
 ' for Ragas type "index" or "list",',
 ' and for Chords just type "chords".',
+' for the next section, type "next".', 
 ' If you want to leave the program,',
 ' simply type "exit", "quit" or "fin".'] 
  
@@ -484,8 +485,8 @@ puts ' Mandolin & Violin'.upcase
 puts 'perfect fifths tuning'
 puts 
 puts help 
-x_reply = false
-while (not x_reply) 
+x_status = false
+while (not x_status) 
 puts
 puts ' Enter selection:'
  raganame = gets.chomp 
@@ -667,10 +668,12 @@ puts ' Enter selection:'
   puts dom7k5 
  elsif (raganame == 'auk2' or raganame == 'auk7' or raganame == 'ma7k5') 
   puts ma7k5 
- elsif raganame =~ /xit|uit/ 
-  x_reply = true 
  elsif (raganame =~ /\s|elp/ or raganame == '')  
-  puts help
+  puts help 
+ elsif raganame =~ /next/
+  x_status = true 
+ elsif raganame =~ /^exit|quit/ 
+ exit
   end
  end 
  

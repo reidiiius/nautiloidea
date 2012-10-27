@@ -706,10 +706,11 @@ index = [ '',
 ' rasikapriya']
 
 help = [
-'For the Table of Contents,',
-'type the word "index" or "list".',
-'To exit and leave the program,',
-'type the word "exit" or "quit".']
+' For the Table of Contents,',
+' type the word "index" or "list".',
+' for the next section, type "next".',
+' To exit and leave the program,',
+' type the word "exit" or "quit".']
 
 puts 
 puts ' Melakarta' .upcase
@@ -721,7 +722,7 @@ puts
 puts ' Select Madhyama:'
 puts 
 puts ' "Shuddha" or "Prati" '
-select_madhyama = gets.chomp 
+select_madhyama = gets.chomp  
  if select_madhyama =~ /hud|udd/
   puts melakarta[0] 
  # indu_chakra   
@@ -898,7 +899,9 @@ puts melakarta[72]
   puts index
  elsif (select_madhyama =~ /\s|elp/ or select_madhyama == '') 
   puts help  
- elsif select_madhyama =~ /xit|uit/
-  x_status = true
+ elsif select_madhyama =~ /next/
+  x_status = true 
+ elsif select_madhyama =~ /^exit|quit/ 
+ exit 
  end
 end 

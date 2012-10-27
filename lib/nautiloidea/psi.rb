@@ -188,7 +188,6 @@
  as0 = bj0 
  by0 = an0  
  
- 
  chromatic = [                           an0, bj0, bn0, cn1,
  dj1, dn1, ej1, en1, fn1, gj1, gn1, aj1, an1, bj1, bn1, cn2,
  dj2, dn2, ej2, en2, fn2, gj2, gn2, aj2, an2, bj2, bn2, cn3,

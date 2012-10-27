@@ -1191,21 +1191,22 @@ key_list = [
 ' j25'] 
 
 help = [
-'For the Table of Contents,',
-'type the word "index" or "list".',
-'for a key list type "key" or "jnk"', 
-'the letter "n" = natural,',
-'"k" = sharp, and "j" = flat.', 
-'To exit and leave the program,',
-'type the word "exit" or "quit".']
+' For the Table of Contents,',
+' type the word "index" or "list".',
+' for a key list, type "key" or "jnk"', 
+' the letter "n" = natural,',
+' "k" = sharp, and "j" = flat.',
+' for the next section, type "next".',  
+' To exit and leave the program,',
+' type the word "exit" or "quit".']
 
  puts
  puts ' Graha bhedam &' .upcase 
  puts 'Functional Harmony' 
  puts  
  puts help 
- x_reply = false
-while (not x_reply) 
+ x_status = false
+while (not x_status) 
  puts
  puts ' Enter selection:'
  raganame = gets.chomp 
@@ -1213,7 +1214,7 @@ if raganame =~ /ndex|ist/
  puts index 
 elsif raganame =~ /key|jnk/
  puts key_list
-elsif raganame =~ /n|0/ # natural
+elsif (raganame == 'n' or raganame == '0')  # natural
  puts ' Sankarabharanam ' 
  puts sankarabharanam
  puts ' Kharaharapriya '
@@ -1772,10 +1773,12 @@ elsif (raganame =='k26' or raganame == 'j25')
   puts flat_25 
   puts 
   puts kamavardhini 
- elsif raganame =~ /xit|uit/ 
-  x_reply = true 
  elsif (raganame =~ /\s|elp/ or raganame == '')
-  puts help
+  puts help 
+ elsif raganame =~ /next/
+  x_status = true 
+ elsif raganame =~ /^exit|quit/ 
+ exit
   end
  end 
  

@@ -420,10 +420,11 @@ clave_list = [
 ' saturn_ceres_j25' ] 
 
 help = [
-'For the Table of Contents,',
-'type the word "index" or "list".',
-'To exit and leave the program,',
-'type the word "exit" or "quit".']
+' For the Table of Contents,',
+' type the word "index" or "list".', 
+' for the next section, type "next".',
+' To exit and leave the program,',
+' type the word "exit" or "quit".']
 
 puts 
 puts ' Clave Patterns' .upcase
@@ -436,7 +437,7 @@ puts ' Select Clave:'
 select_clave = gets.chomp 
  if select_clave =~ /ndex|ist/ 
   puts clave_list 
- elsif (select_clave =~ /n|0/ or select_clave == 'natural') 
+ elsif (select_clave == 'n' or select_clave == 'natural') 
   puts 
   puts natural 
  elsif select_clave == 'mercury_venus'
@@ -822,7 +823,9 @@ select_clave = gets.chomp
   puts saturn_ceres_j25
  elsif (select_clave =~ /\s|elp/ or select_clave == '')
   puts help  
- elsif select_clave =~ /xit|uit/ 
-  x_status = true
+ elsif select_clave =~ /next/
+  x_status = true 
+ elsif select_clave =~ /^exit|quit/ 
+ exit
  end
 end   
