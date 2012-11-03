@@ -320,7 +320,7 @@
    "str5":" an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ", 
    "str6":" en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "}; 
 
- // spring: 
+ // spring  
   
   var $sus = {  
    "str1":" en6 ___ ___ gn6 ___ an6 ___ ___ ___ ___ dn7 ___ en7 ", 
@@ -442,7 +442,6 @@
    
  // mandolin 
  
-
  // sun_moon 
  
      var _n = { 
@@ -749,15 +748,15 @@
       "str1":" en5 fn5 ___ ___ gk5 ___ ___ bn5 ___ ___ ___ ___ en6 ", 
       "str2":" ___ ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ gk5 ___ ", 
       "str3":" ___ ___ en4 fn4 ___ ___ gk4 ___ ___ bn4 ___ ___ ___ ", 
-      "str4":" ___ gk3 ___ ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___ "};  
-
- // winter  
+      "str4":" ___ gk3 ___ ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___ "};   
 	
      var _mik4 = {  
       "str1":" ___ fn5 ___ ___ gk5 an5 ___ ___ ___ ___ dn6 ___ ___ ", 
       "str2":" an4 ___ ___ ___ ___ dn5 ___ ___ fn5 ___ ___ gk5 an5 ", 
       "str3":" dn4 ___ ___ fn4 ___ ___ gk4 an4 ___ ___ ___ ___ dn5 ", 
-      "str4":" ___ gk3 an3 ___ ___ ___ ___ dn4 ___ ___ fn4 ___ ___ "};   
+      "str4":" ___ gk3 an3 ___ ___ ___ ___ dn4 ___ ___ fn4 ___ ___ "}; 
+
+ // winter    
 
      var _mik7 = {   
       "str1":" ___ ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ej6 ___ ", 
@@ -787,7 +786,7 @@
   document.getElementById("str5").innerHTML=$n.str5 
   document.getElementById("str6").innerHTML=$n.str6 }; 
 
-// sun_jupiter 
+ // sun_jupiter 
 
  function k6() {
   document.getElementById("str1").innerHTML=$k6.str1 
@@ -1215,7 +1214,7 @@
   document.getElementById("str5").innerHTML=$ma7k5.str5 
   document.getElementById("str6").innerHTML=$ma7k5.str6 }; 
 
-  // sun_moon 
+ // sun_moon 
 
  function n_() {
   document.getElementById("str1").innerHTML=_n.str1 
@@ -1223,7 +1222,7 @@
   document.getElementById("str3").innerHTML=_n.str3 
   document.getElementById("str4").innerHTML=_n.str4 }; 
 
-// sun_jupiter 
+ // sun_jupiter 
 
  function k6_() {
   document.getElementById("str1").innerHTML=_k6.str1 
@@ -1551,4 +1550,4 @@
   document.getElementById("str3").innerHTML=_ma7k5.str3 
   document.getElementById("str4").innerHTML=_ma7k5.str4 }; 
   
-  // 
+ // 
