@@ -159,7 +159,7 @@
   var $j2 = {  
    "str1":" en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 ", 
    "str2":" bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ", 
-   "str3":" gn5 ___ an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 ___ gn6 ", 
+   "str3":" gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ", 
    "str4":" ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ", 
    "str5":" an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ", 
    "str6":" en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "}; 
@@ -183,7 +183,7 @@
   var $j23 = {  
    "str1":" ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ ", 
    "str2":" bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 ", 
-   "str3":" gn5 ___ an5 ___ bn5 cn6 dJ6 ___ ej6 ___ fn6 ___ gn6 ", 
+   "str3":" gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ", 
    "str4":" ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ", 
    "str5":" an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 ", 
    "str6":" ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ "}; 
@@ -191,7 +191,7 @@
   var $j23k6 = {  
    "str1":" ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ ", 
    "str2":" bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 ", 
-   "str3":" gn5 ___ ___ ak5 bn5 cn6 dJ6 ___ ej6 ___ fn6 ___ gn6 ", 
+   "str3":" gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ", 
    "str4":" ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ", 
    "str5":" ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ", 
    "str6":" ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ "}; 
@@ -215,7 +215,7 @@
   var $j2k6 = {  
    "str1":" en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 ", 
    "str2":" bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ", 
-   "str3":" gn5 ___ ___ ak5 bn5 cn6 dJ6 ___ ___ en6 fn6 ___ gn6 ", 
+   "str3":" gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ", 
    "str4":" ___ ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ", 
    "str5":" ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ", 
    "str6":" en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "}; 
@@ -299,7 +299,7 @@
   var $j2k5 = {  
    "str1":" en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7 ", 
    "str2":" bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 ", 
-   "str3":" ___ gk5 an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 ___ ___ ",
+   "str3":" ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ ",
    "str4":" ___ ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ", 
    "str5":" an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 ", 
    "str6":" en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5 "}; 
@@ -315,7 +315,7 @@
   var $j25 = {  
    "str1":" en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 ", 
    "str2":" bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ", 
-   "str3":" ___ ___ an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 gj6 ___ ",
+   "str3":" ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ",
    "str4":" ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ", 
    "str5":" an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ", 
    "str6":" en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "}; 
