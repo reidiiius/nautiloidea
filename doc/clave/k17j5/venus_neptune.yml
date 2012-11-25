@@ -1,0 +1,15 @@
+--- 
+Song:
+  Tempo: 72 
+  Flow: 
+    - Verse: x16 
+  kit: 
+    - rim:     ../../sounds/rim.wav 
+    - clave:   ../../sounds/clave_low.wav 
+    - bass:    ../../sounds/bass.wav 
+
+Verse:
+  - rim:    X...........|............| 
+  - clave:  XX.XXX..X..X|XX.XXX..X..X| 
+  - bass:   X..X..X..X..|X..X..X..X..| 
+  
