@@ -1280,9 +1280,7 @@
   document.getElementById("str1").innerHTML=_k5.str1 
   document.getElementById("str2").innerHTML=_k5.str2 
   document.getElementById("str3").innerHTML=_k5.str3 
-  document.getElementById("str4").innerHTML=_k5.str4 
-  document.getElementById("str5").innerHTML=_k5.str5 
-  document.getElementById("str6").innerHTML=_k5.str6 }; 
+  document.getElementById("str4").innerHTML=_k5.str4 }; 
 
  function k1j6_() {
   document.getElementById("str1").innerHTML=_k1j6.str1 
