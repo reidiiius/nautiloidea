@@ -1,18 +1,19 @@
 
 body {
- background-color:#fffff0;} 
+ background-color:#fffff0;}
+table { 
+ margin-left:auto;
+ margin-right:auto;} 
 div.gutr {
  font-family:monospace;
  font-size:28px;
  color:#808000;
- white-space:nowrap; 
- margin-left:6.5em;} 
+ white-space:nowrap;} 
 div.mndln {
  font-family:monospace;
  font-size:28px;
  color:#808000;
- white-space:nowrap; 
- margin-left:6.2em;
+ white-space:nowrap;
  padding:0.3em;}
 input.button { 
  background-color:#fffafa;
@@ -24,7 +25,7 @@ input.button {
 div.nav { 
  text-align:center;
  white-space:nowrap; 
- margin-top:3em;}
+ margin-top:2em;}
 span.nav {
  margin:2em;
  position:absolute;}
@@ -47,5 +48,5 @@ div.attr {
  font-size:12px;
  color:#deb887;
  white-space:nowrap;
- margin-top:6em; } 
+ margin-top:3em; } 
  
