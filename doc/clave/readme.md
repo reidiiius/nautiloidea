@@ -5,6 +5,6 @@ you will need to install the following.
 
 Dependencies: 
 
-  - ruby:  [ruby-lang](http://www.ruby-lang.org/en/ "http://www.ruby-lang.org/en/") 
+  - ruby: [ http://www.ruby-lang.org/en/ ]( http://www.ruby-lang.org/en/ ) 
 
-  - beats: [jstrait-beats](https://github.com/jstrait/beats "https://github.com/jstrait/beats") 
+  - beats:[ https://github.com/jstrait/beats ]( https://github.com/jstrait/beats ) 
