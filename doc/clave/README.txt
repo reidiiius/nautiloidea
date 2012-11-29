@@ -1,5 +1,6 @@
 # 
-# To play this library you'll need the following.
+# To create wav files from this library, 
+# you will need to install the following. 
 #
 
 Dependencies: 
