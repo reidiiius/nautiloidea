@@ -3,7 +3,8 @@
 dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/lambda'
  require dir + '/alpha' 
- require dir + '/gamma'  
+ require dir + '/gamma'
+ require dir + '/zodiac/draco' 
  require dir + '/epsilon'  
  require dir + '/tau' 
  require dir + '/sigma' 
@@ -11,5 +12,5 @@ dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/psi'
 
 module Nautiloidea 
- version = '0.9.6.0'
+ VERSION = '0.9.6.1'
 end 
