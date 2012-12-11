@@ -1,0 +1,57 @@
+--- 
+Indu:
+
+ Kanakangi: 
+  j25: 
+   - " fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+   - " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+   - " ___ ___ an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 gj6 ___ "
+   - " ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ "
+   - " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 "
+   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 " 
+
+ Ratnangi:   
+  j5: 
+   - " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+   - " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+   - " ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+   - " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 "
+   - " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+ Ganamurti: 
+  k2j5: 
+   - " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+   - " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+   - " ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+   - " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ "
+   - " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+ Vanaspati: 
+  k1j5: 
+   - " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 fn7 "
+   - " ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+   - " ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ "
+   - " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 "
+   - " an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 "
+
+ Manavati: 
+  k12j5: 
+   - " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 "
+   - " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+   - " ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
+   - " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ "
+   - " an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 "
+
+ Tanarupi: 
+  x1k2j5: 
+   - " fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7 fn7 "
+   - " ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+   - " ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ "
+   - " cx5 dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 "
+   - " an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 "
+   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5 "
+
