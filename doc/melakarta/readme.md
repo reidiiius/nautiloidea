@@ -1,5 +1,5 @@
-Nautiloidea
-===========
+### Nautiloidea
+
 #### Data structures for music composition  
 
     an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93, 
@@ -445,4 +445,4 @@ Nautiloidea
  
 
 
-> Copyright &copy; Reid Netterville III 
+> Copyright &copy; 2012 Reid Netterville III 
