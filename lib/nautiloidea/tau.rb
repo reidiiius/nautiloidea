@@ -815,7 +815,7 @@ help = [
 ' just type "exit" or "quit".'] 
  
 puts 
-puts ' Guitar Tab'.upcase
+puts ' Guitar Notes'.upcase
 puts 'standard tuning'
 puts 
 puts help 
