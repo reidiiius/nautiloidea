@@ -1799,7 +1799,7 @@ bass_std_k1j5 = Proc.new do
   puts Sharp_1_Flat_5.new.str11[12..64]
   puts Sharp_1_Flat_5.new.str12[12..64] 
 end 
-###########################
+
 class Sharp_2_Flat_6    
 
   def initialize 
@@ -2039,7 +2039,7 @@ bass_std_j2k5 = Proc.new do
   puts Flat_2_Sharp_5.new.str11[12..64]
   puts Flat_2_Sharp_5.new.str12[12..64] 
 end 
-###################
+
  puts 
  puts 'natural'.upcase  
  puts
