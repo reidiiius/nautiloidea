@@ -840,6 +840,246 @@ bass_std_k5 = Proc.new do
   puts Sharp_5.new.str12[12..64] 
 end 
 
+class Sharp_56    
+
+  def initialize 
+    k56   
+  end 
+
+def k56  
+ @str00=%q[ ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 ___ ] 
+ @str01=%q[ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ ] 
+ @str02=%q[ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ] 
+ @str03=%q[ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ ] 
+ @str04=%q[ fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ ak5 ] 
+ @str05=%q[ cn4 ___ dn4 ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ] 
+ @str06=%q[ ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ] 
+ @str07=%q[ dn3 ___ en3 fn3 ___ ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ ] 
+ @str08=%q[ ___ ak2 bn2 cn3 ___ dn3 ___ en3 fn3 ___ ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ]
+ @str09=%q[ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 ___ dn3 ___ en3 fn3 ___ ___ gk3 ___ ]
+ @str10=%q[ bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 ___ dn3 ___ en3 ]
+ @str11=%q[ ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 ]
+ @str12=%q[ ___ dn1 ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ ] 
+end 
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+ 
+ def str02 
+   @str02 
+ end 
+ 
+ def str03 
+   @str03  
+ end 
+ 
+ def str04 
+   @str04  
+ end 
+ 
+ def str05 
+   @str05 
+ end 
+ 
+ def str06 
+   @str06 
+ end 
+ 
+ def str07 
+   @str07  
+ end 
+ 
+ def str08  
+   @str08  
+ end 
+ 
+ def str09  
+   @str09  
+ end 
+ 
+ def str10  
+   @str10  
+ end 
+ 
+ def str11 
+   @str11 
+ end 
+ 
+ def str12 
+   @str12 
+ end 
+ 
+end 
+
+guitar_std_k56 = Proc.new do 
+  puts  
+  puts Sharp_56.new.str00[12..64]
+  puts Sharp_56.new.str01[12..64] 
+  puts Sharp_56.new.str02[16..68] 
+  puts Sharp_56.new.str03[16..68] 
+  puts Sharp_56.new.str04[16..68] 
+  puts Sharp_56.new.str05[16..68] 
+end 
+
+guitar_qrt_k56 = Proc.new do 
+  puts  
+  puts Sharp_56.new.str00[16..68]
+  puts Sharp_56.new.str01[16..68]
+  puts Sharp_56.new.str02[16..68]
+  puts Sharp_56.new.str03[16..68]
+  puts Sharp_56.new.str04[16..68]
+  puts Sharp_56.new.str05[16..68] 
+end 
+
+violin_std_k56 = Proc.new do 
+  puts  
+  puts Sharp_56.new.str02[4..56]
+  puts Sharp_56.new.str04[16..68]
+  puts Sharp_56.new.str05[8..60]
+  puts Sharp_56.new.str06[0..52] 
+end 
+
+cello_std_k56 = Proc.new do 
+  puts  
+  puts Sharp_56.new.str06[8..60]
+  puts Sharp_56.new.str08[20..72]
+  puts Sharp_56.new.str09[12..64]
+  puts Sharp_56.new.str10[4..56] 
+end 
+
+bass_std_k56 = Proc.new do 
+  puts  
+  puts Sharp_56.new.str09[12..64]
+  puts Sharp_56.new.str10[12..64]
+  puts Sharp_56.new.str11[12..64]
+  puts Sharp_56.new.str12[12..64] 
+end 
+
+class Flat_56    
+
+  def initialize 
+    j56    
+  end 
+
+def j56  
+ @str00=%q[ ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ] 
+ @str01=%q[ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ] 
+ @str02=%q[ ___ en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ] 
+ @str03=%q[ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ ] 
+ @str04=%q[ fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ ___ ] 
+ @str05=%q[ cn4 ___ dn4 ___ en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ] 
+ @str06=%q[ ___ aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ] 
+ @str07=%q[ dn3 ___ en3 fn3 gj3 ___ aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ ] 
+ @str08=%q[ ___ ___ bn2 cn3 ___ dn3 ___ en3 fn3 gj3 ___ aj3 ___ ___ bn3 cn4 ___ dn4 ]
+ @str09=%q[ en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ dn3 ___ en3 fn3 gj3 ___ aj3 ___ ]
+ @str10=%q[ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ dn3 ___ en3 ]
+ @str11=%q[ gj1 ___ aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ aj2 ___ ___ bn2 ]
+ @str12=%q[ ___ dn1 ___ en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ] 
+end 
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+ 
+ def str02 
+   @str02 
+ end 
+ 
+ def str03 
+   @str03  
+ end 
+ 
+ def str04 
+   @str04  
+ end 
+ 
+ def str05 
+   @str05 
+ end 
+ 
+ def str06 
+   @str06 
+ end 
+ 
+ def str07 
+   @str07  
+ end 
+ 
+ def str08  
+   @str08  
+ end 
+ 
+ def str09  
+   @str09  
+ end 
+ 
+ def str10  
+   @str10  
+ end 
+ 
+ def str11 
+   @str11 
+ end 
+ 
+ def str12 
+   @str12 
+ end 
+ 
+end 
+
+guitar_std_j56 = Proc.new do 
+  puts  
+  puts Flat_56.new.str00[12..64]
+  puts Flat_56.new.str01[12..64] 
+  puts Flat_56.new.str02[16..68] 
+  puts Flat_56.new.str03[16..68] 
+  puts Flat_56.new.str04[16..68] 
+  puts Flat_56.new.str05[16..68] 
+end 
+
+guitar_qrt_j56 = Proc.new do 
+  puts  
+  puts Flat_56.new.str00[16..68]
+  puts Flat_56.new.str01[16..68]
+  puts Flat_56.new.str02[16..68]
+  puts Flat_56.new.str03[16..68]
+  puts Flat_56.new.str04[16..68]
+  puts Flat_56.new.str05[16..68] 
+end 
+
+violin_std_j56 = Proc.new do 
+  puts  
+  puts Flat_56.new.str02[4..56]
+  puts Flat_56.new.str04[16..68]
+  puts Flat_56.new.str05[8..60]
+  puts Flat_56.new.str06[0..52] 
+end 
+
+cello_std_j56 = Proc.new do 
+  puts  
+  puts Flat_56.new.str06[8..60]
+  puts Flat_56.new.str08[20..72]
+  puts Flat_56.new.str09[12..64]
+  puts Flat_56.new.str10[4..56] 
+end 
+
+bass_std_j56 = Proc.new do 
+  puts  
+  puts Flat_56.new.str09[12..64]
+  puts Flat_56.new.str10[12..64]
+  puts Flat_56.new.str11[12..64]
+  puts Flat_56.new.str12[12..64] 
+end 
+
 class Flat_2    
 
   def initialize 
@@ -2345,4 +2585,40 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j2k5.call 
+
+ puts 
+ puts 'sharp_56'.upcase 
+ puts 
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_k56.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_k56.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_k56.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_k56.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_k56.call 
+   
+ puts 
+ puts 'flat_56'.upcase 
+ puts 
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_j56.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_j56.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_j56.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_j56.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_j56.call
  
