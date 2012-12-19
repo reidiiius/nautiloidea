@@ -2405,6 +2405,42 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k5.call 
+ 
+ puts 
+ puts 'sharp_56'.upcase 
+ puts 
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_k56.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_k56.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_k56.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_k56.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_k56.call 
+   
+ puts 
+ puts 'flat_56'.upcase 
+ puts 
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_j56.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_j56.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_j56.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_j56.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_j56.call 
 
  puts 
  puts 'flat_2'.upcase  
@@ -2585,40 +2621,4 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j2k5.call 
-
- puts 
- puts 'sharp_56'.upcase 
- puts 
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k56.call 
- puts 
- puts 'guitar'.upcase + ' fourths tuning' 
- guitar_qrt_k56.call 
- puts 
- puts 'violin'.upcase + ' fifths tuning' 
- violin_std_k56.call 
- puts  
- puts 'cello'.upcase + ' fifths tuning' 
- cello_std_k56.call 
- puts  
- puts 'bass'.upcase + ' standard tuning' 
- bass_std_k56.call 
-   
- puts 
- puts 'flat_56'.upcase 
- puts 
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j56.call 
- puts 
- puts 'guitar'.upcase + ' fourths tuning' 
- guitar_qrt_j56.call 
- puts 
- puts 'violin'.upcase + ' fifths tuning' 
- violin_std_j56.call 
- puts  
- puts 'cello'.upcase + ' fifths tuning' 
- cello_std_j56.call 
- puts  
- puts 'bass'.upcase + ' standard tuning' 
- bass_std_j56.call
  
