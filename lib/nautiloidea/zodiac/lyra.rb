@@ -2760,6 +2760,59 @@ bass_std_j25 = Proc.new do
   puts Flat_25.new.str12[12..64] 
 end 
 
+def index 
+ puts ' n0 '
+ puts 
+ puts ' k6 - j5 '
+ puts
+ puts ' j3 - k1 '
+ puts
+ puts ' j6 - k5 ' 
+ puts 
+ puts ' k56 - j56 ' 
+ puts
+ puts ' k16 - j35 ' 
+ puts
+ puts ' j2 - k2 ' 
+ puts 
+ puts ' j26 - k25 ' 
+ puts 
+ puts ' j23 - k12 ' 
+ puts
+ puts ' j3k6 - k1j5 '  
+ puts
+ puts ' k2j6 - j2k5 ' 
+ puts 
+ puts ' k26 - j25 ' 
+end  
+
+def help 
+ puts ' For a table of contents,'
+ puts ' just type "list" or "index".'
+ puts ' If you want to leave the program,'
+ puts ' just type "exit" or "quit".'
+end  
+
+ linewidth = 22.5 
+
+ puts 
+ puts ' branches of the tree '.upcase.center linewidth
+ puts 
+ puts index 
+ puts   
+ puts help  
+ x_status = false
+while (not x_status) 
+ puts
+ print ' Enter selection: '
+ selection = gets.chomp 
+ if (selection =~ /[Ll]ist|[Ii]ndex/ or selection == '0')
+  puts  
+  puts index 
+ elsif (selection =~ /[Hh]elp/ or selection == '')
+  puts 
+  puts help 
+ elsif (selection == 'n0' or selection == 'n')
  puts 
  puts 'natural'.upcase  
  puts
@@ -2777,7 +2830,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_n0.call
-  
+ elsif (selection == 'k6' or selection == '+6')  
  puts 
  puts 'sharp_6'.upcase 
  puts 
@@ -2795,7 +2848,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k6.call 
-   
+ elsif (selection == 'j5' or selection == '-5')   
  puts 
  puts 'flat_5'.upcase 
  puts 
@@ -2813,7 +2866,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j5.call 
-
+ elsif (selection == 'j3' or selection == '-3')
  puts 
  puts 'flat_3'.upcase 
  puts 
@@ -2831,7 +2884,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j3.call
-
+ elsif (selection == 'k1' or selection == '+1')
  puts 
  puts 'sharp_1'.upcase  
  puts
@@ -2849,7 +2902,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k1.call
- 
+ elsif (selection == 'j6' or selection == '-6')
  puts 
  puts 'flat_6'.upcase  
  puts
@@ -2867,7 +2920,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j6.call
-
+ elsif (selection == 'k5' or selection == '+5')
  puts 
  puts 'sharp_5'.upcase  
  puts
@@ -2885,7 +2938,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k5.call 
- 
+ elsif (selection == 'k56' or selection == '+56') 
  puts 
  puts 'sharp_56'.upcase 
  puts 
@@ -2903,7 +2956,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k56.call 
-   
+ elsif (selection == 'j56' or selection == '-56')   
  puts 
  puts 'flat_56'.upcase 
  puts 
@@ -2921,7 +2974,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j56.call 
-
+ elsif (selection == 'k16' or selection == '+16')
  puts 
  puts 'sharp_16'.upcase 
  puts 
@@ -2939,7 +2992,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k16.call 
-   
+ elsif (selection == 'j35' or selection == '-35')   
  puts 
  puts 'flat_35'.upcase 
  puts 
@@ -2957,7 +3010,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j35.call  
- 
+ elsif (selection == 'j2' or selection == '-2') 
  puts 
  puts 'flat_2'.upcase  
  puts
@@ -2975,7 +3028,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j2.call 
-
+ elsif (selection == 'k2' or selection == '+2')
  puts 
  puts 'sharp_2'.upcase  
  puts
@@ -2993,7 +3046,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k2.call 
-
+ elsif (selection == 'j26' or selection == '-26')
  puts 
  puts 'flat_26'.upcase  
  puts
@@ -3011,7 +3064,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j26.call 
-
+ elsif (selection == 'k25' or selection == '+25')
  puts 
  puts 'sharp_25'.upcase  
  puts
@@ -3029,7 +3082,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k25.call 
-
+ elsif (selection == 'j23' or selection == '-23')
  puts 
  puts 'flat_23'.upcase  
  puts
@@ -3047,7 +3100,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j23.call 
-
+ elsif (selection == 'k12' or selection == '+12')
  puts 
  puts 'sharp_12'.upcase  
  puts
@@ -3065,7 +3118,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k12.call 
-
+ elsif (selection == 'j3k6' or selection == '-3+6')
  puts 
  puts 'flat_3_sharp_6'.upcase 
  puts 
@@ -3083,7 +3136,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j3k6.call 
-   
+ elsif (selection == 'k1j5' or selection == '+1-5')   
  puts 
  puts 'sharp_1_flat_5'.upcase 
  puts 
@@ -3101,7 +3154,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k1j5.call 
-
+ elsif (selection == 'k2j6' or selection == '+2-6')
  puts 
  puts 'sharp_2_flat_6'.upcase  
  puts
@@ -3119,7 +3172,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k2j6.call
-
+ elsif (selection == 'j2k5' or selection == '-2+5')
  puts 
  puts 'flat_2_sharp_5'.upcase  
  puts
@@ -3137,7 +3190,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j2k5.call 
-
+ elsif (selection == 'k26' or selection == '+26')
  puts 
  puts 'sharp_26'.upcase  
  puts
@@ -3155,7 +3208,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k26.call 
- 
+ elsif (selection == 'j25' or selection == '-25') 
  puts 
  puts 'flat_25'.upcase  
  puts
@@ -3173,3 +3226,7 @@ end
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j25.call 
+ elsif (selection =~ /[Ee]xit|[Qq]uit/ or selection == 'end')
+  x_status = true  
+ end
+end 
