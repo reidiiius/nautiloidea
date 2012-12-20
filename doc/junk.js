@@ -374,7 +374,7 @@
  
  // autumn   
   
- var $n5j2k4 = {  
+ var $r5j2k4 = {  
    "str1":" en6 fn6 ___ ___ ___ ___ ak6 bn6 ___ ___ ___ ___ en7 ", 
    "str2":" bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ ak6 bn6 ", 
    "str3":" ___ ___ ___ ak5 bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ", 
@@ -726,7 +726,7 @@
 
  // autumn
  	
-     var _n5j2k4 = {  
+     var _r5j2k4 = {  
       "str1":" en5 fn5 ___ ___ ___ ___ ak5 bn5 ___ ___ ___ ___ en6 ", 
       "str2":" ___ ak4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ ", 
       "str3":" ___ ___ en4 fn4 ___ ___ ___ ___ ak4 bn4 ___ ___ ___ ", 
@@ -1148,13 +1148,13 @@
   
  // autumn 
 
- function n5j2k4() {
-  document.getElementById("str1").innerHTML=$n5j2k4.str1 
-  document.getElementById("str2").innerHTML=$n5j2k4.str2 
-  document.getElementById("str3").innerHTML=$n5j2k4.str3 
-  document.getElementById("str4").innerHTML=$n5j2k4.str4 
-  document.getElementById("str5").innerHTML=$n5j2k4.str5 
-  document.getElementById("str6").innerHTML=$n5j2k4.str6 }; 
+ function r5j2k4() {
+  document.getElementById("str1").innerHTML=$r5j2k4.str1 
+  document.getElementById("str2").innerHTML=$r5j2k4.str2 
+  document.getElementById("str3").innerHTML=$r5j2k4.str3 
+  document.getElementById("str4").innerHTML=$r5j2k4.str4 
+  document.getElementById("str5").innerHTML=$r5j2k4.str5 
+  document.getElementById("str6").innerHTML=$r5j2k4.str6 }; 
 
  function dom7j5() {
   document.getElementById("str1").innerHTML=$dom7j5.str1 
@@ -1498,11 +1498,11 @@
   
  // autumn 
 
- function n5j2k4_() {
-  document.getElementById("str1").innerHTML=_n5j2k4.str1 
-  document.getElementById("str2").innerHTML=_n5j2k4.str2 
-  document.getElementById("str3").innerHTML=_n5j2k4.str3 
-  document.getElementById("str4").innerHTML=_n5j2k4.str4 }; 
+ function r5j2k4_() {
+  document.getElementById("str1").innerHTML=_r5j2k4.str1 
+  document.getElementById("str2").innerHTML=_r5j2k4.str2 
+  document.getElementById("str3").innerHTML=_r5j2k4.str3 
+  document.getElementById("str4").innerHTML=_r5j2k4.str4 }; 
 
  function dom7j5_() {
   document.getElementById("str1").innerHTML=_dom7j5.str1 
