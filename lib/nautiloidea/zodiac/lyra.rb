@@ -2789,6 +2789,7 @@ end
 def help 
  puts ' For a table of contents,'
  puts ' just type "list" or "index".'
+ puts ' for the next section, type "next".'
  puts ' If you want to leave the program,'
  puts ' just type "exit" or "quit".'
 end  
@@ -3226,7 +3227,9 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j25.call 
- elsif (selection =~ /[Ee]xit|[Qq]uit/ or selection == 'end')
-  x_status = true  
+ elsif selection =~ /next/
+  x_status = true 
+ elsif selection =~ /^exit|quit/ 
+ exit  
  end
 end 
