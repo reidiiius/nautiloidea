@@ -1080,6 +1080,246 @@ bass_std_j56 = Proc.new do
   puts Flat_56.new.str12[12..64] 
 end 
 
+class Flat_234    
+
+  def initialize 
+    j234   
+  end 
+
+def j234  
+ @str00=%q[ dj6 ___ ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 fj7 ___ ___ ] 
+ @str01=%q[ ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 dj7 ] 
+ @str02=%q[ ej5 fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ ] 
+ @str03=%q[ ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ] 
+ @str04=%q[ ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ___ gn5 ___ an5 ___ ] 
+ @str05=%q[ cn4 dj4 ___ ej4 fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ] 
+ @str06=%q[ gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 ] 
+ @str07=%q[ ___ ej3 fj3 ___ ___ gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 fj4 ___ ___ gn4 ] 
+ @str08=%q[ an2 ___ bn2 cn3 dj3 ___ ej3 fj3 ___ ___ gn3 ___ an3 ___ bn3 cn4 dj4 ___ ]
+ @str09=%q[ fj2 ___ ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ej3 fj3 ___ ___ gn3 ___ an3 ]
+ @str10=%q[ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ej3 fj3 ]
+ @str11=%q[ ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ gn2 ___ an2 ___ bn2 ]
+ @str12=%q[ dj1 ___ ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ ] 
+end 
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+ 
+ def str02 
+   @str02 
+ end 
+ 
+ def str03 
+   @str03  
+ end 
+ 
+ def str04 
+   @str04  
+ end 
+ 
+ def str05 
+   @str05 
+ end 
+ 
+ def str06 
+   @str06 
+ end 
+ 
+ def str07 
+   @str07  
+ end 
+ 
+ def str08  
+   @str08  
+ end 
+ 
+ def str09  
+   @str09  
+ end 
+ 
+ def str10  
+   @str10  
+ end 
+ 
+ def str11 
+   @str11 
+ end 
+ 
+ def str12 
+   @str12 
+ end 
+ 
+end 
+
+guitar_std_j234 = Proc.new do 
+  puts  
+  puts Flat_234.new.str00[12..64]
+  puts Flat_234.new.str01[12..64] 
+  puts Flat_234.new.str02[16..68] 
+  puts Flat_234.new.str03[16..68] 
+  puts Flat_234.new.str04[16..68] 
+  puts Flat_234.new.str05[16..68] 
+end 
+
+guitar_qrt_j234 = Proc.new do 
+  puts  
+  puts Flat_234.new.str00[16..68]
+  puts Flat_234.new.str01[16..68]
+  puts Flat_234.new.str02[16..68]
+  puts Flat_234.new.str03[16..68]
+  puts Flat_234.new.str04[16..68]
+  puts Flat_234.new.str05[16..68] 
+end 
+
+violin_std_j234 = Proc.new do 
+  puts  
+  puts Flat_234.new.str02[4..56]
+  puts Flat_234.new.str04[16..68]
+  puts Flat_234.new.str05[8..60]
+  puts Flat_234.new.str06[0..52] 
+end 
+
+cello_std_j234 = Proc.new do 
+  puts  
+  puts Flat_234.new.str06[8..60]
+  puts Flat_234.new.str08[20..72]
+  puts Flat_234.new.str09[12..64]
+  puts Flat_234.new.str10[4..56] 
+end 
+
+bass_std_j234 = Proc.new do 
+  puts  
+  puts Flat_234.new.str09[12..64]
+  puts Flat_234.new.str10[12..64]
+  puts Flat_234.new.str11[12..64]
+  puts Flat_234.new.str12[12..64] 
+end 
+
+class Sharp_127    
+
+  def initialize 
+    k127    
+  end 
+
+def k127  
+ @str00=%q[ ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 ___ ] 
+ @str01=%q[ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ] 
+ @str02=%q[ dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ ] 
+ @str03=%q[ ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 ] 
+ @str04=%q[ fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ ] 
+ @str05=%q[ bk3 ck4 ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ] 
+ @str06=%q[ gn3 ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ] 
+ @str07=%q[ ___ dk3 en3 fn3 ___ gn3 ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 ___ gn4 ] 
+ @str08=%q[ an2 ___ ___ bk2 ck3 ___ dk3 en3 fn3 ___ gn3 ___ an3 ___ ___ bk3 ck4 ___ ]
+ @str09=%q[ en2 fn2 ___ gn2 ___ an2 ___ ___ bk2 ck3 ___ dk3 en3 fn3 ___ gn3 ___ an3 ]
+ @str10=%q[ ___ bk1 ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ ___ bk2 ck3 ___ dk3 en3 ]
+ @str11=%q[ ___ gn1 ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ ___ ]
+ @str12=%q[ ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 ___ ] 
+end 
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+ 
+ def str02 
+   @str02 
+ end 
+ 
+ def str03 
+   @str03  
+ end 
+ 
+ def str04 
+   @str04  
+ end 
+ 
+ def str05 
+   @str05 
+ end 
+ 
+ def str06 
+   @str06 
+ end 
+ 
+ def str07 
+   @str07  
+ end 
+ 
+ def str08  
+   @str08  
+ end 
+ 
+ def str09  
+   @str09  
+ end 
+ 
+ def str10  
+   @str10  
+ end 
+ 
+ def str11 
+   @str11 
+ end 
+ 
+ def str12 
+   @str12 
+ end 
+ 
+end 
+
+guitar_std_k127 = Proc.new do 
+  puts  
+  puts Sharp_127.new.str00[12..64]
+  puts Sharp_127.new.str01[12..64] 
+  puts Sharp_127.new.str02[16..68] 
+  puts Sharp_127.new.str03[16..68] 
+  puts Sharp_127.new.str04[16..68] 
+  puts Sharp_127.new.str05[16..68] 
+end 
+
+guitar_qrt_k127 = Proc.new do 
+  puts  
+  puts Sharp_127.new.str00[16..68]
+  puts Sharp_127.new.str01[16..68]
+  puts Sharp_127.new.str02[16..68]
+  puts Sharp_127.new.str03[16..68]
+  puts Sharp_127.new.str04[16..68]
+  puts Sharp_127.new.str05[16..68] 
+end 
+
+violin_std_k127 = Proc.new do 
+  puts  
+  puts Sharp_127.new.str02[4..56]
+  puts Sharp_127.new.str04[16..68]
+  puts Sharp_127.new.str05[8..60]
+  puts Sharp_127.new.str06[0..52] 
+end 
+
+cello_std_k127 = Proc.new do 
+  puts  
+  puts Sharp_127.new.str06[8..60]
+  puts Sharp_127.new.str08[20..72]
+  puts Sharp_127.new.str09[12..64]
+  puts Sharp_127.new.str10[4..56] 
+end 
+
+bass_std_k127 = Proc.new do 
+  puts  
+  puts Sharp_127.new.str09[12..64]
+  puts Sharp_127.new.str10[12..64]
+  puts Sharp_127.new.str11[12..64]
+  puts Sharp_127.new.str12[12..64] 
+end 
+
 class Sharp_16  
 
   def initialize 
@@ -2789,7 +3029,6 @@ end
 def help 
  puts ' For a table of contents,'
  puts ' just type "list" or "index".'
- puts ' for the next section, type "next".'
  puts ' If you want to leave the program,'
  puts ' just type "exit" or "quit".'
 end  
@@ -2975,6 +3214,42 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j56.call 
+ elsif (selection == 'j234' or selection == '-234')
+ puts 
+ puts 'flat_234'.upcase  
+ puts
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_j234.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_j234.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_j234.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_j234.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_j234.call 
+ elsif (selection == 'k127' or selection == '+127')
+ puts 
+ puts 'sharp_127'.upcase  
+ puts
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_k127.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_k127.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_k127.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_k127.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_k127.call 
  elsif (selection == 'k16' or selection == '+16')
  puts 
  puts 'sharp_16'.upcase 
@@ -3227,9 +3502,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j25.call 
- elsif selection =~ /next/
-  x_status = true 
- elsif selection =~ /^exit|quit/ 
- exit  
+ elsif (selection =~ /[Ee]xit|[Qq]uit/ or selection == 'end')
+  x_status = true  
  end
 end 
