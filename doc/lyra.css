@@ -2,8 +2,8 @@
 body {
 background-color:floralwhite;}
 div#content {
-margin-left:21%;
-margin-right:21%;
+margin-left:20%;
+margin-right:20%;
 background-color:ivory;}
 div.guitar {
 font-family:monospace;
@@ -17,6 +17,8 @@ font-size:20px;
 color:#008080;
 white-space:nowrap;
 margin:1em;}
+div.ui_x {
+text-align:center;}
 button.bttn{
 background-color:cornsilk;
 border-color:transparent;
