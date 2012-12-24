@@ -13,6 +13,6 @@ dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/psi'
 
 module Nautiloidea 
- VERSION = '0.9.6.6'
+ VERSION = '0.9.6.7'
 end 
  
