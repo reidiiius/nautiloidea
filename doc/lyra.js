@@ -151,7 +151,7 @@ var k56 = {
  'str09':' en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 ___ dn3 ___ en3 fn3 ___ ___ gk3 ___ ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ '}; 
+ 'str12':' ___ dn1 ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ '};
 
 var j56 = {   
  'str00':' ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ', 
@@ -377,6 +377,36 @@ var k2j5 = {
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' gj1 ___ ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
  'str12':' ___ ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '};
+ 
+var j2k56 = {   
+ 'str00':' dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 ___ ', 
+ 'str01':' gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ', 
+ 'str02':' ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ', 
+ 'str03':' ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ ', 
+ 'str04':' fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 ', 
+ 'str05':' cn4 dj4 ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ', 
+ 'str06':' ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ', 
+ 'str07':' ___ ___ en3 fn3 ___ ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ ', 
+ 'str08':' ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 ___ ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ',
+ 'str09':' en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 ___ ___ gk3 ___ ',
+ 'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 dj3 ___ ___ en3 ',
+ 'str11':' ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 ',
+ 'str12':' dj1 ___ ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ '};
+
+var k2j56 = {   
+ 'str00':' ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 ___ ', 
+ 'str01':' aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ', 
+ 'str02':' dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ', 
+ 'str03':' ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 ', 
+ 'str04':' fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ ', 
+ 'str05':' cn4 ___ ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ', 
+ 'str06':' ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ', 
+ 'str07':' ___ dk3 en3 fn3 gj3 ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ ', 
+ 'str08':' ___ ___ bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ aj3 ___ ___ bn3 cn4 ___ ___ ',
+ 'str09':' en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ aj3 ___ ',
+ 'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 ',
+ 'str11':' gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ aj2 ___ ___ bn2 ',
+ 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '};
 
 var j3k6 = {  
  'str00':' ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___ fn7 ___ ',
@@ -668,7 +698,7 @@ function gutr_std_j2k6(){
  document.getElementById('gutr_str3').innerHTML=j2k6.str02.slice(16,69) 
  document.getElementById('gutr_str4').innerHTML=j2k6.str03.slice(16,69) 
  document.getElementById('gutr_str5').innerHTML=j2k6.str04.slice(16,69) 
- document.getElementById('gutr_str6').innerHTML=j2k6.str05.slice(16,69)}; 
+ document.getElementById('gutr_str6').innerHTML=j2k6.str05.slice(16,69)};
 
 function gutr_std_k2j5(){
  document.getElementById('gutr_str1').innerHTML=k2j5.str00.slice(12,65) 
@@ -677,6 +707,22 @@ function gutr_std_k2j5(){
  document.getElementById('gutr_str4').innerHTML=k2j5.str03.slice(16,69) 
  document.getElementById('gutr_str5').innerHTML=k2j5.str04.slice(16,69) 
  document.getElementById('gutr_str6').innerHTML=k2j5.str05.slice(16,69)};
+ 
+function gutr_std_j2k56(){ 
+ document.getElementById('gutr_str1').innerHTML=j2k56.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=j2k56.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=j2k56.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=j2k56.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=j2k56.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=j2k56.str05.slice(16,69)};
+
+function gutr_std_k2j56(){
+ document.getElementById('gutr_str1').innerHTML=k2j56.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=k2j56.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=k2j56.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=k2j56.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=k2j56.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=k2j56.str05.slice(16,69)};
  
 function gutr_std_j3k6(){
  document.getElementById('gutr_str1').innerHTML=j3k6.str00.slice(12,65) 
@@ -877,6 +923,18 @@ function cello_std_k2j5(){
  document.getElementById('cello_str2').innerHTML=k2j5.str08.slice(20,73)
  document.getElementById('cello_str3').innerHTML=k2j5.str09.slice(12,65)
  document.getElementById('cello_str4').innerHTML=k2j5.str10.slice(4,57)};
+ 
+function cello_std_j2k56(){ 
+ document.getElementById('cello_str1').innerHTML=j2k56.str06.slice(8,61)
+ document.getElementById('cello_str2').innerHTML=j2k56.str08.slice(20,73)
+ document.getElementById('cello_str3').innerHTML=j2k56.str09.slice(12,65)
+ document.getElementById('cello_str4').innerHTML=j2k56.str10.slice(4,57)};
+ 
+function cello_std_k2j56(){ 
+ document.getElementById('cello_str1').innerHTML=k2j56.str06.slice(8,61)
+ document.getElementById('cello_str2').innerHTML=k2j56.str08.slice(20,73)
+ document.getElementById('cello_str3').innerHTML=k2j56.str09.slice(12,65)
+ document.getElementById('cello_str4').innerHTML=k2j56.str10.slice(4,57)};
  
 function cello_std_j3k6(){ 
  document.getElementById('cello_str1').innerHTML=j3k6.str06.slice(8,61)

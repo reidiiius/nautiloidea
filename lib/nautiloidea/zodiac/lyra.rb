@@ -3000,6 +3000,246 @@ bass_std_k2j5 = Proc.new do
   puts Sharp_2_Flat_5.new.str12[12..64] 
 end 
 
+class Flat_2_Sharp_56    
+
+  def initialize 
+    j2k56   
+  end 
+
+def j2k56  
+ @str00=%q[ dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 ___ ] 
+ @str01=%q[ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ] 
+ @str02=%q[ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ] 
+ @str03=%q[ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ ] 
+ @str04=%q[ fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 ] 
+ @str05=%q[ cn4 dj4 ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ] 
+ @str06=%q[ ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ] 
+ @str07=%q[ ___ ___ en3 fn3 ___ ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ ] 
+ @str08=%q[ ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 ___ ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ]
+ @str09=%q[ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 ___ ___ gk3 ___ ]
+ @str10=%q[ bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 dj3 ___ ___ en3 ]
+ @str11=%q[ ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 ]
+ @str12=%q[ dj1 ___ ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ ] 
+end 
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+ 
+ def str02 
+   @str02 
+ end 
+ 
+ def str03 
+   @str03  
+ end 
+ 
+ def str04 
+   @str04  
+ end 
+ 
+ def str05 
+   @str05 
+ end 
+ 
+ def str06 
+   @str06 
+ end 
+ 
+ def str07 
+   @str07  
+ end 
+ 
+ def str08  
+   @str08  
+ end 
+ 
+ def str09  
+   @str09  
+ end 
+ 
+ def str10  
+   @str10  
+ end 
+ 
+ def str11 
+   @str11 
+ end 
+ 
+ def str12 
+   @str12 
+ end 
+ 
+end 
+
+guitar_std_j2k56 = Proc.new do 
+  puts  
+  puts Flat_2_Sharp_56.new.str00[12..64]
+  puts Flat_2_Sharp_56.new.str01[12..64] 
+  puts Flat_2_Sharp_56.new.str02[16..68] 
+  puts Flat_2_Sharp_56.new.str03[16..68] 
+  puts Flat_2_Sharp_56.new.str04[16..68] 
+  puts Flat_2_Sharp_56.new.str05[16..68] 
+end 
+
+guitar_qrt_j2k56 = Proc.new do 
+  puts  
+  puts Flat_2_Sharp_56.new.str00[16..68]
+  puts Flat_2_Sharp_56.new.str01[16..68]
+  puts Flat_2_Sharp_56.new.str02[16..68]
+  puts Flat_2_Sharp_56.new.str03[16..68]
+  puts Flat_2_Sharp_56.new.str04[16..68]
+  puts Flat_2_Sharp_56.new.str05[16..68] 
+end 
+
+violin_std_j2k56 = Proc.new do 
+  puts  
+  puts Flat_2_Sharp_56.new.str02[4..56]
+  puts Flat_2_Sharp_56.new.str04[16..68]
+  puts Flat_2_Sharp_56.new.str05[8..60]
+  puts Flat_2_Sharp_56.new.str06[0..52] 
+end 
+
+cello_std_j2k56 = Proc.new do 
+  puts  
+  puts Flat_2_Sharp_56.new.str06[8..60]
+  puts Flat_2_Sharp_56.new.str08[20..72]
+  puts Flat_2_Sharp_56.new.str09[12..64]
+  puts Flat_2_Sharp_56.new.str10[4..56] 
+end 
+
+bass_std_j2k56 = Proc.new do 
+  puts  
+  puts Flat_2_Sharp_56.new.str09[12..64]
+  puts Flat_2_Sharp_56.new.str10[12..64]
+  puts Flat_2_Sharp_56.new.str11[12..64]
+  puts Flat_2_Sharp_56.new.str12[12..64] 
+end 
+
+class Sharp_2_Flat_56    
+
+  def initialize 
+    k2j56    
+  end 
+
+def k2j56  
+ @str00=%q[ ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 ___ ] 
+ @str01=%q[ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ] 
+ @str02=%q[ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ] 
+ @str03=%q[ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 ] 
+ @str04=%q[ fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ ] 
+ @str05=%q[ cn4 ___ ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ] 
+ @str06=%q[ ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ] 
+ @str07=%q[ ___ dk3 en3 fn3 gj3 ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ ] 
+ @str08=%q[ ___ ___ bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ aj3 ___ ___ bn3 cn4 ___ ___ ]
+ @str09=%q[ en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ aj3 ___ ]
+ @str10=%q[ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 ]
+ @str11=%q[ gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ aj2 ___ ___ bn2 ]
+ @str12=%q[ ___ ___ dk1 en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ] 
+end 
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+ 
+ def str02 
+   @str02 
+ end 
+ 
+ def str03 
+   @str03  
+ end 
+ 
+ def str04 
+   @str04  
+ end 
+ 
+ def str05 
+   @str05 
+ end 
+ 
+ def str06 
+   @str06 
+ end 
+ 
+ def str07 
+   @str07  
+ end 
+ 
+ def str08  
+   @str08  
+ end 
+ 
+ def str09  
+   @str09  
+ end 
+ 
+ def str10  
+   @str10  
+ end 
+ 
+ def str11 
+   @str11 
+ end 
+ 
+ def str12 
+   @str12 
+ end 
+ 
+end 
+
+guitar_std_k2j56 = Proc.new do 
+  puts  
+  puts Sharp_2_Flat_56.new.str00[12..64]
+  puts Sharp_2_Flat_56.new.str01[12..64] 
+  puts Sharp_2_Flat_56.new.str02[16..68] 
+  puts Sharp_2_Flat_56.new.str03[16..68] 
+  puts Sharp_2_Flat_56.new.str04[16..68] 
+  puts Sharp_2_Flat_56.new.str05[16..68] 
+end 
+
+guitar_qrt_k2j56 = Proc.new do 
+  puts  
+  puts Sharp_2_Flat_56.new.str00[16..68]
+  puts Sharp_2_Flat_56.new.str01[16..68]
+  puts Sharp_2_Flat_56.new.str02[16..68]
+  puts Sharp_2_Flat_56.new.str03[16..68]
+  puts Sharp_2_Flat_56.new.str04[16..68]
+  puts Sharp_2_Flat_56.new.str05[16..68] 
+end 
+
+violin_std_k2j56 = Proc.new do 
+  puts  
+  puts Sharp_2_Flat_56.new.str02[4..56]
+  puts Sharp_2_Flat_56.new.str04[16..68]
+  puts Sharp_2_Flat_56.new.str05[8..60]
+  puts Sharp_2_Flat_56.new.str06[0..52] 
+end 
+
+cello_std_k2j56 = Proc.new do 
+  puts  
+  puts Sharp_2_Flat_56.new.str06[8..60]
+  puts Sharp_2_Flat_56.new.str08[20..72]
+  puts Sharp_2_Flat_56.new.str09[12..64]
+  puts Sharp_2_Flat_56.new.str10[4..56] 
+end 
+
+bass_std_k2j56 = Proc.new do 
+  puts  
+  puts Sharp_2_Flat_56.new.str09[12..64]
+  puts Sharp_2_Flat_56.new.str10[12..64]
+  puts Sharp_2_Flat_56.new.str11[12..64]
+  puts Sharp_2_Flat_56.new.str12[12..64] 
+end 
+
 class Flat_3_Sharp_6  
 
   def initialize 
@@ -3747,6 +3987,8 @@ def index
  puts
  puts ' j2k6 - k2j5 '
  puts
+ puts ' j2k56 - k2j56 '
+ puts
  puts ' j3k6 - k1j5 '  
  puts
  puts ' k2j6 - j2k5 ' 
@@ -3942,7 +4184,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k5.call 
- elsif (selection == 'k56' or selection == '+56') 
+ elsif (selection == 'k56' or selection == '+5+6') 
  puts 
  puts 'sharp_56'.upcase 
  puts 
@@ -3960,7 +4202,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k56.call 
- elsif (selection == 'j56' or selection == '-56')   
+ elsif (selection == 'j56' or selection == '-5-6')   
  puts 
  puts 'flat_56'.upcase 
  puts 
@@ -3978,7 +4220,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j56.call 
- elsif (selection == 'k127' or selection == '+127')
+ elsif (selection == 'k127' or selection == '+1+2+7')
  puts 
  puts 'sharp_127'.upcase  
  puts
@@ -3996,7 +4238,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k127.call 
- elsif (selection == 'j234' or selection == '-234')
+ elsif (selection == 'j234' or selection == '-2-3-4')
  puts 
  puts 'flat_234'.upcase  
  puts
@@ -4014,7 +4256,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j234.call  
- elsif (selection == 'k16' or selection == '+16')
+ elsif (selection == 'k16' or selection == '+1+6')
  puts 
  puts 'sharp_16'.upcase 
  puts 
@@ -4032,7 +4274,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k16.call 
- elsif (selection == 'j35' or selection == '-35')   
+ elsif (selection == 'j35' or selection == '-3-5')   
  puts 
  puts 'flat_35'.upcase 
  puts 
@@ -4086,7 +4328,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k2.call 
- elsif (selection == 'j26' or selection == '-26')
+ elsif (selection == 'j26' or selection == '-2-6')
  puts 
  puts 'flat_26'.upcase  
  puts
@@ -4104,7 +4346,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j26.call 
- elsif (selection == 'k25' or selection == '+25')
+ elsif (selection == 'k25' or selection == '+2+5')
  puts 
  puts 'sharp_25'.upcase  
  puts
@@ -4122,7 +4364,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k25.call 
- elsif (selection == 'j23' or selection == '-23')
+ elsif (selection == 'j23' or selection == '-2-3')
  puts 
  puts 'flat_23'.upcase  
  puts
@@ -4140,7 +4382,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j23.call 
- elsif (selection == 'k12' or selection == '+12')
+ elsif (selection == 'k12' or selection == '+1+2')
  puts 
  puts 'sharp_12'.upcase  
  puts
@@ -4230,6 +4472,42 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k2j5.call 
+ elsif (selection == 'j2k56' or selection == '-2+5+6') 
+ puts 
+ puts 'flat_2_Sharp_56'.upcase  
+ puts
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_j2k56.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_j2k56.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_j2k56.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_j2k56.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_j2k56.call 
+ elsif (selection == 'k2j56' or selection == '+2-5-6')
+ puts 
+ puts 'sharp_2_Flat_56'.upcase  
+ puts
+ puts 'guitar'.upcase + ' standard tuning'
+ guitar_std_k2j56.call 
+ puts 
+ puts 'guitar'.upcase + ' fourths tuning' 
+ guitar_qrt_k2j56.call 
+ puts 
+ puts 'violin'.upcase + ' fifths tuning' 
+ violin_std_k2j56.call 
+ puts  
+ puts 'cello'.upcase + ' fifths tuning' 
+ cello_std_k2j56.call 
+ puts  
+ puts 'bass'.upcase + ' standard tuning' 
+ bass_std_k2j56.call 
  elsif (selection == 'j3k6' or selection == '-3+6')
  puts 
  puts 'flat_3_sharp_6'.upcase 
@@ -4302,7 +4580,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_j2k5.call 
- elsif (selection == 'k26' or selection == '+26')
+ elsif (selection == 'k26' or selection == '+2+6')
  puts 
  puts 'sharp_26'.upcase  
  puts
@@ -4320,7 +4598,7 @@ while (not x_status)
  puts  
  puts 'bass'.upcase + ' standard tuning' 
  bass_std_k26.call 
- elsif (selection == 'j25' or selection == '-25') 
+ elsif (selection == 'j25' or selection == '-2-5') 
  puts 
  puts 'flat_25'.upcase  
  puts
