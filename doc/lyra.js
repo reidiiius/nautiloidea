@@ -3,7 +3,7 @@
  * 
  */
 
-var n0 = { 
+var n0 = {  
  'str00':' ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ', 
  'str01':' ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ', 
  'str02':' ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ', 
@@ -77,6 +77,36 @@ var k1 = {
  'str10':' bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 ___ ck3 dn3 ___ en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
  'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ '}; 
+ 
+var j17k2 = {   
+ 'str00':' ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 bj6 cj7 ___ ___ ___ dk7 en7 fn7 ___ ', 
+ 'str01':' ___ an5 bj5 cj6 ___ ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 bj6 cj7 ___ ___ ', 
+ 'str02':' dk5 en5 fn5 ___ gn5 ___ an5 bj5 cj6 ___ ___ ___ dk6 en6 fn6 ___ gn6 ___ ', 
+ 'str03':' bj4 cj5 ___ ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 bj5 cj6 ___ ___ ___ dk6 ', 
+ 'str04':' fn4 ___ gn4 ___ an4 bj4 cj5 ___ ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 bj5 ', 
+ 'str05':' cn4 ___ ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ', 
+ 'str06':' gn3 ___ an3 bj3 cj4 ___ ___ ___ dk4 en4 fn4 ___ gn4 ___ an4 bj4 cj5 ___ ', 
+ 'str07':' ___ dk3 en3 fn3 ___ gn3 ___ an3 bj3 cj4 ___ ___ ___ dk4 en4 fn4 ___ gn4 ', 
+ 'str08':' an2 bj2 cj3 ___ ___ ___ dk3 en3 fn3 ___ gn3 ___ an3 bj3 cj4 ___ ___ ___ ',
+ 'str09':' en2 fn2 ___ gn2 ___ an2 bj2 cj3 ___ ___ ___ dk3 en3 fn3 ___ gn3 ___ an3 ',
+ 'str10':' cj2 ___ ___ ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 ',
+ 'str11':' ___ gn1 ___ an1 bj1 cj2 ___ ___ ___ dk2 en2 fn2 ___ gn2 ___ an2 bj2 cj3 ',
+ 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 bj1 cj2 ___ ___ ___ dk2 en2 fn2 ___ '};
+ 
+var j2k34 = {  
+ 'str00':' dj6 ___ ___ ___ ek6 fk6 gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ ___ ek7 fk7 ', 
+ 'str01':' ___ an5 ___ bn5 cn6 dj6 ___ ___ ___ ek6 fk6 gn6 ___ an6 ___ bn6 cn7 dj7 ', 
+ 'str02':' ___ ___ ek5 fk5 gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ ___ ek6 fk6 gn6 ___ ', 
+ 'str03':' ___ bn4 cn5 dj5 ___ ___ ___ ek5 fk5 gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ ', 
+ 'str04':' ek4 fk4 gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ ___ ek5 fk5 gn5 ___ an5 ___ ', 
+ 'str05':' cn4 dj4 ___ ___ ___ ek4 fk4 gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ ___ ek5 ', 
+ 'str06':' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ ___ ek4 fk4 gn4 ___ an4 ___ bn4 cn5 ', 
+ 'str07':' ___ ___ ___ ek3 fk3 gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ ___ ek4 fk4 gn4 ', 
+ 'str08':' an2 ___ bn2 cn3 dj3 ___ ___ ___ ek3 fk3 gn3 ___ an3 ___ bn3 cn4 dj4 ___ ',
+ 'str09':' ___ ek2 fk2 gn2 ___ an2 ___ bn2 cn3 dj3 ___ ___ ___ ek3 fk3 gn3 ___ an3 ',
+ 'str10':' bn1 cn2 dj2 ___ ___ ___ ek2 fk2 gn2 ___ an2 ___ bn2 cn3 dj3 ___ ___ ___ ',
+ 'str11':' fk1 gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ ___ ek2 fk2 gn2 ___ an2 ___ bn2 ',
+ 'str12':' dj1 ___ ___ ___ ek1 fk1 gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ ___ ek2 fk2 '};
 
 var j6 = {   
  'str00':' ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ', 
@@ -287,6 +317,36 @@ var k12 = {
  'str10':' bn1 ___ ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
  'str12':' ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 ___ '}; 
+ 
+var j23k6 = {   
+ 'str00':' dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ fn7 ___ ', 
+ 'str01':' ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ', 
+ 'str02':' ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ', 
+ 'str03':' ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ', 
+ 'str04':' fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 ', 
+ 'str05':' cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ', 
+ 'str06':' gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ', 
+ 'str07':' ___ ej3 ___ fn3 ___ gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ', 
+ 'str08':' ___ ak2 bn2 cn3 dj3 ___ ej3 ___ fn3 ___ gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ',
+ 'str09':' ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ej3 ___ fn3 ___ gn3 ___ ___ ',
+ 'str10':' bn1 cn2 dj2 ___ ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ej3 ___ ',
+ 'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 ',
+ 'str12':' dj1 ___ ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 ___ fn2 ___ '}; 
+
+var k12j5 = {   
+ 'str00':' ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 gj7 ', 
+ 'str01':' ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ', 
+ 'str02':' dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ', 
+ 'str03':' ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 ', 
+ 'str04':' fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ ', 
+ 'str05':' ___ ck4 ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 ', 
+ 'str06':' ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ', 
+ 'str07':' ___ dk3 en3 fn3 gj3 ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ ', 
+ 'str08':' an2 ___ bn2 ___ ck3 ___ dk3 en3 fn3 gj3 ___ ___ an3 ___ bn3 ___ ck4 ___ ',
+ 'str09':' en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 fn3 gj3 ___ ___ an3 ',
+ 'str10':' bn1 ___ ck2 ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 ',
+ 'str11':' gj1 ___ ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
+ 'str12':' ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 gj2 '}; 
 
 var j2k6 = {  
  'str00':' dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 ___ ', 
@@ -449,6 +509,30 @@ function gutr_std_k1(){
  document.getElementById('gutr_str4').innerHTML=k1.str03.slice(16,69) 
  document.getElementById('gutr_str5').innerHTML=k1.str04.slice(16,69) 
  document.getElementById('gutr_str6').innerHTML=k1.str05.slice(16,69)};
+ 
+function gutr_std_j17k2(){
+ document.getElementById('gutr_str1').innerHTML=j17k2.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=j17k2.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=j17k2.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=j17k2.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=j17k2.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=j17k2.str05.slice(16,69)};
+ 
+function gutr_std_j2k34(){ 
+ document.getElementById('gutr_str1').innerHTML=j2k34.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=j2k34.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=j2k34.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=j2k34.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=j2k34.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=j2k34.str05.slice(16,69)}; 
+
+function gutr_std_j6(){
+ document.getElementById('gutr_str1').innerHTML=j6.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=j6.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=j6.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=j6.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=j6.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=j6.str05.slice(16,69)};
 
 function gutr_std_j6(){
  document.getElementById('gutr_str1').innerHTML=j6.str00.slice(12,65) 
@@ -562,6 +646,22 @@ function gutr_std_k12(){
  document.getElementById('gutr_str5').innerHTML=k12.str04.slice(16,69) 
  document.getElementById('gutr_str6').innerHTML=k12.str05.slice(16,69)};
  
+function gutr_std_j23k6(){
+ document.getElementById('gutr_str1').innerHTML=j23k6.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=j23k6.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=j23k6.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=j23k6.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=j23k6.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=j23k6.str05.slice(16,69)};
+ 
+function gutr_std_k12j5(){
+ document.getElementById('gutr_str1').innerHTML=k12j5.str00.slice(12,65) 
+ document.getElementById('gutr_str2').innerHTML=k12j5.str01.slice(12,65) 
+ document.getElementById('gutr_str3').innerHTML=k12j5.str02.slice(16,69) 
+ document.getElementById('gutr_str4').innerHTML=k12j5.str03.slice(16,69) 
+ document.getElementById('gutr_str5').innerHTML=k12j5.str04.slice(16,69) 
+ document.getElementById('gutr_str6').innerHTML=k12j5.str05.slice(16,69)};
+ 
 function gutr_std_j2k6(){ 
  document.getElementById('gutr_str1').innerHTML=j2k6.str00.slice(12,65) 
  document.getElementById('gutr_str2').innerHTML=j2k6.str01.slice(12,65) 
@@ -658,6 +758,18 @@ function cello_std_k1(){
  document.getElementById('cello_str3').innerHTML=k1.str09.slice(12,65)
  document.getElementById('cello_str4').innerHTML=k1.str10.slice(4,57)};
  
+function cello_std_j17k2(){ 
+ document.getElementById('cello_str1').innerHTML=j17k2.str06.slice(8,61)
+ document.getElementById('cello_str2').innerHTML=j17k2.str08.slice(20,73)
+ document.getElementById('cello_str3').innerHTML=j17k2.str09.slice(12,65)
+ document.getElementById('cello_str4').innerHTML=j17k2.str10.slice(4,57)};
+ 
+function cello_std_j2k34(){ 
+ document.getElementById('cello_str1').innerHTML=j2k34.str06.slice(8,61)
+ document.getElementById('cello_str2').innerHTML=j2k34.str08.slice(20,73)
+ document.getElementById('cello_str3').innerHTML=j2k34.str09.slice(12,65)
+ document.getElementById('cello_str4').innerHTML=j2k34.str10.slice(4,57)};
+ 
 function cello_std_j6(){ 
  document.getElementById('cello_str1').innerHTML=j6.str06.slice(8,61)
  document.getElementById('cello_str2').innerHTML=j6.str08.slice(20,73)
@@ -741,6 +853,18 @@ function cello_std_k12(){
  document.getElementById('cello_str2').innerHTML=k12.str08.slice(20,73)
  document.getElementById('cello_str3').innerHTML=k12.str09.slice(12,65)
  document.getElementById('cello_str4').innerHTML=k12.str10.slice(4,57)};
+ 
+function cello_std_j23k6(){ 
+ document.getElementById('cello_str1').innerHTML=j23k6.str06.slice(8,61)
+ document.getElementById('cello_str2').innerHTML=j23k6.str08.slice(20,73)
+ document.getElementById('cello_str3').innerHTML=j23k6.str09.slice(12,65)
+ document.getElementById('cello_str4').innerHTML=j23k6.str10.slice(4,57)};
+ 
+function cello_std_k12j5(){ 
+ document.getElementById('cello_str1').innerHTML=k12j5.str06.slice(8,61)
+ document.getElementById('cello_str2').innerHTML=k12j5.str08.slice(20,73)
+ document.getElementById('cello_str3').innerHTML=k12j5.str09.slice(12,65)
+ document.getElementById('cello_str4').innerHTML=k12j5.str10.slice(4,57)};
  
 function cello_std_j2k6(){ 
  document.getElementById('cello_str1').innerHTML=j2k6.str06.slice(8,61)
