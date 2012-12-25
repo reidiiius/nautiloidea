@@ -3999,6 +3999,7 @@ end
 def help 
  puts ' For a table of contents,'
  puts ' just type "list" or "index".'
+ puts ' for the next section, type "next".'
  puts ' If you want to leave the program,'
  puts ' just type "exit" or "quit".'
 end  
