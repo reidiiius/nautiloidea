@@ -19,6 +19,7 @@ input.button {
  background-color:#fffafa;
  border-color:#f5deb3;
  color: #a0522d;
+ cursor:pointer;
  padding:5px;
  margin:10px;
  position:relative;} 
