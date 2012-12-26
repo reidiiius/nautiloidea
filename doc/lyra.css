@@ -13,27 +13,27 @@ font-family:monospace;
 font-size:20px;
 color:#808000;
 white-space:nowrap;
-margin:1em;}
+margin:0.5em;}
 div.cello {
 font-family:monospace;
 font-size:20px;
 color:#008080;
 white-space:nowrap;
-margin:1em;}
+margin:0.5em;}
 div.ui_x {
 text-align:center;}
 button.bttn{
 background-color:cornsilk;
 border-color:transparent;
-font-family:sans-serif;
+font-family:monospace;
 font-size:16px;
 color:peru;
-padding:10px;
+padding:3px;
 cursor:pointer;}
 p.attr {
 text-align:center;
-font-family:sans-serif;
+font-family:monospace;
 font-size:12px;
 color:#cdcdcd;
-margin-top:3em;}
+margin-top:2.0em;}
  
