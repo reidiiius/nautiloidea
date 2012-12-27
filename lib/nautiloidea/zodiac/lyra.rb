@@ -359,7 +359,7 @@ bass_std_j5 = Proc.new do
   puts Flat_5.new.str11[12..64]
   puts Flat_5.new.str12[12..64] 
 end 
-###########
+
 class DblFlat_2_Flat_17  
 
   def initialize 
@@ -600,7 +600,6 @@ bass_std_x2k34 = Proc.new do
   puts DblSharp_2_Sharp_34.new.str12[12..64] 
 end 
 
-#############
 class Flat_3    
 
   def initialize 
@@ -1080,7 +1079,7 @@ bass_std_j2k34 = Proc.new do
   puts Flat_2_Sharp_34.new.str11[12..64]
   puts Flat_2_Sharp_34.new.str12[12..64] 
 end 
-##############
+
 class Sharp_26_Flat_5   
 
   def initialize 
@@ -1320,7 +1319,7 @@ bass_std_j25k6 = Proc.new do
   puts Flat_25_Sharp_6.new.str11[12..64]
   puts Flat_25_Sharp_6.new.str12[12..64] 
 end 
-################
+
 class Flat_6    
 
   def initialize 
@@ -2040,7 +2039,7 @@ bass_std_j234 = Proc.new do
   puts Flat_234.new.str11[12..64]
   puts Flat_234.new.str12[12..64] 
 end 
-#############
+
 class Sharp_127_Flat_5   
 
   def initialize 
@@ -2760,7 +2759,7 @@ bass_std_j3k5 = Proc.new do
   puts Flat_3_Sharp_5.new.str11[12..64]
   puts Flat_3_Sharp_5.new.str12[12..64] 
 end 
-###############
+
 class Sharp_16  
 
   def initialize 
@@ -4440,7 +4439,7 @@ bass_std_k2j56 = Proc.new do
   puts Sharp_2_Flat_56.new.str11[12..64]
   puts Sharp_2_Flat_56.new.str12[12..64] 
 end 
-###############
+
 class Flat_34_Sharp_6   
 
   def initialize 
@@ -5399,7 +5398,7 @@ bass_std_x1k26j5 = Proc.new do
   puts DblSharp_1_Sharp_26_Flat_5.new.str11[12..64]
   puts DblSharp_1_Sharp_26_Flat_5.new.str12[12..64] 
 end 
-###################
+
 class Flat_3_Sharp_6  
 
   def initialize 
@@ -5639,7 +5638,7 @@ bass_std_k1j5 = Proc.new do
   puts Sharp_1_Flat_5.new.str11[12..64]
   puts Sharp_1_Flat_5.new.str12[12..64] 
 end 
-#############
+
 class Flat_34   
 
   def initialize 
@@ -5879,7 +5878,7 @@ bass_std_k17 = Proc.new do
   puts Sharp_17.new.str11[12..64]
   puts Sharp_17.new.str12[12..64] 
 end 
-###################
+
 class Sharp_2_Flat_6    
 
   def initialize 
