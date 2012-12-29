@@ -26,10 +26,10 @@ infodata = YAML.load_file 'eadgcf.yml'
  puts 
  puts '(dom7)' 
  puts infodata['dom7'] 
-  puts
  puts
- puts '(n5j2k4)'  
- puts infodata['n5j2k4'] 
+ puts
+ puts '(r5j2k4)'  
+ puts infodata['r5j2k4'] 
  puts
  puts
  puts '(dom7j5)'  
