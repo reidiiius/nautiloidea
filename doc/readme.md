@@ -2,7 +2,7 @@ Nautiloidea
 ===========
 #### Data structures for music composition  
 
-    ___ = nil,
+    ___ = nil, 
     an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93,
     by0 = 21, by1 = 33, by2 = 45, by3 = 57, by4 = 69, by5 = 81, by6 = 93,
     ak0 = 22, ak1 = 34, ak2 = 46, ak3 = 58, ak4 = 70, ak5 = 82, ak6 = 94,
