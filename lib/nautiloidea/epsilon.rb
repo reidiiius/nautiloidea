@@ -894,7 +894,7 @@ puts help
 x_status = false
 while (not x_status)
 puts
-puts ' Select signature:'
+print ' Select signature:'
 select_sig = gets.chomp 
  if select_sig =~ /ndex|ist/
   puts 

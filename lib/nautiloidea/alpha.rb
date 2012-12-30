@@ -719,9 +719,9 @@ puts help
 x_status = false
 while (not x_status)
 puts
-puts ' Select Madhyama:'
-puts 
 puts ' "Shuddha" or "Prati" '
+puts
+print ' Select Madhyama:' 
 select_madhyama = gets.chomp  
  if select_madhyama =~ /hud|udd/
   puts melakarta[0] 
