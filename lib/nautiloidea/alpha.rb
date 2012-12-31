@@ -452,7 +452,7 @@ divyamani = [
 {:tone => 'leo', :function => 'mercury', :invert => 'mercury', :mode => 6}], 
 # sharp_2_flat_56 
 
-# brahama_chakra 
+# brahma_chakra 
 dhavalambari = [ 
 {:tone => 'leo', :function => 'venus', :invert => 'neptune', :mode => 0},
 {:tone => 'cancer', :function => 'saturn', :invert => 'sun', :mode => 1},
@@ -933,7 +933,7 @@ vasu_chakra = Proc.new do
   puts " #{ note[:function] } opposite #{ note[:invert] } in #{ note[:tone] } " 
   end 
 end 
-brahama_chakra = Proc.new do 
+brahma_chakra = Proc.new do 
   puts  
   puts 'dhavalambari'.capitalize
   dhavalambari.sort_by { |note| note[:mode] }.each do |note|
@@ -1130,8 +1130,8 @@ index = [ '',
 ' shadvidhamargini',
 ' suvarnangi',
 ' divyamani',
- # brahama_chakra 
-'Brahama', 
+ # brahma_chakra 
+'Brahma', 
 ' dhavalambari',
 ' namanarayani',
 ' kamavardhini',
@@ -1297,8 +1297,8 @@ puts ' suvarnangi'
 puts melakarta[47] 
 puts ' divyamani'
 puts melakarta[48]
- # brahama_chakra 
-puts 'brahama' .upcase 
+ # brahma_chakra 
+puts 'brahma' .upcase 
 puts ' dhavalambari'
 puts melakarta[49] 
 puts ' namanarayani'
@@ -1378,9 +1378,9 @@ rishi_chakra.call
  elsif select =~ /[Vv]asu/ 
 puts 'vasu' .upcase 
 vasu_chakra.call 
- elsif select =~ /[Bb]rahama/ 
-puts 'brahama' .upcase 
-brahama_chakra.call 
+ elsif select =~ /[Bb]rahma/ 
+puts 'brahma' .upcase 
+brahma_chakra.call 
  elsif select =~ /[Dd]isi/ 
 puts 'disi' .upcase 
 disi_chakra.call 
@@ -1686,7 +1686,7 @@ aditya_chakra.call
   divyamani.sort_by { |note| note[:mode] }.each do |note|
   puts " #{ note[:function] } opposite #{ note[:invert] } in #{ note[:tone] } " 
   end 
-# brahama_chakra 
+# brahma_chakra 
  elsif (select =~ /[Dd]havalambari/ or select == '49')
   puts  
   puts 'dhavalambari'.capitalize
