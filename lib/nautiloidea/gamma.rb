@@ -1214,8 +1214,9 @@ if raganame =~ /ndex|ist/
  puts index 
 elsif raganame =~ /key|jnk/
  puts key_list
-elsif (raganame == 'n' or raganame == '0')  # natural
- puts ' Sankarabharanam ' 
+elsif (raganame == 'n' or raganame == 'n0')
+ puts 
+ puts ' Sankarabharanam ' # natural  
  puts sankarabharanam
  puts ' Kharaharapriya '
  puts kharaharapriya 
@@ -1227,7 +1228,7 @@ elsif (raganame == 'n' or raganame == '0')  # natural
  puts harikambhoji 
  puts ' Natabhairavi ' 
  puts natabhairavi 
-elsif (raganame == 'k6' or raganame == 'j5') 
+elsif raganame == 'k6' 
  puts 
  puts ' Naganandini '  # sharp_6
  puts naganandini 
@@ -1235,13 +1236,15 @@ elsif (raganame == 'k6' or raganame == 'j5')
  puts bhavapriya 
  puts ' Vagadheeswari ' 
  puts vagadheeswari 
+elsif raganame == 'j5'
+ puts
  puts ' Jhankaradhwani '  # flat_5 
  puts jhankaradhwani 
  puts ' Ratnangi ' 
  puts ratnangi 
  puts ' Gamanasrama ' 
  puts gamanasrama 
-elsif (raganame == 'k126j5' or raganame == 'j5k126') 
+elsif raganame == 'k126j5' 
  puts  
  puts ' Pavani '  # sharp_126_flat_5 
  puts pavani 
@@ -1255,17 +1258,19 @@ elsif (raganame == 'j3' or raganame == 'k1')
  puts vachaspati 
  puts ' Charukesi ' 
  puts charukesi 
-elsif (raganame == 'j5k6' or raganame == 'k6j5') 
+elsif raganame == 'j5k6' 
  puts 
  puts ' Jalarnavam '  # flat_5_sharp_6 
  puts jalarnavam 
-elsif (raganame == 'j25k6' or raganame == 'k26j5') 
+elsif raganame == 'j25k6' 
  puts 
  puts ' Salagam '  # flat_25_Sharp_6 
  puts salagam 
+elsif raganame == 'k26j5'
+ puts
  puts ' Jhalavarali '  # sharp_26_flat_5
  puts jhalavarali 
-elsif (raganame == 'j6' or raganame == 'k5') 
+elsif raganame == 'j6' 
  puts 
  puts ' Sarasangi '  # flat_6 
  puts sarasangi
@@ -1273,6 +1278,8 @@ elsif (raganame == 'j6' or raganame == 'k5')
  puts dharmavati
  puts ' Chakravakam '
  puts chakravakam 
+elsif raganame == 'k5' 
+ puts 
  puts ' Keeravani '  # sharp_5 
  puts keeravani
  puts ' Hemavati '
@@ -1281,43 +1288,48 @@ elsif (raganame == 'j6' or raganame == 'k5')
  puts vakulabharanam 
  puts ' Kosalam '
  puts kosalam 
-elsif (raganame == 'k1j6' or raganame == 'k16') 
+elsif raganame == 'k1j6'  
  puts 
  puts ' Ramapriya '  # sharp_1_flat_6 
  puts ramapriya 
+elsif raganame == 'k16'
+ puts 
  puts ' Shadvidhamargini '  # sharp_16
  puts shadvidhamargini 
  puts ' Nasikabhusani '
  puts nasikabhusani 
-elsif (raganame == 'k56' or raganame == 'j56') 
+elsif raganame == 'k56' 
  puts 
  puts ' Namanarayani '  # sharp_56 
  puts namanarayani 
+elsif raganame == 'j56' 
+ puts  
  puts ' Suvarnangi '  # flat_56
  puts suvarnangi 
-elsif (raganame == 'k127' or raganame == 'j234') 
+elsif raganame == 'k127' 
  puts 
  puts ' Jyotiswarupini '  # sharp_127 
  puts jyotiswarupini 
-elsif (raganame == 'k127j5' or raganame == 'j234k6') 
+elsif raganame == 'k127j5' 
  puts
  puts ' Sucharitra '  # sharp_127_flat_5
  puts sucharitra 
-elsif (raganame == 'j34k5' or raganame == 'k5j34') 
+elsif raganame == 'j34k5' 
  puts 
  puts ' Navaneetam '  # flat_34_sharp_5 
  puts navaneetam 
-elsif (raganame == 'j2' or raganame == 'k2') 
+elsif raganame == 'j2' 
  puts 
  puts ' Suryakantam '  # flat_2 
  puts suryakantam
  puts ' Senavati '
  puts senavati 
  puts ' Latangi '
- puts latangi  # sharp_2
+ puts latangi 
+elsif raganame == 'k2'
  puts ' Dhenuka '
  puts dhenuka 
- puts ' Shanmukhapriya '
+ puts ' Shanmukhapriya ' # sharp_2
  puts shanmukhapriya 
  puts ' Sulini '
  puts sulini 
@@ -1331,12 +1343,14 @@ elsif (raganame == 'k25' or raganame == 'j26')
  puts rasikapriya 
  puts ' Simhendramadhyamam '
  puts simhendramadhyamam 
-elsif (raganame == 'j2k6' or raganame == 'k2j5') 
+elsif raganame == 'j2k6' 
  puts  
  puts ' Hatakambari '  # flat_2_sharp_6
  puts hatakambari 
  puts ' Gavambodhi '
  puts gavambodhi  
+elsif raganame == 'k2j5'
+ puts 
  puts ' Ganamurti '  # sharp_2_flat_5
  puts ganamurti
  puts ' Viswambhari '
@@ -1349,426 +1363,438 @@ elsif (raganame == 'j23' or raganame == 'k12')
  puts kokilapriya
  puts ' Rishabhapriya '
  puts rishabhapriya 
-elsif (raganame == 'k2j56' or raganame == 'j2k56') 
+elsif raganame == 'k2j56' 
  puts  
  puts ' Divyamani '  # sharp_2_flat_56
  puts divyamani 
+elsif raganame == 'j2k56'
+ puts 
  puts ' Dhavalambari '  # flat_2_sharp_56
  puts dhavalambari 
-elsif (raganame == 'k12j5' or raganame == 'j23k6')
+elsif raganame == 'k12j5'
  puts  
  puts ' Manavati '  # sharp_12_flat_5
  puts manavati
  puts ' Kantamani '
- puts kantamani  
+ puts kantamani 
+elsif raganame == 'j23k6'
+ puts  
  puts ' Rupavati '  # flat_23_sharp_6 
  puts rupavati 
-elsif (raganame == 'j34k6' or raganame == 'j34k16') 
+elsif raganame == 'j34k6' 
  puts  
  puts ' Yagapriya '  # flat_34_sharp_6
- puts yagapriya  
+ puts yagapriya 
+elsif raganame == 'j34k16'
+ puts  
  puts ' Sucharitra ' # flat_34_sharp_16
  puts sucharitra 
-elsif (raganame == 'x1k2j5' or raganame == 'x1k2j5') 
+elsif raganame == 'x1k2j5' 
  puts  
  puts ' Tanarupi '  # x1_sharp_2_flat_5
  puts tanarupi 
-elsif (raganame == 'x1k26j5' or raganame == 'x1k26j5') 
+elsif raganame == 'x1k26j5' 
  puts
  puts ' Raghupriya '  # x1_sharp_26_flat_5
  puts raghupriya  
-elsif (raganame == 'j3k6' or raganame == 'k1j5') 
+elsif raganame == 'j3k6' 
  puts 
  puts ' Varunapriya '  # flat_3_sharp_6
  puts varunapriya  
  puts ' Ragavardhini '
  puts ragavardhini 
+elsif raganame == 'k1j5' 
+ puts 
  puts ' Mararanjani '  # sharp_1_flat_5 
  puts mararanjani  
  puts ' Vanaspati '
  puts vanaspati 
-elsif (raganame == 'k2j6' or raganame == 'j2k5') 
+elsif raganame == 'k2j6' 
  puts 
  puts ' Gangeyabhusani '  # sharp_2_flat_6
  puts gangeyabhusani   
  puts ' Neetimati '
- puts neetimati  
+ puts neetimati 
+elsif raganame == 'j2k5' 
+ puts  
  puts ' Gayakapriya '  # flat_2_sharp_5
  puts gayakapriya  
  puts ' Dhatuvardhini '
  puts dhatuvardhini 
-elsif (raganame =='k26' or raganame == 'j25')  
+elsif raganame =='k26'   
  puts 
  puts ' Chalanata '  # sharp_26
  puts chalanata  
  puts ' Subhapantuvarali '
  puts subhapantuvarali 
+elsif raganame == 'j25' 
+ puts 
  puts ' Kanakangi '  # flat_25
  puts kanakangi   
  puts ' kamavardhini '
  puts kamavardhini 
  # functional harmony 
- elsif (raganame == 'Sankarabharanam' or raganame == 'sankarabharanam') 
+ elsif raganame =~ /[Ss]ankarabharanam/  
   puts ' shadja cn5'  
   puts natural 
   puts 
   puts sankarabharanam # natural 
- elsif (raganame == 'Kharaharapriya' or raganame == 'kharaharapriya') 
+ elsif raganame =~ /[Kk]haraharapriya/ 
   puts ' shadja dn5' 
   puts natural 
   puts 
   puts kharaharapriya 
- elsif (raganame == 'Hanumatodi' or raganame == 'hanumatodi') 
+ elsif raganame =~ /[Hh]anumatodi/ 
   puts ' shadja en5'
   puts natural 
   puts 
   puts hanumatodi 
- elsif (raganame == 'Mechakalyani' or raganame == 'mechakalyani') 
+ elsif raganame =~ /[Mm]echakalyani/ 
   puts ' shadja fn5' 
   puts natural 
   puts 
   puts mechakalyani 
- elsif (raganame == 'Harikambhoji' or raganame == 'harikambhoji') 
+ elsif raganame =~ /[Hh]arikambhoji/ 
   puts ' shadja gn5'
   puts natural 
   puts 
   puts harikambhoji 
- elsif (raganame == 'Natabhairavi' or raganame == 'natabhairavi') 
+ elsif raganame =~ /[Nn]atabhairavi/  
   puts ' shadja an5' 
   puts natural 
   puts 
   puts natabhairavi 
- elsif (raganame == 'Naganandini' or raganame == 'naganandini') 
+ elsif raganame =~ /[Nn]aganandini/ 
   puts ' shadja cn5' 
   puts sharp_6 
   puts 
   puts naganandini # sharp_6 
- elsif (raganame == 'Bhavapriya' or raganame == 'bhavapriya') 
+ elsif raganame =~ /[Bb]havapriya/  
   puts ' shadja en5'
   puts sharp_6 
   puts 
   puts bhavapriya 
- elsif (raganame == 'Vagadheeswari' or raganame == 'vagadheeswari') 
+ elsif raganame =~ /[Vv]agadheeswari/  
   puts ' shadja gn5' 
   puts sharp_6 
   puts 
   puts vagadheeswari 
- elsif (raganame == 'Jhankaradhwani' or raganame == 'jhankaradhwani') 
+ elsif raganame =~ /[Jj]hankaradhwani/ 
   puts ' shadja an4' 
   puts flat_5 
   puts 
   puts jhankaradhwani # flat_5 
- elsif (raganame == 'Ratnangi' or raganame == 'ratnangi') 
+ elsif raganame =~ /[Rr]atnangi/  
   puts ' shadja en5'
   puts flat_5 
   puts 
   puts ratnangi 
- elsif (raganame == 'Gamanasrama' or raganame == 'gamanasrama') 
+ elsif raganame =~ /[Gg]amanasrama/ 
   puts ' shadja fn5' 
   puts flat_5 
   puts 
   puts gamanasrama 
- elsif (raganame == 'Pavani' or raganame == 'pavani') 
+ elsif raganame =~ /[Pp]avani/  
   puts ' shadja en4' 
   puts sharp_126_flat_5 
   puts 
   puts pavani # sharp_126_flat_5 
- elsif (raganame == 'Gourimanohari' or raganame == 'gourimanohari') 
+ elsif raganame =~ /[Gg]ourimanohari/  
   puts ' shadja cn5'
   puts flat_3 
   puts 
   puts gourimanohari # flat_3 
- elsif (raganame == 'Natakapriya' or raganame == 'natakapriya') 
+ elsif raganame =~ /[Nn]atakapriya/  
   puts ' shadja dn5' 
   puts flat_3 
   puts 
   puts natakapriya 
- elsif (raganame == 'Vachaspati' or raganame == 'vachaspati') 
+ elsif raganame =~ /[Vv]achaspati/  
   puts ' shadja fn5'
   puts flat_3 
   puts 
   puts vachaspati   
- elsif (raganame == 'Charukesi' or raganame == 'charukesi') 
+ elsif raganame =~ /[Cc]harukesi/  
   puts ' shadja gn5'
   puts flat_3 
   puts 
   puts charukesi 
- elsif (raganame == 'Jalarnavam' or raganame == 'jalarnavam') 
+ elsif raganame =~ /[Jj]alarnavam/  
   puts ' shadja en4'
   puts flat_5_sharp_6 
   puts 
   puts jalarnavam # flat_5_sharp_6 
- elsif (raganame == 'Salagam' or raganame == 'salagam') 
+ elsif raganame =~ /[Ss]alagam/  
   puts ' shadja en4' 
   puts flat_25_sharp_6 
   puts 
   puts salagam # flat_25_sharp_6 
- elsif (raganame == 'Jhalavarali' or raganame == 'jhalavarali') 
+ elsif raganame =~ /[Jj]halavarali/  
   puts ' shadja en4' 
   puts sharp_26_flat_5 
   puts 
   puts jhalavarali # sharp_26_flat_5 
- elsif (raganame == 'Sarasangi' or raganame == 'sarasangi') 
+ elsif raganame =~ /[Ss]arasangi/  
   puts ' shadja cn5' 
   puts flat_6 
   puts 
   puts sarasangi # flat_6 
- elsif (raganame == 'Dharmavati' or raganame == 'dharmavati') 
+ elsif raganame =~ /[Dd]harmavati/  
   puts ' shadja fn5' 
   puts flat_6 
   puts 
   puts dharmavati 
- elsif (raganame == 'Chakravakam' or raganame == 'chakravakam') 
+ elsif raganame =~ /[Cc]hakravakam/  
   puts ' shadja gn5'
   puts flat_6 
   puts 
   puts chakravakam 
- elsif (raganame == 'Keeravani' or raganame == 'keeravani') 
+ elsif raganame =~ /[Kk]eeravani/  
   puts ' shadja an4' 
   puts sharp_5 
   puts 
   puts keeravani # sharp_5 
- elsif (raganame == 'Hemavati' or raganame == 'hemavati') 
+ elsif raganame =~ /[Hh]emavati/  
   puts ' shadja dn5' 
   puts sharp_5 
   puts 
   puts hemavati   
- elsif (raganame == 'Vakulabharanam' or raganame == 'vakulabharanam') 
+ elsif raganame =~ /[Vv]akulabharanam/  
   puts ' shadja en5'
   puts sharp_5 
   puts 
   puts vakulabharanam 
- elsif (raganame == 'Kosalam' or raganame == 'kosalam') 
+ elsif raganame =~ /[Kk]osalam/  
   puts ' shadja fn5' 
   puts sharp_5 
   puts 
   puts kosalam 
- elsif (raganame == 'Ramapriya' or raganame == 'ramapriya') 
+ elsif raganame =~ /[Rr]amapriya/  
   puts ' shadja gn4'
   puts sharp_1_flat_6 
   puts 
   puts ramapriya # sharp_1_flat_6 
- elsif (raganame == 'Shadvidhamargini' or raganame == 'shadvidhamargini') 
+ elsif raganame =~ /[Ss]hadvidhamargini/  
   puts ' shadja en4' 
   puts sharp_16 
   puts 
   puts shadvidhamargini # sharp_16 
- elsif (raganame == 'Nasikabhusani' or raganame == 'nasikabhusani') 
+ elsif raganame =~ /[Nn]asikabhusani/  
   puts ' shadja gn4'
   puts sharp_16 
   puts 
   puts nasikabhusani 
- elsif (raganame == 'Namanarayani' or raganame == 'namanarayani') 
+ elsif raganame =~ /[Nn]amanarayani/  
   puts ' shadja en4' 
   puts sharp_56 
   puts 
   puts namanarayani # sharp_56 
- elsif (raganame == 'Suvarnangi' or raganame == 'suvarnangi') 
+ elsif raganame =~ /[Ss]uvarnangi/  
   puts ' shadja fn4' 
   puts flat_56 
   puts 
   puts puts suvarnangi # flat_56 
- elsif (raganame == 'Jyotiswarupini' or raganame == 'jyotiswarupini') 
+ elsif raganame =~ /[Jj]yotiswarupini/  
   puts ' shadja an4' 
   puts sharp_127 
   puts 
   puts jyotiswarupini # sharp_127 
- elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+ elsif raganame =~ /[Ss]ucharitra/  
   puts ' shadja an4' 
   puts sharp_127_flat_5 
   puts 
   puts sucharitra # sharp_127_flat_5 
- elsif (raganame == 'Navaneetam' or raganame == 'navaneetam') 
+ elsif raganame =~ /[Nn]avaneetam/  
   puts ' shadja dn5'
   puts flat_34_sharp_5
   puts 
   puts navaneetam # flat_34_sharp_5   
- elsif (raganame == 'Suryakantam' or raganame == 'suryakantam') 
+ elsif raganame =~ /[Ss]uryakantam/  
   puts ' shadja cn5' 
   puts flat_2 
   puts 
   puts suryakantam # flat_2 
- elsif (raganame == 'Senavati' or raganame == 'senavati') 
+ elsif raganame =~ /[Ss]enavati/  
   puts ' shadja en5' 
   puts flat_2 
   puts 
   puts senavati 
- elsif (raganame == 'Latangi' or raganame == 'latangi') 
+ elsif raganame =~ /[Ll]atangi/  
   puts ' shadja fn5' 
   puts flat_2 
   puts 
   puts latangi 
- elsif (raganame == 'Dhenuka' or raganame == 'dhenuka') 
+ elsif raganame =~ /[Dd]henuka/  
   puts ' shadja en4' 
   puts sharp_2 
   puts 
   puts dhenuka # sharp_2 
- elsif (raganame == 'Chitrambhari' or raganame == 'chitrambhari') 
+ elsif raganame =~ /[Cc]hitrambhari/  
   puts ' shadja fn4' 
   puts sharp_2 
   puts 
   puts chitrambhari   
- elsif (raganame == 'Shanmukhapriya' or raganame == 'shanmukhapriya') 
+ elsif raganame =~ /[Ss]hanmukhapriya/  
   puts ' shadja an4' 
   puts sharp_2 
   puts 
   puts shanmukhapriya 
- elsif (raganame == 'Sulini' or raganame == 'sulini') 
+ elsif raganame =~ /[Ss]ulini/  
   puts ' shadja cn5' 
   puts sharp_2 
   puts 
   puts sulini 
- elsif (raganame == 'Mayamalavagowla' or raganame == 'mayamalavagowla') 
+ elsif raganame =~ /[Mm]ayamalavagowla/  
   puts ' shadja en4'
   puts sharp_25 
   puts 
   puts mayamalavagowla # sharp_25 
- elsif (raganame == 'Rasikapriya' or raganame == 'rasikapriya') 
+ elsif raganame =~ /[Rr]asikapriya/  
   puts ' shadja fn4'
   puts sharp_25 
   puts 
   puts rasikapriya 
- elsif (raganame == 'Simhendramadhyamam' or raganame == 'simhendramadhyamam') 
+ elsif raganame =~ /[Ss]imhendramadhyamam/  
   puts ' shadja an4'
   puts sharp_25 
   puts 
   puts simhendramadhyamam   
- elsif (raganame == 'Kokilapriya' or raganame == 'kokilapriya') 
+ elsif raganame =~ /[Kk]okilapriya/  
   puts ' shadja cn5'
   puts flat_23 
   puts 
   puts kokilapriya # flat_23 
- elsif (raganame == 'Rishabhapriya' or raganame == 'rishabhapriya')
+ elsif raganame =~ /[Rr]ishabhapriya/ 
   puts ' shadja fn5'
   puts flat_23 
   puts 
   puts rishabhapriya 
- elsif (raganame == 'Rupavati' or raganame == 'rupavati') 
+ elsif raganame =~ /[Rr]upavati/ 
   puts ' shadja cn5' 
   puts flat_23_sharp_6 
   puts 
   puts rupavati # flat_23_sharp_6 
- elsif (raganame == 'Divyamani' or raganame == 'divyamani') 
+ elsif raganame =~ /[Dd]ivyamani/  
   puts ' shadja fn4' 
   puts sharp_2_flat_56 
   puts 
   puts divyamani # sharp_2_flat_56 
- elsif (raganame == 'Dhavalambari' or raganame == 'dhavalambari')
+ elsif raganame =~ /[Dd]havalambari/ 
   puts ' shadja en4' 
   puts flat_2_sharp_56 
   puts 
   puts dhavalambari # flat_2_sharp_56 
- elsif (raganame == 'Hatakambari' or raganame == 'hatakambari') 
+ elsif raganame =~ /[Hh]atakambari/  
   puts ' shadja cn5' 
   puts flat_2_sharp_6 
   puts 
   puts hatakambari # flat_2_sharp_6 
- elsif (raganame == 'Gavambodhi' or raganame == 'gavambodhi') 
+ elsif raganame =~ /[Gg]avambodhi/  
   puts ' shadja en5' 
   puts flat_2_sharp_6 
   puts 
   puts gavambodhi 
- elsif (raganame == 'Ganamurti' or raganame == 'ganamurti') 
+ elsif raganame =~ /[Gg]anamurti/  
   puts ' shadja en4' 
   puts sharp_2_flat_5 
   puts 
   puts ganamurti # sharp_2_flat_5 
- elsif (raganame == 'Viswambhari' or raganame == 'viswambhari') 
+ elsif raganame =~ /[Vv]iswambhari/  
   puts ' shadja fn4' 
   puts sharp_2_flat_5 
   puts 
   puts viswambhari 
- elsif (raganame == 'Syamalangi' or raganame == 'syamalangi')
+ elsif raganame =~ /[Ss]yamalangi/ 
   puts ' shadja an4' 
   puts sharp_2_flat_5 
   puts 
   puts syamalangi 
- elsif (raganame == 'Manavati' or raganame == 'manavati') 
+ elsif raganame =~ /[Mm]anavati/  
   puts ' shadja en4' 
   puts sharp_12_flat_5 
   puts 
   puts manavati # sharp_12_flat_5 
- elsif (raganame == 'Kantamani' or raganame == 'kantamani') 
+ elsif raganame =~ /[Kk]antamani/  
   puts ' shadja an4' 
   puts sharp_12_flat_5 
   puts 
   puts kantamani 
- elsif (raganame == 'Yagapriya' or raganame == 'yagapriya') 
+ elsif raganame =~ /[Yy]agapriya/  
   puts ' shadja gn4' 
   puts flat_34_sharp_6 
   puts 
   puts yagapriya # flat_34_sharp_6 
- elsif (raganame == 'Sucharitra' or raganame == 'sucharitra') 
+ elsif raganame =~ /[Ss]ucharitra/  
   puts ' shadja an4' 
   puts flat_34_sharp_1_6 
   puts 
   puts sucharitra # flat_34_sharp_1_6 
- elsif (raganame == 'Tanarupi' or raganame == 'tanarupi') 
+ elsif raganame =~ /[Tt]anarupi/  
   puts ' shadja en4'
   puts x1_sharp_2_flat_5 
   puts 
   puts tanarupi # x1_sharp_2_flat_5 
- elsif (raganame == 'Raghupriya' or raganame == 'raghupriya') 
+ elsif raganame =~ /[Rr]aghupriya/  
   puts ' shadja en4'
   puts x1_sharp_26_flat_5 
   puts 
   puts raghupriya # x1_sharp_26_flat_5 
- elsif (raganame == 'Varunapriya' or raganame == 'varunapriya') 
+ elsif raganame =~ /[Vv]arunapriya/  
   puts ' shadja cn5'
   puts flat_3_sharp_6 
   puts 
   puts varunapriya # flat_3_sharp_6 
- elsif (raganame == 'Ragavardhini' or raganame == 'ragavardhini') 
+ elsif raganame =~ /[Rr]agavardhini/  
   puts ' shadja gn5'
   puts flat_3_sharp_6 
   puts 
   puts ragavardhini 
- elsif (raganame == 'Mararanjani' or raganame == 'mararanjani') 
+ elsif raganame =~ /[Mm]araranjani/  
   puts ' shadja an4' 
   puts sharp_1_flat_5 
   puts 
   puts mararanjani # sharp_1_flat_5 
- elsif (raganame == 'Vanaspati' or raganame == 'vanaspati') 
+ elsif raganame =~ /[Vv]anaspati/  
   puts ' shadja en5' 
   puts sharp_1_flat_5 
   puts 
   puts vanaspati 
- elsif (raganame == 'Gangeyabhusani' or raganame == 'gangeyabhusani') 
+ elsif raganame =~ /[Gg]angeyabhusani/  
   puts ' shadja cn5'
   puts sharp_2_flat_6 
   puts 
   puts gangeyabhusani # sharp_2_flat_6 
- elsif (raganame == 'Neetimati' or raganame == 'neetimati') 
+ elsif raganame =~ /[Nn]eetimati/  
   puts ' shadja fn5'
   puts sharp_2_flat_6 
   puts 
   puts neetimati 
- elsif (raganame == 'Gayakapriya' or raganame == 'gayakapriya') 
+ elsif raganame =~ /[Gg]ayakapriya/  
   puts ' shadja en4' 
   puts flat_2_sharp_5 
   puts 
   puts gayakapriya # flat_2_sharp_5 
- elsif (raganame == 'Dhatuvardhini' or raganame == 'dhatuvardhini') 
+ elsif raganame =~ /[Dd]hatuvardhini/  
   puts ' shadja fn4' 
   puts flat_2_sharp_5 
   puts 
   puts dhatuvardhini 
- elsif (raganame == 'Chalanata' or raganame == 'chalanata') 
+ elsif raganame =~ /[Cc]halanata/  
   puts ' shadja cn5' 
   puts sharp_26 
   puts 
   puts chalanata # sharp_26 
- elsif (raganame == 'Subhapantuvarali' or raganame == 'subhapantuvarali') 
+ elsif raganame =~ /[Ss]ubhapantuvarali/  
   puts ' shadja en5' 
   puts sharp_26 
   puts 
   puts subhapantuvarali 
- elsif (raganame == 'Kanakangi' or raganame == 'kanakangi') 
+ elsif raganame =~ /[Kk]anakangi/  
   puts ' shadja en4' 
   puts flat_25 
   puts 
   puts kanakangi # flat_25 
- elsif (raganame == 'Kamavardhini' or raganame == 'kamavardhini') 
+ elsif raganame =~ /[Kk]amavardhini/  
   puts ' shadja fn4'
   puts flat_25 
   puts 

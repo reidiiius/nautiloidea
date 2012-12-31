@@ -757,7 +757,7 @@ chord_list = [
 ' ma7k4',
 ' mi6', 
 ' dom7',
-' 13k9', 
+' r5j2k4', 
 ' dom7j5',
 ' dim6', 
 ' dimk7',
@@ -858,7 +858,7 @@ print ' Enter selection:'
   puts dom7_midi[13..25].to_s 
   puts 
   puts dom7_guitar 
- elsif (raganame == 'r5j2k4' or raganame == '13k9') 
+ elsif (raganame == 'r5j2k4' or raganame == 'j2k4') 
   puts  
   puts r5j2k4_midi[14..26].to_s 
   puts 
