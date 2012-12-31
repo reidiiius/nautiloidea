@@ -433,7 +433,7 @@ puts help
 x_status = false
 while (not x_status)
 puts
-print ' Select Clave:'
+print ' Select Clave: '
 select_clave = gets.chomp 
  if select_clave =~ /ndex|ist/ 
   puts clave_list 

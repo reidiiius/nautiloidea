@@ -1208,7 +1208,7 @@ help = [
  x_status = false
 while (not x_status) 
  puts
- print ' Enter selection:'
+ print ' Enter selection: '
  raganame = gets.chomp 
 if raganame =~ /ndex|ist/ 
  puts index 
