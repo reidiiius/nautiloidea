@@ -303,9 +303,7 @@ def natural
 ' dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ', 
 ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ', 
 ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def sharp_6 
 [
@@ -315,9 +313,7 @@ def sharp_6
 ' dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ',
 ' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
 ' en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def flat_5 
 [
@@ -327,9 +323,7 @@ def flat_5
 ' dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ',
 ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def sharp_126_flat_5 
 [
@@ -339,9 +333,7 @@ def sharp_126_flat_5
 ' ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ ',
 ' ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5 '] 
-
 end
-
 
 def flat_3 
 [
@@ -351,9 +343,7 @@ def flat_3
 ' dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ',
 ' an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
 ' ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ '] 
-
 end
-
 
 def flat_5_sharp_6 
 [
@@ -363,9 +353,7 @@ def flat_5_sharp_6
 ' dn5 ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 ',
 ' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ ',
 ' en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def flat_25_sharp_6 
 [
@@ -375,9 +363,7 @@ def flat_25_sharp_6
 ' ___ ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj5 ___ ',
 ' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ ',
 ' en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 '] 
-
 end 
-
 
 def sharp_26_flat_5 
 [
@@ -387,9 +373,7 @@ def sharp_26_flat_5
 ' ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ ',
 ' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ ',
 ' en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def flat_6 
 [
@@ -399,9 +383,7 @@ def flat_6
 ' dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ',
 ' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
 ' en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def sharp_5 
 [
@@ -411,9 +393,7 @@ def sharp_5
 ' dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ',
 ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
 ' en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def sharp_1_flat_6 
 [
@@ -423,9 +403,7 @@ def sharp_1_flat_6
 ' dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ',
 ' ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
 ' en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ___ en5 '] 
-
 end
-
 
 def sharp_16 
 [
@@ -435,9 +413,7 @@ def sharp_16
 ' dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ',
 ' ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
 ' en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ___ en5 '] 
-
 end
-
 
 def sharp_56 
 [
@@ -447,9 +423,7 @@ def sharp_56
 ' dn5 ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ',
 ' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ ',
 ' en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def flat_56
 [
@@ -459,9 +433,7 @@ def flat_56
 ' dn5 ___ en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ',
 ' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ ',
 ' en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 '] 
-
 end
-
 
 def sharp_127 
 [
@@ -471,9 +443,7 @@ def sharp_127
 ' ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ ',
 ' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
 ' en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 '] 
-
 end
-
 
 def flat_234 
 [
@@ -483,9 +453,7 @@ def flat_234
 ' ___ ej5 fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ___ gn5 ___ an5 ',
 ' fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 fj5 '] 
-
 end
-
 
 def sharp_127_flat_5 
 [
@@ -495,9 +463,7 @@ def sharp_127_flat_5
 ' ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ ',
 ' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 '] 
-
 end
-
 
 def flat_34_sharp_5 
 [
@@ -507,9 +473,7 @@ def flat_34_sharp_5
 ' dn5 ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ',
 ' an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 ',
 ' fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5 '] 
-
 end
-
 
 def flat_2 
 [
@@ -519,9 +483,7 @@ def flat_2
 ' ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ',
 ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
-
 end
-
 
 def sharp_2 
 [
@@ -531,9 +493,7 @@ def sharp_2
 ' ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ ',
 ' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
 ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def sharp_25 
 [
@@ -543,9 +503,7 @@ def sharp_25
 ' ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ ',
 ' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 ',
 ' en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def flat_23 
 [
@@ -555,9 +513,7 @@ def flat_23
 ' ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 ',
 ' ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ '] 
-
 end
-
 
 def flat_23_sharp_6 
 [
@@ -567,9 +523,7 @@ def flat_23_sharp_6
 ' ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ',
 ' ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
 ' ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ '] 
-
 end
-
 
 def sharp_2_flat_56 
 [
@@ -579,9 +533,7 @@ def sharp_2_flat_56
 ' ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ ',
 ' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ',
 ' en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def flat_2_sharp_56 
 [
@@ -591,9 +543,7 @@ def flat_2_sharp_56
 ' ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ',
 ' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ',
 ' en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 '] 
-
 end
-
 
 def flat_2_sharp_6 
 [
@@ -603,9 +553,7 @@ def flat_2_sharp_6
 ' ___ ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ',
 ' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ',
 ' en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 '] 
-
 end
-
 
 def sharp_2_flat_5 
 [
@@ -615,9 +563,7 @@ def sharp_2_flat_5
 ' ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ ',
 ' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def sharp_12_flat_5 
 [
@@ -627,9 +573,7 @@ def sharp_12_flat_5
 ' ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ ',
 ' an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 '] 
-
 end
-
 
 def flat_34_sharp_6 
 [
@@ -639,9 +583,7 @@ def flat_34_sharp_6
 ' dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ',
 ' ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
 ' fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 '] 
-
 end
-
 
 def flat_34_sharp_16 
 [
@@ -651,9 +593,7 @@ def flat_34_sharp_16
 ' dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ',
 ' ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
 ' fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 '] 
-
 end
-
 
 def x1_sharp_2_flat_5 
 [
@@ -663,9 +603,7 @@ def x1_sharp_2_flat_5
 ' cx5 dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 ',
 ' an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5 '] 
-
 end
-
 
 def x1_sharp_26_flat_5 
 [
@@ -675,9 +613,7 @@ def x1_sharp_26_flat_5
 ' cx5 dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 ',
 ' ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ ',
 ' en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5 '] 
-
 end
-
 
 def flat_3_sharp_6 
 [
@@ -687,9 +623,7 @@ def flat_3_sharp_6
 ' dn5 ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ',
 ' ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ ',
 ' ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 ___ '] 
-
 end
-
 
 def sharp_1_flat_5 
 [
@@ -699,9 +633,7 @@ def sharp_1_flat_5
 ' dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ',
 ' an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 '] 
-
 end
-
 
 def sharp_2_flat_6 
 [
@@ -711,9 +643,7 @@ def sharp_2_flat_6
 ' ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ ',
 ' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ ',
 ' en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def flat_2_sharp_5 
 [
@@ -723,9 +653,7 @@ def flat_2_sharp_5
 ' ___ ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 ',
 ' en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
-
 end
-
 
 def sharp_26 
 [
@@ -735,9 +663,7 @@ def sharp_26
 ' ___ dk5 en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ ',
 ' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ ',
 ' en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 '] 
-
 end
-
 
 def flat_25 
 [
@@ -747,7 +673,6 @@ def flat_25
 ' ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ',
 ' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ',
 ' en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 '] 
-
 end 
 
 chord_list = [
