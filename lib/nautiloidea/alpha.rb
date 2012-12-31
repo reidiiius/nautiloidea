@@ -684,7 +684,7 @@ indu_chakra = Proc.new do
   puts " #{ note[:function] } opposite #{ note[:invert] } in #{ note[:tone] } " 
   end 
   puts  
-  puts ''.capitalize
+  puts 'ratnangi'.capitalize
   ratnangi.sort_by { |note| note[:mode] }.each do |note|
   puts " #{ note[:function] } opposite #{ note[:invert] } in #{ note[:tone] } " 
   end  
@@ -1834,7 +1834,7 @@ aditya_chakra.call
   rasikapriya.sort_by { |note| note[:mode] }.each do |note|
   puts " #{ note[:function] } opposite #{ note[:invert] } in #{ note[:tone] } " 
   end 
- elsif select =~ /ndex|ist/
+ elsif (select =~ /ndex|ist/ or select == '0') 
   puts index
  elsif (select =~ /\s|elp/ or select == '') 
   puts help  
