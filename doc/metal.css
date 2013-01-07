@@ -1,0 +1,41 @@
+﻿
+body { 
+ background-color:ivory; }
+div.mtl { 
+ text-align:center;
+ color:olive;
+ margin-top:7em; } 
+table { 
+ margin-left:auto;
+ margin-right:auto; } 
+td.mtl { 
+ background-color:cornsilk;
+ font-size:24px; 
+ white-space:nowrap;
+ padding:1em; } 
+input.mtl { 
+ border-color:khaki;
+ font-family:monospace;
+ background-color:beige;
+ padding:0.5em; 
+ color:brown; } 
+a:link {
+ text-decoration:none;
+ color:sienna; }
+a:visited {
+ text-decoration:none; 
+ color:sienna; }
+a:hover {
+ text-decoration:none; 
+ color:peru;
+ background-color:ivory; }
+a:active {
+ text-decoration:none; 
+ color:peru; }  
+div.attr {
+ text-align:center;
+ font-family:monospace;
+ font-size:12px;
+ color:#deb887;
+ white-space:nowrap;
+ margin-top:5em; } 
