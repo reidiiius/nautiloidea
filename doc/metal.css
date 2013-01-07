@@ -3,14 +3,14 @@ body {
  background-color:ivory; }
 div.mtl { 
  text-align:center;
- color:olive;
  margin-top:7em; } 
 table { 
  margin-left:auto;
  margin-right:auto; } 
 td.mtl { 
  background-color:cornsilk;
- font-size:24px; 
+ font-size:24px;
+ color:olive; 
  white-space:nowrap;
  padding:1em; } 
 input.mtl { 
