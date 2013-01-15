@@ -25,7 +25,10 @@ text-decoration:none;
 color:#808000; }
 a:hover {
 text-decoration:underline;
-color:#d2691e; }  
+color:#d2691e; }
+a:active { 
+text-decoration:none;
+color:#d2691e; }   
 pre.key { 
 background-color:#fffff0;
 font-family:monospace;
