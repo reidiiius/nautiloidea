@@ -1,0 +1,68 @@
+
+body {  
+font-size:24px; 
+color:#21bb55; 
+background-color:#eee8aa; } 
+table { 
+background-color:#fffff0;
+margin-left:auto;
+margin-right:auto;
+padding:1em; } 
+ol { 
+font-family:monospace;
+color:#cd853f;
+padding:1em;
+margin-left:1em; } 
+ul { 
+font-family:monospace; 
+padding:0.5em;
+list-style-type:none; } 
+a:link {
+text-decoration:none;
+color:#808000; }
+a:visited {
+text-decoration:none;
+color:#808000; }
+a:hover {
+text-decoration:underline;
+color:#d2691e; }  
+pre.key { 
+background-color:#fffff0;
+font-family:monospace;
+font-size:16px;
+color:#cd853f;
+padding:3em;
+margin-left:4em;
+width:62%; }  
+pre.hash { 
+background-color:#fffafa;
+font-family:monospace;
+font-size:16px;
+color:#b22222;
+padding:1em;
+margin-left:4em;
+width:58%; } 
+pre.guitar { 
+background-color:#fff0f5;
+text-align:left;
+font-family:monospace;
+font-size:16px;
+color:#808000;
+padding:1em; } 
+pre.violin { 
+background-color:#fffacd;
+text-align:left;
+font-family:monospace;
+font-size:16px;
+color:#5f9ea0;
+padding:1em; }  
+span.raganame { 
+font-family:sans-serif;
+font-size:16px;
+color:#228b22; }  
+p.attr { 
+text-align:center; 
+font-family:sans-serif;
+font-size:14px;
+color:#cd853f;
+margin-top:1em; } 

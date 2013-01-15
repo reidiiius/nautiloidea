@@ -1,0 +1,4031 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Alembica</title>
+<meta name="author" content="Reid Netterville III" />
+<link rel="stylesheet" type="text/css" href="lmbc.css" />
+</head>
+<body>
+<table><tr><td>
+<ol>
+ <li><a href="#indu_chakra">Indu</a></li>
+ <li><a href="#netra_chakra">Netra</a></li>
+ <li><a href="#agni_chakra">Agni</a></li>
+ <li><a href="#veda_chakra">Veda</a></li>
+ <li><a href="#bana_chakra">Bana</a></li>
+ <li><a href="#ritu_chakra">Ritu</a></li>
+ <li><a href="#rishi_chakra">Rishi</a></li>
+ <li><a href="#vasu_chakra">Vasu</a></li>
+ <li><a href="#brahma_chakra">Brahma</a></li>
+ <li><a href="#disi_chakra">Disi</a></li>
+ <li><a href="#rudra_chakra">Rudra</a></li>
+ <li><a href="#aditya_chakra">Aditya</a></li>
+</ol>
+</td><td>
+<ul dir="rtl">
+ <li><a href="#midi_key">key</a></li>
+ <li><a href="#sus">sus</a></li>
+ <li><a href="#mi7">mi7</a></li>
+ <li><a href="#ma7">ma7</a></li>
+ <li><a href="#ma7k4">ma7k4</a></li>
+ <li><a href="#mi6">mi6</a></li>
+ <li><a href="#dom7">dom7</a></li>
+ <li><a href="#r5j2k4">r5j2k4</a></li>
+ <li><a href="#dom7j5">dom7j5</a></li>
+ <li><a href="#o6">o6</a></li>
+ <li><a href="#ok7">ok7</a></li>
+ <li><a href="#mik4">mik4</a></li>
+ <li><a href="#mik7">mik7</a></li>
+ <li><a href="#dom7k5">dom7k5</a></li>
+ <li><a href="#ma7k5">ma7k5</a></li>
+</ul>
+</td><td>
+<ul>
+ <li><a href="#natural">n0</a></li>
+ <li><a href="#sharp_6">k6</a></li>
+ <li><a href="#flat_5">j5</a></li>
+ <li><a href="#sharp_126_flat_5">k126j5</a></li>
+ <li><a href="#flat_3">j3</a></li>
+ <li><a href="#flat_5_sharp_6">j5k6</a></li>
+ <li><a href="#flat_25_sharp_6">j25k6</a></li>
+ <li><a href="#sharp_26_flat_5">k26j5</a></li>
+ <li><a href="#flat_6">j6</a></li>
+ <li><a href="#sharp_5">k5</a></li>
+ <li><a href="#sharp_1_flat_6">k1j6</a></li>
+ <li><a href="#sharp_16">k16</a></li>
+ <li><a href="#sharp_56">k56</a></li>
+ <li><a href="#flat_56">j56</a></li>
+ <li><a href="#sharp_127">k127</a></li>
+ <li><a href="#flat_234">j234</a></li>
+ <li><a href="#sharp_127_flat_5">k127j5</a></li>
+ <li><a href="#flat_34_sharp_5">j34k5</a></li>
+</ul>
+</td><td>
+<ul dir="rtl">
+ <li><a href="#flat_2">j2</a></li>
+ <li><a href="#sharp_2">k2</a></li>
+ <li><a href="#sharp_25">k25</a></li>
+ <li><a href="#flat_23">j23</a></li>
+ <li><a href="#flat_23_sharp_6">j23k6</a></li>
+ <li><a href="#sharp_2_flat_56">k2j56</a></li>
+ <li><a href="#flat_2_sharp_56">j2k56</a></li>
+ <li><a href="#flat_2_sharp_6">j2k6</a></li>
+ <li><a href="#sharp_2_flat_5">k2j5</a></li>
+ <li><a href="#sharp_12_flat_5">k12j5</a></li>
+ <li><a href="#flat_34_sharp_6">j34k6</a></li>
+ <li><a href="#flat_34_sharp_16">j34k16</a></li>
+ <li><a href="#x1_sharp_2_flat_5">x1k2j5</a></li>
+ <li><a href="#x1_sharp_26_flat_5">x1k26j5</a></li>
+ <li><a href="#flat_3_sharp_6">j3k6</a></li>
+ <li><a href="#sharp_1_flat_5">k1j5</a></li>
+ <li><a href="#sharp_2_flat_6">k2j6</a></li>
+ <li><a href="#flat_2_sharp_5">j2k5</a></li>
+ <li><a href="#sharp_26">k26</a></li>
+ <li><a href="#flat_25">j25</a></li>
+</ul>
+</td></tr></table>
+<div id="midi_key"> 
+<pre class="key">
+
+    an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93, 
+    by0 = 21, by1 = 33, by2 = 45, by3 = 57, by4 = 69, by5 = 81, by6 = 93,  
+    ak0 = 22, ak1 = 34, ak2 = 46, ak3 = 58, ak4 = 70, ak5 = 82, ak6 = 94,  
+    bj0 = 22, bj1 = 34, bj2 = 46, bj3 = 58, bj4 = 70, bj5 = 82, bj6 = 94,  
+    bn0 = 23, bn1 = 35, bn2 = 47, bn3 = 59, bn4 = 71, bn5 = 83, bn6 = 95,   
+    cj1 = 23, cj2 = 35, cj3 = 47, cj4 = 59, cj5 = 71, cj6 = 83, cj7 = 95, 
+    cn1 = 24, cn2 = 36, cn3 = 48, cn4 = 60, cn5 = 72, cn6 = 84, cn7 = 96, 
+    ck1 = 25, ck2 = 37, ck3 = 49, ck4 = 61, ck5 = 73, ck6 = 85, ck7 = 97, 
+    dj1 = 25, dj2 = 37, dj3 = 49, dj4 = 61, dj5 = 73, dj6 = 85, dj7 = 97,
+    cx1 = 26, cx2 = 38, cx3 = 50, cx4 = 62, cx5 = 74, cx6 = 86, cx7 = 98,
+    dn1 = 26, dn2 = 38, dn3 = 50, dn4 = 62, dn5 = 74, dn6 = 86, dn7 = 98, 
+    ey1 = 26, ey2 = 38, ey3 = 50, ey4 = 62, ey5 = 74, ey6 = 86, ey7 = 98, 
+    dk1 = 27, dk2 = 39, dk3 = 51, dk4 = 63, dk5 = 75, dk6 = 87, dk7 = 99,
+    ej1 = 27, ej2 = 39, ej3 = 51, ej4 = 63, ej5 = 75, ej6 = 87, ej7 = 99,
+    en1 = 28, en2 = 40, en3 = 52, en4 = 64, en5 = 76, en6 = 88, en7 = 100,
+    fj1 = 28, fj2 = 40, fj3 = 52, fj4 = 64, fj5 = 76, fj6 = 88, fj7 = 100, 
+    ek1 = 29, ek2 = 41, ek3 = 53, ek4 = 65, ek5 = 77, ek6 = 89, ek7 = 101, 
+    fn1 = 29, fn2 = 41, fn3 = 53, fn4 = 65, fn5 = 77, fn6 = 89, fn7 = 101,
+    fk1 = 30, fk2 = 42, fk3 = 54, fk4 = 66, fk5 = 78, fk6 = 90, fk7 = 102,  
+    gj1 = 30, gj2 = 42, gj3 = 54, gj4 = 66, gj5 = 78, gj6 = 90, gj7 = 102,
+    fx1 = 31, fx2 = 43, fx3 = 55, fx4 = 67, fx5 = 79, fx6 = 91, fx7 = 103, 
+    gn1 = 31, gn2 = 43, gn3 = 55, gn4 = 67, gn5 = 79, gn6 = 91, gn7 = 103,
+    gk1 = 32, gk2 = 44, gk3 = 56, gk4 = 68, gk5 = 80, gk6 = 92, gk7 = 104, 
+    aj1 = 32, aj2 = 44, aj3 = 56, aj4 = 68, aj5 = 80, aj6 = 92, aj7 = 104, 
+    an7 = 105,by7 = 105,ak7 = 106,bj7 = 106,bn7 = 107,cj8 = 107,cn8 = 108,  
+ 
+</pre>
+</div>
+<div id="natural">
+<pre class="hash">
+ 
+def natural
+sankarabharanam = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'} ]
+ 
+kharaharapriya = [
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'} ]
+ 
+hanumatodi = [
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'} ]
+ 
+mechakalyani = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'} ]
+ 
+harikambhoji = [
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'},
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'} ]
+ 
+natabhairavi = [
+{:tone => 'pisces', :function => 'moon', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'venus'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'venus', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'mars'},
+{:tone => 'taurus', :function => 'sun', :invert => 'moon'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Sankarabharanam, Kharaharapriya, Hanumatodi,
+ Mechakalyani, Harikambhoji, Natabhairavi '</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_6">
+<pre class="hash">
+ 
+def sharp_6
+naganandini = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'leo', :function => 'venus', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'venus'},
+{:tone => 'taurus', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'vesta', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'vesta'} ]
+ 
+bhavapriya = [
+{:tone => 'leo', :function => 'venus', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'venus'},
+{:tone => 'taurus', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'vesta', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'vesta'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'sun'} ]
+ 
+vagadheeswari = [
+{:tone => 'taurus', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'vesta', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'vesta'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'moon'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'leo', :function => 'venus', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'venus'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Naganandini, Bhavapriya, Vagadheeswari '</span></p>
+<pre class="guitar">
+k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k6 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_5">
+<pre class="hash">
+ 
+def flat_5
+jhankaradhwani = [
+{:tone => 'pisces', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'venus'},
+{:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'moon', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'vesta', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mars', :invert => 'vesta'} ]
+ 
+ratnangi = [
+{:tone => 'leo', :function => 'moon', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'vesta', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mars', :invert => 'vesta'},
+{:tone => 'pisces', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'venus'},
+{:tone => 'libra', :function => 'sun', :invert => 'jupiter'} ]
+ 
+gamanasrama = [
+{:tone => 'cancer', :function => 'vesta', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mars', :invert => 'vesta'},
+{:tone => 'pisces', :function => 'jupiter', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'venus'},
+{:tone => 'libra', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'moon', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Jhankaradhwani, Ratnangi, Gamanasrama '</span></p>
+<pre class="guitar">
+j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j5 
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ',
+' ___ ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_126_flat_5">
+<pre class="hash">
+ 
+def sharp_126_flat_5
+pavani = [
+{:tone => 'leo', :function => 'vesta', :invert => 'mars'},
+{:tone => 'cancer', :function => 'mars', :invert => 'vesta'},
+{:tone => 'gemini', :function => 'mercury', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'venus', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'saturn', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'sun', :invert => 'jupiter'},
+{:tone => 'virgo', :function => 'moon', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Pavani '</span></p>
+<pre class="guitar">
+k126j5: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 ___ ck7 ___ dk7 en7 fn7 "
+- " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ "
+- " ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ "
+- " ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k126j5 
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 ',
+' ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ ___ ',
+' ___ dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ ',
+' ___ ___ ___ ak3 bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_3">
+<pre class="hash">
+ 
+def flat_3
+gourimanohari = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'},
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'},
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'} ]
+ 
+natakapriya = [
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'},
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'},
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'} ]
+ 
+vachaspati = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'},
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'},
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'} ]
+ 
+charukesi = [
+{:tone => 'taurus', :function => 'sun', :invert => 'sun'},
+{:tone => 'pisces', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'mercury'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'moon'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Gourimanohari, Natakapriya, Vachaspati, Charukesi '</span></p>
+<pre class="guitar">
+j3: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3 
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_5_sharp_6">
+<pre class="hash">
+ 
+def flat_5_sharp_6
+jalarnavam = [
+{:tone => 'leo', :function => 'moon', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'chiron', :invert => 'venus'},
+{:tone => 'gemini', :function => 'mars', :invert => 'juno'},
+{:tone => 'aquarius', :function => 'juno', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'venus', :invert => 'chiron'},
+{:tone => 'sagittarius', :function => 'saturn', :invert => 'moon'},
+{:tone => 'libra', :function => 'sun', :invert => 'sun'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Jalarnavam '</span></p>
+<pre class="guitar">
+j5k6: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
+- " ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j5k6 
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ ',
+' dn4 ___ en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' ___ ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_25_sharp_6">
+<pre class="hash">
+ 
+def flat_25_sharp_6
+salagam = [
+{:tone => 'leo', :function => 'juno', :invert => 'mars'},
+{:tone => 'cancer', :function => 'venus', :invert => 'chiron'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'chiron', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'juno'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'jupiter'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Salagam '</span></p>
+<pre class="guitar">
+j25k6: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
+- " ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ "
+- " ___ ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj5 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j25k6 
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ ',
+' ___ ___ en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' ___ ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_26_flat_5">
+<pre class="hash">
+ 
+def sharp_26_flat_5
+jhalavarali = [
+{:tone => 'leo', :function => 'juno', :invert => 'mars'},
+{:tone => 'cancer', :function => 'venus', :invert => 'chiron'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'moon', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'chiron', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'juno'},
+{:tone => 'virgo', :function => 'jupiter', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Jhalavarali '</span></p>
+<pre class="guitar">
+k26j5: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
+- " ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ "
+- " ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k26j5  
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ ',
+' ___ dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ ',
+' ___ ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_6">
+<pre class="hash">
+ 
+def flat_6
+sarasangi = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'taurus', :function => 'sun', :invert => 'mercury'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'} ]
+ 
+dharmavati = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'taurus', :function => 'sun', :invert => 'mercury'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'} ]
+ 
+chakravakam = [
+{:tone => 'taurus', :function => 'sun', :invert => 'mercury'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'neptune'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Sarasangi, Dharmavati, Chakravakam '</span></p>
+<pre class="guitar">
+j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 "
+- " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j6 
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_5">
+<pre class="hash">
+ 
+def sharp_5
+keeravani = [
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'} ]
+ 
+hemavati = [
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'} ]
+ 
+vakulabharanam = [
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'} ]
+ 
+kosalam = [
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'mercury', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Keeravani, Hemavati, Vakulabharanam, Kosalam '</span></p>
+<pre class="guitar">
+k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
+' dn4 ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_1_flat_6">
+<pre class="hash">
+ 
+def sharp_1_flat_6
+ramapriya = [
+{:tone => 'taurus', :function => 'titan', :invert => 'moon'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'venus', :invert => 'uranus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Ramapriya '</span></p>
+<pre class="guitar">
+k1j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ "
+- " gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 "
+- " ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k1j6  
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 ',
+' ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ',
+' gn3 aj3 ___ ___ bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_16">
+<pre class="hash">
+ 
+def sharp_16
+shadvidhamargini = [
+{:tone => 'leo', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'uranus', :invert => 'venus'},
+{:tone => 'taurus', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'moon', :invert => 'titan'},
+{:tone => 'scorpio', :function => 'mars', :invert => 'neptune'},
+{:tone => 'libra', :function => 'mercury', :invert => 'sun'} ]
+ 
+nasikabhusani = [
+{:tone => 'taurus', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'aquarius', :function => 'neptune', :invert => 'mars'},
+{:tone => 'capricorn', :function => 'moon', :invert => 'titan'},
+{:tone => 'scorpio', :function => 'mars', :invert => 'neptune'},
+{:tone => 'libra', :function => 'mercury', :invert => 'sun'},
+{:tone => 'leo', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'cancer', :function => 'uranus', :invert => 'venus'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Shadvidhamargini, Nasikabhusani '</span></p>
+<pre class="guitar">
+k16: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ "
+- " gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 "
+- " ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k16 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 ',
+' ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ',
+' gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_56">
+<pre class="hash">
+ 
+def sharp_56
+namanarayani = [
+{:tone => 'leo', :function => 'venus', :invert => 'uranus'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'aries', :function => 'neptune', :invert => 'mars'},
+{:tone => 'aquarius', :function => 'titan', :invert => 'moon'},
+{:tone => 'capricor', :function => 'mars', :invert => 'neptune'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'sun'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'saturn'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Namanarayani '</span></p>
+<pre class="guitar">
+k56: 
+- " fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 "
+- " ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ "
+- " en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k56 
+[ 
+' en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ ',
+' dn4 ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ',
+' ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_56">
+<pre class="hash">
+ 
+def flat_56
+suvarnangi = [
+{:tone => 'cancer', :function => 'neptune', :invert => 'mars'},
+{:tone => 'gemini', :function => 'moon', :invert => 'titan'},
+{:tone => 'aries', :function => 'mars', :invert => 'neptune'},
+{:tone => 'capricorn', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'uranus', :invert => 'venus'},
+{:tone => 'libra', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'sun', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Suvarnangi '</span></p>
+<pre class="guitar">
+j56: 
+- " fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 "
+- " ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 "
+- " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ "
+- " en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j56 
+[ 
+' en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ ',
+' dn4 ___ en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ',
+' ___ aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_127">
+<pre class="hash">
+ 
+def sharp_127
+jyotiswarupini = [
+{:tone => 'pisces', :function => 'venus', :invert => 'uranus'},
+{:tone => 'sagittarius', :function => 'sun', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'neptune', :invert => 'mars'},
+{:tone => 'virgo', :function => 'titan', :invert => 'moon'},
+{:tone => 'leo', :function => 'mars', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'mercury', :invert => 'sun'},
+{:tone => 'taurus', :function => 'jupiter', :invert => 'saturn'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Jyotiswarupini '</span></p>
+<pre class="guitar">
+k127: 
+- " fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 "
+- " bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 "
+- " gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ "
+- " an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k127  
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 ',
+' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ ',
+' gn3 ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_234">
+<pre class="hash">
+
+def flat_234
+janya = [
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'mars'},
+{:tone => 'scorpio', :function => 'moon', :invert => 'titan'},
+{:tone => 'virgo', :function => 'mars', :invert => 'neptune'},
+{:tone => 'leo', :function => 'mercury', :invert => 'sun'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'venus'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'mercury'} ] 
+end  
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Janya '</span></p>
+<pre class="guitar">
+j234: 
+- " ___ ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 fj7 ___ "
+- " cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 "
+- " ___ ej5 fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ___ gn5 ___ an5 "
+- " fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 fj5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j234  
+[ 
+' fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 ',
+' an4 ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ___ gn5 ___ an5 ',
+' ___ ej4 fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 fj4 ___ ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_127_flat_5">
+<pre class="hash">
+ 
+def sharp_127_flat_5
+sucharitra = [
+{:tone => 'pisces', :function => 'neptune', :invert => 'mars'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'neptune'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'sun'},
+{:tone => 'virgo', :function => 'jupiter', :invert => 'saturn'},
+{:tone => 'leo', :function => 'pallas', :invert => 'venus'},
+{:tone => 'cancer', :function => 'venus', :invert => 'pallas'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'jupiter'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Sucharitra '</span></p>
+<pre class="guitar">
+k127j5: 
+- " fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 "
+- " bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 "
+- " ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ ds5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ "
+- " an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 " 
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k127j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 ',
+' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ ',
+' ___ ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_34_sharp_5">
+<pre class="hash">
+ 
+def flat_34_sharp_5
+navaneetam = [
+{:tone => 'libra', :function => 'titan', :invert => 'moon'},
+{:tone => 'virgo', :function => 'mars', :invert => 'neptune'},
+{:tone => 'leo', :function => 'mercury', :invert => 'sun'},
+{:tone => 'aries', :function => 'venus', :invert => 'uranus'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'mercury'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'mars'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Navaneetam '</span></p>
+<pre class="guitar">
+j34k5: 
+- " ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ___ "
+- " cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ "
+- " dn5 ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 "
+- " fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j34k5  
+[ 
+' fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 ',
+' dn4 ej4 fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ej4 fj4 ___ ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_2">
+<pre class="hash">
+
+def flat_2
+suryakantam = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ]
+ 
+senavati = [
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'} ]
+ 
+latangi = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Suryakantam, Senavati, Latangi '</span></p>
+<pre class="guitar">
+j2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ',
+' ___ ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_2">
+<pre class="hash">
+ 
+def sharp_2
+dhenuka = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ]
+ 
+chitrambhari = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ]
+ 
+shanmukhapriya = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'} ]
+ 
+sulini = [
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'taurus', :function => 'uranus', :invert => 'moon'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Dhenuka, Shanmukhapriya, Sulini, Chitrambhari '</span></p>
+<pre class="guitar">
+k2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ ',
+' gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_25">
+<pre class="hash">
+ 
+def sharp_25
+mayamalavagowla = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ]
+ 
+rasikapriya = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ]
+ 
+simhendramadhyamam = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Mayamalavagowla, Rasikapriya, Simhendramadhyamam '</span></p>
+<pre class="guitar">
+k25: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ "
+- " ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k25 
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 ',
+' ___ dk4 en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ ',
+' ___ gk3 an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_23">
+<pre class="hash">
+ 
+def flat_23
+kokilapriya = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'moon'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ]
+ 
+rishabhapriya = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'pisces', :function => 'moon', :invert => 'uranus'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'moon'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Kokilapriya, Rishabhapriya '</span></p>
+<pre class="guitar">
+j23: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7 "
+- " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
+- " ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j23  
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ ',
+' an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 ',
+' ___ ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_23_sharp_6">
+<pre class="hash">
+ 
+def flat_23_sharp_6
+rupavati = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'moon'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Rupavati '</span></p>
+<pre class="guitar">
+j23k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ fn7 "
+- " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
+- " ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j23k6  
+[ 
+' ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ ',
+' ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_2_flat_56">
+<pre class="hash">
+ 
+def sharp_2_flat_56
+divyamani = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'aries', :function => 'venus', :invert => 'neptune'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Divyamani '</span></p>
+<pre class="guitar">
+k2j56: 
+- " fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 "
+- " ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ "
+- " en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j56 
+[ 
+' en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ',
+' ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ ',
+' ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_2_sharp_56">
+<pre class="hash">
+ 
+def flat_2_sharp_56
+dhavalambari = [
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'aries', :function => 'neptune', :invert => 'venus'},
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Dhavalambari '</span></p>
+<pre class="guitar">
+j2k56: 
+- " fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 "
+- " ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ "
+- " en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k56  
+[ 
+' en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ',
+' ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ',
+' ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_2_sharp_6">
+<pre class="hash">
+ 
+def flat_2_sharp_6
+hatakambari = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars'},
+{:tone => 'leo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun'},
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn'},
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto'} ]
+ 
+gavambodhi = [
+{:tone => 'leo', :function => 'venus', :invert => 'neptune' },
+{:tone => 'cancer', :function => 'saturn', :invert => 'sun' },
+{:tone => 'taurus', :function => 'sun', :invert => 'saturn' },
+{:tone => 'aquarius', :function => 'titan', :invert => 'jupiter' },
+{:tone => 'capricorn', :function => 'mars', :invert => 'pluto' },
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'mercury' },
+{:tone => 'scorpio', :function => 'pluto', :invert => 'mars' } ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Hatakambari, Gavambodhi '</span></p>
+<pre class="guitar">
+j2k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k6  
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ',
+' ___ ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_2_flat_5">
+<pre class="hash">
+ 
+def sharp_2_flat_5
+ganamurti = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ]
+ 
+viswambhari = [
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'} ]
+ 
+syamalangi = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'neptune', :invert => 'venus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Ganamurti, Viswambhari, Syamalangi '</span></p>
+<pre class="guitar">
+k2j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ ',
+' ___ ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_12_flat_5">
+<pre class="hash">
+ 
+def sharp_12_flat_5
+manavati = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'moon', :invert => 'uranus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ]
+ 
+kantamani = [
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'moon', :invert => 'uranus'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'},
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Manavati, Kantamani '</span></p>
+<pre class="guitar">
+k12j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 "
+- " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ "
+- " an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k12j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 ',
+' an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ ',
+' ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_34_sharp_6">
+<pre class="hash">
+ 
+def flat_34_sharp_6
+yagapriya = [
+{:tone => 'taurus', :function => 'neptune', :invert => 'venus'},
+{:tone => 'aquarius', :function => 'mars', :invert => 'pluto'},
+{:tone => 'capricorn', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'sagittarius', :function => 'pluto', :invert => 'mars'},
+{:tone => 'libra', :function => 'pallas', :invert => 'moon'},
+{:tone => 'virgo', :function => 'venus', :invert => 'neptune'},
+{:tone => 'leo', :function => 'saturn', :invert => 'sun'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Yagapriya '</span></p>
+<pre class="guitar">
+j34k6: 
+- " ___ ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 fj7 ___ "
+- " cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 "
+- " dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ "
+- " fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j34k6  
+[ 
+' fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
+' dn4 ej4 fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 fj4 ___ ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_34_sharp_16">
+<pre class="hash">
+ 
+def flat_34_sharp_16
+sucharitra = [
+{:tone => 'taurus', :function => 'venus', :invert => 'neptune'},
+{:tone => 'aquarius', :function => 'sun', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'neptune', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'libra', :function => 'mars', :invert => 'pluto'},
+{:tone => 'virgo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'leo', :function => 'pluto', :invert => 'mars'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Sucharitra '</span></p>
+<pre class="guitar">
+j34k16: 
+- " ___ ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ej7 fj7 ___ "
+- " ___ ck6 dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 ___ "
+- " gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ej6 fj6 ___ ___ gn6 "
+- " dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 "
+- " ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 ___ ___ gn5 ___ ___ "
+- " fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j34k16  
+[ 
+' fj5 ___ ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ej6 fj6 ',
+' ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
+' dn4 ej4 fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ',
+' gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ej4 fj4 ___ ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="x1_sharp_2_flat_5">
+<pre class="hash">
+ 
+def x1_sharp_2_flat_5
+tanarupi = [
+{:tone => 'leo', :function => 'mercury', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'pluto', :invert => 'mars'},
+{:tone => 'gemini', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'pisces', :function => 'saturn', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'sun', :invert => 'saturn'},
+{:tone => 'libra', :function => 'titan', :invert => 'jupiter'},
+{:tone => 'virgo', :function => 'mars', :invert => 'pluto'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Tanarupi '</span></p>
+<pre class="guitar">
+x1k2j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7 fn7 "
+- " ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ "
+- " cx5 dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 "
+- " an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def x1k2j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 ',
+' an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 ',
+' cx4 dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 ',
+' ___ ___ an3 ___ bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="x1_sharp_26_flat_5">
+<pre class="hash">
+ 
+def x1_sharp_26_flat_5
+raghupriya = [
+{:tone => 'leo', :function => 'pluto', :invert => 'mars'},
+{:tone => 'cancer', :function => 'jupiter', :invert => 'titan'},
+{:tone => 'gemini', :function => 'uranus', :invert => 'moon'},
+{:tone => 'aquarius', :function => 'sun', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'neptune', :invert => 'venus'},
+{:tone => 'libra', :function => 'mars', :invert => 'pluto'},
+{:tone => 'virgo', :function => 'mercury', :invert => 'mercury'} ]
+end
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Raghupriya '</span></p>
+<pre class="guitar">
+x1k26j5: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 fn7 "
+- " ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ "
+- " ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ "
+- " cx5 dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 "
+- " ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def x1k26j5  
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 ',
+' ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ ',
+' cx4 dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 ',
+' ___ ___ ___ ak3 bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_3_sharp_6">
+<pre class="hash">
+ 
+def flat_3_sharp_6
+varunapriya = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'chiron'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'neptune'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'sun'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'saturn'},
+{:tone => 'taurus', :function => 'sun', :invert => 'uranus'},
+{:tone => 'aquarius', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'mars'} ]
+ 
+ragavardhini = [
+{:tone => 'taurus', :function => 'sun', :invert => 'uranus'},
+{:tone => 'aquarius', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'mars'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'chiron'},
+{:tone => 'libra', :function => 'jupiter', :invert => 'neptune'},
+{:tone => 'virgo', :function => 'uranus', :invert => 'sun'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'saturn'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Varunapriya, Ragavardhini '</span></p>
+<pre class="guitar">
+j3k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3k6  
+[ 
+' ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_1_flat_5">
+<pre class="hash">
+ 
+def sharp_1_flat_5
+mararanjani = [
+{:tone => 'pisces', :function => 'uranus', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'saturn', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'sun', :invert => 'uranus'},
+{:tone => 'libra', :function => 'neptune', :invert => 'jupiter'},
+{:tone => 'leo', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'mars', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mercury', :invert => 'chiron'} ]
+ 
+vanaspati = [
+{:tone => 'leo', :function => 'chiron', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'mars', :invert => 'mars'},
+{:tone => 'gemini', :function => 'mercury', :invert => 'chiron'},
+{:tone => 'pisces', :function => 'uranus', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'saturn', :invert => 'saturn'},
+{:tone => 'scorpio', :function => 'sun', :invert => 'uranus'},
+{:tone => 'libra', :function => 'neptune', :invert => 'jupiter'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Mararanjani, Vanaspati '</span></p>
+<pre class="guitar">
+k1j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 "
+- " an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k1j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 ',
+' an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ',
+' ___ ___ an3 ___ bn3 ___ ck4 dn4 ___ en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_2_flat_6">
+<pre class="hash">
+ 
+def sharp_2_flat_6
+gangeyabhusani = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'leo', :function => 'venus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aries', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'} ]
+ 
+neetimati = [
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aries', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'leo', :function => 'venus', :invert => 'mars'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Gangeyabhusani, Neetimati '</span></p>
+<pre class="guitar">
+k2j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j6  
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ ',
+' ___ dk4 en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_2_sharp_5">
+<pre class="hash">
+ 
+def flat_2_sharp_5
+gayakapriya = [
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'aries', :function => 'sun', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'} ]
+ 
+dhatuvardhini = [
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'aries', :function => 'sun', :invert => 'neptune'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Gayakapriya, Dhatuvardhini '</span></p>
+<pre class="guitar">
+j2k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 ',
+' ___ ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ',
+' ___ gk3 an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="sharp_26">
+<pre class="hash">
+ 
+def sharp_26
+chalanata = [
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'leo', :function => 'venus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aquarius', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'} ]
+ 
+subhapantuvarali = [
+{:tone => 'leo', :function => 'venus', :invert => 'mars'},
+{:tone => 'cancer', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'taurus', :function => 'sun', :invert => 'neptune'},
+{:tone => 'aquarius', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'capricorn', :function => 'mars', :invert => 'venus'},
+{:tone => 'sagittarius', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'virgo', :function => 'pallas', :invert => 'mercury'} ]
+end 
+
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Chalanata, Subhapantuvarali '</span></p>
+<pre class="guitar">
+k26: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ "
+- " ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k26  
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ ',
+' ___ dk4 en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<div id="flat_25">
+<pre class="hash">
+ 
+def flat_25
+kanakangi = [
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'},
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'} ]
+ 
+kamavardhini = [
+{:tone => 'cancer', :function => 'venus', :invert => 'mars'},
+{:tone => 'gemini', :function => 'saturn', :invert => 'ceres'},
+{:tone => 'pisces', :function => 'neptune', :invert => 'sun'},
+{:tone => 'capricorn', :function => 'ceres', :invert => 'saturn'},
+{:tone => 'sagittarius', :function => 'mars', :invert => 'venus'},
+{:tone => 'scorpio', :function => 'mercury', :invert => 'pallas'},
+{:tone => 'leo', :function => 'pallas', :invert => 'mercury'} ]
+end
+ 
+</pre>
+<table><tr><td>
+<p><span class="raganame">' Kanakangi, Kamavardhini '</span></p>
+<pre class="guitar">
+j25: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ "
+- " ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j25  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ',
+' ___ ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ',
+' ___ ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="sus"><!-- chords -->
+<table><tr><td>
+<pre class="guitar">
+sus: 
+- " ___ ___ gn6 ___ an6 ___ ___ ___ ___ dn7 ___ en7 ___ "
+- " ___ ___ dn6 ___ en6 ___ ___ gn6 ___ an6 ___ ___ ___ "
+- " gn5 ___ an5 ___ ___ ___ ___ dn6 ___ en6 ___ ___ gn6 "
+- " dn5 ___ en5 ___ ___ gn5 ___ an5 ___ ___ ___ ___ dn6 "
+- " an4 ___ ___ ___ ___ dn5 ___ en5 ___ ___ gn5 ___ an5 "
+- " en4 ___ ___ gn4 ___ an4 ___ ___ ___ ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def sus  
+[ 
+' en5 ___ ___ gn5 ___ an5 ___ ___ ___ ___ dn6 ___ en6 ',
+' an4 ___ ___ ___ ___ dn5 ___ en5 ___ ___ gn5 ___ an5 ',
+' dn4 ___ en4 ___ ___ gn4 ___ an4 ___ ___ ___ ___ dn5 ',
+' gn3 ___ an3 ___ ___ ___ ___ dn4 ___ en4 ___ ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="mi7">
+<table><tr><td>
+<pre class="guitar">
+mi7: 
+- " ___ ___ gn6 ___ an6 ___ ___ cn7 ___ ___ ___ en7 ___ "
+- " cn6 ___ ___ ___ en6 ___ ___ gn6 ___ an6 ___ ___ cn7 "
+- " gn5 ___ an5 ___ ___ cn6 ___ ___ ___ en6 ___ ___ gn6 "
+- " ___ ___ en5 ___ ___ gn5 ___ an5 ___ ___ cn6 ___ ___ "
+- " an4 ___ ___ cn5 ___ ___ ___ en5 ___ ___ gn5 ___ an5 "
+- " en4 ___ ___ gn4 ___ an4 ___ ___ cn5 ___ ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def mi7  
+[ 
+' en5 ___ ___ gn5 ___ an5 ___ ___ cn6 ___ ___ ___ en6 ',
+' an4 ___ ___ cn5 ___ ___ ___ en5 ___ ___ gn5 ___ an5 ',
+' ___ ___ en4 ___ ___ gn4 ___ an4 ___ ___ cn5 ___ ___ ',
+' gn3 ___ an3 ___ ___ cn4 ___ ___ ___ en4 ___ ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="ma7">
+<table><tr><td>
+<pre class="guitar">
+ma7: 
+- " ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ___ en7 ___ "
+- " cn6 ___ ___ ___ en6 ___ ___ gn6 ___ ___ ___ bn6 cn7 "
+- " gn5 ___ ___ ___ bn5 cn6 ___ ___ ___ en6 ___ ___ gn6 "
+- " ___ ___ en5 ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ ___ en5 ___ ___ gn5 ___ ___ "
+- " en4 ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def ma7  
+[ 
+' en5 ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ___ en6 ',
+' ___ ___ bn4 cn5 ___ ___ ___ en5 ___ ___ gn5 ___ ___ ',
+' ___ ___ en4 ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ',
+' gn3 ___ ___ ___ bn3 cn4 ___ ___ ___ en4 ___ ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="ma7k4">
+<table><tr><td>
+<pre class="guitar">
+ma7k4: 
+- " fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ___ en7 fn7 "
+- " ___ ___ ___ ___ en6 fn6 ___ ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ___ ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ "
+- " an4 ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ an5 "
+- " en4 fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def ma7k4  
+[ 
+' en5 fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ___ en6 ',
+' an4 ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ an5 ',
+' ___ ___ en4 fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ',
+' ___ ___ an3 ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="mi6">
+<table><tr><td>
+<pre class="guitar">
+mi6: 
+- " fn6 ___ ___ ___ an6 ___ bn6 ___ ___ dn7 ___ ___ fn7 "
+- " ___ ___ dn6 ___ ___ fn6 ___ ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ "
+- " dn5 ___ ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ dn6 "
+- " an4 ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ ___ an5 "
+- " ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ dn5 ___ ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def mi6  
+[ 
+' ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ dn6 ___ ___ ',
+' an4 ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ ___ an5 ',
+' dn4 ___ ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ dn5 ',
+' ___ ___ an3 ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="dom7">
+<table><tr><td>
+<pre class="guitar">
+dom7: 
+- " fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ___ ___ fn7 "
+- " ___ ___ dn6 ___ ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ "
+- " gn5 ___ ___ ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ gn6 "
+- " dn5 ___ ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 "
+- " ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ___ ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def dom7  
+[ 
+' ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ___ ___ ',
+' ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ gn5 ___ ___ ',
+' dn4 ___ ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ',
+' gn3 ___ ___ ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="r5j2k4">
+<table><tr><td>
+<pre class="guitar">
+r5j2k4: 
+- " fn6 ___ ___ ___ ___ ak6 bn6 ___ ___ ___ ___ en7 fn7 "
+- " ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ ak6 bn6 ___ "
+- " ___ ___ ___ ak5 bn5 ___ ___ ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ ___ ___ ak5 bn5 ___ ___ ___ "
+- " ___ ak4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ "
+- " en4 fn4 ___ ___ ___ ___ ak4 bn4 ___ ___ ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def r5j2k4  
+[ 
+' en5 fn5 ___ ___ ___ ___ ak5 bn5 ___ ___ ___ ___ en6 ',
+' ___ ak4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ ',
+' ___ ___ en4 fn4 ___ ___ ___ ___ ak4 bn4 ___ ___ ___ ',
+' ___ ___ ___ ak3 bn3 ___ ___ ___ ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="dom7j5">
+<table><tr><td>
+<pre class="guitar">
+dom7j5: 
+- " fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ej7 ___ fn7 "
+- " ___ ___ ___ ej6 ___ fn6 ___ ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ___ ___ ej6 ___ fn6 ___ ___ "
+- " ___ ej5 ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ "
+- " an4 ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ ___ ___ an5 "
+- " ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def dom7j5  
+[ 
+' ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ej6 ___ ',
+' an4 ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ ___ ___ an5 ',
+' ___ ej4 ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ',
+' ___ ___ an3 ___ bn3 ___ ___ ___ ej4 ___ fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="o6">
+<table><tr><td>
+<pre class="guitar">
+o6: 
+- " fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ dn7 ___ ___ fn7 "
+- " ___ ___ dn6 ___ ___ fn6 ___ ___ aj6 ___ ___ bn6 ___ "
+- " ___ aj5 ___ ___ bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ "
+- " dn5 ___ ___ fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ dn6 "
+- " ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ aj5 ___ "
+- " ___ fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ dn5 ___ ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def o6  
+[ 
+' ___ fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ dn6 ___ ___ ',
+' ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ aj5 ___ ',
+' dn4 ___ ___ fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ dn5 ',
+' ___ aj3 ___ ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="ok7">
+<table><tr><td>
+<pre class="guitar">
+ok7: 
+- " fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ ___ ___ en7 fn7 "
+- " ___ ___ ___ ___ en6 fn6 ___ ___ aj6 ___ ___ bn6 ___ "
+- " ___ aj5 ___ ___ bn5 ___ ___ ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ ___ "
+- " ___ ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ aj5 ___ "
+- " en4 fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def ok7  
+[ 
+' en5 fn5 ___ ___ gk5 ___ ___ bn5 ___ ___ ___ ___ en6 ',
+' ___ ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ gk5 ___ ',
+' ___ ___ en4 fn4 ___ ___ gk4 ___ ___ bn4 ___ ___ ___ ',
+' ___ gk3 ___ ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="mik4">
+<table><tr><td>
+<pre class="guitar">
+mik4: 
+- " fn6 ___ ___ aj6 ___ ___ bn6 cn7 ___ ___ ___ ___ fn7 "
+- " cn6 ___ ___ ___ ___ fn6 ___ ___ aj6 ___ ___ bn6 cn7 "
+- " ___ aj5 ___ ___ bn5 cn6 ___ ___ ___ ___ fn6 ___ ___ "
+- " ___ ___ ___ fn5 ___ ___ aj5 ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ ___ ___ fn5 ___ ___ aj5 ___ "
+- " ___ fn4 ___ ___ aj4 ___ ___ bn4 cn5 ___ ___ ___ ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def mik4 
+[ 
+' ___ fn5 ___ ___ gk5 an5 ___ ___ ___ ___ dn6 ___ ___ ',
+' an4 ___ ___ ___ ___ dn5 ___ ___ fn5 ___ ___ gk5 an5 ',
+' dn4 ___ ___ fn4 ___ ___ gk4 an4 ___ ___ ___ ___ dn5 ',
+' ___ gk3 an3 ___ ___ ___ ___ dn4 ___ ___ fn4 ___ ___ ']   
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="mik7">
+<table><tr><td>
+<pre class="guitar">
+mik7: 
+- " ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ej7 ___ ___ "
+- " cn6 ___ ___ ej6 ___ ___ ___ gn6 ___ ___ ___ bn6 cn7 "
+- " gn5 ___ ___ ___ bn5 cn6 ___ ___ ej6 ___ ___ ___ gn6 "
+- " ___ ej5 ___ ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ ej5 ___ ___ ___ gn5 ___ ___ "
+- " ___ ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def mik7  
+[ 
+' ___ ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ej6 ___ ',
+' ___ ___ bn4 cn5 ___ ___ ej5 ___ ___ ___ gn5 ___ ___ ',
+' ___ ej4 ___ ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ',
+' gn3 ___ ___ ___ bn3 cn4 ___ ___ ej4 ___ ___ ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="dom7k5">
+<table><tr><td>
+<pre class="guitar">
+dom7k5: 
+- " fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ ___ ej7 ___ fn7 "
+- " ___ ___ ___ ej6 ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ "
+- " gn5 ___ ___ ___ bn5 ___ ___ ___ ej6 ___ fn6 ___ gn6 "
+- " ___ ej5 ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ ___ "
+- " ___ ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def dom7k5 
+[ 
+' ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ ___ ej6 ___ ',
+' ___ ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ ej4 ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ ___ ',
+' gn3 ___ ___ ___ bn3 ___ ___ ___ ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="ma7k5">
+<table><tr><td>
+<pre class="guitar">
+ma7k5: 
+- " ___ ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ej7 ___ fn7 "
+- " ___ ___ dn6 ej6 ___ ___ ___ gn6 ___ ___ ___ bn6 ___ "
+- " gn5 ___ ___ ___ bn5 ___ ___ dn6 ej6 ___ ___ ___ gn6 "
+- " dn5 ej5 ___ ___ ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 "
+- " ___ ___ bn4 ___ ___ dn5 ej5 ___ ___ ___ gn5 ___ ___ "
+- " ___ ___ ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def ma7k5 
+[ 
+' ___ ___ ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ej6 ___ ',
+' ___ ___ bn4 ___ ___ dn5 ej5 ___ ___ ___ gn5 ___ ___ ',
+' dn4 ej4 ___ ___ ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ',
+' gn3 ___ ___ ___ bn3 ___ ___ dn4 ej4 ___ ___ ___ gn4 ']   
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="indu_chakra"><!-- melakarta -->
+<table><tr><td>
+<p><span class="raganame">Kanakangi</span></p>
+<pre class="guitar">
+j25: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ "
+- " ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j25  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ',
+' ___ ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ',
+' ___ ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Ratnangi</span></p>
+<pre class="guitar">
+j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j5 
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ',
+' ___ ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Ganamurti</span></p>
+<pre class="guitar">
+k2j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ ',
+' ___ ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Vanaspati</span></p>
+<pre class="guitar">
+k1j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 "
+- " an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k1j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 ',
+' an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ',
+' ___ ___ an3 ___ bn3 ___ ck4 dn4 ___ en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Manavati</span></p>
+<pre class="guitar">
+k12j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 "
+- " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ "
+- " an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k12j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 ',
+' an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ ',
+' ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Tanarupi</span></p>
+<pre class="guitar">
+x1k2j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7 fn7 "
+- " ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ "
+- " cx5 dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 "
+- " an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def x1k2j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 ',
+' an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 ',
+' cx4 dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 ',
+' ___ ___ an3 ___ bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="netra_chakra">
+<table><tr><td>
+<p><span class="raganame">Senavati</span></p>
+<pre class="guitar">
+j2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ',
+' ___ ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Hanumatodi</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Dhenuka</span></p>
+<pre class="guitar">
+k2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ ',
+' gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Natakapriya</span></p>
+<pre class="guitar">
+j3: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3 
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Kokilapriya</span></p>
+<pre class="guitar">
+j23: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7 "
+- " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
+- " ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j23  
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ ',
+' an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 ',
+' ___ ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Rupavati</span></p>
+<pre class="guitar">
+j23k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ fn7 "
+- " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
+- " ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j23k6  
+[ 
+' ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ ',
+' ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ ',
+' ___ ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="agni_chakra">
+<table><tr><td>
+<p><span class="raganame">Gayakapriya</span></p>
+<pre class="guitar">
+j2k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 ',
+' ___ ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ',
+' ___ gk3 an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Vakulabharanam</span></p>
+<pre class="guitar">
+k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
+' dn4 ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Mayamalavagowla</span></p>
+<pre class="guitar">
+k25: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ "
+- " ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k25 
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 ',
+' ___ dk4 en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ ',
+' ___ gk3 an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Chakravakam</span></p>
+<pre class="guitar">
+j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 "
+- " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j6 
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Suryakantam</span></p>
+<pre class="guitar">
+j2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ',
+' ___ ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Hatakambari</span></p>
+<pre class="guitar">
+j2k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k6  
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ',
+' ___ ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="veda_chakra">
+<table><tr><td>
+<p><span class="raganame">Jhankaradhwani</span></p>
+<pre class="guitar">
+j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j5 
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ',
+' ___ ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Natabhairavi</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Keeravani</span></p>
+<pre class="guitar">
+k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
+' dn4 ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Kharaharapriya</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Gourimanohari</span></p>
+<pre class="guitar">
+j3: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3 
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Varunapriya</span></p>
+<pre class="guitar">
+j3k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3k6  
+[ 
+' ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="bana_chakra">
+<table><tr><td>
+<p><span class="raganame">Mararanjani</span></p>
+<pre class="guitar">
+k1j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 "
+- " an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k1j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 ',
+' an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ',
+' ___ ___ an3 ___ bn3 ___ ck4 dn4 ___ en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Charukesi</span></p>
+<pre class="guitar">
+j3: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3 
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Sarasangi</span></p>
+<pre class="guitar">
+j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 "
+- " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j6 
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Harikambhoji</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Sankarabharanam</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Naganandini</span></p>
+<pre class="guitar">
+k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k6 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="ritu_chakra">
+<table><tr><td>
+<p><span class="raganame">Yagapriya</span></p>
+<pre class="guitar">
+j34k6: 
+- " ___ ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 fj7 ___ "
+- " cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 "
+- " dn5 ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ "
+- " fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j34k6  
+[ 
+' fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ ',
+' dn4 ej4 fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 fj4 ___ ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Ragavardhini</span></p>
+<pre class="guitar">
+j3k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ "
+- " ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3k6  
+[ 
+' ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ ',
+' ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Gangeyabhusani</span></p>
+<pre class="guitar">
+k2j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j6  
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ ',
+' ___ dk4 en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Vagadheeswari</span></p>
+<pre class="guitar">
+k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k6 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Sulini</span></p>
+<pre class="guitar">
+k2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ ',
+' gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Chalanata</span></p>
+<pre class="guitar">
+k26: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ "
+- " ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k26  
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ ',
+' ___ dk4 en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="rishi_chakra">
+<table><tr><td>
+<p><span class="raganame">Salagam</span></p>
+<pre class="guitar">
+j25k6: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
+- " ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ "
+- " ___ ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj5 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j25k6 
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ ',
+' ___ ___ en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' ___ ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Jalarnavam</span></p>
+<pre class="guitar">
+j5k6: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
+- " ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j5k6 
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ ',
+' dn4 ___ en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' ___ ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Jhalavarali</span></p>
+<pre class="guitar">
+k26j5: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
+- " ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ "
+- " ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k26j5  
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ ',
+' ___ dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ ',
+' ___ ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Navaneetam</span></p>
+<pre class="guitar">
+j34k5: 
+- " ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ___ "
+- " cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ "
+- " dn5 ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 "
+- " fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j34k5  
+[ 
+' fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 ',
+' dn4 ej4 fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ej4 fj4 ___ ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Pavani</span></p>
+<pre class="guitar">
+k126j5: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 ___ ck7 ___ dk7 en7 fn7 "
+- " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ "
+- " ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ "
+- " ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k126j5 
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 ',
+' ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ ___ ',
+' ___ dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ ',
+' ___ ___ ___ ak3 bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Raghupriya</span></p>
+<pre class="guitar">
+x1k26j5: 
+- " fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 fn7 "
+- " ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ "
+- " ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ "
+- " cx5 dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 "
+- " ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ "
+- " en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def x1k26j5  
+[ 
+' en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 ',
+' ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ ',
+' cx4 dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 ',
+' ___ ___ ___ ak3 bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="vasu_chakra">
+<table><tr><td>
+<p><span class="raganame">Gavambodhi</span></p>
+<pre class="guitar">
+j2k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k6  
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ ',
+' ___ ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Bhavapriya</span></p>
+<pre class="guitar">
+k6: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k6 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Subhapantuvarali</span></p>
+<pre class="guitar">
+k26: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
+- " gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ "
+- " ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k26  
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ ',
+' ___ dk4 en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ ',
+' gn3 ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Shadvidhamargini</span></p>
+<pre class="guitar">
+k16: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ "
+- " gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 "
+- " ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k16 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 ',
+' ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ',
+' gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Suvarnangi</span></p>
+<pre class="guitar">
+j56: 
+- " fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 "
+- " ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 "
+- " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ "
+- " en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j56 
+[ 
+' en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ ',
+' dn4 ___ en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ',
+' ___ aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Divyamani</span></p>
+<pre class="guitar">
+k2j56: 
+- " fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 "
+- " ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ "
+- " en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j56 
+[ 
+' en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ ',
+' ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ ',
+' ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="brahma_chakra">
+<table><tr><td>
+<p><span class="raganame">Dhavalambari</span></p>
+<pre class="guitar">
+j2k56: 
+- " fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 "
+- " ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ "
+- " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ "
+- " en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k56  
+[ 
+' en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 ',
+' ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ ',
+' ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ',
+' ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Namanarayani</span></p>
+<pre class="guitar">
+k56: 
+- " fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 "
+- " ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 "
+- " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ "
+- " en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k56 
+[ 
+' en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ ',
+' dn4 ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ',
+' ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Kamavardhini</span></p>
+<pre class="guitar">
+j25: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ "
+- " ___ ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j25  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 ',
+' ___ ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ',
+' ___ ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Ramapriya</span></p>
+<pre class="guitar">
+k1j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ "
+- " gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 "
+- " ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k1j6  
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 ',
+' ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ',
+' gn3 aj3 ___ ___ bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Gamanasrama</span></p>
+<pre class="guitar">
+j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
+- " dn5 ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j5 
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 ',
+' dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ',
+' ___ ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Viswambhari</span></p>
+<pre class="guitar">
+k2j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ ',
+' ___ ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="disi_chakra">
+<table><tr><td>
+<p><span class="raganame">Syamalangi</span></p>
+<pre class="guitar">
+k2j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
+- " ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ ',
+' ___ ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Shanmukhapriya</span></p>
+<pre class="guitar">
+k2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ ',
+' gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Simhendramadhyamam</span></p>
+<pre class="guitar">
+k25: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ "
+- " ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k25 
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 ',
+' ___ dk4 en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ ',
+' ___ gk3 an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Hemavati</span></p>
+<pre class="guitar">
+k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
+' dn4 ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Dharmavati</span></p>
+<pre class="guitar">
+j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 "
+- " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j6 
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 ',
+' ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ ',
+' dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Neetimati</span></p>
+<pre class="guitar">
+k2j6: 
+- " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
+- " gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ "
+- " ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ "
+- " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2j6  
+[ 
+' en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 ',
+' ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ ',
+' ___ dk4 en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ ',
+' gn3 aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="rudra_chakra">
+<table><tr><td>
+<p><span class="raganame">Kantamani</span></p>
+<pre class="guitar">
+k12j5: 
+- " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 "
+- " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
+- " ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ "
+- " an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k12j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 ',
+' an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ ',
+' ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Rishabhapriya</span></p>
+<pre class="guitar">
+j23: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7 "
+- " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
+- " ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j23  
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ ',
+' an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 ',
+' ___ ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Latangi</span></p>
+<pre class="guitar">
+j2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
+- " ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 ',
+' ___ ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ',
+' gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Vachaspati</span></p>
+<pre class="guitar">
+j3: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 "
+- " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
+- " dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 "
+- " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j3 
+[ 
+' ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ ',
+' an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
+' dn4 ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Mechakalyani</span></p>
+<pre class="guitar">
+n0: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def n0 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
+' dn4 ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ',
+' gn3 ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Chitrambhari</span></p>
+<pre class="guitar">
+k2: 
+- " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
+- " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k2 
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ ',
+' gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<div id="aditya_chakra">
+<table><tr><td>
+<p><span class="raganame">Sucharitra</span></p>
+<pre class="guitar">
+k127j5: 
+- " fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 "
+- " bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 "
+- " ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ "
+- " ___ ds5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ "
+- " an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
+- " en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k127j5  
+[ 
+' en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 ',
+' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ',
+' ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ ',
+' ___ ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 gj4 ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Jyotiswarupini</span></p>
+<pre class="guitar">
+k127: 
+- " fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 "
+- " bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 "
+- " gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 "
+- " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ "
+- " an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 "
+- " en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k127  
+[ 
+' en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 ',
+' an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 ',
+' ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ ',
+' gn3 ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Dhatuvardini</span></p>
+<pre class="guitar">
+j2k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
+- " cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ "
+- " ___ ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ "
+- " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def j2k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 ',
+' an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 ',
+' ___ ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ',
+' ___ gk3 an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ ']  
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Nasikabhusani</span></p>
+<pre class="guitar">
+k16: 
+- " fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ___ en7 fn7 "
+- " ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ "
+- " gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 "
+- " dn5 ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 "
+- " ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ "
+- " en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k16 
+[ 
+' en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 ',
+' ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ ',
+' dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ',
+' gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Kosalam</span></p>
+<pre class="guitar">
+k5: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
+- " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
+- " dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
+- " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k5  
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
+' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 ',
+' dn4 ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ',
+' ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+<br />
+<table><tr><td>
+<p><span class="raganame">Rasikapriya</span></p>
+<pre class="guitar">
+k25: 
+- " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
+- " cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
+- " ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ "
+- " ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ "
+- " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 "
+- " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+
+</pre>
+</td></tr><tr><td>
+<pre class="violin">
+def k25 
+[ 
+' en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 ',
+' an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 ',
+' ___ dk4 en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ ',
+' ___ gk3 an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ ___ '] 
+end 
+</pre>
+</td></tr></table>
+</div>
+<br />
+<p class="attr">Copyright &copy; 2013 Reid Netterville III</p>
+</body>
+</html>
