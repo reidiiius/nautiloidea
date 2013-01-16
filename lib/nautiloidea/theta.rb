@@ -437,7 +437,7 @@ print ' Select Clave: '
 select_clave = gets.chomp 
  if select_clave =~ /ndex|ist/ 
   puts clave_list 
- elsif (select_clave == 'n' or select_clave == 'natural') 
+ elsif (select_clave == 'n0' or select_clave == 'natural') 
   puts 
   puts natural 
  elsif select_clave == 'mercury_venus'

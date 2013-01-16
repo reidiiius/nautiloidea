@@ -5,11 +5,11 @@ module Sagittarius
   class Rukbat  
 
     def initialize 
-      signet_n 
+      signet_n0 
     end 
 
-    def signet_n
-      @n =  
+    def signet_n0
+      @n0 =  
       [
       ' en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 ', 
       ' bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ', 
@@ -19,14 +19,14 @@ module Sagittarius
       ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 '] 
     end 
 
-    def n 
-      @n 
+    def n0 
+      @n0 
     end 
   end 
 
   puts 
-  puts 'n'
+  puts 'n0'
   puts   
-  puts Rukbat.new.n 
+  puts Rukbat.new.n0 
 
 end 

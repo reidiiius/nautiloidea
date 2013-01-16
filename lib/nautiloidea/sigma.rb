@@ -522,7 +522,7 @@ end
 
  # mandolin 
 
-def n 
+def n0 
 [ 
 ' en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 ',
 ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
@@ -1015,42 +1015,42 @@ print ' Enter selection: '
   puts index 
  elsif raganame =~ /hord|ords/
   puts chord_list
- elsif (raganame =~ /[Ss]ankarabharanam/ or raganame == 'n')
+ elsif (raganame =~ /[Ss]ankarabharanam/ or raganame == 'n0')
   puts 'Guitar' 
   puts natural 
   puts
   puts 'Mandolin'  
-  puts n
+  puts n0
  elsif raganame =~ /[Kk]haraharapriya/  
   puts 'Guitar' 
   puts natural 
   puts
   puts 'Mandolin'
-  puts n 
+  puts n0 
  elsif raganame =~ /[Hh]anumatodi/  
   puts 'Guitar' 
   puts natural 
   puts
   puts 'Mandolin' 
-  puts n 
+  puts n0 
  elsif raganame =~ /[Mm]echakalyani/ 
   puts 'Guitar' 
   puts natural 
   puts
   puts 'Mandolin' 
-  puts n
+  puts n0
  elsif raganame =~ /[Hh]arikambhoji/ 
   puts 'Guitar' 
   puts natural 
   puts
   puts 'Mandolin' 
-  puts n
+  puts n0
  elsif raganame =~ /[Nn]atabhairavi/  
   puts 'Guitar' 
   puts natural 
   puts
   puts 'Mandolin'
-  puts n
+  puts n0
  elsif (raganame =~ /[Nn]aganandini/ or raganame == 'k6') 
   puts 'Guitar' 
   puts sharp_6 
