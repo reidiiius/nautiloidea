@@ -98,7 +98,7 @@ sharp_126_flat_5 = [
 {:tone => ' ak4 ', :function => venus, :invert => saturn },
 {:tone => ' bn4 ', :function => saturn, :invert => venus },
 {:tone => ' ck5 ', :function => sun, :invert => jupiter },
-{:tone => ' ds5 ', :function => moon, :invert => mercury } ] 
+{:tone => ' dk5 ', :function => moon, :invert => mercury } ] 
 
 flat_3 = [
 {:tone => ' cn5 ', :function => mercury, :invert => jupiter }, 

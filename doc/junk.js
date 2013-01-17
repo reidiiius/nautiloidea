@@ -142,7 +142,7 @@
    "str1":" en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 ", 
    "str2":" ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___ ", 
    "str3":" ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ",
-   "str4":" ___ ds5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ ", 
+   "str4":" ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ ", 
    "str5":" an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 ", 
    "str6":" en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ dk5 en5 "}; 
 
