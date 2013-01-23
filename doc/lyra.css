@@ -8,6 +8,8 @@ div#content {
 margin-left:5%;
 margin-right:5%;
 background-color:ivory;}
+div.lapis { 
+margin-top:6em;}
 div.guitar {
 font-family:monospace;
 font-size:20px;
