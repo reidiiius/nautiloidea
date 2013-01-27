@@ -10,6 +10,7 @@ index = %w[ n0 k6 j5 j5y6 k6x5 j3 j5k6 k26j5 j25k6
  j2y3k6 k2j5y6 j3k6 k1j5 k2j6 j2k5 k26 j25 ] 
 
 def help 
+ puts 
  puts ' For a table of contents,'
  puts ' type "index" or "list",' 
  puts ' to skip this section type "next",'
@@ -19,7 +20,6 @@ end
  
  puts 
  puts ' Metals '.upcase 
- puts 
  puts help 
 
  x_status = false
