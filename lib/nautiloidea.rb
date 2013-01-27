@@ -8,10 +8,11 @@ dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/zodiac/lyra'
  require dir + '/zodiac/draco'
  require dir + '/epsilon'
+ require dir + '/lapis'
  require dir + '/theta'
  require dir + '/psi'
 
 module Nautiloidea 
- VERSION = '0.9.7.2'
+ VERSION = '0.9.7.3'
 end 
  
