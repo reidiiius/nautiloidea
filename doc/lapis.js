@@ -86,13 +86,13 @@
  'str6':' AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ '};
 
  var j17k2 = { 
- 'str0':' FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu ',
- 'str1':' ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ',
- 'str2':' ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ',
- 'str3':' ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ',
- 'str4':' MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ ',
- 'str5':' TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ',
- 'str6':' PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi '};
+ 'str0':' PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe Cuti ',
+ 'str1':' ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ',
+ 'str2':' AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ ',
+ 'str3':' ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ',
+ 'str4':' AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ ',
+ 'str5':' CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe ',
+ 'str6':' FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu '};
 
  var j5k6 = { 
  'str0':' TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ',
@@ -104,13 +104,13 @@
  'str6':' CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe '};
 
  var j2k34 = { 
- 'str0':' AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ ',
- 'str1':' CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe ',
- 'str2':' FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu ',
- 'str3':' ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ',
- 'str4':' ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ',
- 'str5':' ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ',
- 'str6':' MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ '};
+ 'str0':' MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ ',
+ 'str1':' TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ',
+ 'str2':' PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi ',
+ 'str3':' ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ',
+ 'str4':' AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ ',
+ 'str5':' ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ',
+ 'str6':' AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ '};
 
  var k26j5 = { 
  'str0':' CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe ',

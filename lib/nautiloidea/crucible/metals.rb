@@ -2,6 +2,8 @@
 
 require 'yaml'
 
+dom_data = YAML.load_file 'dom.yml'
+sub_data = YAML.load_file 'sub.yml'
 m_data = YAML.load_file 'lapis.yml' 
 
 index = %w[ n0 k6 j5 j5y6 k6x5 j3 j5k6 k26j5 j25k6 
@@ -12,10 +14,10 @@ index = %w[ n0 k6 j5 j5y6 k6x5 j3 j5k6 k26j5 j25k6
 def help 
  puts 
  puts ' For a table of contents,'
- puts ' type "index" or "list",' 
- puts ' to skip this section type "next",'
+ puts ' type "index" or "list", for'
+ puts ' more info type "dom" or "sub".'
  puts ' If you want to leave the program,'
- puts ' simply type "exit" or "quit".' 
+ puts ' type "exit", "quit", "end" or "stop".' 
 end  
  
  puts 
@@ -29,6 +31,12 @@ while (not x_status)
  signet = gets.chomp 
 if signet =~ /ndex|ist/ 
  puts index 
+elsif signet == 'dom' 
+ puts 
+ puts dom_data['dom'] 
+elsif signet == 'sub' 
+ puts 
+ puts sub_data['sub'] 
 elsif signet == 'n0' 
  puts 
  puts m_data['n0'] 
@@ -151,7 +159,7 @@ elsif signet == 'j25'
  puts m_data['j25'] 
 elsif (signet =~ /\s|elp/ or signet == '')  
  puts help 
-elsif signet =~ /next/
+elsif signet =~ /end|stop/
  x_status = true 
 elsif signet =~ /^exit|quit/ 
  exit
