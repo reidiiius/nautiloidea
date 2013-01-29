@@ -5,7 +5,7 @@ Netra:
   j2: 
    - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
    - " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 dJ6 ___ ___ en6 fn6 ___ gn6 "
+   - " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
    - " ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
    - " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 "
    - " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
@@ -41,7 +41,7 @@ Netra:
   j23: 
    - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7 "
    - " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 dJ6 ___ ej6 ___ fn6 ___ gn6 "
+   - " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
    - " ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
    - " an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 "
    - " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ "
@@ -50,7 +50,7 @@ Netra:
   j23k6: 
    - " fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ fn7 "
    - " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 "
-   - " gn5 ___ ___ ak5 bn5 cn6 dJ6 ___ ej6 ___ fn6 ___ gn6 "
+   - " gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
    - " ___ ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ "
    - " ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ "
    - " ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___ "
