@@ -1,0 +1,10 @@
+--- 
+
+  n367_F: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
+  n367_C: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
+  n367_G: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  n367_D: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
+  n367_A: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ' 
+  n367_E: ' HgCu ____ SnSn ____ CuMg PbFe ____ AuAg ____ AgAu ____ FePb ' 
+  n367_B: ' AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ ' 
+

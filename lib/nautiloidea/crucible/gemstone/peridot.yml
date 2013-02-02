@@ -1,0 +1,10 @@
+--- 
+
+  k14_F: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  k14_C: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
+  k14_G: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ' 
+  k14_D: ' HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb ' 
+  k14_A: ' AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ ' 
+  k14_E: ' SnSn ____ CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ' 
+  k14_B: ' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ' 
+

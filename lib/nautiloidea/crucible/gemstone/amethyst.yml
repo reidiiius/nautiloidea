@@ -1,0 +1,10 @@
+--- 
+
+  k145_F: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
+  k145_C: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  k145_G: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
+  k145_D: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ' 
+  k145_A: ' HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb ' 
+  k145_E: ' AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuMg PbFe ____ ' 
+  k145_B: ' SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ' 
+

@@ -1,0 +1,19 @@
+--- 
+
+  n37_F: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ' 
+  n37_C: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
+  n37_G: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
+  n37_D: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  n37_A: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
+  n37_E: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuMg ' 
+  n37_B: ' HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb ' 
+   
+
+  j0_F: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ' 
+  j0_C: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
+  j0_G: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
+  j0_D: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  j0_A: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
+  j0_E: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuMg ' 
+  j0_B: ' HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb ' 
+
