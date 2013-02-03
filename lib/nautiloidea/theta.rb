@@ -57,8 +57,8 @@
  moon_uranus_j2 = '101110011010'
  mars_pluto_j2 = '111001101010' 
 # sharp_2
- neptune_mars_k2 = '100111010101'
- mars_neptune_k2 = '111010101100'
+ neptune_venus_k2 = '100111010101'
+ mars_pluto_k2 = '111010101100'
  mercury_mercury_k2 = '110101011001'
  pluto_mars_k2 = '101010110011'
  uranus_moon_k2 = '101011001110'
@@ -290,134 +290,134 @@ def flat_25
 end 
 
 clave_list = [ 
-'natural', 
-' mercury_venus',
-' jupiter_jupiter',
-' venus_mercury',
-' saturn_mars',
-' sun_moon',
-' moon_sun',
-' mars_saturn',
-'sharp_6',
-' mercury_moon_k6',
-' jupiter_sun_k6',
-' venus_saturn_k6',
-' saturn_venus_k6',
-' sun_jupiter_k6',
-' vesta_mars_k6',
-' mars_vesta_k6',
-'flat_5',
-' saturn_venus_j5',
-' sun_jupiter_j5',
-' moon_mercury_j5',
-' vesta_mars_j5',
-' mars_vesta_j5',
-' jupiter_sun_j5',
-' venus_saturn_j5',
-'flat_3',
-' mercury_jupiter',
-' jupiter_mercury',
-' uranus_mars',
-' saturn_moon',
-' sun_sun',
-' moon_saturn',
-' mars_uranus',
-'flat_6',
-' mercury_sun_j6',
-' jupiter_saturn_j6',
-' venus_uranus_j6',
-' saturn_jupiter_j6',
-' sun_mercury_j6',
-' neptune_mars_j6',
-' mars_neptune_j6',
-'sharp_5',
-' uranus_venus_k5',
-' saturn_jupiter_k5',
-' sun_mercury_k5',
-' neptune_mars_k5',
-' mars_neptune_k5',
-' mercury_sun_k5',
-' jupiter_saturn_k5',
-'flat_2',
-' mercury_mercury_j2',
-' pluto_mars_j2',
-' venus_neptune_j2',
-' saturn_sun_j2',
-' sun_saturn_j2',
-' moon_uranus_j2',
-' mars_pluto_j2', 
-'sharp_2',
-' neptune_mars_k2',
-' mars_neptune_k2',
-' mercury_mercury_k2',
-' pluto_mars_k2',
-' uranus_moon_k2',
-' saturn_sun_k2',
-' sun_saturn_k2',
-'flat_26',
-' mercury_mercury_j26',
-' pluto_mars_j26',
-' venus_neptune_j26',
-' saturn_sun_j26',
-' sun_saturn_j26',
-' neptune_venus_j26',
-' mars_pluto_j26', 
-'flat_23',
-' mercury_mercury_j23',
-' pluto_mars_j23',
-' uranus_moon_j23',
-' saturn_sun_j23',
-' sun_saturn_j23',
-' moon_uranus_j23',
-' mars_pluto_j23',
-'flat_34',
-' neptune_jupiter_j34',
-' chiron_mercury_j34',
-' mars_mars_j34',
-' mercury_chiron_j34',
-' uranus_sun_j34',
-' saturn_saturn_j34',
-' sun_uranus_j34', 
-'sharp_17',
-' chiron_mercury_k17',
-' mars_mars_k17',
-' mercury_chiron_k17',
-' jupiter_neptune_k17',
-' uranus_sun_k17',
-' saturn_saturn_k17',
-' sun_uranus_k17',
-'sharp_2_flat_6',
-' mercury_pallas_k2j6',
-' pallas_mercury_k2j6',
-' venus_mars_k2j6',
-' saturn_ceres_k2j6',
-' sun_neptune_k2j6',
-' neptune_sun_k2j6',
-' mars_venus_k2j6',
-'flat_2_sharp_5',
-' mars_venus_j2k5',
-' mercury_pallas_j2k5',
-' pallas_mercury_j2k5',
-' venus_mars_j2k5',
-' sun_neptune_j2k5',
-' neptune_sun_j2k5',
-' ceres_saturn_j2k5', 
-'sharp_26',
-' mercury_pallas_k26',
-' pallas_mercury_k26',
-' venus_mars_k26',
-' saturn_ceres_k26',
-' sun_neptune_k26',
-' ceres_saturn_k26',
-' mars_venus_k26',
-'flat_25',
-' neptune_sun_j25',
-' ceres_saturn_j25',
-' mars_venus_j25',
-' mercury_pallas_j25',
-' pallas_mercury_j25',
-' venus_mars_j25',
-' saturn_ceres_j25' ] 
+'natural', # n0 
+' mercury_venus', # HgCu 
+' jupiter_jupiter', # SnSn 
+' venus_mercury', # CuHg 
+' saturn_mars', # PbFe 
+' sun_moon', # AuAg 
+' moon_sun', # AgAu 
+' mars_saturn', # FePb 
+'sharp_6', # k6 
+' mercury_moon_k6', # HgAg 
+' jupiter_sun_k6', # SnAu 
+' venus_saturn_k6', # CuPb 
+' saturn_venus_k6', # PbCu 
+' sun_jupiter_k6', # AuSn 
+' vesta_mars_k6', # TiFe 
+' mars_vesta_k6', # FeTi 
+'flat_5', # j5 
+' saturn_venus_j5', # PbCu 
+' sun_jupiter_j5', # AuSn 
+' moon_mercury_j5', # AgHg
+' vesta_mars_j5', # TiFe 
+' mars_vesta_j5', # FeTi
+' jupiter_sun_j5', # SnAu 
+' venus_saturn_j5', # CuPb 
+'flat_3', # j3 
+' mercury_jupiter', # HgSn 
+' jupiter_mercury', # SnHg 
+' uranus_mars', # UrFe 
+' saturn_moon', # PbAg 
+' sun_sun', # AuAu 
+' moon_saturn', # AgPb 
+' mars_uranus', # FeUr 
+'flat_6', # j6 
+' mercury_sun_j6', # HgAu 
+' jupiter_saturn_j6', # SnPb 
+' venus_uranus_j6', # CuUr 
+' saturn_jupiter_j6', # PbSn 
+' sun_mercury_j6', # AuHg 
+' neptune_mars_j6', # NpFe 
+' mars_neptune_j6', # FeNp 
+'sharp_5', # k5 
+' uranus_venus_k5', # UrCu 
+' saturn_jupiter_k5', # PbSn 
+' sun_mercury_k5', # AuHg 
+' neptune_mars_k5', # NpFe 
+' mars_neptune_k5', # FeNp 
+' mercury_sun_k5', # HgAu 
+' jupiter_saturn_k5', # SnPb 
+'flat_2', # j2 
+' mercury_mercury_j2', # HgHg 
+' pluto_mars_j2', # PuFe 
+' venus_neptune_j2', # CuNp 
+' saturn_sun_j2', # PbAu 
+' sun_saturn_j2', # AuPb 
+' moon_uranus_j2', # AgUr 
+' mars_pluto_j2', # FePu 
+'sharp_2', # k2 
+' neptune_venus_k2', # NpCu 
+' mars_pluto_k2', # FePu  
+' mercury_mercury_k2', # HgHg 
+' pluto_mars_k2', # PuFe 
+' uranus_moon_k2', # UrAg 
+' saturn_sun_k2', # PbAu 
+' sun_saturn_k2', # AuPb 
+'flat_26', # j26 
+' mercury_mercury_j26', # HgHg 
+' pluto_mars_j26', # PuFe 
+' venus_neptune_j26', # CuNp 
+' saturn_sun_j26', # PbAu 
+' sun_saturn_j26', # AuPb 
+' neptune_venus_j26', # NpCu 
+' mars_pluto_j26', # FePu 
+'flat_23', # j23 
+' mercury_mercury_j23', # HgHg 
+' pluto_mars_j23', # PuFe 
+' uranus_moon_j23', # UrAg 
+' saturn_sun_j23', # PbAu 
+' sun_saturn_j23', # AuPb 
+' moon_uranus_j23', # AgUr 
+' mars_pluto_j23', # FePu 
+'flat_34', # j34 
+' neptune_jupiter_j34', # NpSn 
+' chiron_mercury_j34', # TiHg 
+' mars_mars_j34', # FeFe 
+' mercury_chiron_j34', # HgTi 
+' uranus_sun_j34', # UrAu 
+' saturn_saturn_j34', # PbPb 
+' sun_uranus_j34', # AuUr 
+'sharp_17', # k17 
+' chiron_mercury_k17', # TiHg 
+' mars_mars_k17', # FeFe 
+' mercury_chiron_k17', # HgTi 
+' jupiter_neptune_k17', # SnNp 
+' uranus_sun_k17', # UrAu 
+' saturn_saturn_k17', # PbPb 
+' sun_uranus_k17', # AuUr 
+'sharp_2_flat_6', # k2j6 
+' mercury_pallas_k2j6', # HgMn 
+' pallas_mercury_k2j6', # MnHg 
+' venus_mars_k2j6', # CuFe 
+' saturn_ceres_k2j6', # PbTi 
+' sun_neptune_k2j6', # AuNp 
+' neptune_sun_k2j6', # NpAu 
+' mars_venus_k2j6', # FeCu 
+'flat_2_sharp_5', # j2k5 
+' mars_venus_j2k5', # FeCu 
+' mercury_pallas_j2k5', # HgMn 
+' pallas_mercury_j2k5', # MnHg 
+' venus_mars_j2k5', # CuFe 
+' sun_neptune_j2k5', # AuNp 
+' neptune_sun_j2k5', # NpAu 
+' ceres_saturn_j2k5', # TiPb 
+'sharp_26', # k26 
+' mercury_pallas_k26', # HgMn 
+' pallas_mercury_k26', # MnHg 
+' venus_mars_k26', # CuFe 
+' saturn_ceres_k26', # PbTi 
+' sun_neptune_k26', # AuNp 
+' ceres_saturn_k26', # TiPb 
+' mars_venus_k26', # FeCu 
+'flat_25', # j25 
+' neptune_sun_j25', # NpAu 
+' ceres_saturn_j25', # TiPb 
+' mars_venus_j25', # FeCu 
+' mercury_pallas_j25', # HgMn 
+' pallas_mercury_j25', # MnHg 
+' venus_mars_j25', # CuFe 
+' saturn_ceres_j25' ] # PbTi 
 
 help = [
 ' For the Table of Contents,',
@@ -608,12 +608,12 @@ select_clave = gets.chomp
  elsif (select_clave == 'sharp_2'  or select_clave == 'k2')
   puts
   puts sharp_2 
- elsif select_clave == 'neptune_mars_k2'
+ elsif select_clave == 'neptune_venus_k2'
   puts 
-  puts neptune_mars_k2
- elsif select_clave == 'mars_neptune_k2'
+  puts neptune_venus_k2
+ elsif select_clave == 'mars_pluto_k2'
   puts 
-  puts mars_neptune_k2
+  puts mars_pluto_k2
  elsif select_clave == 'mercury_mercury_k2'
   puts 
   puts mercury_mercury_k2
@@ -828,4 +828,4 @@ select_clave = gets.chomp
  elsif select_clave =~ /^exit|quit/ 
  exit
  end
-end   
+end 
