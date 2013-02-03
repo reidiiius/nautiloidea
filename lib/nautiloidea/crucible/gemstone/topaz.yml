@@ -288,6 +288,15 @@
   j26y34_B: ' FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ ' 
 
 
+  j2k6x5_F: ' PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp ' 
+  j2k6x5_C: ' HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu ' 
+  j2k6x5_G: ' ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ' 
+  j2k6x5_D: ' ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ' 
+  j2k6x5_A: ' AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ ' 
+  j2k6x5_E: ' CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ ' 
+  j2k6x5_B: ' FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn ' 
+
+
   j2y3k6_F: ' PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ ' 
   j2y3k6_C: ' HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu ' 
   j2y3k6_G: ' AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ ' 

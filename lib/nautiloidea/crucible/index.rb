@@ -16,9 +16,9 @@ sapphire = YAML.load_file 'gemstone/sapphire.yml'
 topaz = YAML.load_file 'gemstone/topaz.yml' 
 
 topaz_list = %w[ n0 k6 j17 k6x5 j17y2 j3 j17k2 n26y5 k26x5
- j6 j36 k56 j136y7 j136y27 j3k5x4 j167y2 j2k56x4 k157x6
- k1j6 n345 j2 j26 j236 j23 j23k6 j2y3 j2k6 j26y3 j2k56
- j246y3 j26y34 j2y3k6 j3k6 n45y2 k2j6 n5y2 k26 k256 ]  
+ j6 j36 k56 j136y7 k56x4 j136y27 j3k5x4 j167y2 j2k56x4 k157x6
+ k1j6 n345 j2 j26 j236 j23 j23k6 j2y3 j2k6 j26y3 j2k56 j246y3
+ j26y34 j2k6x5 j2y3k6 j3k6 n45y2 k2j6 n5y2 k26 k256 ]  
  
 key_list = %w[ k0 n7 n37 n367 k145 k14 k4
  n0 j7 j37 j367 n145 n14 n4 j0 ] 
@@ -786,6 +786,22 @@ while (not x_status)
  puts topaz['j26y34_A'] 
  puts topaz['j26y34_D'] 
  puts topaz['j26y34_G'] 
+
+ elsif signet == 'j2k6x5' 
+ puts 
+ puts 'Guitar'.upcase 
+ puts topaz['j2k6x5_E'] 
+ puts topaz['j2k6x5_B'] 
+ puts topaz['j2k6x5_G'] 
+ puts topaz['j2k6x5_D'] 
+ puts topaz['j2k6x5_A'] 
+ puts topaz['j2k6x5_E'] 
+ puts  
+ puts 'Violin'.upcase
+ puts topaz['j2k6x5_E'] 
+ puts topaz['j2k6x5_A'] 
+ puts topaz['j2k6x5_D'] 
+ puts topaz['j2k6x5_G'] 
 
  elsif signet == 'j2y3k6' 
  puts 
