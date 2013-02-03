@@ -8,3 +8,39 @@
   k14_E: ' SnSn ____ CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ' 
   k14_B: ' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ' 
 
+
+  k1_F: ' UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg ' 
+  k1_C: ' ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ' 
+  k1_G: ' PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ ' 
+  k1_D: ' HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr ' 
+  k1_A: ' AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ ' 
+  k1_E: ' SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ ' 
+  k1_B: ' AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ ' 
+  
+
+  j2k34_F: ' MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ ' 
+  j2k34_C: ' TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ' 
+  j2k34_G: ' PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi ' 
+  j2k34_D: ' ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ' 
+  j2k34_A: ' AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ ' 
+  j2k34_E: ' ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ' 
+  j2k34_B: ' AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ ' 
+
+
+  n25x6_F: ' MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ ' 
+  n25x6_C: ' TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb ' 
+  n25x6_G: ' PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi ' 
+  n25x6_D: ' HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ' 
+  n25x6_A: ' ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ' 
+  n25x6_E: ' ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ' 
+  n25x6_B: ' AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ ' 
+
+
+  j25y6_F: ' MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg ' 
+  j25y6_C: ' TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb ' 
+  j25y6_G: ' PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi ' 
+  j25y6_D: ' ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ' 
+  j25y6_A: ' ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ' 
+  j25y6_E: ' SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ ' 
+  j25y6_B: ' AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ ' 
+
