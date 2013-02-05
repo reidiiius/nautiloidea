@@ -171,13 +171,13 @@
   j2k56_B: ' FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn ' 
 
 
-  j2y3k6_F: ' PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ ' 
-  j2y3k6_C: ' HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu ' 
-  j2y3k6_G: ' AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ ' 
-  j2y3k6_D: ' SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ' 
-  j2y3k6_A: ' ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ' 
-  j2y3k6_E: ' ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ' 
-  j2y3k6_B: ' FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn ' 
+  j2k6y3_F: ' PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ ' 
+  j2k6y3_C: ' HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu ' 
+  j2k6y3_G: ' AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ ' 
+  j2k6y3_D: ' SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ' 
+  j2k6y3_A: ' ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ' 
+  j2k6y3_E: ' ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ' 
+  j2k6y3_B: ' FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn ' 
 
 
   j3k6_F: ' PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ' 

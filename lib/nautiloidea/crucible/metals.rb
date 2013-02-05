@@ -7,7 +7,7 @@ sub_data = YAML.load_file 'sub.yml'
 
 dom_list = %w[ n0 k6 k6x5 j17y2 j3 j17k2 n26y5
  j6 k56 k56x4 j3k5x4 j2k56x4 k1j6 j2 j26 j23
- j23k6 j2k6 j2k56 j2y3k6 j3k6 k2j6 k26 ] 
+ j23k6 j2k6 j2k56 j2k6y3 j3k6 k2j6 k26 ] 
 
 sub_list = %w[ n0 j5 j5y6 k34x2 k1 j2k34 n25x6
  k5 j56 j56y7 k1j6y7 k2j56y7 j3k5 k2 k25 k12
@@ -341,21 +341,21 @@ while (not x_status)
  puts dom_data['j2k56_D'] 
  puts dom_data['j2k56_G'] 
 
- elsif signet == 'j2y3k6' 
+ elsif signet == 'j2k6y3' 
  puts 
  puts 'Guitar'.upcase 
- puts dom_data['j2y3k6_E'] 
- puts dom_data['j2y3k6_B'] 
- puts dom_data['j2y3k6_G'] 
- puts dom_data['j2y3k6_D'] 
- puts dom_data['j2y3k6_A'] 
- puts dom_data['j2y3k6_E'] 
+ puts dom_data['j2k6y3_E'] 
+ puts dom_data['j2k6y3_B'] 
+ puts dom_data['j2k6y3_G'] 
+ puts dom_data['j2k6y3_D'] 
+ puts dom_data['j2k6y3_A'] 
+ puts dom_data['j2k6y3_E'] 
  puts  
  puts 'Violin'.upcase
- puts dom_data['j2y3k6_E'] 
- puts dom_data['j2y3k6_A'] 
- puts dom_data['j2y3k6_D'] 
- puts dom_data['j2y3k6_G'] 
+ puts dom_data['j2k6y3_E'] 
+ puts dom_data['j2k6y3_A'] 
+ puts dom_data['j2k6y3_D'] 
+ puts dom_data['j2k6y3_G'] 
 
  elsif signet == 'j3k6' 
  puts 

@@ -418,7 +418,7 @@
  'str5':' FePu HgHg PuFe ____ MnAg CuNp PbAu ____ ____ NpCu ____ ____ ',
  'str6':' ____ ____ NpCu ____ ____ FePu HgHg PuFe ____ MnAg CuNp PbAu '};
 
- var j2y3k6 = { 
+ var j2k6y3 = { 
  'str0':' PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ ',
  'str1':' HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu ',
  'str2':' AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ ',
@@ -924,14 +924,14 @@
  document.getElementById('str_E').innerHTML=k17j5.str5.slice(0,61)
  document.getElementById('str_B').innerHTML=k17j5.str6.slice(0,61)};
 
- function gtr_j2y3k6(){ 
- document.getElementById('str_F').innerHTML=j2y3k6.str0.slice(0,61)
- document.getElementById('str_C').innerHTML=j2y3k6.str1.slice(0,61)
- document.getElementById('str_G').innerHTML=j2y3k6.str2.slice(0,61)
- document.getElementById('str_D').innerHTML=j2y3k6.str3.slice(0,61)
- document.getElementById('str_A').innerHTML=j2y3k6.str4.slice(0,61)
- document.getElementById('str_E').innerHTML=j2y3k6.str5.slice(0,61)
- document.getElementById('str_B').innerHTML=j2y3k6.str6.slice(0,61)};
+ function gtr_j2k6y3(){ 
+ document.getElementById('str_F').innerHTML=j2k6y3.str0.slice(0,61)
+ document.getElementById('str_C').innerHTML=j2k6y3.str1.slice(0,61)
+ document.getElementById('str_G').innerHTML=j2k6y3.str2.slice(0,61)
+ document.getElementById('str_D').innerHTML=j2k6y3.str3.slice(0,61)
+ document.getElementById('str_A').innerHTML=j2k6y3.str4.slice(0,61)
+ document.getElementById('str_E').innerHTML=j2k6y3.str5.slice(0,61)
+ document.getElementById('str_B').innerHTML=j2k6y3.str6.slice(0,61)};
 
  function gtr_x1k2j5(){ 
  document.getElementById('str_F').innerHTML=x1k2j5.str0.slice(0,61)

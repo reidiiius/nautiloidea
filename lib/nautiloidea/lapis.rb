@@ -2176,13 +2176,13 @@ j34k6_5ths = Proc.new do
   puts Flat34Sharp6.new.str0[0..61] 
 end 
 
-class Flat2Y3Sharp6 
+class Flat2Sharp6Y3 
 
   def initialize 
-    j2y3k6 
+    j2k6y3 
   end 
 
-def j2y3k6 
+def j2k6y3 
  @str0=%q[ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ ] 
  @str1=%q[ HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu ] 
  @str2=%q[ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ ] 
@@ -2222,26 +2222,26 @@ end
  
 end 
 
-j2y3k6_4ths = Proc.new do 
+j2k6y3_4ths = Proc.new do 
   puts  
-  puts Flat2Y3Sharp6.new.str0[0..61]
-  puts Flat2Y3Sharp6.new.str1[0..61] 
-  puts Flat2Y3Sharp6.new.str2[0..61] 
-  puts Flat2Y3Sharp6.new.str3[0..61] 
-  puts Flat2Y3Sharp6.new.str4[0..61] 
-  puts Flat2Y3Sharp6.new.str5[0..61] 
-  puts Flat2Y3Sharp6.new.str6[0..61] 
+  puts Flat2Sharp6Y3.new.str0[0..61]
+  puts Flat2Sharp6Y3.new.str1[0..61] 
+  puts Flat2Sharp6Y3.new.str2[0..61] 
+  puts Flat2Sharp6Y3.new.str3[0..61] 
+  puts Flat2Sharp6Y3.new.str4[0..61] 
+  puts Flat2Sharp6Y3.new.str5[0..61] 
+  puts Flat2Sharp6Y3.new.str6[0..61] 
 end 
 
-j2y3k6_5ths = Proc.new do 
+j2k6y3_5ths = Proc.new do 
   puts  
-  puts Flat2Y3Sharp6.new.str6[0..61]
-  puts Flat2Y3Sharp6.new.str5[0..61] 
-  puts Flat2Y3Sharp6.new.str4[0..61] 
-  puts Flat2Y3Sharp6.new.str3[0..61] 
-  puts Flat2Y3Sharp6.new.str2[0..61] 
-  puts Flat2Y3Sharp6.new.str1[0..61] 
-  puts Flat2Y3Sharp6.new.str0[0..61] 
+  puts Flat2Sharp6Y3.new.str6[0..61]
+  puts Flat2Sharp6Y3.new.str5[0..61] 
+  puts Flat2Sharp6Y3.new.str4[0..61] 
+  puts Flat2Sharp6Y3.new.str3[0..61] 
+  puts Flat2Sharp6Y3.new.str2[0..61] 
+  puts Flat2Sharp6Y3.new.str1[0..61] 
+  puts Flat2Sharp6Y3.new.str0[0..61] 
 end 
 
 class Sharp2Flat5Y6 
@@ -2723,7 +2723,7 @@ end
 index = %w[ n0 k6 j5 j5y6 k6x5 j3 j5k6 k26j5 j25k6 
  j6 k5 k56 j56 k127 j234 k127j5 j234k6 j34k5 k17j6 k1j6 j3k5 
  j2 k2 j26 k12 j23k6 k12j5 j2k6 k2j5 j2k56 k2j56 j34k6 
- j2y3k6 k2j5y6 j3k6 k1j5 k2j6 j2k5 k26 j25 ] 
+ j2k6y3 k2j5y6 j3k6 k1j5 k2j6 j2k5 k26 j25 ] 
 
 def help 
  puts 
@@ -2969,13 +2969,13 @@ elsif signet == 'j34k6'
  puts 
  puts 'j34k6 5ths' 
  j34k6_5ths.call 
-elsif signet == 'j2y3k6' 
+elsif signet == 'j2k6y3' 
  puts 
- puts 'j2y3k6 4ths' 
- j2y3k6_4ths.call 
+ puts 'j2k6y3 4ths' 
+ j2k6y3_4ths.call 
  puts 
- puts 'j2y3k6 5ths' 
- j2y3k6_5ths.call 
+ puts 'j2k6y3 5ths' 
+ j2k6y3_5ths.call 
 elsif signet == 'k2j5y6' 
  puts 
  puts 'k2j5y6 4ths' 
