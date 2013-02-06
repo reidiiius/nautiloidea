@@ -18,15 +18,6 @@
   n4_B: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ' 
 
 
-  n4_F: ' FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ' 
-  n4_C: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ' 
-  n4_G: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
-  n4_D: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
-  n4_A: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
-  n4_E: ' ____ FePb HgCu ____ SnSn ____ CuMg PbFe ____ AuAg ____ AgAu ' 
-  n4_B: ' PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ' 
-
-
   k1j5_F: ' FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg ' 
   k1j5_C: ' ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ' 
   k1j5_G: ' ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ' 
