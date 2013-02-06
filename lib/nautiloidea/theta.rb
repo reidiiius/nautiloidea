@@ -289,135 +289,135 @@ def flat_25
  @loc_j36 = '111001110010' 
 end 
 
-clave_list = [ 
-'natural', # n0 
-' mercury_venus', # HgCu 
-' jupiter_jupiter', # SnSn 
-' venus_mercury', # CuHg 
-' saturn_mars', # PbFe 
-' sun_moon', # AuAg 
-' moon_sun', # AgAu 
-' mars_saturn', # FePb 
-'sharp_6', # k6 
-' mercury_moon_k6', # HgAg 
-' jupiter_sun_k6', # SnAu 
-' venus_saturn_k6', # CuPb 
-' saturn_venus_k6', # PbCu 
-' sun_jupiter_k6', # AuSn 
-' vesta_mars_k6', # TiFe 
-' mars_vesta_k6', # FeTi 
-'flat_5', # j5 
-' saturn_venus_j5', # PbCu 
-' sun_jupiter_j5', # AuSn 
-' moon_mercury_j5', # AgHg
-' vesta_mars_j5', # TiFe 
-' mars_vesta_j5', # FeTi
-' jupiter_sun_j5', # SnAu 
-' venus_saturn_j5', # CuPb 
-'flat_3', # j3 
-' mercury_jupiter', # HgSn 
-' jupiter_mercury', # SnHg 
-' uranus_mars', # UrFe 
-' saturn_moon', # PbAg 
-' sun_sun', # AuAu 
-' moon_saturn', # AgPb 
-' mars_uranus', # FeUr 
-'flat_6', # j6 
-' mercury_sun_j6', # HgAu 
-' jupiter_saturn_j6', # SnPb 
-' venus_uranus_j6', # CuUr 
-' saturn_jupiter_j6', # PbSn 
-' sun_mercury_j6', # AuHg 
-' neptune_mars_j6', # NpFe 
-' mars_neptune_j6', # FeNp 
-'sharp_5', # k5 
-' uranus_venus_k5', # UrCu 
-' saturn_jupiter_k5', # PbSn 
-' sun_mercury_k5', # AuHg 
-' neptune_mars_k5', # NpFe 
-' mars_neptune_k5', # FeNp 
-' mercury_sun_k5', # HgAu 
-' jupiter_saturn_k5', # SnPb 
-'flat_2', # j2 
-' mercury_mercury_j2', # HgHg 
-' pluto_mars_j2', # PuFe 
-' venus_neptune_j2', # CuNp 
-' saturn_sun_j2', # PbAu 
-' sun_saturn_j2', # AuPb 
-' moon_uranus_j2', # AgUr 
-' mars_pluto_j2', # FePu 
-'sharp_2', # k2 
-' neptune_venus_k2', # NpCu 
-' mars_pluto_k2', # FePu  
-' mercury_mercury_k2', # HgHg 
-' pluto_mars_k2', # PuFe 
-' uranus_moon_k2', # UrAg 
-' saturn_sun_k2', # PbAu 
-' sun_saturn_k2', # AuPb 
-'flat_26', # j26 
-' mercury_mercury_j26', # HgHg 
-' pluto_mars_j26', # PuFe 
-' venus_neptune_j26', # CuNp 
-' saturn_sun_j26', # PbAu 
-' sun_saturn_j26', # AuPb 
-' neptune_venus_j26', # NpCu 
-' mars_pluto_j26', # FePu 
-'flat_23', # j23 
-' mercury_mercury_j23', # HgHg 
-' pluto_mars_j23', # PuFe 
-' uranus_moon_j23', # UrAg 
-' saturn_sun_j23', # PbAu 
-' sun_saturn_j23', # AuPb 
-' moon_uranus_j23', # AgUr 
-' mars_pluto_j23', # FePu 
-'flat_34', # j34 
-' neptune_jupiter_j34', # NpSn 
-' chiron_mercury_j34', # TiHg 
-' mars_mars_j34', # FeFe 
-' mercury_chiron_j34', # HgTi 
-' uranus_sun_j34', # UrAu 
-' saturn_saturn_j34', # PbPb 
-' sun_uranus_j34', # AuUr 
-'sharp_17', # k17 
-' chiron_mercury_k17', # TiHg 
-' mars_mars_k17', # FeFe 
-' mercury_chiron_k17', # HgTi 
-' jupiter_neptune_k17', # SnNp 
-' uranus_sun_k17', # UrAu 
-' saturn_saturn_k17', # PbPb 
-' sun_uranus_k17', # AuUr 
-'sharp_2_flat_6', # k2j6 
-' mercury_pallas_k2j6', # HgMn 
-' pallas_mercury_k2j6', # MnHg 
-' venus_mars_k2j6', # CuFe 
-' saturn_ceres_k2j6', # PbTi 
-' sun_neptune_k2j6', # AuNp 
-' neptune_sun_k2j6', # NpAu 
-' mars_venus_k2j6', # FeCu 
-'flat_2_sharp_5', # j2k5 
-' mars_venus_j2k5', # FeCu 
-' mercury_pallas_j2k5', # HgMn 
-' pallas_mercury_j2k5', # MnHg 
-' venus_mars_j2k5', # CuFe 
-' sun_neptune_j2k5', # AuNp 
-' neptune_sun_j2k5', # NpAu 
-' ceres_saturn_j2k5', # TiPb 
-'sharp_26', # k26 
-' mercury_pallas_k26', # HgMn 
-' pallas_mercury_k26', # MnHg 
-' venus_mars_k26', # CuFe 
-' saturn_ceres_k26', # PbTi 
-' sun_neptune_k26', # AuNp 
-' ceres_saturn_k26', # TiPb 
-' mars_venus_k26', # FeCu 
-'flat_25', # j25 
-' neptune_sun_j25', # NpAu 
-' ceres_saturn_j25', # TiPb 
-' mars_venus_j25', # FeCu 
-' mercury_pallas_j25', # HgMn 
-' pallas_mercury_j25', # MnHg 
-' venus_mars_j25', # CuFe 
-' saturn_ceres_j25' ] # PbTi 
+clave_list = %w[
+ n0
+ n0HgCu 
+ n0SnSn 
+ n0CuHg 
+ n0PbFe 
+ n0AuAg 
+ n0AgAu 
+ n0FePb 
+ k6 
+ k6HgAg 
+ k6SnAu 
+ k6CuPb 
+ k6PbCu 
+ k6AuSn 
+ k6TiFe 
+ k6FeTi 
+ j5 
+ j5PbCu 
+ j5AuSn 
+ j5AgHg
+ j5TiFe 
+ j5FeTi
+ j5SnAu 
+ j5CuPb 
+ j3 
+ j3HgSn 
+ j3SnHg 
+ j3UrFe 
+ j3PbAg 
+ j3AuAu 
+ j3AgPb 
+ j3FeUr 
+ j6 
+ j6HgAu 
+ j6SnPb 
+ j6CuUr 
+ j6PbSn 
+ j6AuHg 
+ j6NpFe 
+ j6FeNp 
+ k5 
+ k5UrCu 
+ k5PbSn 
+ k5AuHg 
+ k5NpFe 
+ k5FeNp 
+ k5HgAu 
+ k5SnPb 
+ j2 
+ j2HgHg 
+ j2PuFe 
+ j2CuNp 
+ j2PbAu 
+ j2AuPb 
+ j2AgUr 
+ j2FePu 
+ k2 
+ k2NpCu 
+ k2FePu  
+ k2HgHg 
+ k2PuFe 
+ k2UrAg 
+ k2PbAu 
+ k2AuPb 
+ j26 
+ j26HgHg 
+ j26PuFe 
+ j26CuNp 
+ j26PbAu 
+ j26AuPb 
+ j26NpCu 
+ j26FePu 
+ j23 
+ j23HgHg 
+ j23PuFe 
+ j23UrAg 
+ j23PbAu 
+ j23AuPb 
+ j23AgUr 
+ j23FePu 
+ j34 
+ j34NpSn 
+ j34TiHg 
+ j34FeFe 
+ j34HgTi 
+ j34UrAu 
+ j34PbPb 
+ j34AuUr 
+ k17 
+ k17TiHg 
+ k17FeFe 
+ k17HgTi 
+ k17SnNp 
+ k17UrAu 
+ k17PbPb 
+ k17AuUr 
+ k2j6 
+ k2j6HgMn 
+ k2j6MnHg 
+ k2j6CuFe 
+ k2j6PbTi 
+ k2j6AuNp 
+ k2j6NpAu 
+ k2j6FeCu 
+ j2k5 
+ j2k5FeCu 
+ j2k5HgMn 
+ j2k5MnHg 
+ j2k5CuFe 
+ j2k5AuNp 
+ j2k5NpAu 
+ j2k5TiPb 
+ k26 
+ k26HgMn 
+ k26MnHg 
+ k26CuFe 
+ k26PbTi 
+ k26AuNp 
+ k26TiPb 
+ k26FeCu 
+ j25 
+ j25NpAu 
+ j25TiPb 
+ j25FeCu 
+ j25HgMn 
+ j25MnHg 
+ j25CuFe 
+ j25PbTi ] 
 
 help = [
 ' For the Table of Contents,',
@@ -437,388 +437,388 @@ print ' Select Clave: '
 select_clave = gets.chomp 
  if select_clave =~ /ndex|ist/ 
   puts clave_list 
- elsif (select_clave == 'n0' or select_clave == 'natural') 
+ elsif select_clave == 'n0'  
   puts 
   puts natural 
- elsif select_clave == 'mercury_venus'
+ elsif select_clave == 'n0HgCu '
   puts 
   puts mercury_venus 
- elsif select_clave == 'jupiter_jupiter'
+ elsif select_clave == 'n0SnSn'
   puts 
   puts jupiter_jupiter 
- elsif select_clave == 'venus_mercury'
+ elsif select_clave == 'n0CuHg'
   puts 
   puts venus_mercury
- elsif select_clave == 'saturn_mars'
+ elsif select_clave == 'n0PbFe'
   puts 
   puts saturn_mars
- elsif select_clave == 'sun_moon'
+ elsif select_clave == 'n0AuAg'
   puts 
   puts sun_moon
- elsif select_clave == 'moon_sun'
+ elsif select_clave == 'n0AgAu'
   puts 
   puts moon_sun
- elsif select_clave == 'mars_saturn'
+ elsif select_clave == 'n0FePb'
   puts 
   puts mars_saturn 
- elsif (select_clave == 'sharp_6' or select_clave == 'k6') 
+ elsif select_clave == 'k6'
   puts
   puts sharp_6 
- elsif select_clave == 'mercury_moon_k6'
+ elsif select_clave == 'k6HgAg'
   puts 
   puts mercury_moon_k6
- elsif select_clave == 'jupiter_sun_k6'
+ elsif select_clave == 'k6SnAu'
   puts 
   puts jupiter_sun_k6
- elsif select_clave == 'venus_saturn_k6'
+ elsif select_clave == 'k6CuPb'
   puts 
   puts venus_saturn_k6
- elsif select_clave == 'saturn_venus_k6'
+ elsif select_clave == 'k6PbCu'
   puts 
   puts saturn_venus_k6
- elsif select_clave == 'sun_jupiter_k6'
+ elsif select_clave == 'k6AuSn'
   puts 
   puts sun_jupiter_k6
- elsif select_clave == 'vesta_mars_k6'
+ elsif select_clave == 'k6TiFe'
   puts 
   puts vesta_mars_k6
- elsif select_clave == 'mars_vesta_k6'
+ elsif select_clave == 'k6FeTi'
   puts 
   puts mars_vesta_k6 
- elsif (select_clave == 'flat_5' or select_clave == 'j5') 
+ elsif select_clave == 'j5' 
   puts
   puts flat_5 
- elsif select_clave == 'saturn_venus_j5'
+ elsif select_clave == 'j5PbCu'
   puts 
   puts saturn_venus_j5
- elsif select_clave == 'sun_jupiter_j5'
+ elsif select_clave == 'j5AuSn'
   puts 
   puts sun_jupiter_j5
- elsif select_clave == 'moon_mercury_j5'
+ elsif select_clave == 'j5AgHg'
   puts 
   puts moon_mercury_j5
- elsif select_clave == 'vesta_mars_j5'
+ elsif select_clave == 'j5TiFe'
   puts 
   puts vesta_mars_j5
- elsif select_clave == 'mars_vesta_j5'
+ elsif select_clave == 'j5FeTi'
   puts 
   puts mars_vesta_j5
- elsif select_clave == 'jupiter_sun_j5'
+ elsif select_clave == 'j5SnAu'
   puts 
   puts jupiter_sun_j5
- elsif select_clave == 'venus_saturn_j5'
+ elsif select_clave == 'j5CuPb'
   puts 
   puts venus_saturn_j5
- elsif (select_clave == 'flat_3' or select_clave == 'j3') 
+ elsif select_clave == 'j3' 
   puts
   puts flat_3 
- elsif select_clave == 'mercury_jupiter'
+ elsif select_clave == 'j3HgSn'
   puts 
   puts mercury_jupiter
- elsif select_clave == 'jupiter_mercury'
+ elsif select_clave == 'j3SnHg'
   puts 
   puts jupiter_mercury
- elsif select_clave == 'uranus_mars'
+ elsif select_clave == 'j3UrFe'
   puts 
   puts uranus_mars
- elsif select_clave == 'saturn_moon'
+ elsif select_clave == 'j3PbAg'
   puts 
   puts saturn_moon
- elsif select_clave == 'sun_sun'
+ elsif select_clave == 'j3AuAu'
   puts 
   puts sun_sun
- elsif select_clave == 'moon_saturn'
+ elsif select_clave == 'j3AgPb'
   puts 
   puts moon_saturn
- elsif select_clave == 'mars_uranus'
+ elsif select_clave == 'j3FeUr'
   puts 
   puts mars_uranus 
- elsif (select_clave == 'flat_6' or select_clave == 'j6') 
+ elsif select_clave == 'j6' 
   puts
   puts flat_6 
- elsif select_clave == 'mercury_sun_j6'
+ elsif select_clave == 'j6HgAu'
   puts 
   puts mercury_sun_j6
- elsif select_clave == 'jupiter_saturn_j6'
+ elsif select_clave == 'j6SnPb'
   puts 
   puts jupiter_saturn_j6
- elsif select_clave == 'venus_uranus_j6'
+ elsif select_clave == 'j6CuUr'
   puts 
   puts venus_uranus_j6
- elsif select_clave == 'saturn_jupiter_j6'
+ elsif select_clave == 'j6PbSn'
   puts 
   puts saturn_jupiter_j6
- elsif select_clave == 'sun_mercury_j6'
+ elsif select_clave == 'j6AuHg'
   puts 
   puts sun_mercury_j6
- elsif select_clave == 'neptune_mars_j6'
+ elsif select_clave == 'j6NpFe'
   puts 
   puts neptune_mars_j6
- elsif select_clave == 'mars_neptune_j6'
+ elsif select_clave == 'j6FeNp'
   puts 
   puts mars_neptune_j6 
- elsif (select_clave == 'sharp_5' or select_clave == 'k5') 
+ elsif select_clave == 'k5' 
   puts
   puts sharp_5 
- elsif select_clave == 'uranus_venus_k5'
+ elsif select_clave == 'k5UrCu'
   puts 
   puts uranus_venus_k5
- elsif select_clave == 'saturn_jupiter_k5'
+ elsif select_clave == 'k5PbSn'
   puts 
   puts saturn_jupiter_k5
- elsif select_clave == 'sun_mercury_k5'
+ elsif select_clave == 'k5AuHg'
   puts 
   puts sun_mercury_k5
- elsif select_clave == 'neptune_mars_k5'
+ elsif select_clave == 'k5NpFe'
   puts 
   puts neptune_mars_k5
- elsif select_clave == 'mars_neptune_k5'
+ elsif select_clave == 'k5FeNp'
   puts 
   puts mars_neptune_k5
- elsif select_clave == 'mercury_sun_k5'
+ elsif select_clave == 'k5HgAu'
   puts 
   puts mercury_sun_k5
- elsif select_clave == 'jupiter_saturn_k5'
+ elsif select_clave == 'k5SnPb'
   puts 
   puts jupiter_saturn_k5 
- elsif (select_clave == 'flat_2' or select_clave == 'j2') 
+ elsif select_clave == 'j2' 
   puts
   puts flat_2 
- elsif select_clave == 'mercury_mercury_j2'
+ elsif select_clave == 'j2HgHg'
   puts 
   puts mercury_mercury_j2
- elsif select_clave == 'pluto_mars_j2'
+ elsif select_clave == 'j2PuFe'
   puts 
   puts pluto_mars_j2
- elsif select_clave == 'venus_neptune_j2'
+ elsif select_clave == 'j2CuNp'
   puts 
   puts venus_neptune_j2
- elsif select_clave == 'saturn_sun_j2'
+ elsif select_clave == 'j2PbAu'
   puts 
   puts saturn_sun_j2
- elsif select_clave == 'sun_saturn_j2'
+ elsif select_clave == 'j2AuPb'
   puts 
   puts sun_saturn_j2
- elsif select_clave == 'moon_uranus_j2'
+ elsif select_clave == 'j2AgUr'
   puts 
   puts moon_uranus_j2
- elsif select_clave == 'mars_pluto_j2'
+ elsif select_clave == 'j2FePu'
   puts 
   puts mars_pluto_j2
- elsif (select_clave == 'sharp_2'  or select_clave == 'k2')
+ elsif select_clave == 'k2' 
   puts
   puts sharp_2 
- elsif select_clave == 'neptune_venus_k2'
+ elsif select_clave == 'k2NpCu'
   puts 
   puts neptune_venus_k2
- elsif select_clave == 'mars_pluto_k2'
+ elsif select_clave == 'k2FePu'
   puts 
   puts mars_pluto_k2
- elsif select_clave == 'mercury_mercury_k2'
+ elsif select_clave == 'k2HgHg'
   puts 
   puts mercury_mercury_k2
- elsif select_clave == 'pluto_mars_k2'
+ elsif select_clave == 'k2PuFe'
   puts 
   puts pluto_mars_k2
- elsif select_clave == 'uranus_moon_k2'
+ elsif select_clave == 'k2UrAg'
   puts 
   puts uranus_moon_k2
- elsif select_clave == 'saturn_sun_k2'
+ elsif select_clave == 'k2PbAu'
   puts 
   puts saturn_sun_k2
- elsif select_clave == 'sun_saturn_k2'
+ elsif select_clave == 'k2AuPb'
   puts 
   puts sun_saturn_k2 
- elsif (select_clave == 'flat_26' or select_clave == 'j26') 
+ elsif select_clave == 'j26' 
   puts
   puts flat_26 
- elsif select_clave == 'mercury_mercury_j26'
+ elsif select_clave == 'j26HgHg'
   puts 
   puts mercury_mercury_j26
- elsif select_clave == 'pluto_mars_j26'
+ elsif select_clave == 'j26PuFe'
   puts 
   puts pluto_mars_j26
- elsif select_clave == 'venus_neptune_j26'
+ elsif select_clave == 'j26CuNp'
   puts 
   puts venus_neptune_j26
- elsif select_clave == 'saturn_sun_j26'
+ elsif select_clave == 'j26PbAu'
   puts 
   puts saturn_sun_j26
- elsif select_clave == 'sun_saturn_j26'
+ elsif select_clave == 'j26AuPb'
   puts 
   puts sun_saturn_j26
- elsif select_clave == 'neptune_venus_j26'
+ elsif select_clave == 'j26NpCu'
   puts 
   puts neptune_venus_j26
- elsif select_clave == 'mars_pluto_j26'
+ elsif select_clave == 'j26FePu'
   puts 
   puts mars_pluto_j26 
- elsif (select_clave == 'flat_23' or select_clave == 'j23') 
+ elsif select_clave == 'j23' 
   puts
   puts flat_23 
- elsif select_clave == 'mercury_mercury_j23'
+ elsif select_clave == 'j23HgHg'
   puts 
   puts mercury_mercury_j23
- elsif select_clave == 'pluto_mars_j23'
+ elsif select_clave == 'j23PuFe'
   puts 
   puts pluto_mars_j23
- elsif select_clave == 'uranus_moon_j23'
+ elsif select_clave == 'j23UrAg'
   puts 
   puts uranus_moon_j23
- elsif select_clave == 'saturn_sun_j23'
+ elsif select_clave == 'j23PbAu'
   puts 
   puts saturn_sun_j23
- elsif select_clave == 'sun_saturn_j23'
+ elsif select_clave == 'j23AuPb'
   puts 
   puts sun_saturn_j23
- elsif select_clave == 'moon_uranus_j23'
+ elsif select_clave == 'j23AgUr'
   puts 
   puts moon_uranus_j23
- elsif select_clave == 'mars_pluto_j23'
+ elsif select_clave == 'j23FePu'
   puts 
   puts mars_pluto_j23 
- elsif (select_clave == 'flat_34' or select_clave == 'j34') 
+ elsif select_clave == 'j34' 
   puts
   puts flat_34 
- elsif select_clave == 'neptune_jupiter_j34'
+ elsif select_clave == 'j34NpSn'
   puts 
   puts neptune_jupiter_j34
- elsif select_clave == 'chiron_mercury_j34'
+ elsif select_clave == 'j34TiHg'
   puts 
   puts chiron_mercury_j34
- elsif select_clave == 'mars_mars_j34'
+ elsif select_clave == 'j34FeFe'
   puts 
   puts mars_mars_j34
- elsif select_clave == 'mercury_chiron_j34'
+ elsif select_clave == 'j34HgTi'
   puts 
   puts mercury_chiron_j34
- elsif select_clave == 'uranus_sun_j34'
+ elsif select_clave == 'j34UrAu'
   puts 
   puts uranus_sun_j34
- elsif select_clave == 'saturn_saturn_j34'
+ elsif select_clave == 'j34PbPb'
   puts 
   puts saturn_saturn_j34
- elsif select_clave == 'sun_uranus_j34'
+ elsif select_clave == 'j34AuUr'
   puts 
   puts sun_uranus_j34 
- elsif (select_clave == 'sharp_17' or select_clave == 'k17') 
+ elsif select_clave == 'k17' 
   puts
   puts sharp_17 
- elsif select_clave == 'chiron_mercury_k17'
+ elsif select_clave == 'k17TiHg'
   puts 
   puts chiron_mercury_k17
- elsif select_clave == 'mars_mars_k17'
+ elsif select_clave == 'k17FeFe'
   puts 
   puts mars_mars_k17
- elsif select_clave == 'mercury_chiron_k17'
+ elsif select_clave == 'k17HgTi'
   puts 
   puts mercury_chiron_k17
- elsif select_clave == 'jupiter_neptune_k17'
+ elsif select_clave == 'k17SnNp'
   puts 
   puts jupiter_neptune_k17
- elsif select_clave == 'uranus_sun_k17'
+ elsif select_clave == 'k17UrAu'
   puts 
   puts uranus_sun_k17
- elsif select_clave == 'saturn_saturn_k17'
+ elsif select_clave == 'k17PbPb'
   puts 
   puts saturn_saturn_k17
- elsif select_clave == 'sun_uranus_k17'
+ elsif select_clave == 'k17AuUr'
   puts 
   puts sun_uranus_k17 
- elsif (select_clave == 'sharp_2_flat_6' or select_clave == 'k2j6') 
+ elsif select_clave == 'k2j6' 
   puts
   puts sharp_2_flat_6 
- elsif select_clave == 'mercury_pallas_k2j6'
+ elsif select_clave == 'k2j6HgMn'
   puts 
   puts mercury_pallas_k2j6
- elsif select_clave == 'pallas_mercury_k2j6'
+ elsif select_clave == 'k2j6MnHg'
   puts 
   puts pallas_mercury_k2j6
- elsif select_clave == 'venus_mars_k2j6'
+ elsif select_clave == 'k2j6CuFe'
   puts 
   puts venus_mars_k2j6
- elsif select_clave == 'saturn_ceres_k2j6'
+ elsif select_clave == 'k2j6PbTi'
   puts 
   puts saturn_ceres_k2j6
- elsif select_clave == 'sun_neptune_k2j6'
+ elsif select_clave == 'k2j6AuNp'
   puts 
   puts sun_neptune_k2j6
- elsif select_clave == 'neptune_sun_k2j6'
+ elsif select_clave == 'k2j6NpAu'
   puts 
   puts neptune_sun_k2j6
- elsif select_clave == 'mars_venus_k2j6'
+ elsif select_clave == 'k2j6FeCu'
   puts 
   puts mars_venus_k2j6 
- elsif (select_clave == 'flat_2_sharp_5' or select_clave == 'j2k5') 
+ elsif select_clave == 'j2k5' 
   puts
   puts flat_2_sharp_5 
- elsif select_clave == 'mars_venus_j2k5'
+ elsif select_clave == 'j2k5FeCu'
   puts 
   puts mars_venus_j2k5
- elsif select_clave == 'mercury_pallas_j2k5'
+ elsif select_clave == 'j2k5HgMn'
   puts 
   puts mercury_pallas_j2k5
- elsif select_clave == 'pallas_mercury_j2k5'
+ elsif select_clave == 'j2k5MnHg'
   puts 
   puts pallas_mercury_j2k5
- elsif select_clave == 'venus_mars_j2k5'
+ elsif select_clave == 'j2k5CuFe'
   puts 
   puts venus_mars_j2k5
- elsif select_clave == 'sun_neptune_j2k5'
+ elsif select_clave == 'j2k5AuNp'
   puts 
   puts sun_neptune_j2k5
- elsif select_clave == 'neptune_sun_j2k5'
+ elsif select_clave == 'j2k5NpAu'
   puts 
   puts neptune_sun_j2k5
- elsif select_clave == 'ceres_saturn_j2k5'
+ elsif select_clave == 'j2k5TiPb'
   puts 
   puts ceres_saturn_j2k5 
- elsif (select_clave == 'sharp_26' or select_clave == 'k26') 
+ elsif select_clave == 'k26' 
   puts
   puts sharp_26 
- elsif select_clave == 'mercury_pallas_k26'
+ elsif select_clave == 'k26HgMn'
   puts 
   puts mercury_pallas_k26
- elsif select_clave == 'pallas_mercury_k26'
+ elsif select_clave == 'k26MnHg'
   puts 
   puts pallas_mercury_k26
- elsif select_clave == 'venus_mars_k26'
+ elsif select_clave == 'k26CuFe'
   puts 
   puts venus_mars_k26
- elsif select_clave == 'saturn_ceres_k26'
+ elsif select_clave == 'k26PbTi'
   puts 
   puts saturn_ceres_k26
- elsif select_clave == 'sun_neptune_k26'
+ elsif select_clave == 'k26AuNp'
   puts 
   puts sun_neptune_k26
- elsif select_clave == 'ceres_saturn_k26'
+ elsif select_clave == 'k26TiPb'
   puts 
   puts ceres_saturn_k26
- elsif select_clave == 'mars_venus_k26'
+ elsif select_clave == 'k26FeCu'
   puts 
   puts mars_venus_k26 
- elsif (select_clave == 'flat_25' or select_clave == 'j25') 
+ elsif select_clave == 'j25' 
   puts
   puts flat_25 
- elsif select_clave == 'neptune_sun_j25'
+ elsif select_clave == 'j25NpAu'
   puts 
   puts neptune_sun_j25
- elsif select_clave == 'ceres_saturn_j25'
+ elsif select_clave == 'j25TiPb'
   puts 
   puts ceres_saturn_j25 
- elsif select_clave == 'mars_venus_j25'
+ elsif select_clave == 'j25FeCu'
   puts 
   puts mars_venus_j25
- elsif select_clave == 'mercury_pallas_j25'
+ elsif select_clave == 'j25HgMn'
   puts 
   puts mercury_pallas_j25
- elsif select_clave == 'pallas_mercury_j25'
+ elsif select_clave == 'j25MnHg'
   puts 
   puts pallas_mercury_j25
- elsif select_clave == 'venus_mars_j25'
+ elsif select_clave == 'j25CuFe'
   puts 
   puts venus_mars_j25
- elsif select_clave == 'saturn_ceres_j25'
+ elsif select_clave == 'j25PbTi'
   puts 
   puts saturn_ceres_j25
  elsif (select_clave =~ /\s|elp/ or select_clave == '')
