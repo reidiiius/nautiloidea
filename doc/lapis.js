@@ -86,7 +86,7 @@
  'str6':' AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ '};
 
  var j17k2 = { 
- 'str0':' PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe Cuti ',
+ 'str0':' PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi ',
  'str1':' ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ',
  'str2':' AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ ',
  'str3':' ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ',

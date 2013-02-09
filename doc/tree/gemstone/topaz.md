@@ -68,7 +68,7 @@
 
 #### j17k2
 
-       PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe Cuti 
+       PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi 
        ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn 
        AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ 
        ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ 
