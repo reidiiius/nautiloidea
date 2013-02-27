@@ -6422,15 +6422,9 @@ def help
  puts ' If you want to leave the program,'
  puts ' just type "exit" or "quit".'
 end  
-
- linewidth = 22.5 
-
+ 
  puts 
- puts ' branches of the tree '.upcase.center linewidth
- puts 
- puts index 
- puts   
- puts help  
+ puts index  
  x_status = false
 while (not x_status) 
  puts
