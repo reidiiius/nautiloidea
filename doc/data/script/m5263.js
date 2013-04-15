@@ -1,5 +1,6 @@
 // Copyright 2013 Reid Netterville III 
 mdlSTD=[
+"<tt>",
 "Mandolin Standard Tuning",
 " ",
 "n0",
@@ -478,6 +479,6 @@ mdlSTD=[
 " ",
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
-" "];
+"</tt>"];
 var i=0;while(mdlSTD[i]){document.write(mdlSTD[i]+"<br>");i++;}
-// EOF
+// EOF 

@@ -1,5 +1,6 @@
 // Copyright 2013 Reid Netterville III 
 gtrSTD=[
+"<tt>",
 "Guitar Standard Tuning",
 " ",
 "n0",
@@ -636,6 +637,6 @@ gtrSTD=[
 " ",
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
-" "];
+"</tt>"];
 var i=0;while(gtrSTD[i]){document.write(gtrSTD[i]+"<br>");i++;}
-// EOF
+// EOF 
