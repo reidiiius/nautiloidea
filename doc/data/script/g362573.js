@@ -638,5 +638,5 @@ gtrSTD=[
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
 "</tt>"];
-var i=0;while(gtrSTD[i]){document.write(gtrSTD[i]+"<br>");i++;}
-// EOF 
+for(var i=0;i<gtrSTD.length;i++){document.write(gtrSTD[i]+"<br>");}
+// var i=0;while(gtrSTD[i]){document.write(gtrSTD[i]+"<br>");i++;}

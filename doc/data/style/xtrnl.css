@@ -1,0 +1,23 @@
+
+body {
+ background-color:khaki; }
+table {
+ margin-left:auto;
+ margin-right:auto; }
+td {
+ border:1px solid tan;
+ background-color:ivory;
+ color:maroon;
+ white-space:nowrap;
+ overflow:hidden; }
+.l-cnt {
+ width:40%;
+ vertical-align:middle;
+ padding-left:5%;
+ padding-right:5%; }
+.r-cnt {
+ width:40%;
+ vertical-align:top;
+ padding-left:5%;
+ padding-right:5%; }
+

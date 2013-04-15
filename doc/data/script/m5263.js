@@ -480,5 +480,5 @@ mdlSTD=[
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
 "</tt>"];
-var i=0;while(mdlSTD[i]){document.write(mdlSTD[i]+"<br>");i++;}
-// EOF 
+for(var i=0;i<mdlSTD.length;i++){document.write(mdlSTD[i]+"<br>");}
+// var i=0;while(mdlSTD[i]){document.write(mdlSTD[i]+"<br>");i++;}
