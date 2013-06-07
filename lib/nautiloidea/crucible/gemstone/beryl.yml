@@ -5,7 +5,7 @@
   n14_G: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ' 
   n14_D: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
   n14_A: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
-  n14_E: ' ____ CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  n14_E: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
   n14_B: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
 
 
@@ -14,7 +14,7 @@
   k0_G: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ' 
   k0_D: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
   k0_A: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
-  k0_E: ' ____ CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
+  k0_E: ' ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ' 
   k0_B: ' ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ' 
 
 

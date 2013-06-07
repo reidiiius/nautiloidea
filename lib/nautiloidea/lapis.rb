@@ -12,7 +12,7 @@ def n0
  @str2=%q[ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ ] 
  @str3=%q[ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ] 
  @str4=%q[ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ] 
- @str5=%q[ CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ] 
+ @str5=%q[ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ] 
  @str6=%q[ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ] 
 end 
 

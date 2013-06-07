@@ -10,7 +10,7 @@ var beadgcf = {
  n0_G: ' AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ ',
  n0_D: ' SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ',
  n0_A: ' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ',
- n0_E: ' CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ',
+ n0_E: ' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ',
  n0_B: ' FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ',
 
  k6_F: ' PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb ',
@@ -644,7 +644,7 @@ var beadgcf = {
  n0G: ' AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ ',
  n0D: ' SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ',
  n0A: ' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ',
- n0E: ' CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ',
+ n0E: ' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ',
  n0B: ' FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ',
  
  k6F: ' PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb ',

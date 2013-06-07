@@ -9,7 +9,7 @@ gtrSTD=[
 "AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____",
 "SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____",
 "AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____",
-"CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
+"CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
 " ",
 "k6",
 "CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____",

@@ -10,7 +10,7 @@
  'str2':' AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ ',
  'str3':' SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ',
  'str4':' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ',
- 'str5':' CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ',
+ 'str5':' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ',
  'str6':' FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ '};
 
  var k6 = { 
@@ -289,7 +289,7 @@
  'str2':' AuAg ____ AgAu ____ FePb HgCu PuMn ____ ____ CuHg PbFe ____ ',
  'str3':' ____ ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu PuMn ',
  'str4':' AgAu ____ FePb HgCu PuMn ____ ____ CuHg PbFe ____ AuAg ____ ',
- 'str5':' CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu PuMn ____ ____ ',
+ 'str5':' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu PuMn ____ ____ ',
  'str6':' FePb HgCu PuMn ____ ____ CuHg PbFe ____ AuAg ____ AgAu ____ '};
 
  var k2 = { 
@@ -307,7 +307,7 @@
  'str2':' AuAg ____ AgAu ____ FePb HgCu ____ ____ MnPu CuHg PbFe ____ ',
  'str3':' ____ MnPu CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ',
  'str4':' AgAu ____ FePb HgCu ____ ____ MnPu CuHg PbFe ____ AuAg ____ ',
- 'str5':' CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ____ MnPu ',
+ 'str5':' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ____ MnPu ',
  'str6':' FePb HgCu ____ ____ MnPu CuHg PbFe ____ AuAg ____ AgAu ____ '};
 
  var j26 = { 

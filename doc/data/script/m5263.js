@@ -4,7 +4,7 @@ mdlSTD=[
 "Mandolin Standard Tuning",
 " ",
 "n0",
-"CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
+"CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
 "AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____",
 "SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____",
 "AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____",
