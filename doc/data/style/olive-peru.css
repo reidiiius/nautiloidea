@@ -3,20 +3,25 @@ table {
  margin-left:auto;
  margin-right:auto; } 
 ul { 
+ background-color:ivory;
  font-family:monospace;
  font-size:18px;
  color:#cd853f;
- position:fixed;
+ position:absolute;
  left:2em;
- top:0.5em; }
+ top:0.25em; }
 ol { 
  list-style-type:circle;
  font-size:16px;
  color:#cd853f; }
-h2 { 
+h1, h2, h3 { 
  text-align:center;
- font-family:monospace;
+ font-family:sans-serif;
  color:tan; } 
+div.note { 
+ position:fixed;
+ left:20%;
+ top:20%; } 
 a:link {
  text-decoration:none;
  color:#778899; }
@@ -30,7 +35,7 @@ a:active {
  text-decoration:none; 
  color:#2f4f4f; } 
 div.strings { 
- padding-top:0em;
+ padding-top:1em;
  font-family:monospace;
  font-size:20px;
  color:olive;
