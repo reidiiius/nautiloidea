@@ -13,7 +13,11 @@ div.nav {
   margin-left:2em; }
 ul { 
   font-size:16px;
-  color:#cd853f; } 
+  color:#cd853f;
+  background-color:ivory; }
+li {
+ display:inline;
+ padding:4px; } 
 a:link {
  text-decoration:none;
  color:#778899; }
@@ -28,11 +32,12 @@ a:active {
  color:#2f4f4f; }
 table { 
   margin-left:auto;
-  margin-right:auto; } 
+  margin-right:auto;
+  margin-top:5em; } 
 td { 
   font-size:15px;
   color:#2f4f4f;
-  padding:0.33em; } 
+  padding:0.25em; } 
 p.attr { 
   text-align:center;
   font-family:monospace;
