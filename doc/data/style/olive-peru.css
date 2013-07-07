@@ -43,6 +43,7 @@ div.strings {
  margin:0.5em; } 
 div.cmd-ui {
  text-align:center;
+ white-space:nowrap;
  padding:0.5em; }
 button.bttn {
  background-color:ivory;
