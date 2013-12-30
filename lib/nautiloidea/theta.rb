@@ -440,7 +440,7 @@ select_clave = gets.chomp
  elsif select_clave == 'n0'  
   puts 
   puts natural 
- elsif select_clave == 'n0HgCu '
+ elsif select_clave == 'n0HgCu'
   puts 
   puts mercury_venus 
  elsif select_clave == 'n0SnSn'
