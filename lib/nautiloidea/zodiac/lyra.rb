@@ -1,6 +1,62 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/ruby 
 
-class Natural    
+class Cyclone
+
+ def str00 
+   @str00 
+ end 
+ 
+ def str01 
+   @str01 
+ end 
+
+ def str02 
+   @str02 
+ end 
+
+ def str03 
+   @str03  
+ end 
+
+ def str04 
+   @str04  
+ end 
+
+ def str05 
+   @str05 
+ end 
+
+ def str06 
+   @str06 
+ end 
+
+ def str07 
+   @str07  
+ end 
+
+ def str08  
+   @str08  
+ end 
+
+ def str09  
+   @str09  
+ end 
+
+ def str10  
+   @str10  
+ end 
+
+ def str11 
+   @str11 
+ end 
+
+ def str12 
+   @str12 
+ end 
+
+end
+
+class Natural < Cyclone
 
   def initialize 
     n0   
@@ -22,58 +78,6 @@ def n0
  @str12=%q[ ___ dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_n0 = Proc.new do 
@@ -120,7 +124,7 @@ bass_std_n0 = Proc.new do
   puts Natural.new.str12[12..64] 
 end 
 
-class Sharp_6  
+class Sharp_6 < Cyclone
 
   def initialize 
     k6 
@@ -141,58 +145,6 @@ def k6
  @str11=%q[ ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 ]
  @str12=%q[ ___ dn1 ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ ]
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -240,7 +192,7 @@ bass_std_k6 = Proc.new do
   puts Sharp_6.new.str12[12..64] 
 end 
 
-class Flat_5  
+class Flat_5 < Cyclone
 
   def initialize 
     j5 
@@ -261,58 +213,6 @@ def j5
  @str11=%q[ gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 ]
  @str12=%q[ ___ dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ] 
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -360,7 +260,7 @@ bass_std_j5 = Proc.new do
   puts Flat_5.new.str12[12..64] 
 end 
 
-class DblFlat_2_Flat_17  
+class DblFlat_2_Flat_17 < Cyclone
 
   def initialize 
     y2j17 
@@ -382,58 +282,6 @@ def y2j17
  @str12=%q[ ___ ___ ___ en1 fn1 ___ gn1 ___ an1 bj1 cj2 dy2 ___ ___ ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_y2j17 = Proc.new do 
@@ -480,7 +328,7 @@ bass_std_y2j17 = Proc.new do
   puts DblFlat_2_Flat_17.new.str12[12..64] 
 end 
 
-class DblSharp_2_Sharp_34   
+class DblSharp_2_Sharp_34 < Cyclone
 
   def initialize 
     x2k34 
@@ -502,58 +350,6 @@ def x2k34
  @str12=%q[ ___ ___ ___ dx1 ek1 fk1 gn1 ___ an1 ___ bn1 cn2 ___ ___ ___ dx2 ek2 fk2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_x2k34 = Proc.new do 
@@ -600,7 +396,7 @@ bass_std_x2k34 = Proc.new do
   puts DblSharp_2_Sharp_34.new.str12[12..64] 
 end 
 
-class Flat_3    
+class Flat_3 < Cyclone
 
   def initialize 
     j3   
@@ -622,58 +418,6 @@ def j3
  @str12=%q[ ___ dn1 ej1 ___ fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j3 = Proc.new do 
@@ -720,7 +464,7 @@ bass_std_j3 = Proc.new do
   puts Flat_3.new.str12[12..64] 
 end 
  
-class Sharp_1    
+class Sharp_1 < Cyclone
 
   def initialize 
     k1   
@@ -742,58 +486,6 @@ def k1
  @str12=%q[ ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k1 = Proc.new do 
@@ -840,7 +532,7 @@ bass_std_k1 = Proc.new do
   puts Sharp_1.new.str12[12..64] 
 end  
 
-class Flat_17_Sharp_2    
+class Flat_17_Sharp_2 < Cyclone
 
   def initialize 
     j17k2   
@@ -862,58 +554,6 @@ def j17k2
  @str12=%q[ ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 bj1 cj2 ___ ___ ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j17k2 = Proc.new do 
@@ -960,7 +600,7 @@ bass_std_j17k2 = Proc.new do
   puts Flat_17_Sharp_2.new.str12[12..64] 
 end 
 
-class Flat_2_Sharp_34    
+class Flat_2_Sharp_34 < Cyclone
 
   def initialize 
     j2k34   
@@ -982,58 +622,6 @@ def j2k34
  @str12=%q[ dj1 ___ ___ ___ ek1 fk1 gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ ___ ek2 fk2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j2k34 = Proc.new do 
@@ -1080,7 +668,7 @@ bass_std_j2k34 = Proc.new do
   puts Flat_2_Sharp_34.new.str12[12..64] 
 end 
 
-class Sharp_26_Flat_5   
+class Sharp_26_Flat_5 < Cyclone
 
   def initialize 
     k26j5 
@@ -1102,58 +690,6 @@ def k26j5
  @str12=%q[ ___ ___ dk1 en1 fn1 gj1 ___ ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ] 
 end  
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k26j5 = Proc.new do 
@@ -1200,7 +736,7 @@ bass_std_k26j5 = Proc.new do
   puts Sharp_26_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_25_Sharp_6    
+class Flat_25_Sharp_6 < Cyclone
 
   def initialize 
     j25k6 
@@ -1222,58 +758,6 @@ def j25k6
  @str12=%q[ dj1 ___ ___ en1 fn1 gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j25k6 = Proc.new do 
@@ -1320,7 +804,7 @@ bass_std_j25k6 = Proc.new do
   puts Flat_25_Sharp_6.new.str12[12..64] 
 end 
 
-class Flat_6    
+class Flat_6 < Cyclone
 
   def initialize 
     j6    
@@ -1342,58 +826,6 @@ def j6
  @str12=%q[ ___ dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j6 = Proc.new do 
@@ -1440,7 +872,7 @@ bass_std_j6 = Proc.new do
   puts Flat_6.new.str12[12..64] 
 end 
 
-class Sharp_5    
+class Sharp_5 < Cyclone
 
   def initialize 
     k5   
@@ -1462,58 +894,6 @@ def k5
  @str12=%q[ ___ dn1 ___ en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k5 = Proc.new do 
@@ -1560,7 +940,7 @@ bass_std_k5 = Proc.new do
   puts Sharp_5.new.str12[12..64] 
 end 
 
-class Sharp_56    
+class Sharp_56 < Cyclone
 
   def initialize 
     k56   
@@ -1582,58 +962,6 @@ def k56
  @str12=%q[ ___ dn1 ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k56 = Proc.new do 
@@ -1680,7 +1008,7 @@ bass_std_k56 = Proc.new do
   puts Sharp_56.new.str12[12..64] 
 end 
 
-class Flat_56    
+class Flat_56 < Cyclone
 
   def initialize 
     j56    
@@ -1702,58 +1030,6 @@ def j56
  @str12=%q[ ___ dn1 ___ en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j56 = Proc.new do 
@@ -1800,7 +1076,7 @@ bass_std_j56 = Proc.new do
   puts Flat_56.new.str12[12..64] 
 end 
 
-class Sharp_127    
+class Sharp_127 < Cyclone
 
   def initialize 
     k127    
@@ -1822,58 +1098,6 @@ def k127
  @str12=%q[ ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k127 = Proc.new do 
@@ -1920,7 +1144,7 @@ bass_std_k127 = Proc.new do
   puts Sharp_127.new.str12[12..64] 
 end 
 
-class Flat_234    
+class Flat_234 < Cyclone
 
   def initialize 
     j234   
@@ -1942,58 +1166,6 @@ def j234
  @str12=%q[ dj1 ___ ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j234 = Proc.new do 
@@ -2040,7 +1212,7 @@ bass_std_j234 = Proc.new do
   puts Flat_234.new.str12[12..64] 
 end 
 
-class Sharp_127_Flat_5   
+class Sharp_127_Flat_5 < Cyclone
 
   def initialize 
     k127j5 
@@ -2062,58 +1234,6 @@ def k127j5
  @str12=%q[ ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k127j5 = Proc.new do 
@@ -2160,7 +1280,7 @@ bass_std_k127j5 = Proc.new do
   puts Sharp_127_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_234_Sharp_6   
+class Flat_234_Sharp_6 < Cyclone
 
   def initialize 
     j234k6 
@@ -2182,58 +1302,6 @@ def j234k6
  @str12=%q[ dj1 ___ ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 fj2 ___ ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j234k6 = Proc.new do 
@@ -2280,7 +1348,7 @@ bass_std_j234k6 = Proc.new do
   puts Flat_234_Sharp_6.new.str12[12..64] 
 end 
 
-class Sharp_17_Flat_6   
+class Sharp_17_Flat_6 < Cyclone
 
   def initialize 
     k17j6 
@@ -2302,58 +1370,6 @@ def k17j6
  @str12=%q[ ck1 dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ ] 
 end  
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k17j6 = Proc.new do 
@@ -2400,7 +1416,7 @@ bass_std_k17j6 = Proc.new do
   puts Sharp_17_Flat_6.new.str12[12..64] 
 end 
 
-class Flat_34_Sharp_5  
+class Flat_34_Sharp_5 < Cyclone
 
   def initialize 
     j34k5 
@@ -2422,58 +1438,6 @@ def j34k5
  @str12=%q[ ___ dn1 ej1 fj1 ___ ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ ]
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j34k5 = Proc.new do 
@@ -2520,7 +1484,7 @@ bass_std_j34k5 = Proc.new do
   puts Flat_34_Sharp_5.new.str12[12..64] 
 end 
 
-class Sharp_1_Flat_6   
+class Sharp_1_Flat_6 < Cyclone
 
   def initialize 
     k1j6 
@@ -2542,58 +1506,6 @@ def k1j6
  @str12=%q[ ck1 dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k1j6 = Proc.new do 
@@ -2640,7 +1552,7 @@ bass_std_k1j6 = Proc.new do
   puts Sharp_1_Flat_6.new.str12[12..64] 
 end 
 
-class Flat_3_Sharp_5   
+class Flat_3_Sharp_5 < Cyclone
 
   def initialize 
     j3k5 
@@ -2662,58 +1574,6 @@ def j3k5
  @str12=%q[ ___ dn1 ej1 ___ fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j3k5 = Proc.new do 
@@ -2760,7 +1620,7 @@ bass_std_j3k5 = Proc.new do
   puts Flat_3_Sharp_5.new.str12[12..64] 
 end 
 
-class Sharp_16  
+class Sharp_16 < Cyclone
 
   def initialize 
     k16 
@@ -2781,58 +1641,6 @@ def k16
  @str11=%q[ ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 ]
  @str12=%q[ ck1 dn1 ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ___ en2 fn2 ___ ]
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -2880,7 +1688,7 @@ bass_std_k16 = Proc.new do
   puts Sharp_16.new.str12[12..64] 
 end 
 
-class Flat_35  
+class Flat_35 < Cyclone
 
   def initialize 
     j35 
@@ -2901,58 +1709,6 @@ def j35
  @str11=%q[ gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 gj2 ___ ___ an2 ___ bn2 ]
  @str12=%q[ ___ dn1 ej1 ___ fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 gj2 ] 
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -3000,7 +1756,7 @@ bass_std_j35 = Proc.new do
   puts Flat_35.new.str12[12..64] 
 end 
 
-class Flat_2    
+class Flat_2 < Cyclone
 
   def initialize 
     j2   
@@ -3022,58 +1778,6 @@ def j2
  @str12=%q[ dj1 ___ ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j2 = Proc.new do 
@@ -3120,7 +1824,7 @@ bass_std_j2 = Proc.new do
   puts Flat_2.new.str12[12..64] 
 end 
 
-class Sharp_2    
+class Sharp_2 < Cyclone
 
   def initialize 
     k2    
@@ -3142,58 +1846,6 @@ def k2
  @str12=%q[ ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k2 = Proc.new do 
@@ -3240,7 +1892,7 @@ bass_std_k2 = Proc.new do
   puts Sharp_2.new.str12[12..64] 
 end 
 
-class Flat_26    
+class Flat_26 < Cyclone
 
   def initialize 
     j26   
@@ -3262,58 +1914,6 @@ def j26
  @str12=%q[ dj1 ___ ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j26 = Proc.new do 
@@ -3360,7 +1960,7 @@ bass_std_j26 = Proc.new do
   puts Flat_26.new.str12[12..64] 
 end 
 
-class Sharp_25    
+class Sharp_25 < Cyclone
 
   def initialize 
     k25    
@@ -3382,58 +1982,6 @@ def k25
  @str12=%q[ ___ ___ dk1 en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k25 = Proc.new do 
@@ -3480,7 +2028,7 @@ bass_std_k25 = Proc.new do
   puts Sharp_25.new.str12[12..64] 
 end 
  
-class Flat_23    
+class Flat_23 < Cyclone
 
   def initialize 
     j23   
@@ -3502,58 +2050,6 @@ def j23
  @str12=%q[ dj1 ___ ej1 ___ fn1 ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 ___ fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j23 = Proc.new do 
@@ -3600,7 +2096,7 @@ bass_std_j23 = Proc.new do
   puts Flat_23.new.str12[12..64] 
 end 
 
-class Sharp_12    
+class Sharp_12 < Cyclone
 
   def initialize 
     k12    
@@ -3622,58 +2118,6 @@ def k12
  @str12=%q[ ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k12 = Proc.new do 
@@ -3720,7 +2164,7 @@ bass_std_k12 = Proc.new do
   puts Sharp_12.new.str12[12..64] 
 end 
 
-class Flat_23_Sharp_6    
+class Flat_23_Sharp_6 < Cyclone
 
   def initialize 
     j23k6   
@@ -3742,58 +2186,6 @@ def j23k6
  @str12=%q[ dj1 ___ ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 ___ fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j23k6 = Proc.new do 
@@ -3840,7 +2232,7 @@ bass_std_j23k6 = Proc.new do
   puts Flat_23_Sharp_6.new.str12[12..64] 
 end 
 
-class Sharp_12_Flat_5    
+class Sharp_12_Flat_5 < Cyclone
 
   def initialize 
     k12j5    
@@ -3862,58 +2254,6 @@ def k12j5
  @str12=%q[ ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k12j5 = Proc.new do 
@@ -3960,7 +2300,7 @@ bass_std_k12j5 = Proc.new do
   puts Sharp_12_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_2_Sharp_6    
+class Flat_2_Sharp_6 < Cyclone
 
   def initialize 
     j2k6   
@@ -3982,58 +2322,6 @@ def j2k6
  @str12=%q[ dj1 ___ ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j2k6 = Proc.new do 
@@ -4080,7 +2368,7 @@ bass_std_j2k6 = Proc.new do
   puts Flat_2_Sharp_6.new.str12[12..64] 
 end 
 
-class Sharp_2_Flat_5    
+class Sharp_2_Flat_5 < Cyclone
 
   def initialize 
     k2j5    
@@ -4102,58 +2390,6 @@ def k2j5
  @str12=%q[ ___ ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k2j5 = Proc.new do 
@@ -4200,7 +2436,7 @@ bass_std_k2j5 = Proc.new do
   puts Sharp_2_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_2_Sharp_56    
+class Flat_2_Sharp_56 < Cyclone
 
   def initialize 
     j2k56   
@@ -4222,58 +2458,6 @@ def j2k56
  @str12=%q[ dj1 ___ ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j2k56 = Proc.new do 
@@ -4320,7 +2504,7 @@ bass_std_j2k56 = Proc.new do
   puts Flat_2_Sharp_56.new.str12[12..64] 
 end 
 
-class Sharp_2_Flat_56    
+class Sharp_2_Flat_56 < Cyclone
 
   def initialize 
     k2j56    
@@ -4342,58 +2526,6 @@ def k2j56
  @str12=%q[ ___ ___ dk1 en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k2j56 = Proc.new do 
@@ -4440,7 +2572,7 @@ bass_std_k2j56 = Proc.new do
   puts Sharp_2_Flat_56.new.str12[12..64] 
 end 
 
-class Flat_34_Sharp_6   
+class Flat_34_Sharp_6 < Cyclone
 
   def initialize 
     j34k6 
@@ -4461,58 +2593,6 @@ def j34k6
  @str11=%q[ ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ]
  @str12=%q[ ___ dn1 ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 fj2 ___ ___ ] 
 end  
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -4560,7 +2640,7 @@ bass_std_j34k6 = Proc.new do
   puts Flat_34_Sharp_6.new.str12[12..64] 
 end 
 
-class Sharp_17_Flat_5   
+class Sharp_17_Flat_5 < Cyclone
 
   def initialize 
     k17j5 
@@ -4581,58 +2661,6 @@ def k17j5
  @str11=%q[ gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ ___ ]
  @str12=%q[ ck1 dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 gj2 ]
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -4680,7 +2708,7 @@ bass_std_k17j5 = Proc.new do
   puts Sharp_17_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_34_Sharp_16   
+class Flat_34_Sharp_16 < Cyclone
 
   def initialize 
     j34k16 
@@ -4700,59 +2728,7 @@ def j34k16
  @str10=%q[ bn1 ___ ck2 dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ___ ck3 dn3 ej3 fj3 ]
  @str11=%q[ ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ]
  @str12=%q[ ck1 dn1 ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ej2 fj2 ___ ___ ] 
-end  
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
+end 
 
 end 
 
@@ -4800,7 +2776,7 @@ bass_std_j34k16 = Proc.new do
   puts Flat_34_Sharp_16.new.str12[12..64] 
 end 
 
-class Sharp_17_Flat_35   
+class Sharp_17_Flat_35 < Cyclone
 
   def initialize 
     k17j35 
@@ -4821,58 +2797,6 @@ def k17j35
  @str11=%q[ gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ej2 ___ fn2 gj2 ___ ___ an2 ___ ___ ]
  @str12=%q[ ck1 dn1 ej1 ___ fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ej2 ___ fn2 gj2 ] 
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -4920,7 +2844,7 @@ bass_std_k17j35 = Proc.new do
   puts Sharp_17_Flat_35.new.str12[12..64] 
 end 
 
-class DblFlat_3_Flat_2_Sharp_6   
+class DblFlat_3_Flat_2_Sharp_6 < Cyclone
 
   def initialize 
     y3j2k6 
@@ -4941,57 +2865,6 @@ def y3j2k6
  @str11=%q[ ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 ___ gn2 ___ ___ ak2 bn2 ]
  @str12=%q[ dj1 ey1 ___ ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 ___ ] 
 end  
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -5039,7 +2912,7 @@ bass_std_y3j2k6 = Proc.new do
   puts DblFlat_3_Flat_2_Sharp_6.new.str12[12..64] 
 end 
 
-class DblSharp_1_Sharp_2_Flat_5   
+class DblSharp_1_Sharp_2_Flat_5 < Cyclone
 
   def initialize 
     x1k2j5 
@@ -5060,58 +2933,6 @@ def x1k2j5
  @str11=%q[ gj1 ___ ___ an1 ___ bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ]
  @str12=%q[ ___ cx1 dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ] 
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -5159,7 +2980,7 @@ bass_std_x1k2j5 = Proc.new do
   puts DblSharp_1_Sharp_2_Flat_5.new.str12[12..64] 
 end 
 
-class DblFlat_3_Flat_25_Sharp_6   
+class DblFlat_3_Flat_25_Sharp_6 < Cyclone
 
   def initialize 
     y3j25k6 
@@ -5179,59 +3000,7 @@ def y3j25k6
  @str10=%q[ bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 ___ ___ ___ ak2 bn2 cn3 dj3 ey3 ___ ___ ]
  @str11=%q[ gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 ___ ___ ___ ak2 bn2 ]
  @str12=%q[ dj1 ey1 ___ ___ fn1 gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 ] 
-end  
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
+end 
 
 end 
 
@@ -5279,7 +3048,7 @@ bass_std_y3j25k6 = Proc.new do
   puts DblFlat_3_Flat_25_Sharp_6.new.str12[12..64] 
 end 
 
-class DblSharp_1_Sharp_26_Flat_5   
+class DblSharp_1_Sharp_26_Flat_5 < Cyclone
 
   def initialize 
     x1k26j5 
@@ -5300,58 +3069,6 @@ def x1k26j5
  @str11=%q[ gj1 ___ ___ ___ ak1 bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ___ ___ ___ ak2 bn2 ]
  @str12=%q[ ___ cx1 dk1 en1 fn1 gj1 ___ ___ ___ ak1 bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ] 
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -5399,7 +3116,7 @@ bass_std_x1k26j5 = Proc.new do
   puts DblSharp_1_Sharp_26_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_3_Sharp_6  
+class Flat_3_Sharp_6 < Cyclone
 
   def initialize 
     j3k6 
@@ -5420,58 +3137,6 @@ def j3k6
  @str11=%q[ ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 ]
  @str12=%q[ ___ dn1 ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 ___ fn2 ___ ]
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -5519,7 +3184,7 @@ bass_std_j3k6 = Proc.new do
   puts Flat_3_Sharp_6.new.str12[12..64] 
 end 
 
-class Sharp_1_Flat_5  
+class Sharp_1_Flat_5 < Cyclone
 
   def initialize 
     k1j5 
@@ -5540,58 +3205,6 @@ def k1j5
  @str11=%q[ gj1 ___ ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 ]
  @str12=%q[ ck1 dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 gj2 ] 
 end 
-
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end
 
 end 
 
@@ -5639,7 +3252,7 @@ bass_std_k1j5 = Proc.new do
   puts Sharp_1_Flat_5.new.str12[12..64] 
 end 
 
-class Flat_34   
+class Flat_34 < Cyclone
 
   def initialize 
     j34 
@@ -5661,58 +3274,6 @@ def j34
  @str12=%q[ ___ dn1 ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ ]
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
  guitar_std_j34 = Proc.new do 
@@ -5759,7 +3320,7 @@ bass_std_j34 = Proc.new do
   puts Flat_34.new.str12[12..64] 
 end 
 
-class Sharp_17   
+class Sharp_17 < Cyclone
 
   def initialize 
     k17 
@@ -5781,58 +3342,6 @@ def k17
  @str12=%q[ ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ ]
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k17 = Proc.new do 
@@ -5879,7 +3388,7 @@ bass_std_k17 = Proc.new do
   puts Sharp_17.new.str12[12..64] 
 end 
 
-class Sharp_2_Flat_6    
+class Sharp_2_Flat_6 < Cyclone
 
   def initialize 
     k2j6    
@@ -5901,58 +3410,6 @@ def k2j6
  @str12=%q[ ___ ___ dk1 en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k2j6 = Proc.new do 
@@ -5999,7 +3456,7 @@ bass_std_k2j6 = Proc.new do
   puts Sharp_2_Flat_6.new.str12[12..64] 
 end 
 
-class Flat_2_Sharp_5    
+class Flat_2_Sharp_5 < Cyclone
 
   def initialize 
     j2k5   
@@ -6021,58 +3478,6 @@ def j2k5
  @str12=%q[ dj1 ___ ___ en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j2k5 = Proc.new do 
@@ -6119,7 +3524,7 @@ bass_std_j2k5 = Proc.new do
   puts Flat_2_Sharp_5.new.str12[12..64] 
 end 
  
-class Sharp_26    
+class Sharp_26 < Cyclone
 
   def initialize 
     k26    
@@ -6141,58 +3546,6 @@ def k26
  @str12=%q[ ___ ___ dk1 en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 ___ ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_k26 = Proc.new do 
@@ -6239,7 +3592,7 @@ bass_std_k26 = Proc.new do
   puts Sharp_26.new.str12[12..64] 
 end 
 
-class Flat_25    
+class Flat_25 < Cyclone
 
   def initialize 
     j25   
@@ -6261,58 +3614,6 @@ def j25
  @str12=%q[ dj1 ___ ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 gj2 ] 
 end 
 
- def str00 
-   @str00 
- end 
- 
- def str01 
-   @str01 
- end 
- 
- def str02 
-   @str02 
- end 
- 
- def str03 
-   @str03  
- end 
- 
- def str04 
-   @str04  
- end 
- 
- def str05 
-   @str05 
- end 
- 
- def str06 
-   @str06 
- end 
- 
- def str07 
-   @str07  
- end 
- 
- def str08  
-   @str08  
- end 
- 
- def str09  
-   @str09  
- end 
- 
- def str10  
-   @str10  
- end 
- 
- def str11 
-   @str11 
- end 
- 
- def str12 
-   @str12 
- end 
- 
 end 
 
 guitar_std_j25 = Proc.new do 
@@ -7392,7 +4693,8 @@ while (not x_status)
  bass_std_j25.call 
  elsif selection =~ /next/
   x_status = true 
- elsif selection =~ /^exit|quit/ 
+ elsif selection =~ /exit|quit/ 
  exit  
  end
-end  
+end
+
