@@ -1,6 +1,38 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/ruby
 
-class Natural0 
+class Qtune
+
+  def str0
+    @str0
+  end
+
+  def str1
+    @str1 
+  end 
+
+  def str2
+    @str2
+  end 
+
+  def str3
+    @str3
+  end
+
+  def str4
+    @str4  
+  end 
+
+ def str5
+   @str5 
+ end 
+
+ def str6 
+   @str6 
+ end
+
+end
+
+class Natural0 < Qtune
 
   def initialize 
     n0   
@@ -14,37 +46,9 @@ def n0
  @str4=%q[ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ] 
  @str5=%q[ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ] 
  @str6=%q[ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 n0_4ths = Proc.new do 
   puts  
@@ -68,7 +72,7 @@ n0_5ths = Proc.new do
   puts Natural0.new.str0[0..61] 
 end 
 
-class Sharp6 
+class Sharp6 < Qtune
 
   def initialize 
     k6    
@@ -82,37 +86,9 @@ def k6
  @str4=%q[ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ] 
  @str5=%q[ CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ ] 
  @str6=%q[ FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k6_4ths = Proc.new do 
   puts  
@@ -136,7 +112,7 @@ k6_5ths = Proc.new do
   puts Sharp6.new.str0[0..61] 
 end 
 
-class Flat5
+class Flat5 < Qtune
 
   def initialize 
     j5    
@@ -150,37 +126,9 @@ def j5
  @str4=%q[ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ ] 
  @str5=%q[ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ ] 
  @str6=%q[ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j5_4ths = Proc.new do 
   puts  
@@ -204,7 +152,7 @@ j5_5ths = Proc.new do
   puts Flat5.new.str0[0..61] 
 end 
 
-class Flat5Y6  
+class Flat5Y6 < Qtune
 
   def initialize 
     j5y6    
@@ -218,37 +166,9 @@ def j5y6
  @str4=%q[ ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ] 
  @str5=%q[ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ ] 
  @str6=%q[ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j5y6_4ths = Proc.new do 
   puts  
@@ -272,7 +192,7 @@ j5y6_5ths = Proc.new do
   puts Flat5Y6.new.str0[0..61] 
 end 
 
-class Sharp6X5
+class Sharp6X5 < Qtune
 
   def initialize 
     k6x5    
@@ -286,37 +206,9 @@ def k6x5
  @str4=%q[ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ ] 
  @str5=%q[ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ ] 
  @str6=%q[ FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k6x5_4ths = Proc.new do 
   puts  
@@ -340,7 +232,7 @@ k6x5_5ths = Proc.new do
   puts Sharp6X5.new.str0[0..61] 
 end 
 
-class Flat3 
+class Flat3 < Qtune
 
   def initialize 
     j3    
@@ -354,37 +246,9 @@ def j3
  @str4=%q[ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ ] 
  @str5=%q[ ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ] 
  @str6=%q[ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j3_4ths = Proc.new do 
   puts  
@@ -408,7 +272,7 @@ j3_5ths = Proc.new do
   puts Flat3.new.str0[0..61] 
 end 
 
-class Flat5Sharp6 
+class Flat5Sharp6 < Qtune
 
   def initialize 
     j5k6    
@@ -422,37 +286,9 @@ def j5k6
  @str4=%q[ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ] 
  @str5=%q[ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ ] 
  @str6=%q[ CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j5k6_4ths = Proc.new do 
   puts  
@@ -476,7 +312,7 @@ j5k6_5ths = Proc.new do
   puts Flat5Sharp6.new.str0[0..61] 
 end 
 
-class Sharp26Flat5 
+class Sharp26Flat5 < Qtune
 
   def initialize 
     k26j5    
@@ -490,37 +326,9 @@ def k26j5
  @str4=%q[ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ] 
  @str5=%q[ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg ] 
  @str6=%q[ TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k26j5_4ths = Proc.new do 
   puts  
@@ -544,7 +352,7 @@ k26j5_5ths = Proc.new do
   puts Sharp26Flat5.new.str0[0..61] 
 end 
 
-class Flat25Sharp6
+class Flat25Sharp6 < Qtune
 
   def initialize 
     j25k6    
@@ -558,37 +366,9 @@ def j25k6
  @str4=%q[ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ] 
  @str5=%q[ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ ] 
  @str6=%q[ TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j25k6_4ths = Proc.new do 
   puts  
@@ -612,7 +392,7 @@ j25k6_5ths = Proc.new do
   puts Flat25Sharp6.new.str0[0..61] 
 end 
 
-class Flat6 
+class Flat6 < Qtune
 
   def initialize 
     j6    
@@ -626,37 +406,9 @@ def j6
  @str4=%q[ ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ] 
  @str5=%q[ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ ] 
  @str6=%q[ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j6_4ths = Proc.new do 
   puts  
@@ -680,7 +432,7 @@ j6_5ths = Proc.new do
   puts Flat6.new.str0[0..61] 
 end 
 
-class Sharp5 
+class Sharp5 < Qtune
 
   def initialize 
     k5    
@@ -694,37 +446,9 @@ def k5
  @str4=%q[ HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp ] 
  @str5=%q[ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ ] 
  @str6=%q[ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k5_4ths = Proc.new do 
   puts  
@@ -748,7 +472,7 @@ k5_5ths = Proc.new do
   puts Sharp5.new.str0[0..61] 
 end 
 
-class Sharp56 
+class Sharp56 < Qtune
 
   def initialize 
     k56    
@@ -762,37 +486,9 @@ def k56
  @str4=%q[ ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ] 
  @str5=%q[ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ ] 
  @str6=%q[ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k56_4ths = Proc.new do 
   puts  
@@ -816,7 +512,7 @@ k56_5ths = Proc.new do
   puts Sharp56.new.str0[0..61] 
 end 
 
-class Flat56 
+class Flat56 < Qtune
 
   def initialize 
     j56    
@@ -830,37 +526,9 @@ def j56
  @str4=%q[ ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ] 
  @str5=%q[ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ ] 
  @str6=%q[ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j56_4ths = Proc.new do 
   puts  
@@ -884,7 +552,7 @@ j56_5ths = Proc.new do
   puts Flat56.new.str0[0..61] 
 end 
 
-class Sharp127 
+class Sharp127 < Qtune
 
   def initialize 
     k127    
@@ -898,37 +566,9 @@ def k127
  @str4=%q[ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ ] 
  @str5=%q[ FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg ] 
  @str6=%q[ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k127_4ths = Proc.new do 
   puts  
@@ -952,7 +592,7 @@ k127_5ths = Proc.new do
   puts Sharp127.new.str0[0..61] 
 end 
 
-class Flat234 
+class Flat234 < Qtune
 
   def initialize 
     j234    
@@ -966,37 +606,9 @@ def j234
  @str4=%q[ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ ] 
  @str5=%q[ HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ] 
  @str6=%q[ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j234_4ths = Proc.new do 
   puts  
@@ -1020,7 +632,7 @@ j234_5ths = Proc.new do
   puts Flat234.new.str0[0..61] 
 end 
 
-class Sharp127Flat5 
+class Sharp127Flat5 < Qtune
 
   def initialize 
     k127j5    
@@ -1034,37 +646,9 @@ def k127j5
  @str4=%q[ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ ] 
  @str5=%q[ FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn ] 
  @str6=%q[ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k127j5_4ths = Proc.new do 
   puts  
@@ -1088,7 +672,7 @@ k127j5_5ths = Proc.new do
   puts Sharp127Flat5.new.str0[0..61] 
 end 
 
-class Flat234Sharp6 
+class Flat234Sharp6 < Qtune
 
   def initialize 
     j234k6    
@@ -1102,37 +686,9 @@ def j234k6
  @str4=%q[ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ] 
  @str5=%q[ PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ] 
  @str6=%q[ HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j234k6_4ths = Proc.new do 
   puts  
@@ -1156,7 +712,7 @@ j234k6_5ths = Proc.new do
   puts Flat234Sharp6.new.str0[0..61] 
 end 
 
-class Flat34Sharp5 
+class Flat34Sharp5 < Qtune
 
   def initialize 
     j34k5    
@@ -1170,37 +726,9 @@ def j34k5
  @str4=%q[ PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr ] 
  @str5=%q[ HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp ] 
  @str6=%q[ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j34k5_4ths = Proc.new do 
   puts  
@@ -1224,7 +752,7 @@ j34k5_5ths = Proc.new do
   puts Flat34Sharp5.new.str0[0..61] 
 end 
 
-class Sharp17Flat6
+class Sharp17Flat6 < Qtune
 
   def initialize 
     k17j6    
@@ -1238,37 +766,9 @@ def k17j6
  @str4=%q[ ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ] 
  @str5=%q[ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ ] 
  @str6=%q[ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k17j6_4ths = Proc.new do 
   puts  
@@ -1292,7 +792,7 @@ k17j6_5ths = Proc.new do
   puts Sharp17Flat6.new.str0[0..61] 
 end 
 
-class Sharp1Flat6
+class Sharp1Flat6 < Qtune
 
   def initialize 
     k1j6  
@@ -1306,37 +806,9 @@ def k1j6
  @str4=%q[ ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ] 
  @str5=%q[ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ ] 
  @str6=%q[ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k1j6_4ths = Proc.new do 
   puts  
@@ -1360,7 +832,7 @@ k1j6_5ths = Proc.new do
   puts Sharp1Flat6.new.str0[0..61] 
 end 
 
-class Flat3Sharp5 
+class Flat3Sharp5 < Qtune
 
   def initialize 
     j3k5 
@@ -1374,37 +846,9 @@ def j3k5
  @str4=%q[ PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp ] 
  @str5=%q[ ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ] 
  @str6=%q[ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j3k5_4ths = Proc.new do 
   puts  
@@ -1428,7 +872,7 @@ j3k5_5ths = Proc.new do
   puts Flat3Sharp5.new.str0[0..61] 
 end 
 
-class Flat2 
+class Flat2 < Qtune
 
   def initialize 
     j2    
@@ -1442,37 +886,9 @@ def j2
  @str4=%q[ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ] 
  @str5=%q[ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ ] 
  @str6=%q[ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j2_4ths = Proc.new do 
   puts  
@@ -1496,7 +912,7 @@ j2_5ths = Proc.new do
   puts Flat2.new.str0[0..61] 
 end 
 
-class Sharp2
+class Sharp2 < Qtune
 
   def initialize 
     k2    
@@ -1510,37 +926,9 @@ def k2
  @str4=%q[ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ ] 
  @str5=%q[ HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu ] 
  @str6=%q[ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k2_4ths = Proc.new do 
   puts  
@@ -1564,7 +952,7 @@ k2_5ths = Proc.new do
   puts Sharp2.new.str0[0..61] 
 end 
 
-class Flat26 
+class Flat26 < Qtune
 
   def initialize 
     j26 
@@ -1578,37 +966,9 @@ def j26
  @str4=%q[ ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ] 
  @str5=%q[ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ ] 
  @str6=%q[ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j26_4ths = Proc.new do 
   puts  
@@ -1632,7 +992,7 @@ j26_5ths = Proc.new do
   puts Flat26.new.str0[0..61] 
 end 
 
-class Sharp12 
+class Sharp12 < Qtune
 
   def initialize 
     k12    
@@ -1646,37 +1006,9 @@ def k12
  @str4=%q[ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ ] 
  @str5=%q[ HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu ] 
  @str6=%q[ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k12_4ths = Proc.new do 
   puts  
@@ -1700,7 +1032,7 @@ k12_5ths = Proc.new do
   puts Sharp12.new.str0[0..61] 
 end 
 
-class Flat23Sharp6 
+class Flat23Sharp6 < Qtune
 
   def initialize 
     j23k6 
@@ -1714,37 +1046,9 @@ def j23k6
  @str4=%q[ ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ] 
  @str5=%q[ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ] 
  @str6=%q[ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j23k6_4ths = Proc.new do 
   puts  
@@ -1768,7 +1072,7 @@ j23k6_5ths = Proc.new do
   puts Flat23Sharp6.new.str0[0..61] 
 end 
 
-class Sharp12Flat5 
+class Sharp12Flat5 < Qtune
 
   def initialize 
     k12j5 
@@ -1782,37 +1086,9 @@ def k12j5
  @str4=%q[ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ ] 
  @str5=%q[ HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu ] 
  @str6=%q[ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k12j5_4ths = Proc.new do 
   puts  
@@ -1836,7 +1112,7 @@ k12j5_5ths = Proc.new do
   puts Sharp12Flat5.new.str0[0..61] 
 end 
 
-class Flat2Sharp6 
+class Flat2Sharp6 < Qtune
 
   def initialize 
     j2k6 
@@ -1850,37 +1126,9 @@ def j2k6
  @str4=%q[ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ] 
  @str5=%q[ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ ] 
  @str6=%q[ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j2k6_4ths = Proc.new do 
   puts  
@@ -1904,7 +1152,7 @@ j2k6_5ths = Proc.new do
   puts Flat2Sharp6.new.str0[0..61] 
 end 
 
-class Sharp2Flat5 
+class Sharp2Flat5 < Qtune
 
   def initialize 
     k2j5 
@@ -1918,37 +1166,9 @@ def k2j5
  @str4=%q[ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ ] 
  @str5=%q[ HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu ] 
  @str6=%q[ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k2j5_4ths = Proc.new do 
   puts  
@@ -1972,7 +1192,7 @@ k2j5_5ths = Proc.new do
   puts Sharp2Flat5.new.str0[0..61] 
 end 
 
-class Flat2Sharp56 
+class Flat2Sharp56 < Qtune
 
   def initialize 
     j2k56 
@@ -1986,37 +1206,9 @@ def j2k56
  @str4=%q[ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ] 
  @str5=%q[ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ ] 
  @str6=%q[ FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j2k56_4ths = Proc.new do 
   puts  
@@ -2040,7 +1232,7 @@ j2k56_5ths = Proc.new do
   puts Flat2Sharp56.new.str0[0..61] 
 end 
 
-class Sharp2Flat56 
+class Sharp2Flat56 < Qtune
 
   def initialize 
     k2j56 
@@ -2054,37 +1246,9 @@ def k2j56
  @str4=%q[ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ] 
  @str5=%q[ HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu ] 
  @str6=%q[ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k2j56_4ths = Proc.new do 
   puts  
@@ -2108,7 +1272,7 @@ k2j56_5ths = Proc.new do
   puts Sharp2Flat56.new.str0[0..61] 
 end 
 
-class Flat34Sharp6 
+class Flat34Sharp6 < Qtune
 
   def initialize 
     j34k6 
@@ -2122,37 +1286,9 @@ def j34k6
  @str4=%q[ ____ FePu HgHg PuFe ____ MnAg CuNp PbAu ____ ____ NpCu ____ ] 
  @str5=%q[ PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe ____ MnAg CuNp ] 
  @str6=%q[ HgHg PuFe ____ MnAg CuNp PbAu ____ ____ NpCu ____ ____ FePu ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j34k6_4ths = Proc.new do 
   puts  
@@ -2176,7 +1312,7 @@ j34k6_5ths = Proc.new do
   puts Flat34Sharp6.new.str0[0..61] 
 end 
 
-class Flat2Sharp6Y3 
+class Flat2Sharp6Y3 < Qtune
 
   def initialize 
     j2k6y3 
@@ -2190,37 +1326,9 @@ def j2k6y3
  @str4=%q[ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ] 
  @str5=%q[ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ] 
  @str6=%q[ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j2k6y3_4ths = Proc.new do 
   puts  
@@ -2244,7 +1352,7 @@ j2k6y3_5ths = Proc.new do
   puts Flat2Sharp6Y3.new.str0[0..61] 
 end 
 
-class Sharp2Flat5Y6 
+class Sharp2Flat5Y6 < Qtune
 
   def initialize 
     k2j5y6 
@@ -2258,37 +1366,9 @@ def k2j5y6
  @str4=%q[ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ] 
  @str5=%q[ HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu ] 
  @str6=%q[ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k2j5y6_4ths = Proc.new do 
   puts  
@@ -2312,7 +1392,7 @@ k2j5y6_5ths = Proc.new do
   puts Sharp2Flat5Y6.new.str0[0..61] 
 end 
 
-class Flat3Sharp6 
+class Flat3Sharp6 < Qtune
 
   def initialize 
     j3k6 
@@ -2326,37 +1406,9 @@ def j3k6
  @str4=%q[ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ] 
  @str5=%q[ ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ] 
  @str6=%q[ FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j3k6_4ths = Proc.new do 
   puts  
@@ -2380,7 +1432,7 @@ j3k6_5ths = Proc.new do
   puts Flat3Sharp6.new.str0[0..61] 
 end 
 
-class Sharp1Flat5 
+class Sharp1Flat5 < Qtune
 
   def initialize 
     k1j5 
@@ -2394,37 +1446,9 @@ def k1j5
  @str4=%q[ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ ] 
  @str5=%q[ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ ] 
  @str6=%q[ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k1j5_4ths = Proc.new do 
   puts  
@@ -2448,7 +1472,7 @@ k1j5_5ths = Proc.new do
   puts Sharp1Flat5.new.str0[0..61] 
 end 
 
-class Sharp2Flat6 
+class Sharp2Flat6 < Qtune
 
   def initialize 
     k2j6 
@@ -2462,37 +1486,9 @@ def k2j6
  @str4=%q[ ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ] 
  @str5=%q[ CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg ] 
  @str6=%q[ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k2j6_4ths = Proc.new do 
   puts  
@@ -2516,7 +1512,7 @@ k2j6_5ths = Proc.new do
   puts Sharp2Flat6.new.str0[0..61] 
 end 
 
-class Flat2Sharp5 
+class Flat2Sharp5 < Qtune
 
   def initialize 
     j2k5 
@@ -2530,37 +1526,9 @@ def j2k5
  @str4=%q[ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp ] 
  @str5=%q[ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ ] 
  @str6=%q[ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j2k5_4ths = Proc.new do 
   puts  
@@ -2584,7 +1552,7 @@ j2k5_5ths = Proc.new do
   puts Flat2Sharp5.new.str0[0..61] 
 end 
 
-class Sharp26 
+class Sharp26 < Qtune
 
   def initialize 
     k26 
@@ -2598,37 +1566,9 @@ def k26
  @str4=%q[ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ] 
  @str5=%q[ CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg ] 
  @str6=%q[ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 k26_4ths = Proc.new do 
   puts  
@@ -2652,7 +1592,7 @@ k26_5ths = Proc.new do
   puts Sharp26.new.str0[0..61] 
 end 
 
-class Flat25 
+class Flat25 < Qtune
 
   def initialize 
     j25 
@@ -2666,37 +1606,9 @@ def j25
  @str4=%q[ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ ] 
  @str5=%q[ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ ] 
  @str6=%q[ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ ] 
-end 
+end
 
- def str0 
-   @str0 
- end 
- 
- def str1 
-   @str1 
- end 
- 
- def str2 
-   @str2 
- end 
- 
- def str3 
-   @str3  
- end 
- 
- def str4 
-   @str4  
- end 
- 
- def str5 
-   @str5 
- end 
- 
- def str6 
-   @str6 
- end 
- 
-end 
+end
 
 j25_4ths = Proc.new do 
   puts  
@@ -3029,7 +1941,8 @@ elsif (signet =~ /\s|elp/ or signet == '')
  puts help 
 elsif signet =~ /next/
  x_status = true 
-elsif signet =~ /^exit|quit/ 
+elsif signet =~ /exit|quit/ 
  exit
  end
-end  
+end
+
