@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/ruby 
 
 dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/lambda'
@@ -12,7 +12,4 @@ dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/theta'
  require dir + '/psi'
 
-module Nautiloidea 
- VERSION = '0.9.8.0'
-end 
  

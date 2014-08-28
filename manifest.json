@@ -1,11 +1,11 @@
 
  {
   "name": "Nautiloidea",
-  "version": "0.9.8.0",
-  "manifest_version": 3,
+  "version": "0.9.8.1",
+  "manifest_version": 4,
   "description": "Data structures for music composition",
   "author": "Reid Netterville III",
   "default locale": "en",
-  "homepage url": "https://github.com/reidiiius/nautiloidea", 
-  } 
- 
+  "homepage url": "https://github.com/reidiiius/nautiloidea"
+ } 
+

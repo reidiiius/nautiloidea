@@ -16,12 +16,12 @@ div.mndln {
  white-space:nowrap;
  padding:0.3em;}
 input.button { 
- background-color:#fffafa;
- border-color:#f5deb3;
+ background-color:#fffff0;
+ border:1px solid #f5deb3;
  color: #a0522d;
  cursor:pointer;
  padding:5px;
- margin:10px;
+ margin:3px;
  position:relative;} 
 div.nav { 
  text-align:center;
