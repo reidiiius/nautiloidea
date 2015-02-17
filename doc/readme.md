@@ -1,8 +1,8 @@
 Nautiloidea
 ===========
-#### Data structures for music composition  
+#### Data structures for music composition 
 
-    ___ = nil, 
+    ___ = nil,
     an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93,
     by0 = 21, by1 = 33, by2 = 45, by3 = 57, by4 = 69, by5 = 81, by6 = 93,
     ak0 = 22, ak1 = 34, ak2 = 46, ak3 = 58, ak4 = 70, ak5 = 82, ak6 = 94,
@@ -29,7 +29,7 @@ Nautiloidea
     aj1 = 32, aj2 = 44, aj3 = 56, aj4 = 68, aj5 = 80, aj6 = 92, aj7 = 104,
     an7 =105, by7 =105, ak7 =106, bj7 =106, bn7 =107, cj8 =107, cn8 = 108,
 
-	
+
 #### n0 
 
     en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 
@@ -39,43 +39,51 @@ Nautiloidea
 
 
 #### k6 
- 
+
     en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 
     ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ ___ 
     dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 
-    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4  
+    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 
 
 
 #### j5 
- 
+
     en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 
     an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ an5 
     dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 
-    ___ ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___  
- 
+    ___ ___ an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ 
+
 
 #### k126j5 
 
     en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 
     ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ ___ 
     ___ dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ 
-    ___ ___ ___ ak3 bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___  
- 
+    ___ ___ ___ ak3 bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ 
+
 
 #### j3 
 
     ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ 
     an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 
     dn4 ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 
-    gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4  
- 
+    gn3 ___ an3 ___ bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 
+
+
+#### j34k6 
+
+    fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 
+    ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ 
+    dn4 ej4 fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 
+    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 fj4 ___ ___ gn4 
+
 
 #### j5k6 
 
     en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 
     ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ 
     dn4 ___ en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 
-    ___ ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___  
+    ___ ___ ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ 
 
 
 #### j25k6 
@@ -83,15 +91,15 @@ Nautiloidea
     en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 
     ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ 
     ___ ___ en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ 
-    ___ ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___  
- 
+    ___ ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ 
 
-#### k26j5  
- 
+
+#### k26j5 
+
     en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 
     ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ 
     ___ dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ 
-    ___ ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___  
+    ___ ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ 
 
 
 #### j6 
@@ -99,31 +107,31 @@ Nautiloidea
     en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 
     ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ 
     dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 
-    gn3 aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4  
- 
+    gn3 aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ gn4 
 
-#### k5  
+
+#### k5 
 
     en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 
     an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 
     dn4 ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 
-    ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___  
-	
+    ___ gk3 an3 ___ bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ 
 
-#### k1j6  
+
+#### k1j6 
 
     en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 
     ___ ___ bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 aj5 ___ 
     dn4 ___ en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 
-    gn3 aj3 ___ ___ bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4  
- 
+    gn3 aj3 ___ ___ bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 
+
 
 #### k16 
 
     en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 
     ___ ak4 bn4 ___ ck5 dn5 ___ en5 fn5 ___ gn5 ___ ___ 
     dn4 ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 
-    gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4  
+    gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ___ en4 fn4 ___ gn4 
 
 
 #### k56 
@@ -131,320 +139,329 @@ Nautiloidea
     en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 
     ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 ___ 
     dn4 ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 
-    ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___  
- 
+    ___ gk3 ___ ak3 bn3 cn4 ___ dn4 ___ en4 fn4 ___ ___ 
+
 
 #### j56 
 
     en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 
     ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ aj5 ___ 
     dn4 ___ en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 
-    ___ aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___  
- 
+    ___ aj3 ___ ___ bn3 cn4 ___ dn4 ___ en4 fn4 gj4 ___ 
 
-#### k127  
+
+#### k127 
 
     en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 
     an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 ___ gn5 ___ an5 
     ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ 
-    gn3 ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 ___ gn4  
- 
+    gn3 ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 ___ gn4 
 
-#### j234  
+
+#### j234 
 
     fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 
     an4 ___ bn4 cn5 dj5 ___ ej5 fj5 ___ ___ gn5 ___ an5 
     ___ ej4 fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ 
-    gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 fj4 ___ ___ gn4  
-	
+    gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 fj4 ___ ___ gn4 
 
-#### k127j5  
+
+#### k127j5 
 
     en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 
     an4 ___ ___ bk4 ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 
     ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ 
-    ___ ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 gj4 ___   
- 
+    ___ ___ an3 ___ ___ bk3 ck4 ___ dk4 en4 fn4 gj4 ___ 
 
-#### j34k5  
+
+#### j34k5 
 
     fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 
     an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 
     dn4 ej4 fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 
-    ___ gk3 an3 ___ bn3 cn4 ___ dn4 ej4 fj4 ___ ___ ___  
- 
+    ___ gk3 an3 ___ bn3 cn4 ___ dn4 ej4 fj4 ___ ___ ___ 
+
 
 #### j2 
 
     en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 
     an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 
     ___ ___ en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ 
-    gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4  
- 
+    gn3 ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 
+
 
 #### k2 
 
     en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 
     an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 
     ___ dk4 en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ 
-    gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4  
- 
+    gn3 ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 
+
 
 #### k25 
 
     en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 
     an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 
     ___ dk4 en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ 
-    ___ gk3 an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ ___  
- 
+    ___ gk3 an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ ___ 
 
-#### j23  
+
+#### j23 
 
     ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ 
     an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 
     ___ ej4 ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ 
-    gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4   
- 
+    gn3 ___ an3 ___ bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 
 
-#### j23k6  
+
+#### j23k6 
 
     ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ 
     ___ ak4 bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ ___ 
     ___ ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ 
-    gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4   
- 
+    gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ej4 ___ fn4 ___ gn4 
+
 
 #### k2j56 
 
     en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 
     ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ aj5 ___ 
     ___ dk4 en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ 
-    ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___  
+    ___ aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ 
 
 
-#### j2k56  
+#### j2k56 
 
     en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 
     ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 ___ 
     ___ ___ en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ 
-    ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___  
- 
+    ___ gk3 ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ 
 
-#### j2k6  
+
+#### j2k6 
 
     en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 
     ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ ___ 
     ___ ___ en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ 
-    gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4  
- 
+    gn3 ___ ___ ak3 bn3 cn4 dj4 ___ ___ en4 fn4 ___ gn4 
 
-#### k2j5  
+
+#### k2j5 
 
     en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 
     an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 
     ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ 
-    ___ ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___   
- 
+    ___ ___ an3 ___ bn3 cn4 ___ ___ dk4 en4 fn4 gj4 ___ 
 
-#### k12j5  
+
+#### k12j5 
 
     en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 
     an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 
     ___ dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ 
-    ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___  
- 
+    ___ ___ an3 ___ bn3 ___ ck4 ___ dk4 en4 fn4 gj4 ___ 
 
-#### j34k6  
- 
+
+#### j34k6 
+
     fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 
     ___ ak4 bn4 cn5 ___ dn5 ej5 fj5 ___ ___ gn5 ___ ___ 
     dn4 ej4 fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 
-    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 fj4 ___ ___ gn4  
- 
+    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 fj4 ___ ___ gn4 
 
-#### j34k16  
+
+#### j34k16 
 
     fj5 ___ ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ej6 fj6 
     ___ ak4 bn4 ___ ck5 dn5 ej5 fj5 ___ ___ gn5 ___ ___ 
     dn4 ej4 fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 
-    gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ej4 fj4 ___ ___ gn4   
- 
+    gn3 ___ ___ ak3 bn3 ___ ck4 dn4 ej4 fj4 ___ ___ gn4 
 
-#### x1k2j5  
+
+#### x1k2j5 
 
     en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 
     an4 ___ bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ an5 
     cx4 dk4 en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 
-    ___ ___ an3 ___ bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___  
+    ___ ___ an3 ___ bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___ 
 
 
-#### x1k26j5  
+#### x1k26j5 
 
     en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 
     ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ 
     cx4 dk4 en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 
-    ___ ___ ___ ak3 bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___   
- 
+    ___ ___ ___ ak3 bn3 ___ ___ cx4 dk4 en4 fn4 gj4 ___ 
 
-#### j3k6  
+
+#### j3k6 
 
     ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ 
     ___ ak4 bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ ___ 
     dn4 ej4 ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 
-    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4   
- 
+    gn3 ___ ___ ak3 bn3 cn4 ___ dn4 ej4 ___ fn4 ___ gn4 
 
-#### k1j5  
+
+#### k1j5 
 
     en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 
     an4 ___ bn4 ___ ck5 dn5 ___ en5 fn5 gj5 ___ ___ an5 
     dn4 ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 
-    ___ ___ an3 ___ bn3 ___ ck4 dn4 ___ en4 fn4 gj4 ___   
- 
+    ___ ___ an3 ___ bn3 ___ ck4 dn4 ___ en4 fn4 gj4 ___ 
 
-#### k2j6  
- 
+
+##### k1j56y7 
+
+    en5 fn5 gj5 ___ aj5 by5 ___ ___ ___ ck6 dn6 ___ en6 
+    by4 ___ ___ ___ ck5 dn5 ___ en5 fn5 gj5 ___ aj5 by5 
+    dn4 ___ en4 fn4 gj4 ___ aj4 by4 ___ ___ ___ ck5 dn5 
+    ___ aj3 by3 ___ ___ ___ ck4 dn4 ___ en4 fn4 gj4 ___ 
+
+
+#### k2j6 
+
     en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 
     ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ 
     ___ dk4 en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ 
-    gn3 aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4   
- 
+    gn3 aj3 ___ ___ bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 
 
-#### j2k5  
+
+#### j2k5 
 
     en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 
     an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ ___ gk5 an5 
     ___ ___ en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ 
-    ___ gk3 an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___   
- 
+    ___ gk3 an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 ___ ___ 
 
-#### k26  
+
+#### k26 
 
     en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 
     ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ ___ 
     ___ dk4 en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ 
-    gn3 ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4   
- 
+    gn3 ___ ___ ak3 bn3 cn4 ___ ___ dk4 en4 fn4 ___ gn4 
 
-#### j25  
- 
+
+#### j25 
+
     en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 
     an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ an5 
     ___ ___ en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ 
-    ___ ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___  
+    ___ ___ an3 ___ bn3 cn4 dj4 ___ ___ en4 fn4 gj4 ___ 
 
 
-#### sus  
+#### sus 
 
     en5 ___ ___ gn5 ___ an5 ___ ___ ___ ___ dn6 ___ en6 
     an4 ___ ___ ___ ___ dn5 ___ en5 ___ ___ gn5 ___ an5 
     dn4 ___ en4 ___ ___ gn4 ___ an4 ___ ___ ___ ___ dn5 
-    gn3 ___ an3 ___ ___ ___ ___ dn4 ___ en4 ___ ___ gn4  
- 
+    gn3 ___ an3 ___ ___ ___ ___ dn4 ___ en4 ___ ___ gn4 
 
-#### mi7  
+
+#### mi7 
 
     en5 ___ ___ gn5 ___ an5 ___ ___ cn6 ___ ___ ___ en6 
     an4 ___ ___ cn5 ___ ___ ___ en5 ___ ___ gn5 ___ an5 
     ___ ___ en4 ___ ___ gn4 ___ an4 ___ ___ cn5 ___ ___ 
-    gn3 ___ an3 ___ ___ cn4 ___ ___ ___ en4 ___ ___ gn4  
- 
+    gn3 ___ an3 ___ ___ cn4 ___ ___ ___ en4 ___ ___ gn4 
 
-#### ma7  
+
+#### ma7 
 
     en5 ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ___ en6 
     ___ ___ bn4 cn5 ___ ___ ___ en5 ___ ___ gn5 ___ ___ 
     ___ ___ en4 ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ 
-    gn3 ___ ___ ___ bn3 cn4 ___ ___ ___ en4 ___ ___ gn4  
- 
+    gn3 ___ ___ ___ bn3 cn4 ___ ___ ___ en4 ___ ___ gn4 
 
-#### ma7k4  
+
+#### ma7k4 
 
     en5 fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ___ en6 
     an4 ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ an5 
     ___ ___ en4 fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ 
-    ___ ___ an3 ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___  
- 
+    ___ ___ an3 ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___ 
 
-#### mi6  
- 
+
+#### mi6 
+
     ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ dn6 ___ ___ 
     an4 ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ ___ an5 
     dn4 ___ ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ dn5 
-    ___ ___ an3 ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ ___  
- 
+    ___ ___ an3 ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ ___ 
 
-#### dom7  
+
+#### dom7 
 
     ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ___ ___ 
     ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ gn5 ___ ___ 
     dn4 ___ ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 
-    gn3 ___ ___ ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ gn4  
- 
+    gn3 ___ ___ ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ gn4 
 
-#### r5j2k4  
+
+#### r5j2k4 
 
     en5 fn5 ___ ___ ___ ___ ak5 bn5 ___ ___ ___ ___ en6 
     ___ ak4 bn4 ___ ___ ___ ___ en5 fn5 ___ ___ ___ ___ 
     ___ ___ en4 fn4 ___ ___ ___ ___ ak4 bn4 ___ ___ ___ 
-    ___ ___ ___ ak3 bn3 ___ ___ ___ ___ en4 fn4 ___ ___  
- 
+    ___ ___ ___ ak3 bn3 ___ ___ ___ ___ en4 fn4 ___ ___ 
 
-#### dom7j5  
+
+#### dom7j5 
 
     ___ fn5 ___ ___ ___ an5 ___ bn5 ___ ___ ___ ej6 ___ 
     an4 ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ ___ ___ an5 
     ___ ej4 ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ 
-    ___ ___ an3 ___ bn3 ___ ___ ___ ej4 ___ fn4 ___ ___  
- 
+    ___ ___ an3 ___ bn3 ___ ___ ___ ej4 ___ fn4 ___ ___ 
 
-#### o6  
+
+#### o6 
 
     ___ fn5 ___ ___ aj5 ___ ___ bn5 ___ ___ dn6 ___ ___ 
     ___ ___ bn4 ___ ___ dn5 ___ ___ fn5 ___ ___ aj5 ___ 
     dn4 ___ ___ fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ dn5 
-    ___ aj3 ___ ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ ___  
- 
+    ___ aj3 ___ ___ bn3 ___ ___ dn4 ___ ___ fn4 ___ ___ 
 
-#### ok7  
- 
+
+#### ok7 
+
     en5 fn5 ___ ___ gk5 ___ ___ bn5 ___ ___ ___ ___ en6 
     ___ ___ bn4 ___ ___ ___ ___ en5 fn5 ___ ___ gk5 ___ 
     ___ ___ en4 fn4 ___ ___ gk4 ___ ___ bn4 ___ ___ ___ 
-    ___ gk3 ___ ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___   
- 
+    ___ gk3 ___ ___ bn3 ___ ___ ___ ___ en4 fn4 ___ ___ 
+
 
 #### mik4 
 
     ___ fn5 ___ ___ gk5 an5 ___ ___ ___ ___ dn6 ___ ___ 
     an4 ___ ___ ___ ___ dn5 ___ ___ fn5 ___ ___ gk5 an5 
     dn4 ___ ___ fn4 ___ ___ gk4 an4 ___ ___ ___ ___ dn5 
-    ___ gk3 an3 ___ ___ ___ ___ dn4 ___ ___ fn4 ___ ___    
- 
+    ___ gk3 an3 ___ ___ ___ ___ dn4 ___ ___ fn4 ___ ___ 
 
-#### mik7  
- 
+
+#### mik7 
+
     ___ ___ ___ gn5 ___ ___ ___ bn5 cn6 ___ ___ ej6 ___ 
     ___ ___ bn4 cn5 ___ ___ ej5 ___ ___ ___ gn5 ___ ___ 
     ___ ej4 ___ ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ 
-    gn3 ___ ___ ___ bn3 cn4 ___ ___ ej4 ___ ___ ___ gn4   
- 
+    gn3 ___ ___ ___ bn3 cn4 ___ ___ ej4 ___ ___ ___ gn4 
+
 
 #### dom7k5 
- 
+
     ___ fn5 ___ gn5 ___ ___ ___ bn5 ___ ___ ___ ej6 ___ 
     ___ ___ bn4 ___ ___ ___ ej5 ___ fn5 ___ gn5 ___ ___ 
     ___ ej4 ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ ___ 
-    gn3 ___ ___ ___ bn3 ___ ___ ___ ej4 ___ fn4 ___ gn4   
- 
+    gn3 ___ ___ ___ bn3 ___ ___ ___ ej4 ___ fn4 ___ gn4 
+
 
 #### ma7k5 
- 
+
     ___ ___ ___ gn5 ___ ___ ___ bn5 ___ ___ dn6 ej6 ___ 
     ___ ___ bn4 ___ ___ dn5 ej5 ___ ___ ___ gn5 ___ ___ 
     dn4 ej4 ___ ___ ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 
-    gn3 ___ ___ ___ bn3 ___ ___ dn4 ej4 ___ ___ ___ gn4    
- 
+    gn3 ___ ___ ___ bn3 ___ ___ dn4 ej4 ___ ___ ___ gn4 
 
 
-> Copyright &copy; 2013 Reid Netterville III 
+
+> Copyright &copy; 2013-2015 Reid Netterville III 
+

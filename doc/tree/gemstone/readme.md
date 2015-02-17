@@ -21,6 +21,8 @@
 
           j3        k1 
 
+       j34k6        k17j5 
+
        j17k2        j2k34 
 
        n26y5        n25x6 
@@ -86,9 +88,11 @@
 
                   agate 
 
-        j3k6        k1j5  
+        j3k6        k1j5 
 
        n45y2        n67x2 
+
+     j3k56x4        k1j56y7 
 
 
                   beryl 
@@ -100,4 +104,5 @@
          k26        j25 
 
         k256        j256 
+
 

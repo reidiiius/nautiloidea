@@ -21,3 +21,15 @@
      TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ 
      PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
 
+
+#### k1j56y7
+
+     FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg 
+     ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ 
+     ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi 
+     NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr 
+     UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp 
+     TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ 
+     ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+
+

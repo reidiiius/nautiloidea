@@ -66,6 +66,17 @@
      FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ 
 
 
+#### j34k6
+
+     ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi 
+     HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn 
+     AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ 
+     SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ 
+     ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ 
+     CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe 
+     FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu 
+
+
 #### j17k2
 
      PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi 
@@ -396,6 +407,17 @@
      FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg 
 
 
+#### j3k56x4
+
+     ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+     HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe 
+     AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ 
+     SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ 
+     ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn 
+     ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu 
+     FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg 
+
+
 #### k2j6
 
      PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe 
@@ -438,4 +460,5 @@
      ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu 
      CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
      FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb 
+
 

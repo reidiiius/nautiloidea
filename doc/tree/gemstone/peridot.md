@@ -11,6 +11,17 @@
      AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ 
 
 
+#### k17j5
+
+     MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg 
+     TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ 
+     ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi 
+     HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn 
+     AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ 
+     SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ 
+     ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ 
+
+
 #### j2k34
 
      MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ 
@@ -42,4 +53,5 @@
      ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ 
      SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ 
      AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ 
+
 
