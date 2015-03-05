@@ -66,6 +66,17 @@
      AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ 
 
 
+#### k17j5
+
+     MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg 
+     TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ 
+     ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi 
+     HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn 
+     AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ 
+     SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ 
+     ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ 
+
+
 #### j2k34
 
      MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ 
@@ -396,6 +407,17 @@
      PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
 
 
+#### k1j56y7
+
+     FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg 
+     ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ 
+     ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi 
+     NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr 
+     UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp 
+     TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ 
+     ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+
+
 #### j2k5
 
      CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
@@ -438,4 +460,7 @@
      ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp 
      MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ 
      TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ 
+
+
+> Copyright &copy; 2015 Reid Netterville III 
 
