@@ -1,165 +1,146 @@
 <!DOCTYPE html>
-<html dir='ltr' lang='en'>
+<html dir="ltr" lang="en">
 <head>
-<meta charset='ISO-8859-1' />
-<title>Lyra</title>
-<meta name='author' content='Reid Netterville III' />
-<link rel='stylesheet' type='text/css' href='styles/lyra.css' />
-<script type='text/javascript' src='scripts/lyra.js'></script>
+  <meta charset="UTF-8" />
+  <title>Lyra</title>
+  <meta name="author" content="Reid Netterville III" />
+  <link rel="stylesheet" type="text/css" href="styles/lyra.css" />
+  <script type="text/javascript" src="scripts/lyra.js"></script>
 </head>
 <body>
-<div id='content'>
-<div class='guitar'>
- <table>
-  <tr>
-   <td><p>
-<span id='gutr_str1'></span><br />  
-<span id='gutr_str2'></span><br /> 
-<span id='gutr_str3'></span><br />
-<span id='gutr_str4'></span><br />  
-<span id='gutr_str5'></span><br /> 
-<span id='gutr_str6'></span><br /></p>  
-<script type='text/javascript'><!--
- document.getElementById('gutr_str1').innerHTML=n0.str00.slice(12,65) 
- document.getElementById('gutr_str2').innerHTML=n0.str01.slice(12,65) 
- document.getElementById('gutr_str3').innerHTML=n0.str02.slice(16,69) 
- document.getElementById('gutr_str4').innerHTML=n0.str03.slice(16,69) 
- document.getElementById('gutr_str5').innerHTML=n0.str04.slice(16,69) 
- document.getElementById('gutr_str6').innerHTML=n0.str05.slice(16,69)
---></script>
-   </td>
-  </tr>
- </table>
+<div id="content">
+<div class="guitar view">
+  <span id="gutr_str1"></span><br />  
+  <span id="gutr_str2"></span><br /> 
+  <span id="gutr_str3"></span><br />
+  <span id="gutr_str4"></span><br />  
+  <span id="gutr_str5"></span><br /> 
+  <span id="gutr_str6"></span><br />
 </div>
-<div class='ui_x'>
-<button class='bttn' onclick='gutr_std_n0()'>n0</button>
-<button class='bttn' onclick='gutr_std_k6()'>k6</button>
-<button class='bttn' onclick='gutr_std_j5()'>j5</button>
-<button class='bttn' onclick='gutr_std_y2j17()'>y2j17</button>
-<button class='bttn' onclick='gutr_std_x2k34()'>x2k34</button>
-<button class='bttn' onclick='gutr_std_j3()'>j3</button>
-<button class='bttn' onclick='gutr_std_k1()'>k1</button>
-<button class='bttn' onclick='gutr_std_j17k2()'>j17k2</button>
-<button class='bttn' onclick='gutr_std_j2k34()'>j2k34</button>
-<button class='bttn' onclick='gutr_std_k26j5()'>k26j5</button>
-<button class='bttn' onclick='gutr_std_j25k6()'>j25k6</button>
-<button class='bttn' onclick='gutr_std_j6()'>j6</button>
-<button class='bttn' onclick='gutr_std_k5()'>k5</button>
-<button class='bttn' onclick='gutr_std_k56()'>k56</button>
-<button class='bttn' onclick='gutr_std_j56()'>j56</button>
-<button class='bttn' onclick='gutr_std_k127()'>k127</button>
-<button class='bttn' onclick='gutr_std_j234()'>j234</button>
-<button class='bttn' onclick='gutr_std_k127j5()'>k127j5</button>
-<button class='bttn' onclick='gutr_std_j234k6()'>j234k6</button>
-<button class='bttn' onclick='gutr_std_k17j6()'>k17j6</button>
-<button class='bttn' onclick='gutr_std_j34k5()'>j34k5</button>
-<button class='bttn' onclick='gutr_std_k1j6()'>k1j6</button>
-<button class='bttn' onclick='gutr_std_j3k5()'>j3k5</button>
-<button class='bttn' onclick='gutr_std_k16()'>k16</button>
-<button class='bttn' onclick='gutr_std_j35()'>j35</button>
-<button class='bttn' onclick='gutr_std_j2()'>j2</button>
-<button class='bttn' onclick='gutr_std_k2()'>k2</button>
-<button class='bttn' onclick='gutr_std_j26()'>j26</button>
-<button class='bttn' onclick='gutr_std_k25()'>k25</button>
-<button class='bttn' onclick='gutr_std_j23()'>j23</button>
-<button class='bttn' onclick='gutr_std_k12()'>k12</button>
-<button class='bttn' onclick='gutr_std_j23k6()'>j23k6</button>
-<button class='bttn' onclick='gutr_std_k12j5()'>k12j5</button>
-<button class='bttn' onclick='gutr_std_j2k6()'>j2k6</button>
-<button class='bttn' onclick='gutr_std_k2j5()'>k2j5</button>
-<button class='bttn' onclick='gutr_std_j2k56()'>j2k56</button>
-<button class='bttn' onclick='gutr_std_k2j56()'>k2j56</button>
-<button class='bttn' onclick='gutr_std_j34k6()'>j34k6</button>
-<button class='bttn' onclick='gutr_std_k17j5()'>k17j5</button>
-<button class='bttn' onclick='gutr_std_j34k16()'>j34k16</button>
-<button class='bttn' onclick='gutr_std_k17j35()'>k17j35</button>
-<button class='bttn' onclick='gutr_std_y3j2k6()'>y3j2k6</button>
-<button class='bttn' onclick='gutr_std_x1k2j5()'>x1k2j5</button>
-<button class='bttn' onclick='gutr_std_y3j25k6()'>y3j25k6</button>
-<button class='bttn' onclick='gutr_std_x1k26j5()'>x1k26j5</button>
-<button class='bttn' onclick='gutr_std_j3k6()'>j3k6</button>
-<button class='bttn' onclick='gutr_std_k1j5()'>k1j5</button>
-<button class='bttn' onclick='gutr_std_j34()'>j34</button>
-<button class='bttn' onclick='gutr_std_k17()'>k17</button>
-<button class='bttn' onclick='gutr_std_k2j6()'>k2j6</button>
-<button class='bttn' onclick='gutr_std_j2k5()'>j2k5</button>
-<button class='bttn' onclick='gutr_std_k26()'>k26</button>
-<button class='bttn' onclick='gutr_std_j25()'>j25</button>
+<script type="text/javascript">
+  gutr_std(n0);
+</script>
+<div class="ui_x">
+  <button type="button" class="bttn" onclick="gutr_std(n0)">n0</button>
+  <button type="button" class="bttn" onclick="gutr_std(k6)">k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(j5)">j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(y2j17)">y2j17</button>
+  <button type="button" class="bttn" onclick="gutr_std(x2k34)">x2k34</button>
+  <button type="button" class="bttn" onclick="gutr_std(j3)">j3</button>
+  <button type="button" class="bttn" onclick="gutr_std(k1)">k1</button>
+  <button type="button" class="bttn" onclick="gutr_std(j17k2)">j17k2</button>
+  <button type="button" class="bttn" onclick="gutr_std(j2k34)">j2k34</button>
+  <button type="button" class="bttn" onclick="gutr_std(k26j5)">k26j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j25k6)">j25k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(j6)">j6</button>
+  <button type="button" class="bttn" onclick="gutr_std(k5)">k5</button>
+  <button type="button" class="bttn" onclick="gutr_std(k56)">k56</button>
+  <button type="button" class="bttn" onclick="gutr_std(j56)">j56</button>
+  <button type="button" class="bttn" onclick="gutr_std(k127)">k127</button>
+  <button type="button" class="bttn" onclick="gutr_std(j234)">j234</button>
+  <button type="button" class="bttn" onclick="gutr_std(k127j5)">k127j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j234k6)">j234k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(k17j6)">k17j6</button>
+  <button type="button" class="bttn" onclick="gutr_std(j34k5)">j34k5</button>
+  <button type="button" class="bttn" onclick="gutr_std(k1j6)">k1j6</button>
+  <button type="button" class="bttn" onclick="gutr_std(j3k5)">j3k5</button>
+  <button type="button" class="bttn" onclick="gutr_std(k16)">k16</button>
+  <button type="button" class="bttn" onclick="gutr_std(j35)">j35</button>
+  <button type="button" class="bttn" onclick="gutr_std(j2)">j2</button>
+  <button type="button" class="bttn" onclick="gutr_std(k2)">k2</button>
+  <button type="button" class="bttn" onclick="gutr_std(j26)">j26</button>
+  <button type="button" class="bttn" onclick="gutr_std(k25)">k25</button>
+  <button type="button" class="bttn" onclick="gutr_std(j23)">j23</button>
+  <button type="button" class="bttn" onclick="gutr_std(k12)">k12</button>
+  <button type="button" class="bttn" onclick="gutr_std(j23k6)">j23k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(k12j5)">k12j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j2k6)">j2k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(k2j5)">k2j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j2k56)">j2k56</button>
+  <button type="button" class="bttn" onclick="gutr_std(k2j56)">k2j56</button>
+  <button type="button" class="bttn" onclick="gutr_std(j34k6)">j34k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(k17j5)">k17j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j34k16)">j34k16</button>
+  <button type="button" class="bttn" onclick="gutr_std(k17j35)">k17j35</button>
+  <button type="button" class="bttn" onclick="gutr_std(y3j2k6)">y3j2k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(x1k2j5)">x1k2j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(y3j25k6)">y3j25k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(x1k26j5)">x1k26j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j3k6)">j3k6</button>
+  <button type="button" class="bttn" onclick="gutr_std(k1j5)">k1j5</button>
+  <button type="button" class="bttn" onclick="gutr_std(j34)">j34</button>
+  <button type="button" class="bttn" onclick="gutr_std(k17)">k17</button>
+  <button type="button" class="bttn" onclick="gutr_std(k2j6)">k2j6</button>
+  <button type="button" class="bttn" onclick="gutr_std(j2k5)">j2k5</button>
+  <button type="button" class="bttn" onclick="gutr_std(k26)">k26</button>
+  <button type="button" class="bttn" onclick="gutr_std(j25)">j25</button>
 </div>
-<div class='cello'> 
- <table>
-  <tr>
-   <td><p> 
-<span id='cello_str1'></span><br />
-<span id='cello_str2'></span><br />  
-<span id='cello_str3'></span><br /> 
-<span id='cello_str4'></span><br /></p>  
-<script type='text/javascript'><!-- 
- document.getElementById('cello_str1').innerHTML=n0.str06.slice(8,61)
- document.getElementById('cello_str2').innerHTML=n0.str08.slice(20,73)
- document.getElementById('cello_str3').innerHTML=n0.str09.slice(12,65)
- document.getElementById('cello_str4').innerHTML=n0.str10.slice(4,57)
---></script>
-   </td>
-  </tr>
- </table>
+<div class="cello view"> 
+  <span id="cello_str1"></span><br />
+  <span id="cello_str2"></span><br />  
+  <span id="cello_str3"></span><br /> 
+  <span id="cello_str4"></span><br />
 </div>
-<div class='ui_x'>
-<button class='bttn' onclick='cello_std_n0()'>n0</button>
-<button class='bttn' onclick='cello_std_k6()'>k6</button>
-<button class='bttn' onclick='cello_std_j5()'>j5</button>
-<button class='bttn' onclick='cello_std_y2j17()'>y2j17</button>
-<button class='bttn' onclick='cello_std_x2k34()'>x2k34</button>
-<button class='bttn' onclick='cello_std_j3()'>j3</button>
-<button class='bttn' onclick='cello_std_k1()'>k1</button>
-<button class='bttn' onclick='cello_std_j17k2()'>j17k2</button>
-<button class='bttn' onclick='cello_std_j2k34()'>j2k34</button>
-<button class='bttn' onclick='cello_std_k26j5()'>k26j5</button>
-<button class='bttn' onclick='cello_std_j25k6()'>j25k6</button>
-<button class='bttn' onclick='cello_std_j6()'>j6</button>
-<button class='bttn' onclick='cello_std_k5()'>k5</button>
-<button class='bttn' onclick='cello_std_k56()'>k56</button>
-<button class='bttn' onclick='cello_std_j56()'>j56</button>
-<button class='bttn' onclick='cello_std_k127()'>k127</button>
-<button class='bttn' onclick='cello_std_j234()'>j234</button>
-<button class='bttn' onclick='cello_std_k127j5()'>k127j5</button>
-<button class='bttn' onclick='cello_std_j234k6()'>j234k6</button>
-<button class='bttn' onclick='cello_std_k17j6()'>k17j6</button>
-<button class='bttn' onclick='cello_std_j34k5()'>j34k5</button>
-<button class='bttn' onclick='cello_std_k1j6()'>k1j6</button>
-<button class='bttn' onclick='cello_std_j3k5()'>j3k5</button>
-<button class='bttn' onclick='cello_std_k16()'>k16</button>
-<button class='bttn' onclick='cello_std_j35()'>j35</button>
-<button class='bttn' onclick='cello_std_j2()'>j2</button>
-<button class='bttn' onclick='cello_std_k2()'>k2</button>
-<button class='bttn' onclick='cello_std_j26()'>j26</button>
-<button class='bttn' onclick='cello_std_k25()'>k25</button>
-<button class='bttn' onclick='cello_std_j23()'>j23</button>
-<button class='bttn' onclick='cello_std_k12()'>k12</button>
-<button class='bttn' onclick='cello_std_j23k6()'>j23k6</button>
-<button class='bttn' onclick='cello_std_k12j5()'>k12j5</button>
-<button class='bttn' onclick='cello_std_j2k6()'>j2k6</button>
-<button class='bttn' onclick='cello_std_k2j5()'>k2j5</button>
-<button class='bttn' onclick='cello_std_j2k56()'>j2k56</button>
-<button class='bttn' onclick='cello_std_k2j56()'>k2j56</button>
-<button class='bttn' onclick='cello_std_j34k6()'>j34k6</button>
-<button class='bttn' onclick='cello_std_k17j5()'>k17j5</button>
-<button class='bttn' onclick='cello_std_j34k16()'>j34k16</button>
-<button class='bttn' onclick='cello_std_k17j35()'>k17j35</button>
-<button class='bttn' onclick='cello_std_y3j2k6()'>y3j2k6</button>
-<button class='bttn' onclick='cello_std_x1k2j5()'>x1k2j5</button>
-<button class='bttn' onclick='cello_std_y3j25k6()'>y3j25k6</button>
-<button class='bttn' onclick='cello_std_x1k26j5()'>x1k26j5</button>
-<button class='bttn' onclick='cello_std_j3k6()'>j3k6</button>
-<button class='bttn' onclick='cello_std_k1j5()'>k1j5</button>
-<button class='bttn' onclick='cello_std_j34()'>j34</button>
-<button class='bttn' onclick='cello_std_k17()'>k17</button>
-<button class='bttn' onclick='cello_std_k2j6()'>k2j6</button>
-<button class='bttn' onclick='cello_std_j2k5()'>j2k5</button>
-<button class='bttn' onclick='cello_std_k26()'>k26</button>
-<button class='bttn' onclick='cello_std_j25()'>j25</button>
+<script type="text/javascript">
+  cello_std(n0);
+</script>
+<div class="ui_x">
+  <button type="button" class="bttn" onclick="cello_std(n0)">n0</button>
+  <button type="button" class="bttn" onclick="cello_std(k6)">k6</button>
+  <button type="button" class="bttn" onclick="cello_std(j5)">j5</button>
+  <button type="button" class="bttn" onclick="cello_std(y2j17)">y2j17</button>
+  <button type="button" class="bttn" onclick="cello_std(x2k34)">x2k34</button>
+  <button type="button" class="bttn" onclick="cello_std(j3)">j3</button>
+  <button type="button" class="bttn" onclick="cello_std(k1)">k1</button>
+  <button type="button" class="bttn" onclick="cello_std(j17k2)">j17k2</button>
+  <button type="button" class="bttn" onclick="cello_std(j2k34)">j2k34</button>
+  <button type="button" class="bttn" onclick="cello_std(k26j5)">k26j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j25k6)">j25k6</button>
+  <button type="button" class="bttn" onclick="cello_std(j6)">j6</button>
+  <button type="button" class="bttn" onclick="cello_std(k5)">k5</button>
+  <button type="button" class="bttn" onclick="cello_std(k56)">k56</button>
+  <button type="button" class="bttn" onclick="cello_std(j56)">j56</button>
+  <button type="button" class="bttn" onclick="cello_std(k127)">k127</button>
+  <button type="button" class="bttn" onclick="cello_std(j234)">j234</button>
+  <button type="button" class="bttn" onclick="cello_std(k127j5)">k127j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j234k6)">j234k6</button>
+  <button type="button" class="bttn" onclick="cello_std(k17j6)">k17j6</button>
+  <button type="button" class="bttn" onclick="cello_std(j34k5)">j34k5</button>
+  <button type="button" class="bttn" onclick="cello_std(k1j6)">k1j6</button>
+  <button type="button" class="bttn" onclick="cello_std(j3k5)">j3k5</button>
+  <button type="button" class="bttn" onclick="cello_std(k16)">k16</button>
+  <button type="button" class="bttn" onclick="cello_std(j35)">j35</button>
+  <button type="button" class="bttn" onclick="cello_std(j2)">j2</button>
+  <button type="button" class="bttn" onclick="cello_std(k2)">k2</button>
+  <button type="button" class="bttn" onclick="cello_std(j26)">j26</button>
+  <button type="button" class="bttn" onclick="cello_std(k25)">k25</button>
+  <button type="button" class="bttn" onclick="cello_std(j23)">j23</button>
+  <button type="button" class="bttn" onclick="cello_std(k12)">k12</button>
+  <button type="button" class="bttn" onclick="cello_std(j23k6)">j23k6</button>
+  <button type="button" class="bttn" onclick="cello_std(k12j5)">k12j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j2k6)">j2k6</button>
+  <button type="button" class="bttn" onclick="cello_std(k2j5)">k2j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j2k56)">j2k56</button>
+  <button type="button" class="bttn" onclick="cello_std(k2j56)">k2j56</button>
+  <button type="button" class="bttn" onclick="cello_std(j34k6)">j34k6</button>
+  <button type="button" class="bttn" onclick="cello_std(k17j5)">k17j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j34k16)">j34k16</button>
+  <button type="button" class="bttn" onclick="cello_std(k17j35)">k17j35</button>
+  <button type="button" class="bttn" onclick="cello_std(y3j2k6)">y3j2k6</button>
+  <button type="button" class="bttn" onclick="cello_std(x1k2j5)">x1k2j5</button>
+  <button type="button" class="bttn" onclick="cello_std(y3j25k6)">y3j25k6</button>
+  <button type="button" class="bttn" onclick="cello_std(x1k26j5)">x1k26j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j3k6)">j3k6</button>
+  <button type="button" class="bttn" onclick="cello_std(k1j5)">k1j5</button>
+  <button type="button" class="bttn" onclick="cello_std(j34)">j34</button>
+  <button type="button" class="bttn" onclick="cello_std(k17)">k17</button>
+  <button type="button" class="bttn" onclick="cello_std(k2j6)">k2j6</button>
+  <button type="button" class="bttn" onclick="cello_std(j2k5)">j2k5</button>
+  <button type="button" class="bttn" onclick="cello_std(k26)">k26</button>
+  <button type="button" class="bttn" onclick="cello_std(j25)">j25</button>
 </div>
 </div>
-<p class='attr'>Copyright &copy; 2012 Reid Netterville III</p>
+  <p class="attr">Copyright &copy; 2012-2015 Reid Netterville III</p>
 </body>
 </html>
+

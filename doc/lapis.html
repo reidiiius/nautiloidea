@@ -1,89 +1,78 @@
 <!DOCTYPE html>
-<html dir='ltr' lang='en'>
+<html dir="ltr" lang="en">
 <head>
-<meta charset='ISO-8859-1' />
-<title>Lapis</title>
-<meta name='author' content='Reid Netterville III' />
-<link rel='stylesheet' type='text/css' href='styles/lyra.css' />
-<script type='text/javascript' src='scripts/lapis.js'></script>
+  <meta charset="UTF-8" />
+  <title>Lapis</title>
+  <meta name="author" content="Reid Netterville III" />
+  <link rel="stylesheet" type="text/css" href="styles/lyra.css" />
+  <script type="text/javascript" src="scripts/lapis.js"></script>
 </head>
 <body>
-<div id='content' class='lapis'>
-<div class='guitar'>
- <table>
-  <tr>
-   <td><p>
-<span id='str_F'></span><br />  
-<span id='str_C'></span><br /> 
-<span id='str_G'></span><br />
-<span id='str_D'></span><br />  
-<span id='str_A'></span><br /> 
-<span id='str_E'></span><br />
-<span id='str_B'></span><br /></p>  
-<script type='text/javascript'><!--
- document.getElementById('str_F').innerHTML=n0.str0.slice(0,61) 
- document.getElementById('str_C').innerHTML=n0.str1.slice(0,61) 
- document.getElementById('str_G').innerHTML=n0.str2.slice(0,61) 
- document.getElementById('str_D').innerHTML=n0.str3.slice(0,61) 
- document.getElementById('str_A').innerHTML=n0.str4.slice(0,61) 
- document.getElementById('str_E').innerHTML=n0.str5.slice(0,61)
- document.getElementById('str_B').innerHTML=n0.str6.slice(0,61)
---></script>
-   </td>
-  </tr>
- </table>
+<div id="content" class="lapis">
+<div class="guitar view">
+  <span id="str_F"></span><br />  
+  <span id="str_C"></span><br /> 
+  <span id="str_G"></span><br />
+  <span id="str_D"></span><br />  
+  <span id="str_A"></span><br /> 
+  <span id="str_E"></span><br />
+  <span id="str_B"></span><br />
 </div>
-<div class='ui_x'>
-<button class='bttn' onclick='gtr_n0()'>n0</button>
-<button class='bttn' onclick='gtr_k6()'>k6</button>
-<button class='bttn' onclick='gtr_j5()'>j5</button>
-<button class='bttn' onclick='gtr_j17y2()'>j17y2</button>
-<button class='bttn' onclick='gtr_k34x2()'>k34x2</button>
-<button class='bttn' onclick='gtr_j3()'>j3</button>
-<button class='bttn' onclick='gtr_k1()'>k1</button>
-<button class='bttn' onclick='gtr_j17k2()'>j17k2</button>
-<button class='bttn' onclick='gtr_j2k34()'>j2k34</button>
-<button class='bttn' onclick='gtr_k26j5()'>k26j5</button>
-<button class='bttn' onclick='gtr_j25k6()'>j25k6</button>
-<button class='bttn' onclick='gtr_j6()'>j6</button>
-<button class='bttn' onclick='gtr_k5()'>k5</button>
-<button class='bttn' onclick='gtr_k56()'>k56</button>
-<button class='bttn' onclick='gtr_j56()'>j56</button>
-<button class='bttn' onclick='gtr_k127()'>k127</button>
-<button class='bttn' onclick='gtr_j234()'>j234</button><br />
-<button class='bttn' onclick='gtr_k127j5()'>k127j5</button>
-<button class='bttn' onclick='gtr_j234k6()'>j234k6</button>
-<button class='bttn' onclick='gtr_k17j6()'>k17j6</button>
-<button class='bttn' onclick='gtr_j34k5()'>j34k5</button>
-<button class='bttn' onclick='gtr_k1j6()'>k1j6</button>
-<button class='bttn' onclick='gtr_j3k5()'>j3k5</button>
-<button class='bttn' onclick='gtr_k16()'>k16</button>
-<button class='bttn' onclick='gtr_j35()'>j35</button>
-<button class='bttn' onclick='gtr_j2()'>j2</button>
-<button class='bttn' onclick='gtr_k2()'>k2</button>
-<button class='bttn' onclick='gtr_j26()'>j26</button>
-<button class='bttn' onclick='gtr_k25()'>k25</button>
-<button class='bttn' onclick='gtr_j23()'>j23</button>
-<button class='bttn' onclick='gtr_k12()'>k12</button>
-<button class='bttn' onclick='gtr_j23k6()'>j23k6</button>
-<button class='bttn' onclick='gtr_k12j5()'>k12j5</button><br />
-<button class='bttn' onclick='gtr_j2k6()'>j2k6</button>
-<button class='bttn' onclick='gtr_k2j5()'>k2j5</button>
-<button class='bttn' onclick='gtr_j2k56()'>j2k56</button>
-<button class='bttn' onclick='gtr_k2j56()'>k2j56</button>
-<button class='bttn' onclick='gtr_j34k6()'>j34k6</button>
-<button class='bttn' onclick='gtr_k17j5()'>k17j5</button>
-<button class='bttn' onclick='gtr_j2k6y3()'>j2k6y3</button>
-<button class='bttn' onclick='gtr_x1k2j5()'>x1k2j5</button>
-<button class='bttn' onclick='gtr_k2j5y6()'>k2j5y6</button>
-<button class='bttn' onclick='gtr_j3k6()'>j3k6</button>
-<button class='bttn' onclick='gtr_k1j5()'>k1j5</button>
-<button class='bttn' onclick='gtr_k2j6()'>k2j6</button>
-<button class='bttn' onclick='gtr_j2k5()'>j2k5</button>
-<button class='bttn' onclick='gtr_k26()'>k26</button>
-<button class='bttn' onclick='gtr_j25()'>j25</button>
+<script type="text/javascript">
+  gtr(n0);
+</script>
+<div class="ui_x">
+  <button type="button" class="bttn" onclick="gtr(n0)">n0</button>
+  <button type="button" class="bttn" onclick="gtr(k6)">k6</button>
+  <button type="button" class="bttn" onclick="gtr(j5)">j5</button>
+  <button type="button" class="bttn" onclick="gtr(j17y2)">j17y2</button>
+  <button type="button" class="bttn" onclick="gtr(k34x2)">k34x2</button>
+  <button type="button" class="bttn" onclick="gtr(j3)">j3</button>
+  <button type="button" class="bttn" onclick="gtr(k1)">k1</button>
+  <button type="button" class="bttn" onclick="gtr(j17k2)">j17k2</button>
+  <button type="button" class="bttn" onclick="gtr(j2k34)">j2k34</button>
+  <button type="button" class="bttn" onclick="gtr(k26j5)">k26j5</button>
+  <button type="button" class="bttn" onclick="gtr(j25k6)">j25k6</button>
+  <button type="button" class="bttn" onclick="gtr(j6)">j6</button>
+  <button type="button" class="bttn" onclick="gtr(k5)">k5</button>
+  <button type="button" class="bttn" onclick="gtr(k56)">k56</button>
+  <button type="button" class="bttn" onclick="gtr(j56)">j56</button>
+  <button type="button" class="bttn" onclick="gtr(k127)">k127</button>
+  <button type="button" class="bttn" onclick="gtr(j234)">j234</button><br />
+  <button type="button" class="bttn" onclick="gtr(k127j5)">k127j5</button>
+  <button type="button" class="bttn" onclick="gtr(j234k6)">j234k6</button>
+  <button type="button" class="bttn" onclick="gtr(k17j6)">k17j6</button>
+  <button type="button" class="bttn" onclick="gtr(j34k5)">j34k5</button>
+  <button type="button" class="bttn" onclick="gtr(k1j6)">k1j6</button>
+  <button type="button" class="bttn" onclick="gtr(j3k5)">j3k5</button>
+  <button type="button" class="bttn" onclick="gtr(k16)">k16</button>
+  <button type="button" class="bttn" onclick="gtr(j35)">j35</button>
+  <button type="button" class="bttn" onclick="gtr(j2)">j2</button>
+  <button type="button" class="bttn" onclick="gtr(k2)">k2</button>
+  <button type="button" class="bttn" onclick="gtr(j26)">j26</button>
+  <button type="button" class="bttn" onclick="gtr(k25)">k25</button>
+  <button type="button" class="bttn" onclick="gtr(j23)">j23</button>
+  <button type="button" class="bttn" onclick="gtr(k12)">k12</button>
+  <button type="button" class="bttn" onclick="gtr(j23k6)">j23k6</button>
+  <button type="button" class="bttn" onclick="gtr(k12j5)">k12j5</button><br />
+  <button type="button" class="bttn" onclick="gtr(j2k6)">j2k6</button>
+  <button type="button" class="bttn" onclick="gtr(k2j5)">k2j5</button>
+  <button type="button" class="bttn" onclick="gtr(j2k56)">j2k56</button>
+  <button type="button" class="bttn" onclick="gtr(k2j56)">k2j56</button>
+  <button type="button" class="bttn" onclick="gtr(j34k6)">j34k6</button>
+  <button type="button" class="bttn" onclick="gtr(k17j5)">k17j5</button>
+  <button type="button" class="bttn" onclick="gtr(j2k6y3)">j2k6y3</button>
+  <button type="button" class="bttn" onclick="gtr(x1k2j5)">x1k2j5</button>
+  <button type="button" class="bttn" onclick="gtr(k2j5y6)">k2j5y6</button>
+  <button type="button" class="bttn" onclick="gtr(j3k6)">j3k6</button>
+  <button type="button" class="bttn" onclick="gtr(k1j5)">k1j5</button>
+  <button type="button" class="bttn" onclick="gtr(k2j6)">k2j6</button>
+  <button type="button" class="bttn" onclick="gtr(j2k5)">j2k5</button>
+  <button type="button" class="bttn" onclick="gtr(k26)">k26</button>
+  <button type="button" class="bttn" onclick="gtr(j25)">j25</button>
 </div>
 </div>
-<p class='attr'>Copyright &copy; 2013 Reid Netterville III</p>
+  <p class="attr">Copyright &copy; 2013-2015 Reid Netterville III</p>
 </body>
 </html>
+

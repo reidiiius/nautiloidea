@@ -1,41 +1,51 @@
 
 body {
-background-color:floralwhite;}
-table { 
-margin-left:auto;
-margin-right:auto;}
-div#content {
-margin-left:5%;
-margin-right:5%;
-background-color:ivory;}
-div.lapis { 
-margin-top:6em;}
-div.guitar {
-font-family:monospace;
-font-size:20px;
-color:#808000;
-white-space:nowrap;
-margin:0.5em;}
-div.cello {
-font-family:monospace;
-font-size:20px;
-color:#008080;
-white-space:nowrap;
-margin:0.5em;}
-div.ui_x {
-text-align:center;}
-button.bttn{
-background-color:cornsilk;
-border-color:transparent;
-font-family:monospace;
-font-size:16px;
-color:peru;
-padding:3px;
-cursor:pointer;}
-p.attr {
-text-align:center;
-font-family:monospace;
-font-size:12px;
-color:#cdcdcd;
-margin-top:2.0em;}
+  background-color:#fffff0;
+}
+#content {
+  margin-left:2%;
+  margin-right:2%;
+}
+.lapis { 
+  margin-top:99px;
+}
+.view {
+  text-align:center;
+  font-family:monospace;
+  font-size:20px;
+  white-space:nowrap;
+  margin:32px 0 16px 0;
+}
+.guitar {
+  color:#808000;
+}
+.cello {
+  color:#008080;
+}
+.ui_x {
+  text-align:center;
+}
+.bttn {
+  margin:4px 0 4px 0;
+  border:1px solid #a9a9a9;
+  border-radius:6px;
+  background-color:#fff8dc;
+  font-family:monospace;
+  font-size:16px;
+  color:peru;
+  padding:4px;
+  cursor:pointer;
+}
+button:hover {
+  border-color:#808080;
+  background-color:#fffff0;
+  color:sienna;
+}
+.attr {
+  text-align:center;
+  font-family:monospace;
+  font-size:14px;
+  color:#808080;
+  margin-top:2em;
+}
  
