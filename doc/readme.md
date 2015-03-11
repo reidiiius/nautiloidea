@@ -302,7 +302,7 @@ Nautiloidea
     ___ ___ an3 ___ bn3 ___ ck4 dn4 ___ en4 fn4 gj4 ___
 
 
-##### k1j56y7
+#### k1j56y7
 
     en5 fn5 gj5 ___ aj5 by5 ___ ___ ___ ck6 dn6 ___ en6
     by4 ___ ___ ___ ck5 dn5 ___ en5 fn5 gj5 ___ aj5 by5

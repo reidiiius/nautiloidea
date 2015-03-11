@@ -30,7 +30,7 @@ Nautiloidea
     an7 =105, by7 =105, ak7 =106, bj7 =106, bn7 =107, cj8 =107, cn8 = 108,
 
 
-##### n0
+#### n0
 
     en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6
@@ -40,7 +40,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5
 
 
-##### k6
+#### k6
 
     en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6
@@ -50,7 +50,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5
 
 
-##### j5
+#### j5
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -60,7 +60,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ dn5 ___ en5
 
 
-##### k126j5
+#### k126j5
 
     en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ck7 ___ dk7 en7
     bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6
@@ -70,7 +70,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5
 
 
-##### j3
+#### j3
 
     ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___
     bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6
@@ -80,7 +80,7 @@ Nautiloidea
     ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___
 
 
-##### j34k6
+#### j34k6
 
     fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 fj7
     bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6
@@ -90,7 +90,7 @@ Nautiloidea
     fj4 ___ ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 fj5
 
 
-##### j5k6
+#### j5k6
 
     en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6
@@ -100,7 +100,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5
 
 
-##### j25k6
+#### j25k6
 
     en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7
     bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6
@@ -110,7 +110,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5
 
 
-##### k26j5
+#### k26j5
 
     en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6
@@ -120,7 +120,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5
 
 
-##### j6
+#### j6
 
     en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6
@@ -130,7 +130,7 @@ Nautiloidea
     en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5
 
 
-##### k5
+#### k5
 
     en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6
@@ -140,7 +140,7 @@ Nautiloidea
     en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5
 
 
-##### k1j6
+#### k1j6
 
     en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ ck7 dn7 ___ en7
     bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6
@@ -150,7 +150,7 @@ Nautiloidea
     en4 fn4 ___ gn4 aj4 ___ ___ bn4 ___ ck5 dn5 ___ en5
 
 
-##### k16
+#### k16
 
     en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ___ en7
     bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6
@@ -160,7 +160,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ___ en5
 
 
-##### k56
+#### k56
 
     en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6
@@ -170,7 +170,7 @@ Nautiloidea
     en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 ___ dn5 ___ en5
 
 
-##### j56
+#### j56
 
     en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7
     bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6
@@ -180,7 +180,7 @@ Nautiloidea
     en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5
 
 
-##### k127
+#### k127
 
     en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ___ dk7 en7
     ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___
@@ -190,7 +190,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ an4 ___ ___ bk4 ck5 ___ dk5 en5
 
 
-##### j234
+#### j234
 
     fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 fj7
     bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6
@@ -200,7 +200,7 @@ Nautiloidea
     fj4 ___ ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 fj5
 
 
-##### k127j5
+#### k127j5
 
     en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ___ dk7 en7
     ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___
@@ -210,7 +210,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ ___ bk4 ck5 ___ dk5 en5
 
 
-##### j34k5
+#### j34k5
 
     fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7
     bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6
@@ -220,7 +220,7 @@ Nautiloidea
     fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5
 
 
-##### j2
+#### j2
 
     en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7
     bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6
@@ -230,7 +230,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5
 
 
-##### k2
+#### k2
 
     en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6
@@ -240,7 +240,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5
 
 
-##### k25
+#### k25
 
     en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6
@@ -250,7 +250,7 @@ Nautiloidea
     en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5
 
 
-##### j23
+#### j23
 
     ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___
     bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6
@@ -260,7 +260,7 @@ Nautiloidea
     ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___
 
 
-##### j23k6
+#### j23k6
 
     ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___
     bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6
@@ -270,7 +270,7 @@ Nautiloidea
     ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ej5 ___
 
 
-##### k2j56
+#### k2j56
 
     en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6
@@ -280,7 +280,7 @@ Nautiloidea
     en4 fn4 gj4 ___ aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5
 
 
-##### j2k56
+#### j2k56
 
     en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7
     bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6
@@ -290,7 +290,7 @@ Nautiloidea
     en4 fn4 ___ ___ gk4 ___ ak4 bn4 cn5 dj5 ___ ___ en5
 
 
-##### j2k6
+#### j2k6
 
     en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7
     bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6
@@ -300,7 +300,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5
 
 
-##### k2j5
+#### k2j5
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -310,7 +310,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5
 
 
-##### k12j5
+#### k12j5
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7
     bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -320,7 +320,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5
 
 
-##### j34k16
+#### j34k16
 
     fj6 ___ ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ej7 fj7
     bn5 ___ ck6 dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6
@@ -330,7 +330,7 @@ Nautiloidea
     fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ej5 fj5
 
 
-##### x1k2j5
+#### x1k2j5
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7
     bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -340,7 +340,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5
 
 
-##### x1k26j5
+#### x1k26j5
 
     en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7
     bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6
@@ -350,7 +350,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5
 
 
-##### j3k6
+#### j3k6
 
     ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___
     bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6
@@ -360,7 +360,7 @@ Nautiloidea
     ___ fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ dn5 ej5 ___
 
 
-##### k1j5
+#### k1j5
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7
     bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -370,7 +370,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 dn5 ___ en5
 
 
-##### k1j56y7
+#### k1j56y7
 
     en6 fn6 gj6 ___ aj6 by6 ___ ___ ___ ck7 dn7 ___ en7
     ___ ___ ck6 dn6 ___ en6 fn6 gj6 ___ aj6 by6 ___ ___
@@ -380,7 +380,7 @@ Nautiloidea
     en4 fn4 gj4 ___ aj4 by4 ___ ___ ___ ck5 dn5 ___ en5
 
 
-##### k2j6
+#### k2j6
 
     en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6
@@ -390,7 +390,7 @@ Nautiloidea
     en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5
 
 
-##### j2k5
+#### j2k5
 
     en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7
     bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6
@@ -400,7 +400,7 @@ Nautiloidea
     en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 dj5 ___ ___ en5
 
 
-##### k26
+#### k26
 
     en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7
     bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6
@@ -410,7 +410,7 @@ Nautiloidea
     en4 fn4 ___ gn4 ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5
 
 
-##### j25
+#### j25
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7
     bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -420,7 +420,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 dj5 ___ ___ en5
 
 
-##### sus
+#### sus
 
     en6 ___ ___ gn6 ___ an6 ___ ___ ___ ___ dn7 ___ en7
     ___ ___ ___ dn6 ___ en6 ___ ___ gn6 ___ an6 ___ ___
@@ -430,7 +430,7 @@ Nautiloidea
     en4 ___ ___ gn4 ___ an4 ___ ___ ___ ___ dn5 ___ en5
 
 
-##### mi7
+#### mi7
 
     en6 ___ ___ gn6 ___ an6 ___ ___ cn7 ___ ___ ___ en7
     ___ cn6 ___ ___ ___ en6 ___ ___ gn6 ___ an6 ___ ___
@@ -440,7 +440,7 @@ Nautiloidea
     en4 ___ ___ gn4 ___ an4 ___ ___ cn5 ___ ___ ___ en5
 
 
-##### ma7
+#### ma7
 
     en6 ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ___ en7
     bn5 cn6 ___ ___ ___ en6 ___ ___ gn6 ___ ___ ___ bn6
@@ -450,7 +450,7 @@ Nautiloidea
     en4 ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ___ en5
 
 
-##### ma7k4
+#### ma7k4
 
     en6 fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ___ en7
     bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ an6 ___ bn6
@@ -460,7 +460,7 @@ Nautiloidea
     en4 fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ___ en5
 
 
-##### mi6
+#### mi6
 
     ___ fn6 ___ ___ ___ an6 ___ bn6 ___ ___ dn7 ___ ___
     bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ ___ an6 ___ bn6
@@ -470,7 +470,7 @@ Nautiloidea
     ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ dn5 ___ ___
 
 
-##### dom7
+#### dom7
 
     ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ___ ___
     bn5 ___ ___ dn6 ___ ___ fn6 ___ gn6 ___ ___ ___ bn6
@@ -480,7 +480,7 @@ Nautiloidea
     ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ dn5 ___ ___
 
 
-##### r5j2k4
+#### r5j2k4
 
     en6 fn6 ___ ___ ___ ___ ak6 bn6 ___ ___ ___ ___ en7
     bn5 ___ ___ ___ ___ en6 fn6 ___ ___ ___ ___ ak6 bn6
@@ -490,7 +490,7 @@ Nautiloidea
     en4 fn4 ___ ___ ___ ___ ak4 bn4 ___ ___ ___ ___ en5
 
 
-##### dom7j5
+#### dom7j5
 
     ___ fn6 ___ ___ ___ an6 ___ bn6 ___ ___ ___ ej7 ___
     bn5 ___ ___ ___ ej6 ___ fn6 ___ ___ ___ an6 ___ bn6
@@ -500,7 +500,7 @@ Nautiloidea
     ___ fn4 ___ ___ ___ an4 ___ bn4 ___ ___ ___ ej5 ___
 
 
-##### o6
+#### o6
 
     ___ fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ dn7 ___ ___
     bn5 ___ ___ dn6 ___ ___ fn6 ___ ___ aj6 ___ ___ bn6
@@ -510,7 +510,7 @@ Nautiloidea
     ___ fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ dn5 ___ ___
 
 
-##### ok7
+#### ok7
 
     en6 fn6 ___ ___ aj6 ___ ___ bn6 ___ ___ ___ ___ en7
     bn5 ___ ___ ___ ___ en6 fn6 ___ ___ aj6 ___ ___ bn6
@@ -520,7 +520,7 @@ Nautiloidea
     en4 fn4 ___ ___ aj4 ___ ___ bn4 ___ ___ ___ ___ en5
 
 
-##### mik4
+#### mik4
 
     ___ fn6 ___ ___ aj6 ___ ___ bn6 cn7 ___ ___ ___ ___
     bn5 cn6 ___ ___ ___ ___ fn6 ___ ___ aj6 ___ ___ bn6
@@ -530,7 +530,7 @@ Nautiloidea
     ___ fn4 ___ ___ aj4 ___ ___ bn4 cn5 ___ ___ ___ ___
 
 
-##### mik7
+#### mik7
 
     ___ ___ ___ gn6 ___ ___ ___ bn6 cn7 ___ ___ ej7 ___
     bn5 cn6 ___ ___ ej6 ___ ___ ___ gn6 ___ ___ ___ bn6
@@ -540,7 +540,7 @@ Nautiloidea
     ___ ___ ___ gn4 ___ ___ ___ bn4 cn5 ___ ___ ej5 ___
 
 
-##### dom7k5
+#### dom7k5
 
     ___ fn6 ___ gn6 ___ ___ ___ bn6 ___ ___ ___ ej7 ___
     bn5 ___ ___ ___ ej6 ___ fn6 ___ gn6 ___ ___ ___ bn6
@@ -550,7 +550,7 @@ Nautiloidea
     ___ fn4 ___ gn4 ___ ___ ___ bn4 ___ ___ ___ ej5 ___
 
 
-##### ma7k5
+#### ma7k5
 
     ___ ___ ___ gn6 ___ ___ ___ bn6 ___ ___ dn7 ej7 ___
     bn5 ___ ___ dn6 ej6 ___ ___ ___ gn6 ___ ___ ___ bn6
