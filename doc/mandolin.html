@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-<meta charset="ISO-8859-1" />
-<title>Mandolin gdae</title>
-<link rel="stylesheet" type="text/css" href="styles/style.css" />
-<script type="text/javascript" src="scripts/junk.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Mandolin</title>
+  <link rel="stylesheet" href="styles/sand.css" type="text/css" />
+  <script src="scripts/junk.js" type="text/javascript"></script>
 </head>
 <body>
-<span class="nav"><a href="guitar.html"> Guitar Version </a></span>
-<table><tr><td>
-<div class="nav"><p>
-<input class="button" type="button" value="j3k6" onclick="j3k6_()" />
-<input class="button" type="button" value="k1j5" onclick="k1j5_()" />
-<input class="button" type="button" value="k2j6" onclick="k2j6_()" />
-<input class="button" type="button" value="j2k5" onclick="j2k5_()" />
-<input class="button" type="button" value="k26" onclick="k26_()" />
-<input class="button" type="button" value="j25" onclick="j25_()" /><br />
-<input class="button" type="button" value=" n0 " onclick="n_()" />
-<input class="button" type="button" value=" k6 " onclick="k6_()" />
-<input class="button" type="button" value=" j5 " onclick="j5_()" />
-<input class="button" type="button" value="k126j5" onclick="k126j5_()" />
-<input class="button" type="button" value=" j3 " onclick="j3_()" />
-<input class="button" type="button" value="j5k6" onclick="j5k6_()" />
-<input class="button" type="button" value="j25k6" onclick="j25k6_()" />
-<input class="button" type="button" value="k26j5" onclick="k26j5_()" /><br />
-<input class="button" type="button" value=" j6  " onclick="j6_()" />
-<input class="button" type="button" value=" k5 " onclick="k5_()" />
-<input class="button" type="button" value="k1j6" onclick="k1j6_()" />
-<input class="button" type="button" value="k16" onclick="k16_()" />
-<input class="button" type="button" value="k56" onclick="k56_()" />
-<input class="button" type="button" value="j56" onclick="j56_()" />
-<input class="button" type="button" value="k127" onclick="k127_()" />
-<input class="button" type="button" value="j234" onclick="j234_()" />
-<input class="button" type="button" value="k127j5" onclick="k127j5_()" />
-<input class="button" type="button" value="j34k5" onclick="j34k5_()" /><br />
-<input class="button" type="button" value=" j2 " onclick="j2_()" />
-<input class="button" type="button" value=" k2 " onclick="k2_()" />
-<input class="button" type="button" value="k25" onclick="k25_()" />
-<input class="button" type="button" value="j23" onclick="j23_()" />
-<input class="button" type="button" value="j23k6" onclick="j23k6_()" />
-<input class="button" type="button" value="k2j56" onclick="k2j56_()" />
-<input class="button" type="button" value="j2k56" onclick="j2k56_()" />
-<input class="button" type="button" value="j2k6" onclick="j2k6_()" />
-<input class="button" type="button" value="k2j5" onclick="k2j5_()" />
-<input class="button" type="button" value="k12j5" onclick="k12j5_()" />
-<input class="button" type="button" value="j34k6" onclick="j34k6_()" />
-<input class="button" type="button" value="j34k16" onclick="j34k16_()" />
-<input class="button" type="button" value="x1k2j5" onclick="x1k2j5_()" />
-<input class="button" type="button" value="x1k26j5" onclick="x1k26j5_()" /><br />
-<input class="button" type="button" value="sus" onclick="sus_()" />
-<input class="button" type="button" value="mi7" onclick="mi7_()" />
-<input class="button" type="button" value="ma7" onclick="ma7_()" />
-<input class="button" type="button" value="ma7k4" onclick="ma7k4_()" />
-<input class="button" type="button" value="mi6" onclick="mi6_()" />
-<input class="button" type="button" value="dom7" onclick="dom7_()" />
-<input class="button" type="button" value="r5j2k4" onclick="r5j2k4_()" />
-<input class="button" type="button" value="dom7j5" onclick="dom7j5_()" />
-<input class="button" type="button" value=" o6 " onclick="o6_()" />
-<input class="button" type="button" value="ok7" onclick="ok7_()" />
-<input class="button" type="button" value="mik4" onclick="mik4_()" />
-<input class="button" type="button" value="mik7" onclick="mik7_()" />
-<input class="button" type="button" value="dom7k5" onclick="dom7k5_()" />
-<input class="button" type="button" value="ma7k5" onclick="ma7k5_()" /></p>
-</div></td></tr></table>
-<table><tr><td>
-<div class="mndln"><p>
-<span id="str1"></span><br />  
-<span id="str2"></span><br /> 
-<span id="str3"></span><br />
-<span id="str4"></span><br /></p> 
-</div></td></tr></table>
-<script type="text/javascript"><!--
-document.getElementById("str1").innerHTML=_n.str1  
-document.getElementById("str2").innerHTML=_n.str2  
-document.getElementById("str3").innerHTML=_n.str3 
-document.getElementById("str4").innerHTML=_n.str4  
---></script>
-<div class="attr"><p>
-Copyright &copy; 2012 Reid Netterville III</p>
+<ul id="nav">
+  <li class="lnk"><a href="guitar.html">change tuning</a></li>
+</ul>
+<h2>GDAE</h2>
+<div id="calls">
+  <input type="button" class="btn" value="j3k6" onclick="mdl(_j3k6)" />
+  <input type="button" class="btn" value="k1j5" onclick="mdl(_k1j5)" />
+  <input type="button" class="btn" value="k1j56y7" onclick="mdl(_k1j56y7)" />
+  <input type="button" class="btn" value="k2j6" onclick="mdl(_k2j6)" />
+  <input type="button" class="btn" value="j2k5" onclick="mdl(_j2k5)" />
+  <input type="button" class="btn" value="k26" onclick="mdl(_k26)" />
+  <input type="button" class="btn" value="j25" onclick="mdl(_j25)" /><br />
+  <input type="button" class="btn" value=" n0 " onclick="mdl(_n0)" />
+  <input type="button" class="btn" value=" k6 " onclick="mdl(_k6)" />
+  <input type="button" class="btn" value=" j5 " onclick="mdl(_j5)" />
+  <input type="button" class="btn" value="k126j5" onclick="mdl(_k126j5)" />
+  <input type="button" class="btn" value=" j3 " onclick="mdl(_j3)" />
+  <input type="button" class="btn" value="j34k6" onclick="mdl(_j34k6)" />
+  <input type="button" class="btn" value="j5k6" onclick="mdl(_j5k6)" />
+  <input type="button" class="btn" value="j25k6" onclick="mdl(_j25k6)" />
+  <input type="button" class="btn" value="k26j5" onclick="mdl(_k26j5)" /><br />
+  <input type="button" class="btn" value=" j6  " onclick="mdl(_j6)" />
+  <input type="button" class="btn" value=" k5 " onclick="mdl(_k5)" />
+  <input type="button" class="btn" value="k1j6" onclick="mdl(_k1j6)" />
+  <input type="button" class="btn" value="k16" onclick="mdl(_k16)" />
+  <input type="button" class="btn" value="k56" onclick="mdl(_k56)" />
+  <input type="button" class="btn" value="j56" onclick="mdl(_j56)" />
+  <input type="button" class="btn" value="k127" onclick="mdl(_k127)" />
+  <input type="button" class="btn" value="j234" onclick="mdl(_j234)" />
+  <input type="button" class="btn" value="k127j5" onclick="mdl(_k127j5)" />
+  <input type="button" class="btn" value="j34k5" onclick="mdl(_j34k5)" /><br />
+  <input type="button" class="btn" value=" j2 " onclick="mdl(_j2)" />
+  <input type="button" class="btn" value=" k2 " onclick="mdl(_k2)" />
+  <input type="button" class="btn" value="k25" onclick="mdl(_k25)" />
+  <input type="button" class="btn" value="j23" onclick="mdl(_j23)" />
+  <input type="button" class="btn" value="j23k6" onclick="mdl(_j23k6)" />
+  <input type="button" class="btn" value="k2j56" onclick="mdl(_k2j56)" />
+  <input type="button" class="btn" value="j2k56" onclick="mdl(_j2k56)" />
+  <input type="button" class="btn" value="j2k6" onclick="mdl(_j2k6)" />
+  <input type="button" class="btn" value="k2j5" onclick="mdl(_k2j5)" />
+  <input type="button" class="btn" value="k12j5" onclick="mdl(_k12j5)" />
+  <input type="button" class="btn" value="j34k16" onclick="mdl(_j34k16)" />
+  <input type="button" class="btn" value="x1k2j5" onclick="mdl(_x1k2j5)" />
+  <input type="button" class="btn" value="x1k26j5" onclick="mdl(_x1k26j5)" /><br />
+  <input type="button" class="btn" value="sus" onclick="mdl(_sus)" />
+  <input type="button" class="btn" value="mi7" onclick="mdl(_mi7)" />
+  <input type="button" class="btn" value="ma7" onclick="mdl(_ma7)" />
+  <input type="button" class="btn" value="ma7k4" onclick="mdl(_ma7k4)" />
+  <input type="button" class="btn" value="mi6" onclick="mdl(_mi6)" />
+  <input type="button" class="btn" value="dom7" onclick="mdl(_dom7)" />
+  <input type="button" class="btn" value="r5j2k4" onclick="mdl(_r5j2k4)" />
+  <input type="button" class="btn" value="dom7j5" onclick="mdl(_dom7j5)" />
+  <input type="button" class="btn" value=" o6 " onclick="mdl(_o6)" />
+  <input type="button" class="btn" value="ok7" onclick="mdl(_ok7)" />
+  <input type="button" class="btn" value="mik4" onclick="mdl(_mik4)" />
+  <input type="button" class="btn" value="mik7" onclick="mdl(_mik7)" />
+  <input type="button" class="btn" value="dom7k5" onclick="mdl(_dom7k5)" />
+  <input type="button" class="btn" value="ma7k5" onclick="mdl(_ma7k5)" />
+</div>
+<div id="view">
+  <code>
+    <span id="str1"></span><br />  
+    <span id="str2"></span><br /> 
+    <span id="str3"></span><br />
+    <span id="str4"></span><br />  
+    <span id="str5"></span><br /> 
+    <span id="str6"></span><br />
+  </code>
+</div>
+<script type="text/javascript">
+  mdl(_n0);
+</script>
+<div id="footer">
+  <p class="attr">Copyright &copy; 2012-2015 Reid Netterville III</p>
 </div>
 </body>
 </html>
+

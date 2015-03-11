@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-<meta charset="ISO-8859-1" />
-<title>Guitar eadgbe</title>
-<link rel="stylesheet" type="text/css" href="styles/style.css" />
-<script type="text/javascript" src="scripts/junk.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Guitar</title>
+  <link rel="stylesheet" href="styles/sand.css" type="text/css" />
+  <script src="scripts/junk.js" type="text/javascript"></script>
 </head>
 <body>
-<span class="nav"><a href="mandolin.html">Mandolin Version</a></span>
-<table><tr><td>
-<div class="nav"><p>
-<input class="button" type="button" value="j3k6" onclick="j3k6()" />
-<input class="button" type="button" value="k1j5" onclick="k1j5()" />
-<input class="button" type="button" value="k2j6" onclick="k2j6()" />
-<input class="button" type="button" value="j2k5" onclick="j2k5()" />
-<input class="button" type="button" value="k26" onclick="k26()" />
-<input class="button" type="button" value="j25" onclick="j25()" /><br />
-<input class="button" type="button" value=" n0 " onclick="n()" />
-<input class="button" type="button" value=" k6 " onclick="k6()" />
-<input class="button" type="button" value=" j5 " onclick="j5()" />
-<input class="button" type="button" value="k126j5" onclick="k126j5()" />
-<input class="button" type="button" value=" j3 " onclick="j3()" />
-<input class="button" type="button" value="j5k6" onclick="j5k6()" />
-<input class="button" type="button" value="j25k6" onclick="j25k6()" />
-<input class="button" type="button" value="k26j5" onclick="k26j5()" /><br />
-<input class="button" type="button" value=" j6  " onclick="j6()" />
-<input class="button" type="button" value=" k5 " onclick="k5()" />
-<input class="button" type="button" value="k1j6" onclick="k1j6()" />
-<input class="button" type="button" value="k16" onclick="k16()" />
-<input class="button" type="button" value="k56" onclick="k56()" />
-<input class="button" type="button" value="j56" onclick="j56()" />
-<input class="button" type="button" value="k127" onclick="k127()" />
-<input class="button" type="button" value="j234" onclick="j234()" />
-<input class="button" type="button" value="k127j5" onclick="k127j5()" />
-<input class="button" type="button" value="j34k5" onclick="j34k5()" /><br />
-<input class="button" type="button" value=" j2 " onclick="j2()" />
-<input class="button" type="button" value=" k2 " onclick="k2()" />
-<input class="button" type="button" value="k25" onclick="k25()" />
-<input class="button" type="button" value="j23" onclick="j23()" />
-<input class="button" type="button" value="j23k6" onclick="j23k6()" />
-<input class="button" type="button" value="k2j56" onclick="k2j56()" />
-<input class="button" type="button" value="j2k56" onclick="j2k56()" />
-<input class="button" type="button" value="j2k6" onclick="j2k6()" />
-<input class="button" type="button" value="k2j5" onclick="k2j5()" />
-<input class="button" type="button" value="k12j5" onclick="k12j5()" />
-<input class="button" type="button" value="j34k6" onclick="j34k6()" />
-<input class="button" type="button" value="j34k16" onclick="j34k16()" />
-<input class="button" type="button" value="x1k2j5" onclick="x1k2j5()" />
-<input class="button" type="button" value="x1k26j5" onclick="x1k26j5()" /><br />
-<input class="button" type="button" value="sus" onclick="sus()" />
-<input class="button" type="button" value="mi7" onclick="mi7()" />
-<input class="button" type="button" value="ma7" onclick="ma7()" />
-<input class="button" type="button" value="ma7k4" onclick="ma7k4()" />
-<input class="button" type="button" value="mi6" onclick="mi6()" />
-<input class="button" type="button" value="dom7" onclick="dom7()" />
-<input class="button" type="button" value="r5j2k4" onclick="r5j2k4()" />
-<input class="button" type="button" value="dom7j5" onclick="dom7j5()" />
-<input class="button" type="button" value=" o6 " onclick="o6()" />
-<input class="button" type="button" value="ok7" onclick="ok7()" />
-<input class="button" type="button" value="mik4" onclick="mik4()" />
-<input class="button" type="button" value="mik7" onclick="mik7()" />
-<input class="button" type="button" value="dom7k5" onclick="dom7k5()" />
-<input class="button" type="button" value="ma7k5" onclick="ma7k5()" /></p>
-</div></td></tr></table>
-<table><tr><td>
-<div class="gutr"><p>
-<span id="str1"></span><br />  
-<span id="str2"></span><br /> 
-<span id="str3"></span><br />
-<span id="str4"></span><br />  
-<span id="str5"></span><br /> 
-<span id="str6"></span><br /></p> 
-</div></td></tr></table>
-<script type="text/javascript"><!--
-document.getElementById("str1").innerHTML=$n.str1  
-document.getElementById("str2").innerHTML=$n.str2  
-document.getElementById("str3").innerHTML=$n.str3 
-document.getElementById("str4").innerHTML=$n.str4  
-document.getElementById("str5").innerHTML=$n.str5  
-document.getElementById("str6").innerHTML=$n.str6 
---></script>
-<div class="attr"><p>
-Copyright &copy; 2012 Reid Netterville III</p>
+<ul id="nav">
+  <li class="lnk"><a href="mandolin.html">change tuning</a></li>
+</ul>
+<h2>EADGBE</h2>
+<div id="calls">
+  <input type="button" class="btn" value="j3k6" onclick="gtr($j3k6)" />
+  <input type="button" class="btn" value="k1j5" onclick="gtr($k1j5)" />
+  <input type="button" class="btn" value="k1j56y7" onclick="gtr($k1j56y7)" />
+  <input type="button" class="btn" value="k2j6" onclick="gtr($k2j6)" />
+  <input type="button" class="btn" value="j2k5" onclick="gtr($j2k5)" />
+  <input type="button" class="btn" value="k26" onclick="gtr($k26)" />
+  <input type="button" class="btn" value="j25" onclick="gtr($j25)" /><br />
+  <input type="button" class="btn" value=" n0 " onclick="gtr($n0)" />
+  <input type="button" class="btn" value=" k6 " onclick="gtr($k6)" />
+  <input type="button" class="btn" value=" j5 " onclick="gtr($j5)" />
+  <input type="button" class="btn" value="k126j5" onclick="gtr($k126j5)" />
+  <input type="button" class="btn" value=" j3 " onclick="gtr($j3)" />
+  <input type="button" class="btn" value="j34k6" onclick="gtr($j34k6)" />
+  <input type="button" class="btn" value="j5k6" onclick="gtr($j5k6)" />
+  <input type="button" class="btn" value="j25k6" onclick="gtr($j25k6)" />
+  <input type="button" class="btn" value="k26j5" onclick="gtr($k26j5)" /><br />
+  <input type="button" class="btn" value=" j6  " onclick="gtr($j6)" />
+  <input type="button" class="btn" value=" k5 " onclick="gtr($k5)" />
+  <input type="button" class="btn" value="k1j6" onclick="gtr($k1j6)" />
+  <input type="button" class="btn" value="k16" onclick="gtr($k16)" />
+  <input type="button" class="btn" value="k56" onclick="gtr($k56)" />
+  <input type="button" class="btn" value="j56" onclick="gtr($j56)" />
+  <input type="button" class="btn" value="k127" onclick="gtr($k127)" />
+  <input type="button" class="btn" value="j234" onclick="gtr($j234)" />
+  <input type="button" class="btn" value="k127j5" onclick="gtr($k127j5)" />
+  <input type="button" class="btn" value="j34k5" onclick="gtr($j34k5)" /><br />
+  <input type="button" class="btn" value=" j2 " onclick="gtr($j2)" />
+  <input type="button" class="btn" value=" k2 " onclick="gtr($k2)" />
+  <input type="button" class="btn" value="k25" onclick="gtr($k25)" />
+  <input type="button" class="btn" value="j23" onclick="gtr($j23)" />
+  <input type="button" class="btn" value="j23k6" onclick="gtr($j23k6)" />
+  <input type="button" class="btn" value="k2j56" onclick="gtr($k2j56)" />
+  <input type="button" class="btn" value="j2k56" onclick="gtr($j2k56)" />
+  <input type="button" class="btn" value="j2k6" onclick="gtr($j2k6)" />
+  <input type="button" class="btn" value="k2j5" onclick="gtr($k2j5)" />
+  <input type="button" class="btn" value="k12j5" onclick="gtr($k12j5)" />
+  <input type="button" class="btn" value="j34k16" onclick="gtr($j34k16)" />
+  <input type="button" class="btn" value="x1k2j5" onclick="gtr($x1k2j5)" />
+  <input type="button" class="btn" value="x1k26j5" onclick="gtr($x1k26j5)" /><br />
+  <input type="button" class="btn" value="sus" onclick="gtr($sus)" />
+  <input type="button" class="btn" value="mi7" onclick="gtr($mi7)" />
+  <input type="button" class="btn" value="ma7" onclick="gtr($ma7)" />
+  <input type="button" class="btn" value="ma7k4" onclick="gtr($ma7k4)" />
+  <input type="button" class="btn" value="mi6" onclick="gtr($mi6)" />
+  <input type="button" class="btn" value="dom7" onclick="gtr($dom7)" />
+  <input type="button" class="btn" value="r5j2k4" onclick="gtr($r5j2k4)" />
+  <input type="button" class="btn" value="dom7j5" onclick="gtr($dom7j5)" />
+  <input type="button" class="btn" value=" o6 " onclick="gtr($o6)" />
+  <input type="button" class="btn" value="ok7" onclick="gtr($ok7)" />
+  <input type="button" class="btn" value="mik4" onclick="gtr($mik4)" />
+  <input type="button" class="btn" value="mik7" onclick="gtr($mik7)" />
+  <input type="button" class="btn" value="dom7k5" onclick="gtr($dom7k5)" />
+  <input type="button" class="btn" value="ma7k5" onclick="gtr($ma7k5)" />
+</div>
+<div id="view">
+  <code>
+    <span id="str1"></span><br />  
+    <span id="str2"></span><br /> 
+    <span id="str3"></span><br />
+    <span id="str4"></span><br />  
+    <span id="str5"></span><br /> 
+    <span id="str6"></span><br />
+  </code>
+</div>
+<script type="text/javascript">
+  gtr($n0);
+</script>
+<div id="footer">
+  <p class="attr">Copyright &copy; 2012-2015 Reid Netterville III</p>
 </div>
 </body>
 </html>
+
