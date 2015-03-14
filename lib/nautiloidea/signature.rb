@@ -184,63 +184,63 @@ module GemStone
 
 
     J2K56X4 = { # 1426278332005
-    :fn => '____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :cn => 'HgHg PuFe ____ ____ Cunp ____ ____ AuPb NpCu ____ TiSn FePu ',
-    :gn => 'AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ____ ____ ',
-    :dn => '____ ____ Cunp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ',
-    :an => '____ TiSn FePu HgHg PuFe ____ ____ Cunp ____ ____ AuPb NpCu ',
-    :en => 'Cunp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ ',
-    :bn => 'FePu HgHg PuFe ____ ____ Cunp ____ ____ AuPb NpCu ____ TiSn '}
+    :fn => '____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :cn => 'HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ',
+    :gn => 'AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ ',
+    :dn => '____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ',
+    :an => '____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ',
+    :en => 'CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ ',
+    :bn => 'FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn '}
 
 
     K157X6 = {  # 1426278361135
-    :fn => 'PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ',
-    :cn => 'HgHg PuFe SnTi ____ Cunp PbAu ____ ____ NpCu ____ ____ FePu ',
-    :gn => '____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp PbAu ____ ',
-    :dn => 'SnTi ____ Cunp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe ',
-    :an => '____ ____ FePu HgHg PuFe SnTi ____ Cunp PbAu ____ ____ NpCu ',
-    :en => 'Cunp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ ',
-    :bn => 'FePu HgHg PuFe SnTi ____ Cunp PbAu ____ ____ NpCu ____ ____ '}
+    :fn => 'PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ',
+    :cn => 'HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu ',
+    :gn => '____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ',
+    :dn => 'SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe ',
+    :an => '____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ',
+    :en => 'CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ ',
+    :bn => 'FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ '}
 
 
     K1J6 = {    # 1426278387880
-    :fn => 'PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ Cunp ',
-    :cn => '____ PuFe SnTi ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ',
-    :gn => 'AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ Cunp PbAu ____ ',
-    :dn => 'SnTi ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe ',
-    :an => '____ ____ FePu ____ PuFe SnTi ____ Cunp PbAu ____ AuPb NpCu ',
-    :en => 'Cunp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ ',
-    :bn => 'FePu ____ PuFe SnTi ____ Cunp PbAu ____ AuPb NpCu ____ ____ '}
+    :fn => 'PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp ',
+    :cn => '____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ',
+    :gn => 'AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ ',
+    :dn => 'SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe ',
+    :an => '____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ',
+    :en => 'CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ ',
+    :bn => 'FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ '}
 
 
     N345 = {    # 1426278412595
-    :fn => 'PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ Cunp ',
-    :cn => '____ PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ TiSn FePu ',
-    :gn => 'AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ Cunp PbAu ____ ',
-    :dn => '____ ____ Cunp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ',
-    :an => '____ TiSn FePu ____ PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ',
-    :en => 'Cunp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ ',
-    :bn => 'FePu ____ PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ TiSn '}
+    :fn => 'PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp ',
+    :cn => '____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ',
+    :gn => 'AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ ',
+    :dn => '____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ',
+    :an => '____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ',
+    :en => 'CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ ',
+    :bn => 'FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn '}
 
 
     J2 = {      # 1426278435850
-    :fn => 'PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ Cunp ',
-    :cn => 'HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ AgUr ____ FePu ',
-    :gn => 'AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ ',
-    :dn => '____ ____ Cunp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ',
-    :an => 'AgUr ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ ',
-    :en => 'Cunp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ ',
-    :bn => 'FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ AgUr ____ '}
+    :fn => 'PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp ',
+    :cn => 'HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ',
+    :gn => 'AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ ',
+    :dn => '____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ',
+    :an => 'AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ',
+    :en => 'CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ ',
+    :bn => 'FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ '}
 
 
     J26 = {     # 1426278459305
-    :fn => 'PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ Cunp ',
-    :cn => 'HgHg PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ',
-    :gn => 'AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ ',
-    :dn => '____ ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ',
-    :an => '____ ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ',
-    :en => 'Cunp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ ',
-    :bn => 'FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ ____ '}
+    :fn => 'PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp ',
+    :cn => 'HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ',
+    :gn => 'AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ ',
+    :dn => '____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ',
+    :an => '____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ',
+    :en => 'CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ ',
+    :bn => 'FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ '}
 
 
     J236 = {    # 1426278486171
@@ -284,13 +284,13 @@ module GemStone
 
 
     J2K6 = {    # 1426278600146
-    :fn => 'PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :cn => 'HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ ____ TiSn FePu ',
-    :gn => 'AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ',
-    :dn => '____ ____ Cunp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ',
-    :an => '____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ ',
-    :en => 'Cunp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ ',
-    :bn => 'FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ ____ TiSn '}
+    :fn => 'PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :cn => 'HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu ',
+    :gn => 'AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ',
+    :dn => '____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ',
+    :an => '____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ',
+    :en => 'CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ ',
+    :bn => 'FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn '}
 
 
     J26Y3 = {   # 1426278626197
@@ -304,23 +304,23 @@ module GemStone
 
 
     J2K56 = {   # 1426278657377
-    :fn => 'PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :cn => 'HgHg PuFe ____ ____ Cunp PbAu ____ ____ NpCu ____ TiSn FePu ',
-    :gn => '____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ',
-    :dn => '____ ____ Cunp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ',
-    :an => '____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ NpCu ',
-    :en => 'Cunp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ ',
-    :bn => 'FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ NpCu ____ TiSn '}
+    :fn => 'PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :cn => 'HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu ',
+    :gn => '____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ',
+    :dn => '____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ',
+    :an => '____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ',
+    :en => 'CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ ',
+    :bn => 'FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn '}
 
 
     J246Y3 = {  # 1426278681296
-    :fn => '____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ',
-    :cn => 'HgHg PuFe SnTi ____ Cunp ____ ____ AuPb NpCu ____ ____ FePu ',
-    :gn => 'AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ____ ____ ',
-    :dn => 'SnTi ____ Cunp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe ',
-    :an => '____ ____ FePu HgHg PuFe SnTi ____ Cunp ____ ____ AuPb NpCu ',
-    :en => 'Cunp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ',
-    :bn => 'FePu HgHg PuFe SnTi ____ Cunp ____ ____ AuPb NpCu ____ ____ '}
+    :fn => '____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ',
+    :cn => 'HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu ',
+    :gn => 'AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ ',
+    :dn => 'SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe ',
+    :an => '____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ',
+    :en => 'CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ',
+    :bn => 'FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ '}
 
 
     J26Y34 = {  # 1426278714122
@@ -334,13 +334,13 @@ module GemStone
 
 
     J2K6X5 = {  # 1426278737070
-    :fn => 'PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :cn => 'HgHg PuFe ____ ____ Cunp PbAu ____ ____ ____ AgUr TiSn FePu ',
-    :gn => '____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ',
-    :dn => '____ ____ Cunp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ',
-    :an => 'AgUr TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ ____ ',
-    :en => 'Cunp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ ',
-    :bn => 'FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ ____ AgUr TiSn '}
+    :fn => 'PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :cn => 'HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu ',
+    :gn => '____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ',
+    :dn => '____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ',
+    :an => 'AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ ',
+    :en => 'CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ ',
+    :bn => 'FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn '}
 
 
     J2K6Y3 = {  # 1426278761948
@@ -354,13 +354,13 @@ module GemStone
 
 
     J3K6 = {    # 1426278799767
-    :fn => 'PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ Snnp UrAu ____ ',
-    :cn => 'HgTi ____ Snnp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe ',
-    :gn => 'AuUr ____ ____ TiHg FeFe HgTi ____ Snnp UrAu ____ PbPb ____ ',
-    :dn => 'Snnp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ ',
-    :an => '____ TiHg FeFe HgTi ____ Snnp UrAu ____ PbPb ____ AuUr ____ ',
-    :en => '____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ Snnp UrAu ',
-    :bn => 'FeFe HgTi ____ Snnp UrAu ____ PbPb ____ AuUr ____ ____ TiHg '}
+    :fn => 'PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ',
+    :cn => 'HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe ',
+    :gn => 'AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ ',
+    :dn => 'SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ ',
+    :an => '____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ',
+    :en => '____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ',
+    :bn => 'FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg '}
 
 
     N45Y2 = {   # 1426278826809
@@ -374,43 +374,43 @@ module GemStone
 
 
     J3K56X4 = { # 1426278859007
-    :fn => '____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ Snnp UrAu ____ ',
-    :cn => 'HgTi ____ Snnp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ',
-    :gn => 'AuUr NpSn ____ TiHg FeFe HgTi ____ Snnp UrAu ____ ____ ____ ',
-    :dn => 'Snnp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ',
-    :an => '____ TiHg FeFe HgTi ____ Snnp UrAu ____ ____ ____ AuUr NpSn ',
-    :en => '____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ Snnp UrAu ',
-    :bn => 'FeFe HgTi ____ Snnp UrAu ____ ____ ____ AuUr NpSn ____ TiHg '}
+    :fn => '____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ',
+    :cn => 'HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ',
+    :gn => 'AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ ',
+    :dn => 'SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ',
+    :an => '____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ',
+    :en => '____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ',
+    :bn => 'FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg '}
 
 
     K2J6 = {    # 1426278888639
-    :fn => 'PbTi ____ Aunp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe ',
-    :cn => 'HgMn ____ ____ MnHg CuFe PbTi ____ Aunp NpAu ____ ____ FeCu ',
-    :gn => 'Aunp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ',
-    :dn => '____ MnHg CuFe PbTi ____ Aunp NpAu ____ ____ FeCu HgMn ____ ',
-    :an => '____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp NpAu ',
-    :en => 'CuFe PbTi ____ Aunp NpAu ____ ____ FeCu HgMn ____ ____ MnHg ',
-    :bn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp NpAu ____ ____ '}
+    :fn => 'PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe ',
+    :cn => 'HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu ',
+    :gn => 'AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ',
+    :dn => '____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ',
+    :an => '____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ',
+    :en => 'CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg ',
+    :bn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ '}
 
 
     N5Y2 = {    # 1426278916691
-    :fn => '____ ____ Aunp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ',
-    :cn => 'HgMn ____ ____ MnHg CuFe ____ ____ Aunp NpAu ____ TiPb FeCu ',
-    :gn => 'Aunp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ ',
-    :dn => '____ MnHg CuFe ____ ____ Aunp NpAu ____ TiPb FeCu HgMn ____ ',
-    :an => '____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ Aunp NpAu ',
-    :en => 'CuFe ____ ____ Aunp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ',
-    :bn => 'FeCu HgMn ____ ____ MnHg CuFe ____ ____ Aunp NpAu ____ TiPb '}
+    :fn => '____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ',
+    :cn => 'HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu ',
+    :gn => 'AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ ',
+    :dn => '____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ',
+    :an => '____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ',
+    :en => 'CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ',
+    :bn => 'FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb '}
 
 
     K26 = {     # 1426278941040
-    :fn => 'PbTi ____ Aunp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ',
-    :cn => 'HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ____ ____ TiPb FeCu ',
-    :gn => 'Aunp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ',
-    :dn => '____ MnHg CuFe PbTi ____ Aunp ____ ____ TiPb FeCu HgMn ____ ',
-    :an => '____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ____ ',
-    :en => 'CuFe PbTi ____ Aunp ____ ____ TiPb FeCu HgMn ____ ____ MnHg ',
-    :bn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ____ ____ TiPb '}
+    :fn => 'PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ',
+    :cn => 'HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu ',
+    :gn => 'AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ',
+    :dn => '____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ',
+    :an => '____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ',
+    :en => 'CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg ',
+    :bn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb '}
 
 
     K256 = {    # 1426278965103
@@ -594,43 +594,43 @@ module GemStone
 
 
     K2J56Y7 = { # 1426278332005
-    :fn => 'PuFe SnTi ____ Cunp PbAu ____ ____ NpCu ____ ____ FePu HgHg ',
-    :cn => 'npCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp PbAu ____ ____ ',
-    :gn => '____ Cunp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ',
-    :dn => '____ FePu HgHg PuFe SnTi ____ Cunp PbAu ____ ____ NpCu ____ ',
-    :an => 'PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ',
-    :en => 'HgHg PuFe SnTi ____ Cunp PbAu ____ ____ NpCu ____ ____ FePu ',
-    :bn => '____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp PbAu ____ '}
+    :fn => 'PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg ',
+    :cn => 'npCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ ',
+    :gn => '____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ',
+    :dn => '____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ',
+    :an => 'PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ',
+    :en => 'HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu ',
+    :bn => '____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ '}
 
 
     J346Y5 = {  # 1426278361135
-    :fn => 'PuFe ____ ____ Cunp ____ ____ AuPb NpCu ____ TiSn FePu HgHg ',
-    :cn => 'npCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ____ ____ AuPb ',
-    :gn => '____ Cunp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ',
-    :dn => 'TiSn FePu HgHg PuFe ____ ____ Cunp ____ ____ AuPb NpCu ____ ',
-    :an => '____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :en => 'HgHg PuFe ____ ____ Cunp ____ ____ AuPb NpCu ____ TiSn FePu ',
-    :bn => 'AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ____ ____ '}
+    :fn => 'PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg ',
+    :cn => 'npCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb ',
+    :gn => '____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ',
+    :dn => 'TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ ',
+    :an => '____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :en => 'HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ',
+    :bn => 'AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ '}
 
 
     J3K5 = {    # 1426278387880
-    :fn => 'PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ TiSn FePu ____ ',
-    :cn => 'npCu ____ TiSn FePu ____ PuFe ____ ____ Cunp PbAu ____ AuPb ',
-    :gn => '____ Cunp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ',
-    :dn => 'TiSn FePu ____ PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ ',
-    :an => 'PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ Cunp ',
-    :en => '____ PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ TiSn FePu ',
-    :bn => 'AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ Cunp PbAu ____ '}
+    :fn => 'PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ ',
+    :cn => 'npCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb ',
+    :gn => '____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ',
+    :dn => 'TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ',
+    :an => 'PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp ',
+    :en => '____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ',
+    :bn => 'AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ '}
 
 
     N167 = {    # 1426278412595
-    :fn => 'PuFe SnTi ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ____ ',
-    :cn => 'npCu ____ ____ FePu ____ PuFe SnTi ____ Cunp PbAu ____ AuPb ',
-    :gn => '____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ',
-    :dn => '____ FePu ____ PuFe SnTi ____ Cunp PbAu ____ AuPb NpCu ____ ',
-    :an => 'PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ Cunp ',
-    :en => '____ PuFe SnTi ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ',
-    :bn => 'AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ Cunp PbAu ____ '}
+    :fn => 'PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ ',
+    :cn => 'npCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb ',
+    :gn => '____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ',
+    :dn => '____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ',
+    :an => 'PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp ',
+    :en => '____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ',
+    :bn => 'AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ '}
 
 
     K2 = {      # 1426278435850
@@ -644,23 +644,23 @@ module GemStone
 
 
     K125 = {    # 1426278459305
-    :fn => 'PuFe ____ ____ Cunp PbAu ____ AuPb ____ AgUr ____ FePu HgHg ',
-    :cn => '____ AgUr ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ',
-    :gn => '____ Cunp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ',
-    :dn => '____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ AgUr ',
-    :an => 'PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ Cunp ',
-    :en => 'HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ AgUr ____ FePu ',
-    :bn => 'AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ '}
+    :fn => 'PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg ',
+    :cn => '____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ',
+    :gn => '____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ',
+    :dn => '____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ',
+    :an => 'PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp ',
+    :en => 'HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ',
+    :bn => 'AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ '}
 
 
     K25 = {     # 1426278486171
-    :fn => 'PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePb HgHg ',
-    :cn => 'npCu ____ ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ',
-    :gn => '____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ',
-    :dn => '____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ ',
-    :an => 'PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ Cunp ',
-    :en => 'HgHg PuFe ____ ____ Cunp PbAu ____ AuPb NpCu ____ ____ FePu ',
-    :bn => 'AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ Cunp PbAu ____ '}
+    :fn => 'PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePb HgHg ',
+    :cn => 'npCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ',
+    :gn => '____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ',
+    :dn => '____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ',
+    :an => 'PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp ',
+    :en => 'HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ',
+    :bn => 'AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ '}
 
 
     K12 = {     # 1426278519381
@@ -704,33 +704,33 @@ module GemStone
 
 
     K25X1 = {   # 1426278626197
-    :fn => 'PuFe ____ ____ Cunp PbAu ____ AuPb ____ ____ TiSn FePu HgHg ',
-    :cn => '____ ____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ',
-    :gn => '____ Cunp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ',
-    :dn => 'TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ ____ ',
-    :an => 'PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :en => 'HgHg PuFe ____ ____ Cunp PbAu ____ AuPb ____ ____ TiSn FePu ',
-    :bn => 'AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ '}
+    :fn => 'PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg ',
+    :cn => '____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ',
+    :gn => '____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ',
+    :dn => 'TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ ',
+    :an => 'PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :en => 'HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu ',
+    :bn => 'AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ '}
 
 
     K2J56 = {   # 1426278657377
-    :fn => 'PuFe SnTi ____ Cunp ____ ____ AuPb NpCu ____ ____ FePu HgHg ',
-    :cn => 'npCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ____ ____ AuPb ',
-    :gn => '____ Cunp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ',
-    :dn => '____ FePu HgHg PuFe SnTi ____ Cunp ____ ____ AuPb NpCu ____ ',
-    :an => '____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ',
-    :en => 'HgHg PuFe SnTi ____ Cunp ____ ____ AuPb NpCu ____ ____ FePu ',
-    :bn => 'AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ Cunp ____ ____ '}
+    :fn => 'PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg ',
+    :cn => 'npCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb ',
+    :gn => '____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ',
+    :dn => '____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ',
+    :an => '____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ',
+    :en => 'HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu ',
+    :bn => 'AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ '}
 
 
     K257X1 = {  # 1426278681296
-    :fn => 'PuFe ____ ____ Cunp PbAu ____ ____ NpCu ____ TiSn FePu HgHg ',
-    :cn => 'npCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ ',
-    :gn => '____ Cunp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ',
-    :dn => 'TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ NpCu ____ ',
-    :an => 'PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :en => 'HgHg PuFe ____ ____ Cunp PbAu ____ ____ NpCu ____ TiSn FePu ',
-    :bn => '____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ '}
+    :fn => 'PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg ',
+    :cn => 'npCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ',
+    :gn => '____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ',
+    :dn => 'TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ ',
+    :an => 'PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :en => 'HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu ',
+    :bn => '____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ '}
 
 
     K2J5Y6 = {  # 1426278714122
@@ -744,13 +744,13 @@ module GemStone
 
 
     K25X17 = {  # 1426278737070
-    :fn => 'PuFe ____ ____ Cunp PbAu ____ ____ ____ AgUr TiSn FePu HgHg ',
-    :cn => '____ AgUr TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ ',
-    :gn => '____ Cunp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ',
-    :dn => 'TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ ____ ____ AgUr ',
-    :an => 'PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ Cunp ',
-    :en => 'HgHg PuFe ____ ____ Cunp PbAu ____ ____ ____ AgUr TiSn FePu ',
-    :bn => '____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ Cunp PbAu ____ '}
+    :fn => 'PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg ',
+    :cn => '____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ',
+    :gn => '____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ',
+    :dn => 'TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr ',
+    :an => 'PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp ',
+    :en => 'HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu ',
+    :bn => '____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ '}
 
 
     K2J5X1 = {  # 1426278761948
@@ -774,43 +774,43 @@ module GemStone
 
 
     N67X2 = {   # 1426278826809
-    :fn => 'FeFe HgTi ____ Snnp UrAu ____ PbPb ____ AuUr ____ ____ TiHg ',
-    :cn => '____ AuUr ____ ____ TiHg FeFe HgTi ____ Snnp UrAu ____ PbPb ',
-    :gn => '____ Snnp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ',
-    :dn => '____ ____ TiHg FeFe HgTi ____ Snnp UrAu ____ PbPb ____ AuUr ',
-    :an => 'UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ Snnp ',
-    :en => 'TiHg FeFe HgTi ____ Snnp UrAu ____ PbPb ____ AuUr ____ ____ ',
-    :bn => 'PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ Snnp UrAu ____ '}
+    :fn => 'FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg ',
+    :cn => '____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ',
+    :gn => '____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ',
+    :dn => '____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ',
+    :an => 'UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp ',
+    :en => 'TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ ',
+    :bn => 'PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ '}
 
 
     K1J56Y7 = { # 1426278859007
-    :fn => 'FeFe HgTi ____ Snnp UrAu ____ ____ ____ AuUr NpSn ____ TiHg ',
-    :cn => '____ AuUr NpSn ____ TiHg FeFe HgTi ____ Snnp UrAu ____ ____ ',
-    :gn => '____ Snnp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ',
-    :dn => 'npSn ____ TiHg FeFe HgTi ____ Snnp UrAu ____ ____ ____ AuUr ',
-    :an => 'UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ Snnp ',
-    :en => 'TiHg FeFe HgTi ____ Snnp UrAu ____ ____ ____ AuUr NpSn ____ ',
-    :bn => '____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ Snnp UrAu ____ '}
+    :fn => 'FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg ',
+    :cn => '____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ',
+    :gn => '____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ',
+    :dn => 'npSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr ',
+    :an => 'UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp ',
+    :en => 'TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ ',
+    :bn => '____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ '}
 
 
     J2K5 = {    # 1426278888639
-    :fn => 'CuFe ____ ____ Aunp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ',
-    :cn => 'FeCu HgMn ____ ____ MnHg CuFe ____ ____ Aunp NpAu ____ TiPb ',
-    :gn => '____ Aunp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ',
-    :dn => '____ ____ MnHg CuFe ____ ____ Aunp NpAu ____ TiPb FeCu HgMn ',
-    :an => 'npAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ Aunp ',
-    :en => 'MnHg CuFe ____ ____ Aunp NpAu ____ TiPb FeCu HgMn ____ ____ ',
-    :bn => 'TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ Aunp NpAu ____ '}
+    :fn => 'CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ',
+    :cn => 'FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb ',
+    :gn => '____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ',
+    :dn => '____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ',
+    :an => 'npAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp ',
+    :en => 'MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ ',
+    :bn => 'TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ '}
 
 
     N6X2 = {    # 1426278916691
-    :fn => 'CuFe PbTi ____ Aunp NpAu ____ ____ FeCu HgMn ____ ____ MnHg ',
-    :cn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp NpAu ____ ____ ',
-    :gn => '____ Aunp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ',
-    :dn => '____ ____ MnHg CuFe PbTi ____ Aunp NpAu ____ ____ FeCu HgMn ',
-    :an => 'npAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ',
-    :en => 'MnHg CuFe PbTi ____ Aunp NpAu ____ ____ FeCu HgMn ____ ____ ',
-    :bn => '____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp NpAu ____ '}
+    :fn => 'CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg ',
+    :cn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ ',
+    :gn => '____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ',
+    :dn => '____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ',
+    :an => 'npAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ',
+    :en => 'MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ ',
+    :bn => '____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ '}
 
 
     J25 = {     # 1426278941040
@@ -824,13 +824,13 @@ module GemStone
 
 
     J256 = {    # 1426278965103
-    :fn => 'CuFe PbTi ____ Aunp ____ ____ TiPb FeCu HgMn ____ ____ MnHg ',
-    :cn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ____ ____ TiPb ',
-    :gn => '____ Aunp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ',
-    :dn => '____ ____ MnHg CuFe PbTi ____ Aunp ____ ____ TiPb FeCu HgMn ',
-    :an => '____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ',
-    :en => 'MnHg CuFe PbTi ____ Aunp ____ ____ TiPb FeCu HgMn ____ ____ ',
-    :bn => 'TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ Aunp ____ ____ '}
+    :fn => 'CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg ',
+    :cn => 'FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb ',
+    :gn => '____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ',
+    :dn => '____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ',
+    :an => '____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ',
+    :en => 'MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ ',
+    :bn => 'TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ '}
 
 
 end
