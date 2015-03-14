@@ -749,13 +749,5 @@ module GemStone
  :en => "MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ ",
  :bn => "TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ "}
 
-  def lydiaMode
-    return " #{ N0[:fn] } "
-  end
-
-  def GemStone.j3HgSn
-    return " #{ J3[:cn] } "
-  end
-
 end
 

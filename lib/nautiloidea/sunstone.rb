@@ -507,7 +507,7 @@ k256 = Proc.new do
 end
 
 def help
-  puts
+  puts "\n Basic Commands"
   puts " help  -h    This help message"
   puts " list  -l    List of objects" 
   puts " next  -n    Move to next section"
@@ -525,7 +525,6 @@ index = [
 
 x_status = false
 
-  puts "\n Basic Commands"
   puts help
 
 while ( not x_status )
