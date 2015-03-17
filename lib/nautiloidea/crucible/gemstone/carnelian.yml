@@ -1,10 +1,10 @@
---- 
+---
 
-  j367_F: ' SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ ' 
-  j367_C: ' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ ' 
-  j367_G: ' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ ' 
-  j367_D: ' FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ' 
-  j367_A: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ' 
-  j367_E: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ' 
-  j367_B: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ' 
+  j367_F: ' SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ '
+  j367_C: ' AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ '
+  j367_G: ' CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ '
+  j367_D: ' FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ '
+  j367_A: ' ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe '
+  j367_E: ' ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu '
+  j367_B: ' ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg '
 
