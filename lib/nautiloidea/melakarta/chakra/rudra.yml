@@ -1,57 +1,58 @@
---- 
-Rudra: 
+---
 
- Kantamani: 
-  k12j5: 
-   - " fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 "
-   - " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ "
-   - " ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
-   - " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ "
-   - " an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
-   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5 "
+  Rudra:
 
- Rishabhapriya: 
-  j23: 
-   - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7 "
-   - " cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 "
-   - " ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
-   - " an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5 "
-   - " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___ "
+    Kantamani:
+      k12j5:
+        - ! fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7
+        - ! ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___
+        - ! ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___
+        - ! ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___
+        - ! an4 ___ bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5
+        - ! en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ck5 ___ dk5 en5
 
- Latangi: 
-  j2: 
-   - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 "
-   - " cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 "
-   - " ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ "
-   - " an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5 "
-   - " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5 "
+    Rishabhapriya:
+      j23:
+        - ! fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7
+        - ! cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7
+        - ! gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6
+        - ! ___ ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___
+        - ! an4 ___ bn4 cn5 dj5 ___ ej5 ___ fn5 ___ gn5 ___ an5
+        - ! ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ej5 ___
 
- Vachaspati: 
-  j3: 
-   - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 "
-   - " cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 "
-   - " dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
-   - " an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 "
-   - " ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___ "
+    Latangi:
+      j2:
+        - ! fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7
+        - ! cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7
+        - ! gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6
+        - ! ___ ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___
+        - ! an4 ___ bn4 cn5 dj5 ___ ___ en5 fn5 ___ gn5 ___ an5
+        - ! en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 dj5 ___ ___ en5
 
- Mechakalyani: 
-  n0: 
-   - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
-   - " cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
-   - " dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 "
-   - " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 "
-   - " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+    Vachaspati:
+      j3:
+        - ! fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7
+        - ! cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7
+        - ! gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6
+        - ! dn5 ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6
+        - ! an4 ___ bn4 cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5
+        - ! ___ fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ej5 ___
 
- Chitrambhari: 
-  k2: 
-   - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
-   - " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
-   - " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
-   - " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
-   - " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
- 
+    Mechakalyani:
+      n0:
+        - ! fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7
+        - ! cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7
+        - ! gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6
+        - ! dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6
+        - ! an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5
+        - ! en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5
+
+    Chitrambhari:
+      k2:
+        - ! fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7
+        - ! cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7
+        - ! gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6
+        - ! ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___
+        - ! an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5
+        - ! en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5
+

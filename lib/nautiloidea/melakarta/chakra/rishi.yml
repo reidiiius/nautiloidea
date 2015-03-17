@@ -1,57 +1,58 @@
---- 
-Rishi: 
+---
 
- Salagam: 
-  j25k6: 
-   - " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 "
-   - " cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
-   - " ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ "
-   - " ___ ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj5 ___ "
-   - " ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___ "
-   - " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5 "
+  Rishi:
 
- Jalarnavam: 
-  j5k6: 
-   - " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 "
-   - " cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
-   - " ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ "
-   - " dn5 ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6 "
-   - " ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___ "
-   - " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5 "
+    Salagam:
+      j25k6:
+        - ! fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7
+        - ! cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7
+        - ! ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___
+        - ! ___ ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj5 ___
+        - ! ___ ak4 bn4 cn5 dj5 ___ ___ en5 fn5 gj5 ___ ___ ___
+        - ! en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 dj5 ___ ___ en5
 
- Jhalavarali: 
-  k26j5: 
-   - " fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 "
-   - " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 "
-   - " ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
-   - " ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ "
-   - " ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___ "
-   - " en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5 "
+    Jalarnavam:
+      j5k6:
+        - ! fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7
+        - ! cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7
+        - ! ___ ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___
+        - ! dn5 ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ dn6
+        - ! ___ ak4 bn4 cn5 ___ dn5 ___ en5 fn5 gj5 ___ ___ ___
+        - ! en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ dn5 ___ en5
 
- Navaneetam: 
-  j34k5: 
-   - " ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ___ "
-   - " cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 "
-   - " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ "
-   - " dn5 ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
-   - " an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5 "
-   - " fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5 "
+    Jhalavarali:
+      k26j5:
+        - ! fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7
+        - ! cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7
+        - ! ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___
+        - ! ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___
+        - ! ___ ak4 bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ ___
+        - ! en4 fn4 gj4 ___ ___ ___ ak4 bn4 cn5 ___ ___ dk5 en5
 
- Pavani: 
-  k126j5: 
-   - " fn6 gj6 ___ ___ ___ ak6 bn6 ___ ck7 ___ dk7 en7 fn7 "
-   - " ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ "
-   - " ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ "
-   - " ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___ "
-   - " ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5 "
-   - " en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5 "
+    Navaneetam:
+      j34k5:
+        - ! ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ___
+        - ! cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7
+        - ! ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___
+        - ! dn5 ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6
+        - ! an4 ___ bn4 cn5 ___ dn5 ej5 fj5 ___ ___ ___ gk5 an5
+        - ! fj4 ___ ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ej5 fj5
 
- Raghupriya: 
-  x1k26j5: 
-   - " fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 fn7 "
-   - " ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ "
-   - " ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ "
-   - " cx5 dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 "
-   - " ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___ "
-   - " en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5 "
- 
+    Pavani:
+      k126j5:
+        - ! fn6 gj6 ___ ___ ___ ak6 bn6 ___ ck7 ___ dk7 en7 fn7
+        - ! ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___
+        - ! ___ ___ ___ ak5 bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___
+        - ! ___ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ck6 ___
+        - ! ___ ak4 bn4 ___ ck5 ___ dk5 en5 fn5 gj5 ___ ___ an5
+        - ! en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ck5 ___ dk5 en5
+
+    Raghupriya:
+      x1k26j5:
+        - ! fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 fn7
+        - ! ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___
+        - ! ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___
+        - ! cx5 dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6
+        - ! ___ ak4 bn4 ___ ___ cx5 dk5 en5 fn5 gj5 ___ ___ ___
+        - ! en4 fn4 gj4 ___ ___ ___ ak4 bn4 ___ ___ cx5 dk5 en5
+

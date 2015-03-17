@@ -1,57 +1,58 @@
---- 
-Disi: 
+---
 
- Syamalangi: 
-  k2j5: 
-   - " fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
-   - " cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 "
-   - " ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ "
-   - " ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ "
-   - " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5 "
-   - " en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+  Disi:
 
- Shanmukhapriya: 
-  k2: 
-   - " fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
-   - " cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 "
-   - " gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
-   - " ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ "
-   - " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5 "
-   - " en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+    Syamalangi:
+      k2j5:
+        - ! fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7
+        - ! cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7
+        - ! ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___
+        - ! ___ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___
+        - ! an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 gj5 ___ ___ an5
+        - ! en4 fn4 gj4 ___ ___ an4 ___ bn4 cn5 ___ ___ dk5 en5
 
- Simhendramadhyamam: 
-  k25: 
-   - " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
-   - " cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
-   - " ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ "
-   - " ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ "
-   - " an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5 "
-   - " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5 "
+    Shanmukhapriya:
+      k2:
+        - ! fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7
+        - ! cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7
+        - ! gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6
+        - ! ___ dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___
+        - ! an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 ___ an5
+        - ! en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ ___ dk5 en5
 
- Hemavati: 
-  k5: 
-   - " fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
-   - " cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 "
-   - " ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ "
-   - " dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 "
-   - " an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5 "
-   - " en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5 "
+    Simhendramadhyamam:
+      k25:
+        - ! fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7
+        - ! cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7
+        - ! ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___
+        - ! ___ dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___
+        - ! an4 ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ ___ gk5 an5
+        - ! en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ ___ dk5 en5
 
- Dharmavati: 
-  j6: 
-   - " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 "
-   - " cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
-   - " gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 "
-   - " dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 "
-   - " ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___ "
-   - " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5 "
+    Hemavati:
+      k5:
+        - ! fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7
+        - ! cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7
+        - ! ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___
+        - ! dn5 ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6
+        - ! an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ ___ gk5 an5
+        - ! en4 fn4 ___ ___ gk4 an4 ___ bn4 cn5 ___ dn5 ___ en5
 
- Neetimati: 
-  k2j6: 
-   - " fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 "
-   - " cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 "
-   - " gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 "
-   - " ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ "
-   - " ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___ "
-   - " en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5 "
+    Dharmavati:
+      j6:
+        - ! fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7
+        - ! cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7
+        - ! gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6
+        - ! dn5 ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6
+        - ! ___ ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 aj5 ___
+        - ! en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ dn5 ___ en5
+
+    Neetimati:
+      k2j6:
+        - ! fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7
+        - ! cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7
+        - ! gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6
+        - ! ___ dk5 en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___
+        - ! ___ ___ bn4 cn5 ___ ___ dk5 en5 fn5 ___ gn5 aj5 ___
+        - ! en4 fn4 ___ gn4 aj4 ___ ___ bn4 cn5 ___ ___ dk5 en5
 
