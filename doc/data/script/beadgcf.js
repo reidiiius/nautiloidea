@@ -1,6 +1,6 @@
-/* 
- * Copyright 2013-2015 Reid Netterville III 
- * 
+/*
+ * Copyright 2013-2015 Reid Netterville III
+ *
  */
 
 var beadgcf = {
@@ -1593,7 +1593,7 @@ function gtr4ths_j256() {
               x.j256_B);
 }
 
-// standard tuning 
+// standard tuning
 
 function gtrSTD_n0() {
   var x = beadgcf;

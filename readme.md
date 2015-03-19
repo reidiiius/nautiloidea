@@ -330,7 +330,7 @@ Nautiloidea
     fj4 ___ ___ gn4 ___ ___ ak4 bn4 ___ ck5 dn5 ej5 fj5
 
 
-#### x1k2j5
+#### k2j5x1
 
     en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7
     bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6
@@ -340,7 +340,7 @@ Nautiloidea
     en4 fn4 gj4 ___ ___ an4 ___ bn4 ___ ___ cx5 dk5 en5
 
 
-#### x1k26j5
+#### k26j5x1
 
     en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7
     bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6
