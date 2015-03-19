@@ -1,5 +1,7 @@
 #!/usr/bin/ruby
 
+module Lapis
+
 class Qtune
 
   def str0
@@ -1632,317 +1634,369 @@ j25_5ths = Proc.new do
   puts Flat25.new.str0[0..61]
 end
 
-index = %w[ n0 k6 j5 j5y6 k6x5 j3 j5k6 k26j5 j25k6
- j6 k5 k56 j56 k127 j234 k127j5 j234k6 j34k5 k17j6 k1j6 j3k5
- j2 k2 j26 k12 j23k6 k12j5 j2k6 k2j5 j2k56 k2j56 j34k6
- j2k6y3 k2j5y6 j3k6 k1j5 k2j6 j2k5 k26 j25 ]
+index = <<EOF
+\n n0 k6 j5 j5y6 k6x5
+\n j3 j5k6 k26j5 j25k6
+\n j6 k5 k56 j56 k127 j234
+\n k127j5 j234k6 j34k5 k17j6 k1j6 j3k5
+\n j2 k2 j26 k12 j23k6 k12j5 j2k6 k2j5
+\n j2k56 k2j56 j34k6 j2k6y3 k2j5y6
+\n j3k6 k1j5 k2j6 j2k5 k26 j25
+EOF
 
-def help
- puts
- puts ' For a table of contents,'
- puts ' type "index" or "list",'
- puts ' to skip this section type "next",'
- puts ' If you want to leave the program,'
- puts ' simply type "exit" or "quit".'
+help = <<EOF
+\n Basic Commands
+  help  -h    This help message
+  list  -l    List of objects
+  next  -n    Move to next section
+  quit  -q    Leave the program
+EOF
+
+  puts "\n Lapis ".upcase
+  puts help
+
+  x_status = false
+
+while (not x_status)
+  print "\n Enter selection: "
+
+  signet = gets.chomp
+
+  if signet =~ /list|-l/
+    puts index
+
+  elsif signet == 'n0'
+    puts
+    puts 'n0 4ths'
+      n0_4ths.call
+    puts
+    puts 'n0 5ths'
+      n0_5ths.call
+
+  elsif signet == 'k6'
+    puts
+    puts 'k6 4ths'
+      k6_4ths.call
+    puts
+    puts 'k6 5ths'
+      k6_5ths.call
+
+  elsif signet == 'j5'
+    puts
+    puts 'j5 4ths'
+      j5_4ths.call
+    puts
+    puts 'j5 5ths'
+      j5_5ths.call
+
+  elsif signet == 'j5y6'
+    puts
+    puts 'j5y6 4ths'
+      j5y6_4ths.call
+    puts
+    puts 'j5y6 5ths'
+      j5y6_5ths.call
+
+  elsif signet == 'k6x5'
+    puts
+    puts 'k6x5 4ths'
+      k6x5_4ths.call
+    puts
+    puts 'k6x5 5ths'
+      k6x5_5ths.call
+
+  elsif signet == 'j3'
+    puts
+    puts 'j3 4ths'
+      j3_4ths.call
+    puts
+    puts 'j3 5ths'
+      j3_5ths.call
+
+  elsif signet == 'j5k6'
+    puts
+    puts 'j5k6 4ths'
+      j5k6_4ths.call
+    puts
+    puts 'j5k6 5ths'
+      j5k6_5ths.call
+
+  elsif signet == 'k26j5'
+    puts
+    puts 'k26j5 4ths'
+      k26j5_4ths.call
+    puts
+    puts 'k26j5 5ths'
+      k26j5_5ths.call
+
+  elsif signet == 'j25k6'
+    puts
+    puts 'j25k6 4ths'
+      j25k6_4ths.call
+    puts
+    puts 'j25k6 5ths'
+      j25k6_5ths.call
+
+  elsif signet == 'j6'
+    puts
+    puts 'j6 4ths'
+      j6_4ths.call
+    puts
+    puts 'j6 5ths'
+      j6_5ths.call
+
+  elsif signet == 'k5'
+    puts
+    puts 'k5 4ths'
+      k5_4ths.call
+    puts
+    puts 'k5 5ths'
+      k5_5ths.call
+
+  elsif signet == 'k56'
+    puts
+    puts 'k56 4ths'
+      k56_4ths.call
+    puts
+    puts 'k56 5ths'
+      k56_5ths.call
+
+  elsif signet == 'j56'
+    puts
+    puts 'j56 4ths'
+      j56_4ths.call
+    puts
+    puts 'j56 5ths'
+      j56_5ths.call
+
+  elsif signet == 'k127'
+    puts
+    puts 'k127 4ths'
+      k127_4ths.call
+    puts
+    puts 'k127 5ths'
+      k127_5ths.call
+
+  elsif signet == 'j234'
+    puts
+    puts 'j234 4ths'
+      j234_4ths.call
+    puts
+    puts 'j234 5ths'
+      j234_5ths.call
+
+  elsif signet == 'k127j5'
+    puts
+    puts 'k127j5 4ths'
+      k127j5_4ths.call
+    puts
+    puts 'k127j5 5ths'
+      k127j5_5ths.call
+
+  elsif signet == 'j234k6'
+    puts
+    puts 'j234k6 4ths'
+      j234k6_4ths.call
+    puts
+    puts 'j234k6 5ths'
+      j234k6_5ths.call
+
+  elsif signet == 'j34k5'
+    puts
+    puts 'j34k5 4ths'
+      j34k5_4ths.call
+    puts
+    puts 'j34k5 5ths'
+      j34k5_5ths.call
+
+  elsif signet == 'k17j6'
+    puts
+    puts 'k17j6 4ths'
+      k17j6_4ths.call
+    puts
+    puts 'k17j6 5ths'
+      k17j6_5ths.call
+
+  elsif signet == 'k1j6'
+    puts
+    puts 'k1j6 4ths'
+      k1j6_4ths.call
+    puts
+    puts 'k1j6 5ths'
+      k1j6_5ths.call
+
+  elsif signet == 'j3k5'
+    puts
+    puts 'j3k5 4ths'
+      j3k5_4ths.call
+    puts
+    puts 'j3k5 5ths'
+      j3k5_5ths.call
+
+  elsif signet == 'j2'
+    puts
+    puts 'j2 4ths'
+      j2_4ths.call
+    puts
+    puts 'j2 5ths'
+      j2_5ths.call
+
+  elsif signet == 'k2'
+    puts
+    puts 'k2 4ths'
+      k2_4ths.call
+    puts
+    puts 'k2 5ths'
+      k2_5ths.call
+
+  elsif signet == 'j26'
+    puts
+    puts 'j26 4ths'
+      j26_4ths.call
+    puts
+    puts 'j26 5ths'
+      j26_5ths.call
+
+  elsif signet == 'k12'
+    puts
+    puts 'k12 4ths'
+      k12_4ths.call
+    puts
+    puts 'k12 5ths'
+      k12_5ths.call
+
+  elsif signet == 'j23k6'
+    puts
+    puts 'j23k6 4ths'
+      j23k6_4ths.call
+    puts
+    puts 'j23k6 5ths'
+      j23k6_5ths.call
+
+  elsif signet == 'k12j5'
+    puts
+    puts 'k12j5 4ths'
+      k12j5_4ths.call
+    puts
+    puts 'k12j5 5ths'
+      k12j5_5ths.call
+
+  elsif signet == 'j2k6'
+    puts
+    puts 'j2k6 4ths'
+      j2k6_4ths.call
+    puts
+    puts 'j2k6 5ths'
+      j2k6_5ths.call
+
+  elsif signet == 'k2j5'
+    puts
+    puts 'k2j5 4ths'
+      k2j5_4ths.call
+    puts
+    puts 'k2j5 5ths'
+      k2j5_5ths.call
+
+  elsif signet == 'j2k56'
+    puts
+    puts 'j2k56 4ths'
+      j2k56_4ths.call
+    puts
+    puts 'j2k56 5ths'
+      j2k56_5ths.call
+
+  elsif signet == 'k2j56'
+    puts
+    puts 'k2j56 4ths'
+      k2j56_4ths.call
+    puts
+    puts 'k2j56 5ths'
+      k2j56_5ths.call
+
+  elsif signet == 'j34k6'
+    puts
+    puts 'j34k6 4ths'
+      j34k6_4ths.call
+    puts
+    puts 'j34k6 5ths'
+      j34k6_5ths.call
+
+  elsif signet == 'j2k6y3'
+    puts
+    puts 'j2k6y3 4ths'
+      j2k6y3_4ths.call
+    puts
+    puts 'j2k6y3 5ths'
+      j2k6y3_5ths.call
+
+  elsif signet == 'k2j5y6'
+    puts
+    puts 'k2j5y6 4ths'
+      k2j5y6_4ths.call
+    puts
+    puts 'k2j5y6 5ths'
+      k2j5y6_5ths.call
+
+  elsif signet == 'j3k6'
+    puts
+    puts 'j3k6 4ths'
+      j3k6_4ths.call
+    puts
+    puts 'j3k6 5ths'
+      j3k6_5ths.call
+
+  elsif signet == 'k1j5'
+    puts
+    puts 'k1j5 4ths'
+      k1j5_4ths.call
+    puts
+    puts 'k1j5 5ths'
+      k1j5_5ths.call
+
+  elsif signet == 'k2j6'
+    puts
+    puts 'k2j6 4ths'
+      k2j6_4ths.call
+    puts
+    puts 'k2j6 5ths'
+      k2j6_5ths.call
+
+  elsif signet == 'j2k5'
+    puts
+    puts 'j2k5 4ths'
+      j2k5_4ths.call
+    puts
+    puts 'j2k5 5ths'
+      j2k5_5ths.call
+
+  elsif signet == 'k26'
+    puts
+    puts 'k26 4ths'
+      k26_4ths.call
+    puts
+    puts 'k26 5ths'
+      k26_5ths.call
+
+  elsif signet == 'j25'
+    puts
+    puts 'j25 4ths'
+      j25_4ths.call
+    puts
+    puts 'j25 5ths'
+      j25_5ths.call
+
+  elsif (signet =~ /\s|help|-h/ or signet == '')
+    puts help
+
+  elsif signet =~ /next|-n/
+    x_status = true
+
+  elsif signet =~ /exit|quit|-q/
+    exit
+
+  end
+
 end
 
- puts
- puts ' Lapis '.upcase
- puts help
-
- x_status = false
-while (not x_status)
- puts
- print ' Enter selection: '
- signet = gets.chomp
-if signet =~ /ndex|ist/
- puts index
-elsif signet == 'n0'
- puts
- puts 'n0 4ths'
- n0_4ths.call
- puts
- puts 'n0 5ths'
- n0_5ths.call
-elsif signet == 'k6'
- puts
- puts 'k6 4ths'
- k6_4ths.call
- puts
- puts 'k6 5ths'
- k6_5ths.call
-elsif signet == 'j5'
- puts
- puts 'j5 4ths'
- j5_4ths.call
- puts
- puts 'j5 5ths'
- j5_5ths.call
-elsif signet == 'j5y6'
- puts
- puts 'j5y6 4ths'
- j5y6_4ths.call
- puts
- puts 'j5y6 5ths'
- j5y6_5ths.call
-elsif signet == 'k6x5'
- puts
- puts 'k6x5 4ths'
- k6x5_4ths.call
- puts
- puts 'k6x5 5ths'
- k6x5_5ths.call
-elsif signet == 'j3'
- puts
- puts 'j3 4ths'
- j3_4ths.call
- puts
- puts 'j3 5ths'
- j3_5ths.call
-elsif signet == 'j5k6'
- puts
- puts 'j5k6 4ths'
- j5k6_4ths.call
- puts
- puts 'j5k6 5ths'
- j5k6_5ths.call
-elsif signet == 'k26j5'
- puts
- puts 'k26j5 4ths'
- k26j5_4ths.call
- puts
- puts 'k26j5 5ths'
- k26j5_5ths.call
-elsif signet == 'j25k6'
- puts
- puts 'j25k6 4ths'
- j25k6_4ths.call
- puts
- puts 'j25k6 5ths'
- j25k6_5ths.call
-elsif signet == 'j6'
- puts
- puts 'j6 4ths'
- j6_4ths.call
- puts
- puts 'j6 5ths'
- j6_5ths.call
-elsif signet == 'k5'
- puts
- puts 'k5 4ths'
- k5_4ths.call
- puts
- puts 'k5 5ths'
- k5_5ths.call
-elsif signet == 'k56'
- puts
- puts 'k56 4ths'
- k56_4ths.call
- puts
- puts 'k56 5ths'
- k56_5ths.call
-elsif signet == 'j56'
- puts
- puts 'j56 4ths'
- j56_4ths.call
- puts
- puts 'j56 5ths'
- j56_5ths.call
-elsif signet == 'k127'
- puts
- puts 'k127 4ths'
- k127_4ths.call
- puts
- puts 'k127 5ths'
- k127_5ths.call
-elsif signet == 'j234'
- puts
- puts 'j234 4ths'
- j234_4ths.call
- puts
- puts 'j234 5ths'
- j234_5ths.call
-elsif signet == 'k127j5'
- puts
- puts 'k127j5 4ths'
- k127j5_4ths.call
- puts
- puts 'k127j5 5ths'
- k127j5_5ths.call
-elsif signet == 'j234k6'
- puts
- puts 'j234k6 4ths'
- j234k6_4ths.call
- puts
- puts 'j234k6 5ths'
- j234k6_5ths.call
-elsif signet == 'j34k5'
- puts
- puts 'j34k5 4ths'
- j34k5_4ths.call
- puts
- puts 'j34k5 5ths'
- j34k5_5ths.call
-elsif signet == 'k17j6'
- puts
- puts 'k17j6 4ths'
- k17j6_4ths.call
- puts
- puts 'k17j6 5ths'
- k17j6_5ths.call
-elsif signet == 'k1j6'
- puts
- puts 'k1j6 4ths'
- k1j6_4ths.call
- puts
- puts 'k1j6 5ths'
- k1j6_5ths.call
-elsif signet == 'j3k5'
- puts
- puts 'j3k5 4ths'
- j3k5_4ths.call
- puts
- puts 'j3k5 5ths'
- j3k5_5ths.call
-elsif signet == 'j2'
- puts
- puts 'j2 4ths'
- j2_4ths.call
- puts
- puts 'j2 5ths'
- j2_5ths.call
-elsif signet == 'k2'
- puts
- puts 'k2 4ths'
- k2_4ths.call
- puts
- puts 'k2 5ths'
- k2_5ths.call
-elsif signet == 'j26'
- puts
- puts 'j26 4ths'
- j26_4ths.call
- puts
- puts 'j26 5ths'
- j26_5ths.call
-elsif signet == 'k12'
- puts
- puts 'k12 4ths'
- k12_4ths.call
- puts
- puts 'k12 5ths'
- k12_5ths.call
-elsif signet == 'j23k6'
- puts
- puts 'j23k6 4ths'
- j23k6_4ths.call
- puts
- puts 'j23k6 5ths'
- j23k6_5ths.call
-elsif signet == 'k12j5'
- puts
- puts 'k12j5 4ths'
- k12j5_4ths.call
- puts
- puts 'k12j5 5ths'
- k12j5_5ths.call
-elsif signet == 'j2k6'
- puts
- puts 'j2k6 4ths'
- j2k6_4ths.call
- puts
- puts 'j2k6 5ths'
- j2k6_5ths.call
-elsif signet == 'k2j5'
- puts
- puts 'k2j5 4ths'
- k2j5_4ths.call
- puts
- puts 'k2j5 5ths'
- k2j5_5ths.call
-elsif signet == 'j2k56'
- puts
- puts 'j2k56 4ths'
- j2k56_4ths.call
- puts
- puts 'j2k56 5ths'
- j2k56_5ths.call
-elsif signet == 'k2j56'
- puts
- puts 'k2j56 4ths'
- k2j56_4ths.call
- puts
- puts 'k2j56 5ths'
- k2j56_5ths.call
-elsif signet == 'j34k6'
- puts
- puts 'j34k6 4ths'
- j34k6_4ths.call
- puts
- puts 'j34k6 5ths'
- j34k6_5ths.call
-elsif signet == 'j2k6y3'
- puts
- puts 'j2k6y3 4ths'
- j2k6y3_4ths.call
- puts
- puts 'j2k6y3 5ths'
- j2k6y3_5ths.call
-elsif signet == 'k2j5y6'
- puts
- puts 'k2j5y6 4ths'
- k2j5y6_4ths.call
- puts
- puts 'k2j5y6 5ths'
- k2j5y6_5ths.call
-elsif signet == 'j3k6'
- puts
- puts 'j3k6 4ths'
- j3k6_4ths.call
- puts
- puts 'j3k6 5ths'
- j3k6_5ths.call
-elsif signet == 'k1j5'
- puts
- puts 'k1j5 4ths'
- k1j5_4ths.call
- puts
- puts 'k1j5 5ths'
- k1j5_5ths.call
-elsif signet == 'k2j6'
- puts
- puts 'k2j6 4ths'
- k2j6_4ths.call
- puts
- puts 'k2j6 5ths'
- k2j6_5ths.call
-elsif signet == 'j2k5'
- puts
- puts 'j2k5 4ths'
- j2k5_4ths.call
- puts
- puts 'j2k5 5ths'
- j2k5_5ths.call
-elsif signet == 'k26'
- puts
- puts 'k26 4ths'
- k26_4ths.call
- puts
- puts 'k26 5ths'
- k26_5ths.call
-elsif signet == 'j25'
- puts
- puts 'j25 4ths'
- j25_4ths.call
- puts
- puts 'j25 5ths'
- j25_5ths.call
-elsif (signet =~ /\s|elp/ or signet == '')
- puts help
-elsif signet =~ /next/
- x_status = true
-elsif signet =~ /exit|quit/
- exit
- end
 end
 

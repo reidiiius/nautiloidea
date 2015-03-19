@@ -1,5 +1,7 @@
 #!/usr/bin/ruby
 
+module Lyra
+
 class Cyclone
 
  def str00
@@ -3660,1041 +3662,1079 @@ bass_std_j25 = Proc.new do
   puts Flat_25.new.str12[12..64]
 end
 
-def index
- puts ' n0 '
- puts
- puts ' k6 - j5 '
- puts
- puts ' j17y2 - k34x2 '
- puts
- puts ' j3 - k1 '
- puts
- puts ' j17k2 - j2k34 '
- puts
- puts ' k26j5 - j25k6 '
- puts
- puts ' j6 - k5 '
- puts
- puts ' k56 - j56 '
- puts
- puts ' k127 - j234 '
- puts
- puts ' k127j5 - j234k6 '
- puts
- puts ' k17j6 - j34k5 '
- puts
- puts ' k1j6 - j3k5 '
- puts
- puts ' k16 - j35 '
- puts
- puts ' j2 - k2 '
- puts
- puts ' j26 - k25 '
- puts
- puts ' j23 - k12 '
- puts
- puts ' j23k6 - k12j5 '
- puts
- puts ' j2k6 - k2j5 '
- puts
- puts ' j2k56 - k2j56 '
- puts
- puts ' j34k6 - k17j5 '
- puts
- puts ' j34k16 - k17j35 '
- puts
- puts ' j2k6y3 - k2j5x1 '
- puts
- puts ' j25k6y3 - k26j5x1 '
- puts
- puts ' j3k6 - k1j5 '
- puts
- puts ' j34 - k17 '
- puts
- puts ' k2j6 - j2k5 '
- puts
- puts ' k26 - j25 '
-end
+index = <<EOF
+	        n0
+	     k6 - j5
+	  j17y2 - k34x2
+	     j3 - k1
+	  j17k2 - j2k34
+	  k26j5 - j25k6
+	     j6 - k5
+	    k56 - j56
+	   k127 - j234
+	 k127j5 - j234k6
+	  k17j6 - j34k5
+	   k1j6 - j3k5
+	    k16 - j35
+	     j2 - k2
+	    j26 - k25
+	    j23 - k12
+	  j23k6 - k12j5
+	   j2k6 - k2j5
+	  j2k56 - k2j56
+	  j34k6 - k17j5
+	 j34k16 - k17j35
+	 j2k6y3 - k2j5x1
+	j25k6y3 - k26j5x1
+	   j3k6 - k1j5
+	    j34 - k17
+	   k2j6 - j2k5
+	    k26 - j25
+EOF
 
-def help
- puts ' For a table of contents,'
- puts ' just type "list" or "index".'
- puts ' for the next section, type "next".'
- puts ' If you want to leave the program,'
- puts ' just type "exit" or "quit".'
-end
+help = <<EOF
+\n Basic Commands
+  help  -h    This help message
+  list  -l    List of objects
+  next  -n    Move to next section
+  quit  -q    Leave the program
+EOF
 
- puts
- puts index
- x_status = false
-while (not x_status)
- puts
- print ' Enter selection: '
- selection = gets.chomp
- if (selection =~ /[Ll]ist|[Ii]ndex/ or selection == '0')
   puts
   puts index
- elsif (selection =~ /[Hh]elp/ or selection == '')
-  puts
-  puts help
- elsif (selection == 'n0' or selection == 'n')
- puts
- puts 'natural'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_n0.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_n0.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_n0.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_n0.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_n0.call
- elsif (selection == 'k6' or selection == '+6')
- puts
- puts 'sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k6.call
- elsif (selection == 'j5' or selection == '-5')
- puts
- puts 'flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j5.call
- elsif (selection == 'j17y2' or selection == '=2-1-7')
- puts
- puts 'dblflat_2_flat17'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j17y2.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j17y2.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j17y2.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j17y2.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j17y2.call
- elsif (selection == 'k34x2' or selection == 'x2+3+4')
- puts
- puts 'dblsharp_2_sharp_34'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k34x2.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k34x2.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k34x2.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k34x2.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k34x2.call
- elsif (selection == 'j3' or selection == '-3')
- puts
- puts 'flat_3'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j3.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j3.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j3.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j3.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j3.call
- elsif (selection == 'k1' or selection == '+1')
- puts
- puts 'sharp_1'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k1.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k1.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k1.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k1.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k1.call
- elsif (selection == 'j17k2' or selection == '-1-7+2')
- puts
- puts 'flat_17_sharp_2'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j17k2.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j17k2.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j17k2.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j17k2.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j17k2.call
- elsif (selection == 'j2k34' or selection == '-2+3+4')
- puts
- puts 'flat_2_sharp_34'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j2k34.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j2k34.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j2k34.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j2k34.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j2k34.call
- elsif (selection == 'k26j5' or selection == '+2+6-5')
- puts
- puts 'sharp_26_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k26j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k26j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k26j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k26j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k26j5.call
- elsif (selection == 'j25k6' or selection == '-2-5+6')
- puts
- puts 'flat_25_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j25k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j25k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j25k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j25k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j25k6.call
- elsif (selection == 'j6' or selection == '-6')
- puts
- puts 'flat_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j6.call
- elsif (selection == 'k5' or selection == '+5')
- puts
- puts 'sharp_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k5.call
- elsif (selection == 'k56' or selection == '+5+6')
- puts
- puts 'sharp_56'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k56.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k56.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k56.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k56.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k56.call
- elsif (selection == 'j56' or selection == '-5-6')
- puts
- puts 'flat_56'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j56.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j56.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j56.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j56.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j56.call
- elsif (selection == 'k127' or selection == '+1+2+7')
- puts
- puts 'sharp_127'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k127.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k127.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k127.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k127.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k127.call
- elsif (selection == 'j234' or selection == '-2-3-4')
- puts
- puts 'flat_234'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j234.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j234.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j234.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j234.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j234.call
- elsif (selection == 'k127j5' or selection == '+1+2+7-5')
- puts
- puts 'sharp_127_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k127j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k127j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k127j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k127j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k127j5.call
- elsif (selection == 'j234k6' or selection == '-2-3-4+6')
- puts
- puts 'flat_234_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j234k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j234k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j234k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j234k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j234k6.call
- elsif (selection == 'k17j6' or selection == '+1+7-6')
- puts
- puts 'sharp_17_flat_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k17j6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k17j6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k17j6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k17j6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k17j6.call
- elsif (selection == 'j34k5' or selection == '-3-4+5')
- puts
- puts 'flat_34_sharp_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j34k5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j34k5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j34k5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j34k5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j34k5.call
- elsif (selection == 'k1j6' or selection == '+1-6')
- puts
- puts 'sharp_1_flat_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k1j6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k1j6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k1j6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k1j6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k1j6.call
- elsif (selection == 'j3k5' or selection == '-3+5')
- puts
- puts 'flat_3_sharp_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j3k5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j3k5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j3k5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j3k5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j3k5.call
- elsif (selection == 'k16' or selection == '+1+6')
- puts
- puts 'sharp_16'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k16.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k16.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k16.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k16.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k16.call
- elsif (selection == 'j35' or selection == '-3-5')
- puts
- puts 'flat_35'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j35.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j35.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j35.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j35.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j35.call
- elsif (selection == 'j2' or selection == '-2')
- puts
- puts 'flat_2'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j2.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j2.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j2.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j2.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j2.call
- elsif (selection == 'k2' or selection == '+2')
- puts
- puts 'sharp_2'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k2.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k2.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k2.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k2.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k2.call
- elsif (selection == 'j26' or selection == '-2-6')
- puts
- puts 'flat_26'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j26.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j26.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j26.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j26.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j26.call
- elsif (selection == 'k25' or selection == '+2+5')
- puts
- puts 'sharp_25'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k25.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k25.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k25.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k25.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k25.call
- elsif (selection == 'j23' or selection == '-2-3')
- puts
- puts 'flat_23'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j23.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j23.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j23.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j23.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j23.call
- elsif (selection == 'k12' or selection == '+1+2')
- puts
- puts 'sharp_12'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k12.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k12.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k12.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k12.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k12.call
- elsif (selection == 'j23k6' or selection == '-2-3+6')
- puts
- puts 'flat_23_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j23k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j23k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j23k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j23k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j23k6.call
- elsif (selection == 'k12j5' or selection == '+1+2-5')
- puts
- puts 'sharp_12_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k12j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k12j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k12j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k12j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k12j5.call
- elsif (selection == 'j2k6' or selection == '-2+6')
- puts
- puts 'flat_2_Sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j2k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j2k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j2k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j2k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j2k6.call
- elsif (selection == 'k2j5' or selection == '+2-5')
- puts
- puts 'sharp_2_Flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k2j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k2j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k2j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k2j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k2j5.call
- elsif (selection == 'j2k56' or selection == '-2+5+6')
- puts
- puts 'flat_2_Sharp_56'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j2k56.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j2k56.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j2k56.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j2k56.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j2k56.call
- elsif (selection == 'k2j56' or selection == '+2-5-6')
- puts
- puts 'sharp_2_Flat_56'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k2j56.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k2j56.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k2j56.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k2j56.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k2j56.call
- elsif (selection == 'j34k6' or selection == '-3-4+6')
- puts
- puts 'flat_34_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j34k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j34k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j34k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j34k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j34k6.call
- elsif (selection == 'k17j5' or selection == '+1+7-5')
- puts
- puts 'sharp_17_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k17j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k17j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k17j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k17j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k17j5.call
- elsif (selection == 'j34k16' or selection == '-3-4+1+6')
- puts
- puts 'flat_34_sharp_16'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j34k16.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j34k16.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j34k16.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j34k16.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j34k16.call
- elsif (selection == 'k17j35' or selection == '+1+7-3-5')
- puts
- puts 'sharp_17_flat_35'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k17j35.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k17j35.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k17j35.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k17j35.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k17j35.call
- elsif (selection == 'j2k6y3' or selection == '=3-2+6')
- puts
- puts 'dblflat_3_flat_2_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j2k6y3.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j2k6y3.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j2k6y3.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j2k6y3.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j2k6y3.call
- elsif (selection == 'k2j5x1' or selection == 'x1+2-5')
- puts
- puts 'dblsharp_1_sharp_2_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k2j5x1.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k2j5x1.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k2j5x1.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k2j5x1.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k2j5x1.call
- elsif (selection == 'j25k6y3' or selection == '=3-2-5+6')
- puts
- puts 'dblflat_3_flat_25_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j25k6y3.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j25k6y3.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j25k6y3.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j25k6y3.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j25k6y3.call
- elsif (selection == 'k26j5x1' or selection == 'x1+2+6-5')
- puts
- puts 'dblsharp_1_sharp_26_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k26j5x1.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k26j5x1.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k26j5x1.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k26j5x1.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k26j5x1.call
- elsif (selection == 'j3k6' or selection == '-3+6')
- puts
- puts 'flat_3_sharp_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j3k6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j3k6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j3k6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j3k6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j3k6.call
- elsif (selection == 'k1j5' or selection == '+1-5')
- puts
- puts 'sharp_1_flat_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k1j5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k1j5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k1j5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k1j5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k1j5.call
- elsif (selection == 'j34' or selection == '-3-4')
- puts
- puts 'flat_34'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j34.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j34.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j34.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j34.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j34.call
- elsif (selection == 'k17' or selection == '+1+7')
- puts
- puts 'sharp_17'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k17.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k17.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k17.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k17.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k17.call
- elsif (selection == 'k2j6' or selection == '+2-6')
- puts
- puts 'sharp_2_flat_6'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k2j6.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k2j6.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k2j6.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k2j6.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k2j6.call
- elsif (selection == 'j2k5' or selection == '-2+5')
- puts
- puts 'flat_2_sharp_5'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j2k5.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j2k5.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j2k5.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j2k5.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j2k5.call
- elsif (selection == 'k26' or selection == '+2+6')
- puts
- puts 'sharp_26'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_k26.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_k26.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_k26.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_k26.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_k26.call
- elsif (selection == 'j25' or selection == '-2-5')
- puts
- puts 'flat_25'.upcase
- puts
- puts 'guitar'.upcase + ' standard tuning'
- guitar_std_j25.call
- puts
- puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_j25.call
- puts
- puts 'violin'.upcase + ' fifths tuning'
- violin_std_j25.call
- puts
- puts 'cello'.upcase + ' fifths tuning'
- cello_std_j25.call
- puts
- puts 'bass'.upcase + ' standard tuning'
- bass_std_j25.call
- elsif selection =~ /next/
-  x_status = true
- elsif selection =~ /exit|quit/
- exit
+
+  x_status = false
+
+while (not x_status)
+  print "\n Enter selection: "
+
+  selection = gets.chomp
+
+  if selection =~ /[Ll]ist|-l/
+    puts
+    puts index
+
+  elsif (selection =~ /\s|[Hh]elp|-h/ or selection == '')
+    puts
+    puts help
+
+  elsif (selection == 'n0' or selection == '0')
+    puts
+    puts 'natural'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_n0.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_n0.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_n0.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_n0.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_n0.call
+
+  elsif (selection == 'k6' or selection == '+6')
+    puts
+    puts 'sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k6.call
+
+  elsif (selection == 'j5' or selection == '-5')
+    puts
+    puts 'flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j5.call
+
+  elsif (selection == 'j17y2' or selection == '-17=2')
+    puts
+    puts 'flat_17_y2'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j17y2.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j17y2.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j17y2.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j17y2.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j17y2.call
+
+  elsif (selection == 'k34x2' or selection == '+34x2')
+    puts
+    puts 'sharp_34_x2'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k34x2.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k34x2.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k34x2.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k34x2.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k34x2.call
+
+  elsif (selection == 'j3' or selection == '-3')
+    puts
+    puts 'flat_3'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j3.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j3.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j3.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j3.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j3.call
+
+  elsif (selection == 'k1' or selection == '+1')
+    puts
+    puts 'sharp_1'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k1.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k1.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k1.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k1.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k1.call
+
+  elsif (selection == 'j17k2' or selection == '-17+2')
+    puts
+    puts 'flat_17_sharp_2'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j17k2.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j17k2.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j17k2.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j17k2.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j17k2.call
+
+  elsif (selection == 'j2k34' or selection == '-2+34')
+    puts
+    puts 'flat_2_sharp_34'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j2k34.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j2k34.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j2k34.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j2k34.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j2k34.call
+
+  elsif (selection == 'k26j5' or selection == '+26-5')
+    puts
+    puts 'sharp_26_flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k26j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k26j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k26j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k26j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k26j5.call
+
+  elsif (selection == 'j25k6' or selection == '-25+6')
+    puts
+    puts 'flat_25_sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j25k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j25k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j25k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j25k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j25k6.call
+
+  elsif (selection == 'j6' or selection == '-6')
+    puts
+    puts 'flat_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j6.call
+
+  elsif (selection == 'k5' or selection == '+5')
+    puts
+    puts 'sharp_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k5.call
+
+  elsif (selection == 'k56' or selection == '+56')
+    puts
+    puts 'sharp_56'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k56.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k56.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k56.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k56.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k56.call
+
+  elsif (selection == 'j56' or selection == '-56')
+    puts
+    puts 'flat_56'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j56.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j56.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j56.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j56.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j56.call
+
+  elsif (selection == 'k127' or selection == '+127')
+    puts
+    puts 'sharp_127'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k127.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k127.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k127.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k127.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k127.call
+
+  elsif (selection == 'j234' or selection == '-234')
+    puts
+    puts 'flat_234'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j234.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j234.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j234.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j234.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j234.call
+
+  elsif (selection == 'k127j5' or selection == '+127-5')
+    puts
+    puts 'sharp_127_flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k127j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k127j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k127j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k127j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k127j5.call
+
+  elsif (selection == 'j234k6' or selection == '-234+6')
+    puts
+    puts 'flat_234_sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j234k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j234k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j234k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j234k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j234k6.call
+
+  elsif (selection == 'k17j6' or selection == '+17-6')
+    puts
+    puts 'sharp_17_flat_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k17j6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k17j6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k17j6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k17j6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k17j6.call
+
+  elsif (selection == 'j34k5' or selection == '-34+5')
+    puts
+    puts 'flat_34_sharp_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j34k5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j34k5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j34k5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j34k5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j34k5.call
+
+  elsif (selection == 'k1j6' or selection == '+1-6')
+    puts
+    puts 'sharp_1_flat_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k1j6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k1j6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k1j6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k1j6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k1j6.call
+
+  elsif (selection == 'j3k5' or selection == '-3+5')
+    puts
+    puts 'flat_3_sharp_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j3k5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j3k5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j3k5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j3k5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j3k5.call
+
+  elsif (selection == 'k16' or selection == '+16')
+    puts
+    puts 'sharp_16'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k16.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k16.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k16.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k16.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k16.call
+
+  elsif (selection == 'j35' or selection == '-35')
+    puts
+    puts 'flat_35'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j35.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j35.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j35.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j35.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j35.call
+
+  elsif (selection == 'j2' or selection == '-2')
+    puts
+    puts 'flat_2'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j2.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j2.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j2.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j2.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j2.call
+
+  elsif (selection == 'k2' or selection == '+2')
+    puts
+    puts 'sharp_2'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k2.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k2.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k2.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k2.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k2.call
+
+  elsif (selection == 'j26' or selection == '-26')
+    puts
+    puts 'flat_26'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j26.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j26.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j26.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j26.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j26.call
+
+  elsif (selection == 'k25' or selection == '+25')
+    puts
+    puts 'sharp_25'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k25.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k25.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k25.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k25.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k25.call
+
+  elsif (selection == 'j23' or selection == '-23')
+    puts
+    puts 'flat_23'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j23.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j23.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j23.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j23.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j23.call
+
+  elsif (selection == 'k12' or selection == '+12')
+    puts
+    puts 'sharp_12'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k12.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k12.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k12.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k12.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k12.call
+
+  elsif (selection == 'j23k6' or selection == '-23+6')
+    puts
+    puts 'flat_23_sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j23k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j23k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j23k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j23k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j23k6.call
+
+  elsif (selection == 'k12j5' or selection == '+12-5')
+    puts
+    puts 'sharp_12_flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k12j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k12j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k12j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k12j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k12j5.call
+
+  elsif (selection == 'j2k6' or selection == '-2+6')
+    puts
+    puts 'flat_2_Sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j2k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j2k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j2k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j2k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j2k6.call
+
+  elsif (selection == 'k2j5' or selection == '+2-5')
+    puts
+    puts 'sharp_2_Flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k2j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k2j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k2j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k2j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k2j5.call
+
+  elsif (selection == 'j2k56' or selection == '-2+56')
+    puts
+    puts 'flat_2_Sharp_56'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j2k56.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j2k56.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j2k56.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j2k56.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j2k56.call
+
+  elsif (selection == 'k2j56' or selection == '+2-56')
+    puts
+    puts 'sharp_2_Flat_56'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k2j56.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k2j56.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k2j56.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k2j56.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k2j56.call
+
+  elsif (selection == 'j34k6' or selection == '-34+6')
+    puts
+    puts 'flat_34_sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j34k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j34k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j34k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j34k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j34k6.call
+
+  elsif (selection == 'k17j5' or selection == '+17-5')
+    puts
+    puts 'sharp_17_flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k17j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k17j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k17j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k17j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k17j5.call
+
+  elsif (selection == 'j34k16' or selection == '-34+16')
+    puts
+    puts 'flat_34_sharp_16'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j34k16.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j34k16.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j34k16.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j34k16.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j34k16.call
+
+  elsif (selection == 'k17j35' or selection == '+17-35')
+    puts
+    puts 'sharp_17_flat_35'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k17j35.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k17j35.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k17j35.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k17j35.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k17j35.call
+
+  elsif (selection == 'j2k6y3' or selection == '-2+6=3')
+    puts
+    puts 'flat_2_sharp_6_y3'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j2k6y3.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j2k6y3.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j2k6y3.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j2k6y3.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j2k6y3.call
+
+  elsif (selection == 'k2j5x1' or selection == '+2-5x1')
+    puts
+    puts 'sharp_2_flat_5_x1'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k2j5x1.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k2j5x1.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k2j5x1.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k2j5x1.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k2j5x1.call
+
+  elsif (selection == 'j25k6y3' or selection == '-25+6=3')
+    puts
+    puts 'flat_25_sharp_6_y3'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j25k6y3.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j25k6y3.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j25k6y3.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j25k6y3.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j25k6y3.call
+
+  elsif (selection == 'k26j5x1' or selection == '+26-5x1')
+    puts
+    puts 'sharp_26_flat_5_x1'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k26j5x1.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k26j5x1.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k26j5x1.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k26j5x1.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k26j5x1.call
+
+  elsif (selection == 'j3k6' or selection == '-3+6')
+    puts
+    puts 'flat_3_sharp_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j3k6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j3k6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j3k6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j3k6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j3k6.call
+
+  elsif (selection == 'k1j5' or selection == '+1-5')
+    puts
+    puts 'sharp_1_flat_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k1j5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k1j5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k1j5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k1j5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k1j5.call
+
+  elsif (selection == 'j34' or selection == '-34')
+    puts
+    puts 'flat_34'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j34.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j34.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j34.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j34.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j34.call
+
+  elsif (selection == 'k17' or selection == '+17')
+    puts
+    puts 'sharp_17'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k17.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k17.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k17.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k17.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k17.call
+
+  elsif (selection == 'k2j6' or selection == '+2-6')
+    puts
+    puts 'sharp_2_flat_6'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k2j6.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k2j6.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k2j6.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k2j6.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k2j6.call
+
+  elsif (selection == 'j2k5' or selection == '-2+5')
+    puts
+    puts 'flat_2_sharp_5'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j2k5.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j2k5.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j2k5.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j2k5.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j2k5.call
+
+  elsif (selection == 'k26' or selection == '+26')
+    puts
+    puts 'sharp_26'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_k26.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_k26.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_k26.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_k26.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_k26.call
+
+  elsif (selection == 'j25' or selection == '-25')
+    puts
+    puts 'flat_25'.upcase
+    puts
+    puts 'guitar'.upcase + ' standard tuning'
+      guitar_std_j25.call
+    puts
+    puts 'guitar'.upcase + ' fourths tuning'
+      guitar_qrt_j25.call
+    puts
+    puts 'violin'.upcase + ' fifths tuning'
+      violin_std_j25.call
+    puts
+    puts 'cello'.upcase + ' fifths tuning'
+      cello_std_j25.call
+    puts
+    puts 'bass'.upcase + ' standard tuning'
+      bass_std_j25.call
+
+  elsif selection =~ /next|-n/
+    x_status = true
+
+  elsif selection =~ /exit|quit|-q/
+    exit
+
  end
+
 end
+
+end
+
 
