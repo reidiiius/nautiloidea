@@ -260,13 +260,13 @@ bass_std_j5 = Proc.new do
   puts Flat_5.new.str12[12..64]
 end
 
-class DblFlat_2_Flat_17 < Cyclone
+class Flat_17_Y2 < Cyclone
 
   def initialize
-    y2j17
+    j17y2
   end
 
-def y2j17
+def j17y2
  @str00=%q[ ___ ___ ___ en6 fn6 ___ gn6 ___ an6 bj6 cj7 dy7 ___ ___ ___ en7 fn7 ___ ]
  @str01=%q[ ___ an5 bj5 cj6 dy6 ___ ___ ___ en6 fn6 ___ gn6 ___ an6 bj6 cj7 dy7 ___ ]
  @str02=%q[ ___ en5 fn5 ___ gn5 ___ an5 bj5 cj6 dy6 ___ ___ ___ en6 fn6 ___ gn6 ___ ]
@@ -284,57 +284,57 @@ end
 
 end
 
-guitar_std_y2j17 = Proc.new do
+guitar_std_j17y2 = Proc.new do
   puts
-  puts DblFlat_2_Flat_17.new.str00[12..64]
-  puts DblFlat_2_Flat_17.new.str01[12..64]
-  puts DblFlat_2_Flat_17.new.str02[16..68]
-  puts DblFlat_2_Flat_17.new.str03[16..68]
-  puts DblFlat_2_Flat_17.new.str04[16..68]
-  puts DblFlat_2_Flat_17.new.str05[16..68]
+  puts Flat_17_Y2.new.str00[12..64]
+  puts Flat_17_Y2.new.str01[12..64]
+  puts Flat_17_Y2.new.str02[16..68]
+  puts Flat_17_Y2.new.str03[16..68]
+  puts Flat_17_Y2.new.str04[16..68]
+  puts Flat_17_Y2.new.str05[16..68]
 end
 
-guitar_qrt_y2j17 = Proc.new do
+guitar_qrt_j17y2 = Proc.new do
   puts
-  puts DblFlat_2_Flat_17.new.str00[16..68]
-  puts DblFlat_2_Flat_17.new.str01[16..68]
-  puts DblFlat_2_Flat_17.new.str02[16..68]
-  puts DblFlat_2_Flat_17.new.str03[16..68]
-  puts DblFlat_2_Flat_17.new.str04[16..68]
-  puts DblFlat_2_Flat_17.new.str05[16..68]
+  puts Flat_17_Y2.new.str00[16..68]
+  puts Flat_17_Y2.new.str01[16..68]
+  puts Flat_17_Y2.new.str02[16..68]
+  puts Flat_17_Y2.new.str03[16..68]
+  puts Flat_17_Y2.new.str04[16..68]
+  puts Flat_17_Y2.new.str05[16..68]
 end
 
-violin_std_y2j17 = Proc.new do
+violin_std_j17y2 = Proc.new do
   puts
-  puts DblFlat_2_Flat_17.new.str02[4..56]
-  puts DblFlat_2_Flat_17.new.str04[16..68]
-  puts DblFlat_2_Flat_17.new.str05[8..60]
-  puts DblFlat_2_Flat_17.new.str06[0..52]
+  puts Flat_17_Y2.new.str02[4..56]
+  puts Flat_17_Y2.new.str04[16..68]
+  puts Flat_17_Y2.new.str05[8..60]
+  puts Flat_17_Y2.new.str06[0..52]
 end
 
-cello_std_y2j17 = Proc.new do
+cello_std_j17y2 = Proc.new do
   puts
-  puts DblFlat_2_Flat_17.new.str06[8..60]
-  puts DblFlat_2_Flat_17.new.str08[20..72]
-  puts DblFlat_2_Flat_17.new.str09[12..64]
-  puts DblFlat_2_Flat_17.new.str10[4..56]
+  puts Flat_17_Y2.new.str06[8..60]
+  puts Flat_17_Y2.new.str08[20..72]
+  puts Flat_17_Y2.new.str09[12..64]
+  puts Flat_17_Y2.new.str10[4..56]
 end
 
-bass_std_y2j17 = Proc.new do
+bass_std_j17y2 = Proc.new do
   puts
-  puts DblFlat_2_Flat_17.new.str09[12..64]
-  puts DblFlat_2_Flat_17.new.str10[12..64]
-  puts DblFlat_2_Flat_17.new.str11[12..64]
-  puts DblFlat_2_Flat_17.new.str12[12..64]
+  puts Flat_17_Y2.new.str09[12..64]
+  puts Flat_17_Y2.new.str10[12..64]
+  puts Flat_17_Y2.new.str11[12..64]
+  puts Flat_17_Y2.new.str12[12..64]
 end
 
-class DblSharp_2_Sharp_34 < Cyclone
+class Sharp_34_X2 < Cyclone
 
   def initialize
-    x2k34
+    k34x2
   end
 
-def x2k34
+def k34x2
  @str00=%q[ ___ ___ ___ dx6 ek6 fk6 gn6 ___ an6 ___ bn6 cn7 ___ ___ ___ dx7 ek7 fk7 ]
  @str01=%q[ ___ an5 ___ bn5 cn6 ___ ___ ___ dx6 ek6 fk6 gn6 ___ an6 ___ bn6 cn7 ___ ]
  @str02=%q[ ___ dx5 ek5 fk5 gn5 ___ an5 ___ bn5 cn6 ___ ___ ___ dx6 ek6 fk6 gn6 ___ ]
@@ -352,48 +352,48 @@ end
 
 end
 
-guitar_std_x2k34 = Proc.new do
+guitar_std_k34x2 = Proc.new do
   puts
-  puts DblSharp_2_Sharp_34.new.str00[12..64]
-  puts DblSharp_2_Sharp_34.new.str01[12..64]
-  puts DblSharp_2_Sharp_34.new.str02[16..68]
-  puts DblSharp_2_Sharp_34.new.str03[16..68]
-  puts DblSharp_2_Sharp_34.new.str04[16..68]
-  puts DblSharp_2_Sharp_34.new.str05[16..68]
+  puts Sharp_34_X2.new.str00[12..64]
+  puts Sharp_34_X2.new.str01[12..64]
+  puts Sharp_34_X2.new.str02[16..68]
+  puts Sharp_34_X2.new.str03[16..68]
+  puts Sharp_34_X2.new.str04[16..68]
+  puts Sharp_34_X2.new.str05[16..68]
 end
 
-guitar_qrt_x2k34 = Proc.new do
+guitar_qrt_k34x2 = Proc.new do
   puts
-  puts DblSharp_2_Sharp_34.new.str00[16..68]
-  puts DblSharp_2_Sharp_34.new.str01[16..68]
-  puts DblSharp_2_Sharp_34.new.str02[16..68]
-  puts DblSharp_2_Sharp_34.new.str03[16..68]
-  puts DblSharp_2_Sharp_34.new.str04[16..68]
-  puts DblSharp_2_Sharp_34.new.str05[16..68]
+  puts Sharp_34_X2.new.str00[16..68]
+  puts Sharp_34_X2.new.str01[16..68]
+  puts Sharp_34_X2.new.str02[16..68]
+  puts Sharp_34_X2.new.str03[16..68]
+  puts Sharp_34_X2.new.str04[16..68]
+  puts Sharp_34_X2.new.str05[16..68]
 end
 
-violin_std_x2k34 = Proc.new do
+violin_std_k34x2 = Proc.new do
   puts
-  puts DblSharp_2_Sharp_34.new.str02[4..56]
-  puts DblSharp_2_Sharp_34.new.str04[16..68]
-  puts DblSharp_2_Sharp_34.new.str05[8..60]
-  puts DblSharp_2_Sharp_34.new.str06[0..52]
+  puts Sharp_34_X2.new.str02[4..56]
+  puts Sharp_34_X2.new.str04[16..68]
+  puts Sharp_34_X2.new.str05[8..60]
+  puts Sharp_34_X2.new.str06[0..52]
 end
 
-cello_std_x2k34 = Proc.new do
+cello_std_k34x2 = Proc.new do
   puts
-  puts DblSharp_2_Sharp_34.new.str06[8..60]
-  puts DblSharp_2_Sharp_34.new.str08[20..72]
-  puts DblSharp_2_Sharp_34.new.str09[12..64]
-  puts DblSharp_2_Sharp_34.new.str10[4..56]
+  puts Sharp_34_X2.new.str06[8..60]
+  puts Sharp_34_X2.new.str08[20..72]
+  puts Sharp_34_X2.new.str09[12..64]
+  puts Sharp_34_X2.new.str10[4..56]
 end
 
-bass_std_x2k34 = Proc.new do
+bass_std_k34x2 = Proc.new do
   puts
-  puts DblSharp_2_Sharp_34.new.str09[12..64]
-  puts DblSharp_2_Sharp_34.new.str10[12..64]
-  puts DblSharp_2_Sharp_34.new.str11[12..64]
-  puts DblSharp_2_Sharp_34.new.str12[12..64]
+  puts Sharp_34_X2.new.str09[12..64]
+  puts Sharp_34_X2.new.str10[12..64]
+  puts Sharp_34_X2.new.str11[12..64]
+  puts Sharp_34_X2.new.str12[12..64]
 end
 
 class Flat_3 < Cyclone
@@ -2844,13 +2844,13 @@ bass_std_k17j35 = Proc.new do
   puts Sharp_17_Flat_35.new.str12[12..64]
 end
 
-class DblFlat_3_Flat_2_Sharp_6 < Cyclone
+class Flat_2_Sharp_6_Y3 < Cyclone
 
   def initialize
-    y3j2k6
+    j2k6y3
   end
 
-def y3j2k6
+def j2k6y3
  @str00=%q[ dj6 ey6 ___ ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ey7 ___ ___ fn7 ___ ]
  @str01=%q[ ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ]
  @str02=%q[ ___ ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 ___ gn6 ___ ]
@@ -2868,57 +2868,57 @@ end
 
 end
 
-guitar_std_y3j2k6 = Proc.new do
+guitar_std_j2k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_2_Sharp_6.new.str00[12..64]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str01[12..64]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str02[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str03[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str04[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str05[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str00[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str01[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str02[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str03[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str04[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str05[16..68]
 end
 
-guitar_qrt_y3j2k6 = Proc.new do
+guitar_qrt_j2k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_2_Sharp_6.new.str00[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str01[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str02[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str03[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str04[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str05[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str00[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str01[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str02[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str03[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str04[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str05[16..68]
 end
 
-violin_std_y3j2k6 = Proc.new do
+violin_std_j2k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_2_Sharp_6.new.str02[4..56]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str04[16..68]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str05[8..60]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str06[0..52]
+  puts Flat_2_Sharp_6_Y3.new.str02[4..56]
+  puts Flat_2_Sharp_6_Y3.new.str04[16..68]
+  puts Flat_2_Sharp_6_Y3.new.str05[8..60]
+  puts Flat_2_Sharp_6_Y3.new.str06[0..52]
 end
 
-cello_std_y3j2k6 = Proc.new do
+cello_std_j2k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_2_Sharp_6.new.str06[8..60]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str08[20..72]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str09[12..64]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str10[4..56]
+  puts Flat_2_Sharp_6_Y3.new.str06[8..60]
+  puts Flat_2_Sharp_6_Y3.new.str08[20..72]
+  puts Flat_2_Sharp_6_Y3.new.str09[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str10[4..56]
 end
 
-bass_std_y3j2k6 = Proc.new do
+bass_std_j2k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_2_Sharp_6.new.str09[12..64]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str10[12..64]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str11[12..64]
-  puts DblFlat_3_Flat_2_Sharp_6.new.str12[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str09[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str10[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str11[12..64]
+  puts Flat_2_Sharp_6_Y3.new.str12[12..64]
 end
 
-class DblSharp_1_Sharp_2_Flat_5 < Cyclone
+class Sharp_2_Flat_5_X1 < Cyclone
 
   def initialize
-    x1k2j5
+    k2j5x1
   end
 
-def x1k2j5
+def k2j5x1
  @str00=%q[ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7 fn7 gj7 ]
  @str01=%q[ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ ]
  @str02=%q[ dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ]
@@ -2936,57 +2936,57 @@ end
 
 end
 
-guitar_std_x1k2j5 = Proc.new do
+guitar_std_k2j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_2_Flat_5.new.str00[12..64]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str01[12..64]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str02[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str03[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str04[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str05[16..68]
+  puts Sharp_2_Flat_5_X1.new.str00[12..64]
+  puts Sharp_2_Flat_5_X1.new.str01[12..64]
+  puts Sharp_2_Flat_5_X1.new.str02[16..68]
+  puts Sharp_2_Flat_5_X1.new.str03[16..68]
+  puts Sharp_2_Flat_5_X1.new.str04[16..68]
+  puts Sharp_2_Flat_5_X1.new.str05[16..68]
 end
 
-guitar_qrt_x1k2j5 = Proc.new do
+guitar_qrt_k2j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_2_Flat_5.new.str00[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str01[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str02[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str03[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str04[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str05[16..68]
+  puts Sharp_2_Flat_5_X1.new.str00[16..68]
+  puts Sharp_2_Flat_5_X1.new.str01[16..68]
+  puts Sharp_2_Flat_5_X1.new.str02[16..68]
+  puts Sharp_2_Flat_5_X1.new.str03[16..68]
+  puts Sharp_2_Flat_5_X1.new.str04[16..68]
+  puts Sharp_2_Flat_5_X1.new.str05[16..68]
 end
 
-violin_std_x1k2j5 = Proc.new do
+violin_std_k2j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_2_Flat_5.new.str02[4..56]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str04[16..68]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str05[8..60]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str06[0..52]
+  puts Sharp_2_Flat_5_X1.new.str02[4..56]
+  puts Sharp_2_Flat_5_X1.new.str04[16..68]
+  puts Sharp_2_Flat_5_X1.new.str05[8..60]
+  puts Sharp_2_Flat_5_X1.new.str06[0..52]
 end
 
-cello_std_x1k2j5 = Proc.new do
+cello_std_k2j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_2_Flat_5.new.str06[8..60]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str08[20..72]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str09[12..64]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str10[4..56]
+  puts Sharp_2_Flat_5_X1.new.str06[8..60]
+  puts Sharp_2_Flat_5_X1.new.str08[20..72]
+  puts Sharp_2_Flat_5_X1.new.str09[12..64]
+  puts Sharp_2_Flat_5_X1.new.str10[4..56]
 end
 
-bass_std_x1k2j5 = Proc.new do
+bass_std_k2j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_2_Flat_5.new.str09[12..64]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str10[12..64]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str11[12..64]
-  puts DblSharp_1_Sharp_2_Flat_5.new.str12[12..64]
+  puts Sharp_2_Flat_5_X1.new.str09[12..64]
+  puts Sharp_2_Flat_5_X1.new.str10[12..64]
+  puts Sharp_2_Flat_5_X1.new.str11[12..64]
+  puts Sharp_2_Flat_5_X1.new.str12[12..64]
 end
 
-class DblFlat_3_Flat_25_Sharp_6 < Cyclone
+class Flat_25_Sharp_6_Y3 < Cyclone
 
   def initialize
-    y3j25k6
+    j25k6y3
   end
 
-def y3j25k6
+def j25k6y3
  @str00=%q[ dj6 ey6 ___ ___ fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ey7 ___ ___ fn7 gj7 ]
  @str01=%q[ ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ]
  @str02=%q[ ___ ___ fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 gj6 ___ ___ ]
@@ -3004,57 +3004,57 @@ end
 
 end
 
-guitar_std_y3j25k6 = Proc.new do
+guitar_std_j25k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_25_Sharp_6.new.str00[12..64]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str01[12..64]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str02[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str03[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str04[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str05[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str00[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str01[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str02[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str03[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str04[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str05[16..68]
 end
 
-guitar_qrt_y3j25k6 = Proc.new do
+guitar_qrt_j25k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_25_Sharp_6.new.str00[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str01[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str02[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str03[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str04[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str05[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str00[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str01[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str02[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str03[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str04[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str05[16..68]
 end
 
-violin_std_y3j25k6 = Proc.new do
+violin_std_j25k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_25_Sharp_6.new.str02[4..56]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str04[16..68]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str05[8..60]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str06[0..52]
+  puts Flat_25_Sharp_6_Y3.new.str02[4..56]
+  puts Flat_25_Sharp_6_Y3.new.str04[16..68]
+  puts Flat_25_Sharp_6_Y3.new.str05[8..60]
+  puts Flat_25_Sharp_6_Y3.new.str06[0..52]
 end
 
-cello_std_y3j25k6 = Proc.new do
+cello_std_j25k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_25_Sharp_6.new.str06[8..60]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str08[20..72]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str09[12..64]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str10[4..56]
+  puts Flat_25_Sharp_6_Y3.new.str06[8..60]
+  puts Flat_25_Sharp_6_Y3.new.str08[20..72]
+  puts Flat_25_Sharp_6_Y3.new.str09[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str10[4..56]
 end
 
-bass_std_y3j25k6 = Proc.new do
+bass_std_j25k6y3 = Proc.new do
   puts
-  puts DblFlat_3_Flat_25_Sharp_6.new.str09[12..64]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str10[12..64]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str11[12..64]
-  puts DblFlat_3_Flat_25_Sharp_6.new.str12[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str09[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str10[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str11[12..64]
+  puts Flat_25_Sharp_6_Y3.new.str12[12..64]
 end
 
-class DblSharp_1_Sharp_26_Flat_5 < Cyclone
+class Sharp_26_Flat_5_X1 < Cyclone
 
   def initialize
-    x1k26j5
+    k26j5x1
   end
 
-def x1k26j5
+def k26j5x1
  @str00=%q[ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 fn7 gj7 ]
  @str01=%q[ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ ]
  @str02=%q[ dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ]
@@ -3072,48 +3072,48 @@ end
 
 end
 
-guitar_std_x1k26j5 = Proc.new do
+guitar_std_k26j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_26_Flat_5.new.str00[12..64]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str01[12..64]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str02[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str03[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str04[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str05[16..68]
+  puts Sharp_26_Flat_5_X1.new.str00[12..64]
+  puts Sharp_26_Flat_5_X1.new.str01[12..64]
+  puts Sharp_26_Flat_5_X1.new.str02[16..68]
+  puts Sharp_26_Flat_5_X1.new.str03[16..68]
+  puts Sharp_26_Flat_5_X1.new.str04[16..68]
+  puts Sharp_26_Flat_5_X1.new.str05[16..68]
 end
 
-guitar_qrt_x1k26j5 = Proc.new do
+guitar_qrt_k26j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_26_Flat_5.new.str00[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str01[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str02[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str03[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str04[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str05[16..68]
+  puts Sharp_26_Flat_5_X1.new.str00[16..68]
+  puts Sharp_26_Flat_5_X1.new.str01[16..68]
+  puts Sharp_26_Flat_5_X1.new.str02[16..68]
+  puts Sharp_26_Flat_5_X1.new.str03[16..68]
+  puts Sharp_26_Flat_5_X1.new.str04[16..68]
+  puts Sharp_26_Flat_5_X1.new.str05[16..68]
 end
 
-violin_std_x1k26j5 = Proc.new do
+violin_std_k26j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_26_Flat_5.new.str02[4..56]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str04[16..68]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str05[8..60]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str06[0..52]
+  puts Sharp_26_Flat_5_X1.new.str02[4..56]
+  puts Sharp_26_Flat_5_X1.new.str04[16..68]
+  puts Sharp_26_Flat_5_X1.new.str05[8..60]
+  puts Sharp_26_Flat_5_X1.new.str06[0..52]
 end
 
-cello_std_x1k26j5 = Proc.new do
+cello_std_k26j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_26_Flat_5.new.str06[8..60]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str08[20..72]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str09[12..64]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str10[4..56]
+  puts Sharp_26_Flat_5_X1.new.str06[8..60]
+  puts Sharp_26_Flat_5_X1.new.str08[20..72]
+  puts Sharp_26_Flat_5_X1.new.str09[12..64]
+  puts Sharp_26_Flat_5_X1.new.str10[4..56]
 end
 
-bass_std_x1k26j5 = Proc.new do
+bass_std_k26j5x1 = Proc.new do
   puts
-  puts DblSharp_1_Sharp_26_Flat_5.new.str09[12..64]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str10[12..64]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str11[12..64]
-  puts DblSharp_1_Sharp_26_Flat_5.new.str12[12..64]
+  puts Sharp_26_Flat_5_X1.new.str09[12..64]
+  puts Sharp_26_Flat_5_X1.new.str10[12..64]
+  puts Sharp_26_Flat_5_X1.new.str11[12..64]
+  puts Sharp_26_Flat_5_X1.new.str12[12..64]
 end
 
 class Flat_3_Sharp_6 < Cyclone
@@ -3665,7 +3665,7 @@ def index
  puts
  puts ' k6 - j5 '
  puts
- puts ' y2j17 - x2k34 '
+ puts ' j17y2 - k34x2 '
  puts
  puts ' j3 - k1 '
  puts
@@ -3703,9 +3703,9 @@ def index
  puts
  puts ' j34k16 - k17j35 '
  puts
- puts ' y3j2k6 - x1k2j5 '
+ puts ' j2k6y3 - k2j5x1 '
  puts
- puts ' y3j25k6 - x1k26j5 '
+ puts ' j25k6y3 - k26j5x1 '
  puts
  puts ' j3k6 - k1j5 '
  puts
@@ -3791,42 +3791,42 @@ while (not x_status)
  puts
  puts 'bass'.upcase + ' standard tuning'
  bass_std_j5.call
- elsif (selection == 'y2j17' or selection == '=2-1-7')
+ elsif (selection == 'j17y2' or selection == '=2-1-7')
  puts
  puts 'dblflat_2_flat17'.upcase
  puts
  puts 'guitar'.upcase + ' standard tuning'
- guitar_std_y2j17.call
+ guitar_std_j17y2.call
  puts
  puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_y2j17.call
+ guitar_qrt_j17y2.call
  puts
  puts 'violin'.upcase + ' fifths tuning'
- violin_std_y2j17.call
+ violin_std_j17y2.call
  puts
  puts 'cello'.upcase + ' fifths tuning'
- cello_std_y2j17.call
+ cello_std_j17y2.call
  puts
  puts 'bass'.upcase + ' standard tuning'
- bass_std_y2j17.call
- elsif (selection == 'x2k34' or selection == 'x2+3+4')
+ bass_std_j17y2.call
+ elsif (selection == 'k34x2' or selection == 'x2+3+4')
  puts
  puts 'dblsharp_2_sharp_34'.upcase
  puts
  puts 'guitar'.upcase + ' standard tuning'
- guitar_std_x2k34.call
+ guitar_std_k34x2.call
  puts
  puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_x2k34.call
+ guitar_qrt_k34x2.call
  puts
  puts 'violin'.upcase + ' fifths tuning'
- violin_std_x2k34.call
+ violin_std_k34x2.call
  puts
  puts 'cello'.upcase + ' fifths tuning'
- cello_std_x2k34.call
+ cello_std_k34x2.call
  puts
  puts 'bass'.upcase + ' standard tuning'
- bass_std_x2k34.call
+ bass_std_k34x2.call
  elsif (selection == 'j3' or selection == '-3')
  puts
  puts 'flat_3'.upcase
@@ -4475,78 +4475,78 @@ while (not x_status)
  puts
  puts 'bass'.upcase + ' standard tuning'
  bass_std_k17j35.call
- elsif (selection == 'y3j2k6' or selection == '=3-2+6')
+ elsif (selection == 'j2k6y3' or selection == '=3-2+6')
  puts
  puts 'dblflat_3_flat_2_sharp_6'.upcase
  puts
  puts 'guitar'.upcase + ' standard tuning'
- guitar_std_y3j2k6.call
+ guitar_std_j2k6y3.call
  puts
  puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_y3j2k6.call
+ guitar_qrt_j2k6y3.call
  puts
  puts 'violin'.upcase + ' fifths tuning'
- violin_std_y3j2k6.call
+ violin_std_j2k6y3.call
  puts
  puts 'cello'.upcase + ' fifths tuning'
- cello_std_y3j2k6.call
+ cello_std_j2k6y3.call
  puts
  puts 'bass'.upcase + ' standard tuning'
- bass_std_y3j2k6.call
- elsif (selection == 'x1k2j5' or selection == 'x1+2-5')
+ bass_std_j2k6y3.call
+ elsif (selection == 'k2j5x1' or selection == 'x1+2-5')
  puts
  puts 'dblsharp_1_sharp_2_flat_5'.upcase
  puts
  puts 'guitar'.upcase + ' standard tuning'
- guitar_std_x1k2j5.call
+ guitar_std_k2j5x1.call
  puts
  puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_x1k2j5.call
+ guitar_qrt_k2j5x1.call
  puts
  puts 'violin'.upcase + ' fifths tuning'
- violin_std_x1k2j5.call
+ violin_std_k2j5x1.call
  puts
  puts 'cello'.upcase + ' fifths tuning'
- cello_std_x1k2j5.call
+ cello_std_k2j5x1.call
  puts
  puts 'bass'.upcase + ' standard tuning'
- bass_std_x1k2j5.call
- elsif (selection == 'y3j25k6' or selection == '=3-2-5+6')
+ bass_std_k2j5x1.call
+ elsif (selection == 'j25k6y3' or selection == '=3-2-5+6')
  puts
  puts 'dblflat_3_flat_25_sharp_6'.upcase
  puts
  puts 'guitar'.upcase + ' standard tuning'
- guitar_std_y3j25k6.call
+ guitar_std_j25k6y3.call
  puts
  puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_y3j25k6.call
+ guitar_qrt_j25k6y3.call
  puts
  puts 'violin'.upcase + ' fifths tuning'
- violin_std_y3j25k6.call
+ violin_std_j25k6y3.call
  puts
  puts 'cello'.upcase + ' fifths tuning'
- cello_std_y3j25k6.call
+ cello_std_j25k6y3.call
  puts
  puts 'bass'.upcase + ' standard tuning'
- bass_std_y3j25k6.call
- elsif (selection == 'x1k26j5' or selection == 'x1+2+6-5')
+ bass_std_j25k6y3.call
+ elsif (selection == 'k26j5x1' or selection == 'x1+2+6-5')
  puts
  puts 'dblsharp_1_sharp_26_flat_5'.upcase
  puts
  puts 'guitar'.upcase + ' standard tuning'
- guitar_std_x1k26j5.call
+ guitar_std_k26j5x1.call
  puts
  puts 'guitar'.upcase + ' fourths tuning'
- guitar_qrt_x1k26j5.call
+ guitar_qrt_k26j5x1.call
  puts
  puts 'violin'.upcase + ' fifths tuning'
- violin_std_x1k26j5.call
+ violin_std_k26j5x1.call
  puts
  puts 'cello'.upcase + ' fifths tuning'
- cello_std_x1k26j5.call
+ cello_std_k26j5x1.call
  puts
  puts 'bass'.upcase + ' standard tuning'
- bass_std_x1k26j5.call
+ bass_std_k26j5x1.call
  elsif (selection == 'j3k6' or selection == '-3+6')
  puts
  puts 'flat_3_sharp_6'.upcase

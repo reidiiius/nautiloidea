@@ -427,7 +427,7 @@
  'str5':' ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ',
  'str6':' FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn '}
 
- var x1k2j5 = {
+ var k2j5x1 = {
  'str0':' PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg ',
  'str1':' ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ',
  'str2':' ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ',
@@ -436,7 +436,7 @@
  'str5':' HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu ',
  'str6':' AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ '}
 
- var x1k26j5 = {
+ var k26j5x1 = {
  'str0':' SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe ',
  'str1':' ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ',
  'str2':' ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ',

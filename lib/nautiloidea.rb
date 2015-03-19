@@ -1,8 +1,8 @@
-#!/usr/bin/ruby 
+#!/usr/bin/ruby
 
 dir = File.dirname(__FILE__) + '/nautiloidea'
  require dir + '/pitch/lambda'
- require dir + '/dev/sigma'
+ require dir + '/melakarta/swara'
  require dir + '/zodiac/lyra'
  require dir + '/zodiac/draco'
  require dir + '/clave/epsilon'

@@ -210,8 +210,8 @@ while (not x_status)
     puts "\nManavati(k12j5)"
     puts eadgcf_data['k12j5']
 
-    puts "\nTanarupi(x1k2j5)"
-    puts eadgcf_data['x1k2j5']
+    puts "\nTanarupi(k2j5x1)"
+    puts eadgcf_data['k2j5x1']
 
   elsif (selection =~ /[Nn]etra/ or selection == '2')
     puts "\nNetra".upcase
@@ -252,8 +252,8 @@ while (not x_status)
     puts "\nPavani(k126j5)"
     puts eadgcf_data['k126j5']
 
-    puts "\nRaghupriya(x1k26j5)"
-    puts eadgcf_data['x1k26j5']
+    puts "\nRaghupriya(k26j5x1)"
+    puts eadgcf_data['k26j5x1']
 
   elsif (selection =~ /[Rr]itu/ or selection == '6')
     puts "\nRitu".upcase

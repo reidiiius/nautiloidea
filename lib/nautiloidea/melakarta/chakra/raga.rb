@@ -241,7 +241,7 @@ while (not x_status)
     puts indu_data['Indu']['Manavati']['k12j5']
 
     puts "\n"
-    puts indu_data['Indu']['Tanarupi']['x1k2j5']
+    puts indu_data['Indu']['Tanarupi']['k2j5x1']
 
     puts
 
@@ -287,7 +287,7 @@ while (not x_status)
     puts rishi_data['Rishi']['Pavani']['k126j5']
 
     puts "\nRaghupriya"
-    puts rishi_data['Rishi']['Raghupriya']['x1k26j5']
+    puts rishi_data['Rishi']['Raghupriya']['k26j5x1']
 
     puts
 

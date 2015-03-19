@@ -1,7 +1,7 @@
 
 body {
   background-color:#fffff0;
-} 
+}
 h2 {
   margin-left:1em;
   color:#dcdcdc;
@@ -28,7 +28,7 @@ a {
   color:#778899;
 }
 a:hover {
-  text-decoration:none; 
+  text-decoration:none;
   color:#2f4f4f;
 }
 table {
