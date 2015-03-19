@@ -130,198 +130,183 @@ module Theta
   j25CuFe = '110010111001'
   j25PbTi = '100101110011'
 
-natural = {
-  :ion  => '101011010101',
-  :dor  => '101101010110',
-  :phry => '110101011010',
-  :lyd  => '101010110101',
-  :mixo => '101011010110',
-  :aeol => '101101011010',
-  :loc  => '110101101010'
+N0 = {
+  :ion => '101011010101',
+  :dor => '101101010110',
+  :phr => '110101011010',
+  :lyd => '101010110101',
+  :mix => '101011010110',
+  :aeo => '101101011010',
+  :loc => '110101101010'
 }
 
-sharp_6 = {
-  :ion_k6  => '101011010011',
-  :dor_k5  => '101101001110',
-  :phry_k4 => '110100111010',
-  :lyd_k3  => '101001110101',
-  :mixo_k2 => '100111010110',
-  :aeol_k1 => '111010110100',
-  :loc_k7  => '110101101001'
+K6 = {
+  :ion => '101011010011',
+  :dor => '101101001110',
+  :phr => '110100111010',
+  :lyd => '101001110101',
+  :mix => '100111010110',
+  :aeo => '111010110100',
+  :loc => '110101101001'
 }
 
-flat_5 = {
-  :ion_j5  => '101011100101',
-  :dor_j4  => '101110010110',
-  :phry_j3 => '111001011010',
-  :lyd_j2  => '110010110101',
-  :mixo_j1 => '100101101011',
-  :aeol_j7 => '101101011100',
-  :loc_j6  => '110101110010'
+J5 = {
+  :ion => '101011100101',
+  :dor => '101110010110',
+  :phr => '111001011010',
+  :lyd => '110010110101',
+  :mix => '100101101011',
+  :aeo => '101101011100',
+  :loc => '110101110010'
 }
 
-flat_3 = {
-  :ion_j3  => '101101010101',
-  :dor_j2  => '110101010110',
-  :phry_j1 => '101010101101',
-  :lyd_j7  => '101010110110',
-  :mixo_j6 => '101011011010',
-  :aeol_j5 => '101101101010',
-  :loc_j4  => '110110101010'
+J3 = {
+  :ion => '101101010101',
+  :dor => '110101010110',
+  :phr => '101010101101',
+  :lyd => '101010110110',
+  :mix => '101011011010',
+  :aeo => '101101101010',
+  :loc => '110110101010'
 }
 
-flat_6 = {
-  :ion_j6  => '101011011001',
-  :dor_j5  => '101101100110',
-  :phry_j4 => '110110011010',
-  :lyd_j3  => '101100110101',
-  :mixo_j2 => '110011010110',
-  :aeol_j1 => '100110101101',
-  :loc_j7  => '110101101100'
+J6 = {
+  :ion => '101011011001',
+  :dor => '101101100110',
+  :phr => '110110011010',
+  :lyd => '101100110101',
+  :mix => '110011010110',
+  :aeo => '100110101101',
+  :loc => '110101101100'
 }
 
-sharp_5 = {
-  :ion_k5  => '101011001101',
-  :dor_k4  => '101100110110',
-  :phry_k3 => '110011011010',
-  :lyd_k2  => '100110110101',
-  :mixo_k1 => '110110101100',
-  :aeol_k7 => '101101011001',
-  :loc_k6  => '110101100110'
+K5 = {
+  :ion => '101011001101',
+  :dor => '101100110110',
+  :phr => '110011011010',
+  :lyd => '100110110101',
+  :mix => '110110101100',
+  :aeo => '101101011001',
+  :loc => '110101100110'
 }
 
-flat_2 = {
-  :ion_j2  => '110011010101',
-  :dor_j1  => '100110101011',
-  :phry_j7 => '110101011100',
-  :lyd_j6  => '101010111001',
-  :mixo_j5 => '101011100110',
-  :aeol_j4 => '101110011010',
-  :loc_j3  => '111001101010'
+J2 = {
+  :ion => '110011010101',
+  :dor => '100110101011',
+  :phr => '110101011100',
+  :lyd => '101010111001',
+  :mix => '101011100110',
+  :aeo => '101110011010',
+  :loc => '111001101010'
 }
 
-sharp_2 = {
-  :ion_k2  => '100111010101',
-  :dor_k1  => '111010101100',
-  :phry_k7 => '110101011001',
-  :lyd_k6  => '101010110011',
-  :mixo_k5 => '101011001110',
-  :aeol_k4 => '101100111010',
-  :loc_k3  => '110011101010'
+K2 = {
+  :ion => '100111010101',
+  :dor => '111010101100',
+  :phr => '110101011001',
+  :lyd => '101010110011',
+  :mix => '101011001110',
+  :aeo => '101100111010',
+  :loc => '110011101010'
 }
 
-flat_26 = {
-  :ion_j26  => '110011011001',
-  :dor_j15  => '100110110011',
-  :phry_j47 => '110110011100',
-  :lyd_j36  => '101100111001',
-  :mixo_j25 => '110011100110',
-  :aeol_j14 => '100111001101',
-  :loc_j37  => '111001101100'
+J26 = {
+  :ion => '110011011001',
+  :dor => '100110110011',
+  :phr => '110110011100',
+  :lyd => '101100111001',
+  :mix => '110011100110',
+  :aeo => '100111001101',
+  :loc => '111001101100'
 }
 
-flat_23 = {
-  :ion_j23  => '110101010101',
-  :dor_j12  => '101010101011',
-  :phry_j17 => '101010101110',
-  :lyd_j67  => '101010111010',
-  :mixo_j56 => '101011101010',
-  :aeol_j45 => '101110101010',
-  :loc_j34  => '111010101010'
+J23 = {
+  :ion => '110101010101',
+  :dor => '101010101011',
+  :phr => '101010101110',
+  :lyd => '101010111010',
+  :mix => '101011101010',
+  :aeo => '101110101010',
+  :loc => '111010101010'
 }
 
-flat_34 = {
-  :ion_j34  => '101110010101',
-  :dor_j23  => '111001010110',
-  :phry_j12 => '100101011011',
-  :lyd_j17  => '100101011011',
-  :mixo_j67 => '101011011100',
-  :aeol_j56 => '101101110010',
-  :loc_j45  => '110111001010'
+J34 = {
+  :ion => '101110010101',
+  :dor => '111001010110',
+  :phr => '100101011011',
+  :lyd => '100101011011',
+  :mix => '101011011100',
+  :aeo => '101101110010',
+  :loc => '110111001010'
 }
 
-sharp_17 = {
-  :ion_k17  => '111011010100',
-  :dor_k67  => '101101010011',
-  :phry_k56 => '110101001110',
-  :lyd_k45  => '101010011101',
-  :mixo_k34 => '101001110110',
-  :aeol_k23 => '100111011010',
-  :loc_k12  => '111011010100'
+K17 = {
+  :ion => '111011010100',
+  :dor => '101101010011',
+  :phr => '110101001110',
+  :lyd => '101010011101',
+  :mix => '101001110110',
+  :aeo => '100111011010',
+  :loc => '111011010100'
 }
 
-sharp_2_flat_6 = {
-  :ion_k2j6  => '100111011001',
-  :dor_k1j5  => '111011001100',
-  :phry_j4k7 => '110110011001',
-  :lyd_j3k6  => '101100110011',
-  :mixo_j2k5 => '110011001110',
-  :aeol_j1k4 => '100110011101',
-  :loc_k3j7  => '110011101100'
+K2J6 = {
+  :ion => '100111011001',
+  :dor => '111011001100',
+  :phr => '110110011001',
+  :lyd => '101100110011',
+  :mix => '110011001110',
+  :aeo => '100110011101',
+  :loc => '110011101100'
 }
 
-flat_2_sharp_5 = {
-  :ion_j2k5  => '110011001101',
-  :dor_j1k4  => '100110011011',
-  :phry_k3j7 => '110011011100',
-  :lyd_k2j6  => '100110111001',
-  :mixo_k1j5 => '110111001100',
-  :aeol_j4k7 => '101110011001',
-  :loc_j3k6  => '111001100110'
+J2K5 = {
+  :ion => '110011001101',
+  :dor => '100110011011',
+  :phr => '110011011100',
+  :lyd => '100110111001',
+  :mix => '110111001100',
+  :aeo => '101110011001',
+  :loc => '111001100110'
 }
 
-sharp_26 = {
-  :ion_k26  => '100111010011',
-  :dor_k15  => '111010011100',
-  :phry_k47 => '110100111001',
-  :lyd_k36  => '101001110011',
-  :mixo_k25 => '100111001110',
-  :aeol_k14 => '111001110100',
-  :loc_k37  => '110011101001'
+K26 = {
+  :ion => '100111010011',
+  :dor => '111010011100',
+  :phr => '110100111001',
+  :lyd => '101001110011',
+  :mix => '100111001110',
+  :aeo => '111001110100',
+  :loc => '110011101001'
 }
 
-flat_25 = {
-  :ion_j25  => '110011100101',
-  :dor_j14  => '100111001011',
-  :phry_j37 => '111001011100',
-  :lyd_j26  => '110010111001',
-  :mixo_j15 => '100101110011',
-  :aeol_j47 => '101110011100',
-  :loc_j36  => '111001110010'
+J25 = {
+  :ion => '110011100101',
+  :dor => '100111001011',
+  :phr => '111001011100',
+  :lyd => '110010111001',
+  :mix => '100101110011',
+  :aeo => '101110011100',
+  :loc => '111001110010'
 }
 
 clave_list = <<EOF
-n0HgCu n0SnSn n0CuHg n0PbFe n0AuAg n0AgAu n0FePb
-
-k6HgAg k6SnAu k6CuPb k6PbCu k6AuSn k6TiFe k6FeTi
-
-j5PbCu j5AuSn j5AgHg j5TiFe j5FeTi j5SnAu j5CuPb
-
-j3HgSn j3SnHg j3UrFe j3PbAg j3AuAu j3AgPb j3FeUr
-
-j6HgAu j6SnPb j6CuUr j6PbSn j6AuHg j6NpFe j6FeNp
-
-k5UrCu k5PbSn k5AuHg k5NpFe k5FeNp k5HgAu k5SnPb
-
-j2HgHg j2PuFe j2CuNp j2PbAu j2AuPb j2AgUr j2FePu
-
-k2NpCu k2FePu  k2HgHg k2PuFe k2UrAg k2PbAu k2AuPb
-
-j26HgHg j26PuFe j26CuNp j26PbAu j26AuPb j26NpCu j26FePu
-
-j23HgHg j23PuFe j23UrAg j23PbAu j23AuPb j23AgUr j23FePu
-
-j34NpSn j34TiHg j34FeFe j34HgTi j34UrAu j34PbPb j34AuUr
-
-k17TiHg k17FeFe k17HgTi k17SnNp k17UrAu k17PbPb k17AuUr
-
-k2j6 k2j6HgMn k2j6MnHg k2j6CuFe k2j6PbTi k2j6AuNp k2j6NpAu k2j6FeCu
-
-j2k5 j2k5FeCu j2k5HgMn j2k5MnHg j2k5CuFe j2k5AuNp j2k5NpAu j2k5TiPb
-
-k26 k26HgMn k26MnHg k26CuFe k26PbTi k26AuNp k26TiPb k26FeCu
-
-j25 j25NpAu j25TiPb j25FeCu j25HgMn j25MnHg j25CuFe j25PbTi
+\n n0HgCu   n0SnSn   n0CuHg   n0PbFe   n0AuAg   n0AgAu   n0FePb
+\n k6HgAg   k6SnAu   k6CuPb   k6PbCu   k6AuSn   k6TiFe   k6FeTi
+\n j5PbCu   j5AuSn   j5AgHg   j5TiFe   j5FeTi   j5SnAu   j5CuPb
+\n j3HgSn   j3SnHg   j3UrFe   j3PbAg   j3AuAu   j3AgPb   j3FeUr
+\n j6HgAu   j6SnPb   j6CuUr   j6PbSn   j6AuHg   j6NpFe   j6FeNp
+\n k5UrCu   k5PbSn   k5AuHg   k5NpFe   k5FeNp   k5HgAu   k5SnPb
+\n j2HgHg   j2PuFe   j2CuNp   j2PbAu   j2AuPb   j2AgUr   j2FePu
+\n k2NpCu   k2FePu   k2HgHg   k2PuFe   k2UrAg   k2PbAu   k2AuPb
+\n j26HgHg  j26PuFe  j26CuNp  j26PbAu  j26AuPb  j26NpCu  j26FePu
+\n j23HgHg  j23PuFe  j23UrAg  j23PbAu  j23AuPb  j23AgUr  j23FePu
+\n j34NpSn  j34TiHg  j34FeFe  j34HgTi  j34UrAu  j34PbPb  j34AuUr
+\n k17TiHg  k17FeFe  k17HgTi  k17SnNp  k17UrAu  k17PbPb  k17AuUr
+\n k2j6HgMn k2j6MnHg k2j6CuFe k2j6PbTi k2j6AuNp k2j6NpAu k2j6FeCu
+\n j2k5FeCu j2k5HgMn j2k5MnHg j2k5CuFe j2k5AuNp j2k5NpAu j2k5TiPb
+\n k26HgMn  k26MnHg  k26CuFe  k26PbTi  k26AuNp  k26TiPb  k26FeCu
+\n j25NpAu  j25TiPb  j25FeCu  j25HgMn  j25MnHg  j25CuFe  j25PbTi
 EOF
 
 help = <<EOF
@@ -350,7 +335,7 @@ while (not x_status)
 
   elsif select_clave == 'n0'
     puts
-    puts natural[:ion]
+    puts N0[:ion]
 
   elsif select_clave == 'n0HgCu'
     puts
@@ -382,7 +367,7 @@ while (not x_status)
 
   elsif select_clave == 'k6'
     puts
-    puts sharp_6[:ion_k6]
+    puts K6[:ion]
 
   elsif select_clave == 'k6HgAg'
     puts
@@ -414,7 +399,7 @@ while (not x_status)
 
   elsif select_clave == 'j5'
     puts
-    puts flat_5[:ion_j5]
+    puts J5[:ion]
 
   elsif select_clave == 'j5PbCu'
     puts
@@ -446,7 +431,7 @@ while (not x_status)
 
   elsif select_clave == 'j3'
     puts
-    puts flat_3[:ion_j3]
+    puts J3[:ion]
 
   elsif select_clave == 'j3HgSn'
     puts
@@ -478,7 +463,7 @@ while (not x_status)
 
   elsif select_clave == 'j6'
     puts
-    puts flat_6[:ion_j6]
+    puts J6[:ion]
 
   elsif select_clave == 'j6HgAu'
     puts
@@ -510,7 +495,7 @@ while (not x_status)
 
   elsif select_clave == 'k5'
     puts
-    puts sharp_5[:ion_k5]
+    puts K5[:ion]
 
   elsif select_clave == 'k5UrCu'
     puts
@@ -542,7 +527,7 @@ while (not x_status)
 
   elsif select_clave == 'j2'
     puts
-    puts flat_2[:ion_j2]
+    puts J2[:ion]
 
   elsif select_clave == 'j2HgHg'
     puts
@@ -574,7 +559,7 @@ while (not x_status)
 
   elsif select_clave == 'k2'
     puts
-    puts sharp_2[:ion_k2]
+    puts K2[:ion]
 
   elsif select_clave == 'k2NpCu'
     puts
@@ -606,7 +591,7 @@ while (not x_status)
 
   elsif select_clave == 'j26'
     puts
-    puts flat_26[:ion_j26]
+    puts J26[:ion]
 
   elsif select_clave == 'j26HgHg'
     puts
@@ -638,7 +623,7 @@ while (not x_status)
 
   elsif select_clave == 'j23'
     puts
-    puts flat_23[:ion_j23]
+    puts J23[:ion]
 
   elsif select_clave == 'j23HgHg'
     puts
@@ -670,7 +655,7 @@ while (not x_status)
 
   elsif select_clave == 'j34'
     puts
-    puts flat_34[:ion_j34]
+    puts J34[:ion]
 
   elsif select_clave == 'j34NpSn'
     puts
@@ -702,7 +687,7 @@ while (not x_status)
 
   elsif select_clave == 'k17'
     puts
-    puts sharp_17[:ion_k17]
+    puts K17[:ion]
 
   elsif select_clave == 'k17TiHg'
     puts
@@ -734,7 +719,7 @@ while (not x_status)
 
   elsif select_clave == 'k2j6'
     puts
-    puts sharp_2_flat_6[:ion_k2j6]
+    puts K2J6[:ion]
 
   elsif select_clave == 'k2j6HgMn'
     puts
@@ -766,7 +751,7 @@ while (not x_status)
 
   elsif select_clave == 'j2k5'
     puts
-    puts flat_2_sharp_5[:ion_j2k5]
+    puts J2K5[:ion]
 
   elsif select_clave == 'j2k5FeCu'
     puts
@@ -798,7 +783,7 @@ while (not x_status)
 
   elsif select_clave == 'k26'
     puts
-    puts sharp_26[:ion_k26]
+    puts K26[:ion]
 
   elsif select_clave == 'k26HgMn'
     puts
@@ -830,7 +815,7 @@ while (not x_status)
 
   elsif select_clave == 'j25'
     puts
-    puts flat_25[:ion_j25]
+    puts J25[:ion]
 
   elsif select_clave == 'j25NpAu'
     puts
