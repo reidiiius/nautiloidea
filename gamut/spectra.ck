@@ -1,4 +1,4 @@
-// spectra.ck 
+// spectra.ck
 TriOsc s => dac;
 0.5 => s.gain;
 
@@ -81,7 +81,7 @@ TriOsc s => dac;
 [an1,8],[aj1,8],[gn1,8],[gj1,8],[fn1,8],[en1,8],[ej1,8],[dn1,8],[dj1,8],[cn1,8],[bn0,8],[bj0,8]
 ] @=> int spectra[][];
 
-while ( true ) 
+while ( true )
 for( 0 => int i; i < spectra.cap(); i++) {
     Std.mtof( spectra[i][0] + transport ) => s.freq;
-    240000::ms / ( spectra[i][1] * tempo ) => now; } 
+    240000::ms / ( spectra[i][1] * tempo ) => now; }

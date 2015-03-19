@@ -1,10 +1,10 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/env ruby
 
 dir = File.dirname(__FILE__)
- require dir + '/ophiuchus' 
- require dir + '/gemini' 
- require dir + '/capricorn' 
- require dir + '/leo' 
+ require dir + '/ophiuchus'
+ require dir + '/gemini'
+ require dir + '/capricorn'
+ require dir + '/leo'
  require dir + '/pisces'
  require dir + '/libra'
  require dir + '/taurus'
@@ -15,4 +15,3 @@ dir = File.dirname(__FILE__)
  require dir + '/aries'
  require dir + '/scorpio'
  require dir + '/aquila'
- 

@@ -713,7 +713,7 @@ while (not x_status)
     puts
     puts eadgbe_n0
 
-  elsif (select_sig == 'j7' or select_sig == '-17')
+  elsif (select_sig == 'j7' or select_sig == '-7')
     puts
     puts eadgbe_j7
 
@@ -897,19 +897,19 @@ while (not x_status)
     puts
     puts eadgbe_k1j5
 
-  elsif (select_sig == 'k2j6' or select_sig == '#2b6')
+  elsif (select_sig == 'k2j6' or select_sig == '+2-6')
     puts
     puts eadgbe_k2j6
 
-  elsif (select_sig == 'j2k5' or select_sig == 'b2#5')
+  elsif (select_sig == 'j2k5' or select_sig == '-2+5')
     puts
     puts eadgbe_j2k5
 
-  elsif (select_sig == 'k26' or select_sig == '#26')
+  elsif (select_sig == 'k26' or select_sig == '+26')
     puts
     puts eadgbe_k26
 
-  elsif (select_sig == 'j25' or select_sig == 'b25')
+  elsif (select_sig == 'j25' or select_sig == '-25')
     puts
     puts eadgbe_j25
 

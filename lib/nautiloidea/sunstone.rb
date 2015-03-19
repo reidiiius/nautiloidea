@@ -509,18 +509,18 @@ end
 def help
   puts "\n Basic Commands"
   puts " help  -h    This help message"
-  puts " list  -l    List of objects" 
+  puts " list  -l    List of objects"
   puts " next  -n    Move to next section"
   puts " quit  -q    Leave the program"
 end
 
 index = [
-    "n0",     "k6",   "j17",  "k6x5",  "j17y2",    "j3", 
- "j34k6",  "j17k2", "n26y5", "k26x5",     "j6",   "j36", 
-   "k56", "j136y7", "k56x4","n167x4", "j3k5x4","j167y2", 
-    "j2",   "j236",   "j26",   "j23",  "j23k6",  "j2y3", 
-  "j2k6",  "j26y3", "j2k56","j246y3","j2k56x4","k157x6", 
-"j26y34", "j2k6x5","j2k6y3",  "k1j6",   "n345",  "j3k6", 
+    "n0",     "k6",   "j17",  "k6x5",  "j17y2",    "j3",
+ "j34k6",  "j17k2", "n26y5", "k26x5",     "j6",   "j36",
+   "k56", "j136y7", "k56x4","n167x4", "j3k5x4","j167y2",
+    "j2",   "j236",   "j26",   "j23",  "j23k6",  "j2y3",
+  "j2k6",  "j26y3", "j2k56","j246y3","j2k56x4","k157x6",
+"j26y34", "j2k6x5","j2k6y3",  "k1j6",   "n345",  "j3k6",
  "n45y2","j3k56x4",  "k2j6",  "n5y2",    "k26",  "k256"]
 
 x_status = false
