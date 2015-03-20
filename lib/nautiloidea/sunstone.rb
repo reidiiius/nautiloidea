@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require_relative "signature.rb"
+require_relative 'signature.rb'
 
 n0 = Proc.new do
   str = GemStone::N0
@@ -514,160 +514,163 @@ def help
   puts " quit  -q    Leave the program"
 end
 
-index = [
-    "n0",     "k6",   "j17",  "k6x5",  "j17y2",    "j3",
- "j34k6",  "j17k2", "n26y5", "k26x5",     "j6",   "j36",
-   "k56", "j136y7", "k56x4","n167x4", "j3k5x4","j167y2",
-    "j2",   "j236",   "j26",   "j23",  "j23k6",  "j2y3",
-  "j2k6",  "j26y3", "j2k56","j246y3","j2k56x4","k157x6",
-"j26y34", "j2k6x5","j2k6y3",  "k1j6",   "n345",  "j3k6",
- "n45y2","j3k56x4",  "k2j6",  "n5y2",    "k26",  "k256"]
+index = <<EOF
 
-x_status = false
+     n0        k6      j17     k6x5     j17y2       j3
+  j34k6     j17k2    n26y5    k26x5        j6      j36
+    k56    j136y7    k56x4   n167x4    j3k5x4   j167y2
+     j2      j236      j26      j23     j23k6     j2y3
+   j2k6     j26y3    j2k56   j246y3   j2k56x4   k157x6
+ j26y34    j2k6x5   j2k6y3     k1j6      n345     j3k6
+  n45y2   j3k56x4     k2j6     n5y2       k26     k256
+
+EOF
+
+  x_status = false
 
   puts help
 
 while ( not x_status )
-   puts
-   print "Enter selection: "
+   print "\n Enter selection: "
+
    signet = gets.chomp
 
-  if ( signet =~ /help/ or signet == "-h" )
+  if ( signet =~ /\s|help|-h/ or signet == '' )
     puts help
 
-  elsif ( signet =~ /ndex|list/ or signet == "-l" )
+  elsif signet =~ /list|-l/
     puts index
 
-  elsif ( signet =~ /next/ or signet == "-n" )
+  elsif signet =~ /next|-n/
     x_status = true
 
-  elsif ( signet =~ /exit|quit/ or signet == "-q" )
+  elsif ( signet =~ /quit|-q/ or signet == 'exit' )
     exit
 
-  elsif signet == "n0"
+  elsif signet == 'n0'
     n0.call
 
-  elsif signet == "k6"
+  elsif signet == 'k6'
     k6.call
 
-  elsif signet == "j17"
+  elsif signet == 'j17'
     j17.call
 
-  elsif signet == "k6x5"
+  elsif signet == 'k6x5'
     k6x5.call
 
-  elsif signet == "j17y2"
+  elsif signet == 'j17y2'
     j17y2.call
 
-  elsif signet == "j3"
+  elsif signet == 'j3'
     j3.call
 
-  elsif signet == "j34k6"
+  elsif signet == 'j34k6'
     j34k6.call
 
-  elsif signet == "j17k2"
+  elsif signet == 'j17k2'
     j17k2.call
 
-  elsif signet == "n26y5"
+  elsif signet == 'n26y5'
     n26y5.call
 
-  elsif signet == "k26x5"
+  elsif signet == 'k26x5'
     k26x5.call
 
-  elsif signet == "j6"
+  elsif signet == 'j6'
     j6.call
 
-  elsif signet == "j36"
+  elsif signet == 'j36'
     j36.call
 
-  elsif signet == "k56"
+  elsif signet == 'k56'
     k56.call
 
-  elsif signet == "j136y7"
+  elsif signet == 'j136y7'
     j136y7.call
 
-  elsif signet == "k56x4"
+  elsif signet == 'k56x4'
     k56x4.call
 
-  elsif signet == "n167x4"
+  elsif signet == 'n167x4'
     n167x4.call
 
-  elsif signet == "j3k5x4"
+  elsif signet == 'j3k5x4'
     j3k5x4.call
 
-  elsif signet == "j167y2"
+  elsif signet == 'j167y2'
     j167y2.call
 
-  elsif signet == "j2k56x4"
+  elsif signet == 'j2k56x4'
     j2k56x4.call
 
-  elsif signet == "k157x6"
+  elsif signet == 'k157x6'
     k157x6.call
 
-  elsif signet == "k1j6"
+  elsif signet == 'k1j6'
     k1j6.call
 
-  elsif signet == "n345"
+  elsif signet == 'n345'
     n345.call
 
-  elsif signet == "j2"
+  elsif signet == 'j2'
     j2.call
 
-  elsif signet == "j26"
+  elsif signet == 'j26'
     j26.call
 
-  elsif signet == "j236"
+  elsif signet == 'j236'
     j236.call
 
-  elsif signet == "j23"
+  elsif signet == 'j23'
     j23.call
 
-  elsif signet == "j23k6"
+  elsif signet == 'j23k6'
     j23k6.call
 
-  elsif signet == "j2y3"
+  elsif signet == 'j2y3'
     j2y3.call
 
-  elsif signet == "j2k6"
+  elsif signet == 'j2k6'
     j2k6.call
 
-  elsif signet == "j26y3"
+  elsif signet == 'j26y3'
     j26y3.call
 
-  elsif signet == "j2k56"
+  elsif signet == 'j2k56'
     j2k56.call
 
-  elsif signet == "j246y3"
+  elsif signet == 'j246y3'
     j246y3.call
 
-  elsif signet == "j26y34"
+  elsif signet == 'j26y34'
     j26y34.call
 
-  elsif signet == "j2k6x5"
+  elsif signet == 'j2k6x5'
     j2k6x5.call
 
-  elsif signet == "j2k6y3"
+  elsif signet == 'j2k6y3'
     j2k6y3.call
 
-  elsif signet == "j3k6"
+  elsif signet == 'j3k6'
     j3k6.call
 
-  elsif signet == "n45y2"
+  elsif signet == 'n45y2'
     n45y2.call
 
-  elsif signet == "j3k56x4"
+  elsif signet == 'j3k56x4'
     j3k56x4.call
 
-  elsif signet == "k2j6"
+  elsif signet == 'k2j6'
     k2j6.call
 
-  elsif signet == "n5y2"
+  elsif signet == 'n5y2'
     n5y2.call
 
-  elsif signet == "k26"
+  elsif signet == 'k26'
     k26.call
 
-  elsif signet == "k256"
+  elsif signet == 'k256'
     k256.call
 
   end
