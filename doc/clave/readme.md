@@ -1,12 +1,12 @@
-#### Clave Library 
+#### Clave Library
 
 Audio example: [ @phragmocone ]( https://sites.google.com/site/phragmocone/ )
- 
-To create wav files from this library, 
+
+To create wav files from this library,
 you will need to install the following.
 
-Dependencies: 
+Dependencies:
 
-  - ruby: [ http://www.ruby-lang.org/en/ ]( http://www.ruby-lang.org/en/ ) 
+  - ruby: [ http://www.ruby-lang.org/en/ ]( http://www.ruby-lang.org/en/ )
 
-  - beats:[ https://github.com/jstrait/beats ]( https://github.com/jstrait/beats ) 
+  - beats:[ https://github.com/jstrait/beats ]( https://github.com/jstrait/beats )
