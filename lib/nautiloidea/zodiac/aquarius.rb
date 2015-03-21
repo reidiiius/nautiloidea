@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Aquarius
 
   class Sadalmelik
 
     def j37
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][35,60] << str[qp][ 0,35]
 	puts str[qp][10,60] << str[qp][ 0,10]

@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Aquila
 
   class Altair
 
     def j0
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][30,60] << str[qp][ 0,30]
 	puts str[qp][ 5,60] << str[qp][ 0, 5]

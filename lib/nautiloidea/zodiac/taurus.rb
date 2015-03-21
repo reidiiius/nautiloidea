@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Taurus
 
   class Aldebaran
 
     def k4
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][50,60] << str[qp][ 0,50]
 	puts str[qp][25,60] << str[qp][ 0,25]

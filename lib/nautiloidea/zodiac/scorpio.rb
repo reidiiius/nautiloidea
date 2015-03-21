@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Scorpio
 
   class Antares
 
     def n14
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][20,60] << str[qp][ 0,20]
 	puts str[qp][55,60] << str[qp][ 0,55]

@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Gemini
 
   class Pollux
 
     def n7
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][55,60] << str[qp][ 0,55]
 	puts str[qp][30,60] << str[qp][ 0,30]
@@ -23,7 +23,7 @@ module Gemini
   class Castor
 
     def n4
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][55,60] << str[qp][ 0,55]
 	puts str[qp][30,60] << str[qp][ 0,30]

@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Leo
 
   class Regulus
 
     def n367
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][ 5,60] << str[qp][ 0, 5]
 	puts str[qp][40,60] << str[qp][ 0,40]

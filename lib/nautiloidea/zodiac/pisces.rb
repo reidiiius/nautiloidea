@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Pisces
 
   class Alpherg
 
     def k145
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][40,60] << str[qp][ 0,40]
 	puts str[qp][15,60] << str[qp][ 0,15]

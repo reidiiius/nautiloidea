@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Cancer
 
   class Acubens
 
     def j7
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][ 0,60] << str[qp][ 0, 0]
 	puts str[qp][35,60] << str[qp][ 0,35]

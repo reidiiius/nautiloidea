@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Libra
 
   class Zubenelgenubi
 
     def k14
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][15,60] << str[qp][ 0,15]
 	puts str[qp][50,60] << str[qp][ 0,50]

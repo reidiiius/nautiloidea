@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Sagittarius
 
   class Rukbat
 
     def n0
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][25,60] << str[qp][ 0,25]
 	puts str[qp][ 0,60] << str[qp][ 0, 0]

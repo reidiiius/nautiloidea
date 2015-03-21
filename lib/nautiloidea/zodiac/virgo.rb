@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Virgo
 
   class Spica
 
     def j367
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][10,60] << str[qp][ 0,10]
 	puts str[qp][45,60] << str[qp][ 0,45]

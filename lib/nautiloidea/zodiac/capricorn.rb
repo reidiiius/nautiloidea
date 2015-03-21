@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
 
-require_relative '../scordatura.rb'
+require_relative 'draco.rb'
 
 module Capricorn
 
   class Algedi
 
     def n37
-      str = Scordatura::Clave
+      str = Draco::Thuban
       qp = :n0
 	puts str[qp][30,60] << str[qp][ 0,30]
 	puts str[qp][ 5,60] << str[qp][ 0, 5]
