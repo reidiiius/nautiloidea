@@ -1,32 +1,27 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+
+require_relative '../scordatura.rb'
 
 module Scorpio
 
   class Antares
 
-    def initialize
-	  signet_n14
-	end
-
-    def signet_n14
-      @n14 =
-      [
-      ' ___ fn6 gj6 ___ aj6 ___ bj6 ___ cn7 dj7 ___ ej7 ___ ',
-      ' ___ cn6 dj6 ___ ej6 ___ fn6 gj6 ___ aj6 ___ bj6 ___ ',
-      ' ___ aj5 ___ bj5 ___ cn6 dj6 ___ ej6 ___ fn6 gj6 ___ ',
-      ' ___ ej5 ___ fn5 gj5 ___ aj5 ___ bj5 ___ cn6 dj6 ___ ',
-      ' ___ bj4 ___ cn5 dj5 ___ ej5 ___ fn5 gj5 ___ aj5 ___ ',
-      ' ___ fn4 gj4 ___ aj4 ___ bj4 ___ cn5 dj5 ___ ej5 ___ ']
-    end
-
     def n14
-	  @n14
+      str = Scordatura::Clave
+      qp = :n0
+	puts str[qp][20,60] << str[qp][ 0,20]
+	puts str[qp][55,60] << str[qp][ 0,55]
+	puts str[qp][30,60] << str[qp][ 0,30]
+	puts str[qp][ 5,60] << str[qp][ 0, 5]
+	puts str[qp][40,60] << str[qp][ 0,40]
+	puts str[qp][15,60] << str[qp][ 0,15]
+	puts str[qp][50,60] << str[qp][ 0,50]
     end
+
   end
 
-  puts
-  puts 'n14'
-  puts
+  puts "\nn14"
   puts Antares.new.n14
 
 end
+

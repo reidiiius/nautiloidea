@@ -1,32 +1,27 @@
 #!/usr/bin/env ruby
 
+require_relative '../scordatura.rb'
+
 module Sagittarius
 
   class Rukbat
 
-    def initialize
-      signet_n0
-    end
-
-    def signet_n0
-      @n0 =
-      [
-      ' en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 ',
-      ' bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ',
-      ' gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ',
-      ' dn5 ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ',
-      ' an4 ___ bn4 cn5 ___ dn5 ___ en5 fn5 ___ gn5 ___ an5 ',
-      ' en4 fn4 ___ gn4 ___ an4 ___ bn4 cn5 ___ dn5 ___ en5 ']
-    end
-
     def n0
-      @n0
+      str = Scordatura::Clave
+      qp = :n0
+	puts str[qp][25,60] << str[qp][ 0,25]
+	puts str[qp][ 0,60] << str[qp][ 0, 0]
+	puts str[qp][35,60] << str[qp][ 0,35]
+	puts str[qp][10,60] << str[qp][ 0,10]
+	puts str[qp][45,60] << str[qp][ 0,45]
+	puts str[qp][20,60] << str[qp][ 0,20]
+	puts str[qp][55,60] << str[qp][ 0,55]
     end
+
   end
 
-  puts
-  puts 'n0'
-  puts
+  puts "\nn0"
   puts Rukbat.new.n0
 
 end
+

@@ -1,32 +1,27 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+
+require_relative '../scordatura.rb'
 
 module Aquarius
 
   class Sadalmelik
 
-    def initialize
-	  signet_j37
-	end
-
-    def signet_j37
-      @j37 =
-      [
-      ' ___ fn6 ___ gn6 ___ an6 bj6 ___ cn7 ___ dn7 ej7 ___ ',
-      ' ___ cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 bj6 ___ ',
-      ' gn5 ___ an5 bj5 ___ cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ',
-      ' dn5 ej5 ___ fn5 ___ gn5 ___ an5 bj5 ___ cn6 ___ dn6 ',
-      ' an4 bj4 ___ cn5 ___ dn5 ej5 ___ fn5 ___ gn5 ___ an5 ',
-      ' ___ fn4 ___ gn4 ___ an4 bj4 ___ cn5 ___ dn5 ej5 ___ ']
-    end
-
     def j37
-	  @j37
+      str = Scordatura::Clave
+      qp = :n0
+	puts str[qp][35,60] << str[qp][ 0,35]
+	puts str[qp][10,60] << str[qp][ 0,10]
+	puts str[qp][45,60] << str[qp][ 0,45]
+	puts str[qp][20,60] << str[qp][ 0,20]
+	puts str[qp][55,60] << str[qp][ 0,55]
+	puts str[qp][30,60] << str[qp][ 0,30]
+	puts str[qp][ 5,60] << str[qp][ 0, 5]
     end
+
   end
 
-  puts
-  puts 'j37'
-  puts
+  puts "\nj37"
   puts Sadalmelik.new.j37
 
 end
+

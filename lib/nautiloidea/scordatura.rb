@@ -89,15 +89,3 @@ module Scordatura
 
 end
 
-str = Scordatura::Clave
-
-puts "\nn0"
-puts str[:n0][25,60] << str[:n0][ 0,25]
-puts str[:n0]
-puts str[:n0][35,60] << str[:n0][ 0,35]
-puts str[:n0][10,60] << str[:n0][ 0,10]
-puts str[:n0][45,60] << str[:n0][ 0,45]
-puts str[:n0][20,60] << str[:n0][ 0,20]
-puts str[:n0][55,60] << str[:n0][ 0,55]
-puts
-

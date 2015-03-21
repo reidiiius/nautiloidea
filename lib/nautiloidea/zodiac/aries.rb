@@ -1,32 +1,27 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+
+require_relative '../scordatura.rb'
 
 module Aries
 
   class Hamal
 
-    def initialize
-	  signet_n145
-	end
-
-    def signet_n145
-      @n145 =
-      [
-      ' ___ fn6 ___ gn6 aj6 ___ bj6 ___ cn7 dj7 ___ ej7 ___ ',
-      ' ___ cn6 dj6 ___ ej6 ___ fn6 ___ gn6 aj6 ___ bj6 ___ ',
-      ' gn5 aj5 ___ bj5 ___ cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ',
-      ' ___ ej5 ___ fn5 ___ gn5 aj5 ___ bj5 ___ cn6 dj6 ___ ',
-      ' ___ bj4 ___ cn5 dj5 ___ ej5 ___ fn5 ___ gn5 aj5 ___ ',
-      ' ___ fn4 ___ gn4 aj4 ___ bj4 ___ cn5 dj5 ___ ej5 ___ ']
-    end
-
     def n145
-	  @n145
+      str = Scordatura::Clave
+      qp = :n0
+	puts str[qp][45,60] << str[qp][ 0,45]
+	puts str[qp][20,60] << str[qp][ 0,20]
+	puts str[qp][55,60] << str[qp][ 0,55]
+	puts str[qp][30,60] << str[qp][ 0,30]
+	puts str[qp][ 5,60] << str[qp][ 0, 5]
+	puts str[qp][40,60] << str[qp][ 0,40]
+	puts str[qp][15,60] << str[qp][ 0,15]
     end
+
   end
 
-  puts
-  puts 'n145'
-  puts
+  puts "\nn145"
   puts Hamal.new.n145
 
 end
+

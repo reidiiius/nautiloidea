@@ -1,32 +1,27 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+
+require_relative '../scordatura.rb'
 
 module Pisces
 
   class Alpherg
 
-    def initialize
-	  signet_k145
-	end
-
-    def signet_k145
-      @k145 =
-      [
-      ' en6 ___ fk6 ___ gk6 an6 ___ bn6 ___ ck7 dn7 ___ en7 ',
-      ' bn5 ___ ck6 dn6 ___ en6 ___ fk6 ___ gk6 an6 ___ bn6 ',
-      ' ___ gk5 an5 ___ bn5 ___ ck6 dn6 ___ en6 ___ fk6 ___ ',
-      ' dn5 ___ en5 ___ fk5 ___ gk5 an5 ___ bn5 ___ ck6 dn6 ',
-      ' an4 ___ bn4 ___ ck5 dn5 ___ en5 ___ fk5 ___ gk5 an5 ',
-      ' en4 ___ fk4 ___ gk4 an4 ___ bn4 ___ ck5 dn5 ___ en5 ']
-    end
-
     def k145
-	  @k145
+      str = Scordatura::Clave
+      qp = :n0
+	puts str[qp][40,60] << str[qp][ 0,40]
+	puts str[qp][15,60] << str[qp][ 0,15]
+	puts str[qp][50,60] << str[qp][ 0,50]
+	puts str[qp][25,60] << str[qp][ 0,25]
+	puts str[qp][ 0,60] << str[qp][ 0, 0]
+	puts str[qp][35,60] << str[qp][ 0,35]
+	puts str[qp][10,60] << str[qp][ 0,10]
     end
+
   end
 
-  puts
-  puts 'k145'
-  puts
+  puts "\nk145"
   puts Alpherg.new.k145
 
 end
+

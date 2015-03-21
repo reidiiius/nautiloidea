@@ -1,32 +1,27 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+
+require_relative '../scordatura.rb'
 
 module Aquila
 
   class Altair
 
-    def initialize
-	  signet_j0
-	end
-
-    def signet_j0
-      @j0 =
-      [
-      ' fj6 ___ gj6 ___ aj6 ___ bj6 cj7 ___ dj7 ___ ej7 fj7 ',
-      ' cj6 ___ dj6 ___ ej6 fj6 ___ gj6 ___ aj6 ___ bj6 cj7 ',
-      ' ___ aj5 ___ bj5 cj6 ___ dj6 ___ ej6 fj6 ___ gj6 ___ ',
-      ' ___ ej5 fj5 ___ gj5 ___ aj5 ___ bj5 cj6 ___ dj6 ___ ',
-      ' ___ bj4 cj5 ___ dj5 ___ ej5 fj5 ___ gj5 ___ aj5 ___ ',
-      ' fj4 ___ gj4 ___ aj4 ___ bj4 cj5 ___ dj5 ___ ej5 fj5 ']
-    end
-
     def j0
-	  @j0
+      str = Scordatura::Clave
+      qp = :n0
+	puts str[qp][30,60] << str[qp][ 0,30]
+	puts str[qp][ 5,60] << str[qp][ 0, 5]
+	puts str[qp][40,60] << str[qp][ 0,40]
+	puts str[qp][15,60] << str[qp][ 0,15]
+	puts str[qp][50,60] << str[qp][ 0,50]
+	puts str[qp][25,60] << str[qp][ 0,25]
+	puts str[qp][ 0,60] << str[qp][ 0, 0]
     end
+
   end
 
-  puts
-  puts 'j0'
-  puts
+  puts "\nj0"
   puts Altair.new.j0
 
 end
+
