@@ -4,18 +4,19 @@ require_relative 'draco.rb'
 
 module Capricorn
 
+  Str = Draco::Thuban
+
   class Algedi
 
     def n37
-      str = Draco::Thuban
       qp = :n0
-	puts str[qp][30,60] << str[qp][ 0,30]
-	puts str[qp][ 5,60] << str[qp][ 0, 5]
-	puts str[qp][40,60] << str[qp][ 0,40]
-	puts str[qp][15,60] << str[qp][ 0,15]
-	puts str[qp][50,60] << str[qp][ 0,50]
-	puts str[qp][25,60] << str[qp][ 0,25]
-	puts str[qp][ 0,60] << str[qp][ 0, 0]
+	puts Str[qp][30,60] << Str[qp][ 0,30]
+	puts Str[qp][ 5,60] << Str[qp][ 0, 5]
+	puts Str[qp][40,60] << Str[qp][ 0,40]
+	puts Str[qp][15,60] << Str[qp][ 0,15]
+	puts Str[qp][50,60] << Str[qp][ 0,50]
+	puts Str[qp][25,60] << Str[qp][ 0,25]
+	puts Str[qp][ 0,60] << Str[qp][ 0, 0]
     end
 
   end
