@@ -8,21 +8,28 @@ module Cancer
 
   class Acubens
 
-    def j7
-      qp = :n0
-	puts Str[qp][ 0,60] << Str[qp][ 0, 0]
-	puts Str[qp][35,60] << Str[qp][ 0,35]
-	puts Str[qp][10,60] << Str[qp][ 0,10]
-	puts Str[qp][45,60] << Str[qp][ 0,45]
-	puts Str[qp][20,60] << Str[qp][ 0,20]
-	puts Str[qp][55,60] << Str[qp][ 0,55]
-	puts Str[qp][30,60] << Str[qp][ 0,30]
+    def emerald(qp)
+      @qp = qp
+	puts Str[@qp][ 0,60] << Str[@qp][ 0, 0]
+	puts Str[@qp][35,60] << Str[@qp][ 0,35]
+	puts Str[@qp][10,60] << Str[@qp][ 0,10]
+	puts Str[@qp][45,60] << Str[@qp][ 0,45]
+	puts Str[@qp][20,60] << Str[@qp][ 0,20]
+	puts Str[@qp][55,60] << Str[@qp][ 0,55]
+	puts Str[@qp][30,60] << Str[@qp][ 0,30]
     end
 
   end
 
+  star = Acubens.new
+
   puts "\nj7"
-  puts Acubens.new.j7
+  star.emerald(:n0)
+
+  puts "\nj67"
+  star.emerald(:j3)
+
+  puts
 
 end
 
