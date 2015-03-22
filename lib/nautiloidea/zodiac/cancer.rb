@@ -29,6 +29,12 @@ module Cancer
   puts "\nj67"
   star.emerald(:j3)
 
+  puts "\nj267"
+  star.emerald(:j36)
+
+  puts "\nj27"
+  star.emerald(:j6)
+
   puts
 
 end

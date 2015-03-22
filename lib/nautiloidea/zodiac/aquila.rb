@@ -26,8 +26,14 @@ module Aquila
   puts "\nj0"
   star.ruby(:n0)
 
-  puts "\nn1"
+  puts "\nj0y3"
   star.ruby(:j3)
+
+  puts "\nj0y36"
+  star.ruby(:j36)
+
+  puts "\nj0y6"
+  star.ruby(:j6)
 
   puts
 

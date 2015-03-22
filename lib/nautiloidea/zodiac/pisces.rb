@@ -29,6 +29,12 @@ module Pisces
   puts "\nk45"
   star.amethyst(:j3)
 
+  puts "\nk5"
+  star.amethyst(:j36)
+
+  puts "\nk15"
+  star.amethyst(:j6)
+
   puts
 
 end

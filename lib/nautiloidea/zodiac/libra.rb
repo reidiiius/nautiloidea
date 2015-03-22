@@ -29,6 +29,12 @@ module Libra
   puts "\nk1"
   star.peridot(:j3)
 
+  puts "\nk1j7"
+  star.peridot(:j36)
+
+  puts "\nk14j7"
+  star.peridot(:j6)
+
   puts
 
 end

@@ -29,6 +29,12 @@ module Virgo
   puts "\nn124"
   star.carnelian(:j3)
 
+  puts "\nn24"
+  star.carnelian(:j36)
+
+  puts "\nn245"
+  star.carnelian(:j6)
+
   puts
 
 end

@@ -29,6 +29,12 @@ module Ophiuchus
   puts "\nn3"
   star.beryl(:j3)
 
+  puts "\nn36"
+  star.beryl(:j36)
+
+  puts "\nn6"
+  star.beryl(:j6)
+
   puts
 
 end

@@ -29,6 +29,12 @@ module Scorpio
   puts "\nn1"
   star.beryl(:j3)
 
+  puts "\nn1y7"
+  star.beryl(:j36)
+
+  puts "\nn14y7"
+  star.beryl(:j6)
+
   puts
 
 end

@@ -29,6 +29,12 @@ module Aquarius
   puts "\nj237"
   star.garnet(:j3)
 
+  puts "\nn146"
+  star.garnet(:j36)
+
+  puts "\nj357"
+  star.garnet(:j6)
+
   puts
 
 end

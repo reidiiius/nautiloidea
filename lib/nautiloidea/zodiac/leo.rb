@@ -29,6 +29,12 @@ module Leo
   puts "\nk124"
   star.onyx(:j3)
 
+  puts "\nk24"
+  star.onyx(:j36)
+
+  puts "\nk245"
+  star.onyx(:j6)
+
   puts
 
 end

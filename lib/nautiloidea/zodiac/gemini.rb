@@ -36,21 +36,19 @@ module Gemini
 
   end
 
-  alpha = Pollux.new
-
-  beta = Castor.new
+  star = Pollux.new
 
   puts "\nn7"
-  alpha.agate(:n0)
+  star.agate(:n0)
 
   puts "\nn67"
-  alpha.agate(:j3)
+  star.agate(:j3)
 
-  puts "\nn4"
-  beta.jasper(:n0)
+  puts "\nn267"
+  star.agate(:j36)
 
-  puts "\nn4y7"
-  beta.jasper(:j3)
+  puts "\nn27"
+  star.agate(:j6)
 
   puts
 

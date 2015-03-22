@@ -29,6 +29,12 @@ module Taurus
   puts "\nk4j7"
   star.sapphire(:j3)
 
+  puts "\nj37k4"
+  star.sapphire(:j36)
+
+  puts "\nj3k4"
+  star.sapphire(:j6)
+
   puts
 
 end

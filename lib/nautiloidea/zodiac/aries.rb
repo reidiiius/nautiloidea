@@ -29,6 +29,12 @@ module Aries
   puts "\nn45"
   star.bloodstone(:j3)
 
+  puts "\nn5"
+  star.bloodstone(:j36)
+
+  puts "\nn15"
+  star.bloodstone(:j6)
+
   puts
 
 end

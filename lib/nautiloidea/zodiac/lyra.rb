@@ -2,7 +2,7 @@
 
 module Lyra
 
-class Cyclone
+class Vega
 
  def str00
    @str00
@@ -58,7 +58,7 @@ class Cyclone
 
 end
 
-class Natural < Cyclone
+class Natural < Vega
 
   def initialize
     n0
@@ -126,7 +126,7 @@ bass_std_n0 = Proc.new do
   puts Natural.new.str12[12..64]
 end
 
-class Sharp_6 < Cyclone
+class Sharp_6 < Vega
 
   def initialize
     k6
@@ -194,7 +194,7 @@ bass_std_k6 = Proc.new do
   puts Sharp_6.new.str12[12..64]
 end
 
-class Flat_5 < Cyclone
+class Flat_5 < Vega
 
   def initialize
     j5
@@ -262,7 +262,7 @@ bass_std_j5 = Proc.new do
   puts Flat_5.new.str12[12..64]
 end
 
-class Flat_17_Y2 < Cyclone
+class Flat_17_Y2 < Vega
 
   def initialize
     j17y2
@@ -330,7 +330,7 @@ bass_std_j17y2 = Proc.new do
   puts Flat_17_Y2.new.str12[12..64]
 end
 
-class Sharp_34_X2 < Cyclone
+class Sharp_34_X2 < Vega
 
   def initialize
     k34x2
@@ -398,7 +398,7 @@ bass_std_k34x2 = Proc.new do
   puts Sharp_34_X2.new.str12[12..64]
 end
 
-class Flat_3 < Cyclone
+class Flat_3 < Vega
 
   def initialize
     j3
@@ -466,7 +466,7 @@ bass_std_j3 = Proc.new do
   puts Flat_3.new.str12[12..64]
 end
 
-class Sharp_1 < Cyclone
+class Sharp_1 < Vega
 
   def initialize
     k1
@@ -534,7 +534,7 @@ bass_std_k1 = Proc.new do
   puts Sharp_1.new.str12[12..64]
 end
 
-class Flat_17_Sharp_2 < Cyclone
+class Flat_17_Sharp_2 < Vega
 
   def initialize
     j17k2
@@ -602,7 +602,7 @@ bass_std_j17k2 = Proc.new do
   puts Flat_17_Sharp_2.new.str12[12..64]
 end
 
-class Flat_2_Sharp_34 < Cyclone
+class Flat_2_Sharp_34 < Vega
 
   def initialize
     j2k34
@@ -670,7 +670,7 @@ bass_std_j2k34 = Proc.new do
   puts Flat_2_Sharp_34.new.str12[12..64]
 end
 
-class Sharp_26_Flat_5 < Cyclone
+class Sharp_26_Flat_5 < Vega
 
   def initialize
     k26j5
@@ -738,7 +738,7 @@ bass_std_k26j5 = Proc.new do
   puts Sharp_26_Flat_5.new.str12[12..64]
 end
 
-class Flat_25_Sharp_6 < Cyclone
+class Flat_25_Sharp_6 < Vega
 
   def initialize
     j25k6
@@ -806,7 +806,7 @@ bass_std_j25k6 = Proc.new do
   puts Flat_25_Sharp_6.new.str12[12..64]
 end
 
-class Flat_6 < Cyclone
+class Flat_6 < Vega
 
   def initialize
     j6
@@ -874,7 +874,7 @@ bass_std_j6 = Proc.new do
   puts Flat_6.new.str12[12..64]
 end
 
-class Sharp_5 < Cyclone
+class Sharp_5 < Vega
 
   def initialize
     k5
@@ -942,7 +942,7 @@ bass_std_k5 = Proc.new do
   puts Sharp_5.new.str12[12..64]
 end
 
-class Sharp_56 < Cyclone
+class Sharp_56 < Vega
 
   def initialize
     k56
@@ -1010,7 +1010,7 @@ bass_std_k56 = Proc.new do
   puts Sharp_56.new.str12[12..64]
 end
 
-class Flat_56 < Cyclone
+class Flat_56 < Vega
 
   def initialize
     j56
@@ -1078,7 +1078,7 @@ bass_std_j56 = Proc.new do
   puts Flat_56.new.str12[12..64]
 end
 
-class Sharp_127 < Cyclone
+class Sharp_127 < Vega
 
   def initialize
     k127
@@ -1146,7 +1146,7 @@ bass_std_k127 = Proc.new do
   puts Sharp_127.new.str12[12..64]
 end
 
-class Flat_234 < Cyclone
+class Flat_234 < Vega
 
   def initialize
     j234
@@ -1214,7 +1214,7 @@ bass_std_j234 = Proc.new do
   puts Flat_234.new.str12[12..64]
 end
 
-class Sharp_127_Flat_5 < Cyclone
+class Sharp_127_Flat_5 < Vega
 
   def initialize
     k127j5
@@ -1282,7 +1282,7 @@ bass_std_k127j5 = Proc.new do
   puts Sharp_127_Flat_5.new.str12[12..64]
 end
 
-class Flat_234_Sharp_6 < Cyclone
+class Flat_234_Sharp_6 < Vega
 
   def initialize
     j234k6
@@ -1350,7 +1350,7 @@ bass_std_j234k6 = Proc.new do
   puts Flat_234_Sharp_6.new.str12[12..64]
 end
 
-class Sharp_17_Flat_6 < Cyclone
+class Sharp_17_Flat_6 < Vega
 
   def initialize
     k17j6
@@ -1418,7 +1418,7 @@ bass_std_k17j6 = Proc.new do
   puts Sharp_17_Flat_6.new.str12[12..64]
 end
 
-class Flat_34_Sharp_5 < Cyclone
+class Flat_34_Sharp_5 < Vega
 
   def initialize
     j34k5
@@ -1486,7 +1486,7 @@ bass_std_j34k5 = Proc.new do
   puts Flat_34_Sharp_5.new.str12[12..64]
 end
 
-class Sharp_1_Flat_6 < Cyclone
+class Sharp_1_Flat_6 < Vega
 
   def initialize
     k1j6
@@ -1554,7 +1554,7 @@ bass_std_k1j6 = Proc.new do
   puts Sharp_1_Flat_6.new.str12[12..64]
 end
 
-class Flat_3_Sharp_5 < Cyclone
+class Flat_3_Sharp_5 < Vega
 
   def initialize
     j3k5
@@ -1622,7 +1622,7 @@ bass_std_j3k5 = Proc.new do
   puts Flat_3_Sharp_5.new.str12[12..64]
 end
 
-class Sharp_16 < Cyclone
+class Sharp_16 < Vega
 
   def initialize
     k16
@@ -1690,7 +1690,7 @@ bass_std_k16 = Proc.new do
   puts Sharp_16.new.str12[12..64]
 end
 
-class Flat_35 < Cyclone
+class Flat_35 < Vega
 
   def initialize
     j35
@@ -1758,7 +1758,7 @@ bass_std_j35 = Proc.new do
   puts Flat_35.new.str12[12..64]
 end
 
-class Flat_2 < Cyclone
+class Flat_2 < Vega
 
   def initialize
     j2
@@ -1826,7 +1826,7 @@ bass_std_j2 = Proc.new do
   puts Flat_2.new.str12[12..64]
 end
 
-class Sharp_2 < Cyclone
+class Sharp_2 < Vega
 
   def initialize
     k2
@@ -1894,7 +1894,7 @@ bass_std_k2 = Proc.new do
   puts Sharp_2.new.str12[12..64]
 end
 
-class Flat_26 < Cyclone
+class Flat_26 < Vega
 
   def initialize
     j26
@@ -1962,7 +1962,7 @@ bass_std_j26 = Proc.new do
   puts Flat_26.new.str12[12..64]
 end
 
-class Sharp_25 < Cyclone
+class Sharp_25 < Vega
 
   def initialize
     k25
@@ -2030,7 +2030,7 @@ bass_std_k25 = Proc.new do
   puts Sharp_25.new.str12[12..64]
 end
 
-class Flat_23 < Cyclone
+class Flat_23 < Vega
 
   def initialize
     j23
@@ -2098,7 +2098,7 @@ bass_std_j23 = Proc.new do
   puts Flat_23.new.str12[12..64]
 end
 
-class Sharp_12 < Cyclone
+class Sharp_12 < Vega
 
   def initialize
     k12
@@ -2166,7 +2166,7 @@ bass_std_k12 = Proc.new do
   puts Sharp_12.new.str12[12..64]
 end
 
-class Flat_23_Sharp_6 < Cyclone
+class Flat_23_Sharp_6 < Vega
 
   def initialize
     j23k6
@@ -2234,7 +2234,7 @@ bass_std_j23k6 = Proc.new do
   puts Flat_23_Sharp_6.new.str12[12..64]
 end
 
-class Sharp_12_Flat_5 < Cyclone
+class Sharp_12_Flat_5 < Vega
 
   def initialize
     k12j5
@@ -2302,7 +2302,7 @@ bass_std_k12j5 = Proc.new do
   puts Sharp_12_Flat_5.new.str12[12..64]
 end
 
-class Flat_2_Sharp_6 < Cyclone
+class Flat_2_Sharp_6 < Vega
 
   def initialize
     j2k6
@@ -2370,7 +2370,7 @@ bass_std_j2k6 = Proc.new do
   puts Flat_2_Sharp_6.new.str12[12..64]
 end
 
-class Sharp_2_Flat_5 < Cyclone
+class Sharp_2_Flat_5 < Vega
 
   def initialize
     k2j5
@@ -2438,7 +2438,7 @@ bass_std_k2j5 = Proc.new do
   puts Sharp_2_Flat_5.new.str12[12..64]
 end
 
-class Flat_2_Sharp_56 < Cyclone
+class Flat_2_Sharp_56 < Vega
 
   def initialize
     j2k56
@@ -2506,7 +2506,7 @@ bass_std_j2k56 = Proc.new do
   puts Flat_2_Sharp_56.new.str12[12..64]
 end
 
-class Sharp_2_Flat_56 < Cyclone
+class Sharp_2_Flat_56 < Vega
 
   def initialize
     k2j56
@@ -2574,7 +2574,7 @@ bass_std_k2j56 = Proc.new do
   puts Sharp_2_Flat_56.new.str12[12..64]
 end
 
-class Flat_34_Sharp_6 < Cyclone
+class Flat_34_Sharp_6 < Vega
 
   def initialize
     j34k6
@@ -2642,7 +2642,7 @@ bass_std_j34k6 = Proc.new do
   puts Flat_34_Sharp_6.new.str12[12..64]
 end
 
-class Sharp_17_Flat_5 < Cyclone
+class Sharp_17_Flat_5 < Vega
 
   def initialize
     k17j5
@@ -2710,7 +2710,7 @@ bass_std_k17j5 = Proc.new do
   puts Sharp_17_Flat_5.new.str12[12..64]
 end
 
-class Flat_34_Sharp_16 < Cyclone
+class Flat_34_Sharp_16 < Vega
 
   def initialize
     j34k16
@@ -2778,7 +2778,7 @@ bass_std_j34k16 = Proc.new do
   puts Flat_34_Sharp_16.new.str12[12..64]
 end
 
-class Sharp_17_Flat_35 < Cyclone
+class Sharp_17_Flat_35 < Vega
 
   def initialize
     k17j35
@@ -2846,7 +2846,7 @@ bass_std_k17j35 = Proc.new do
   puts Sharp_17_Flat_35.new.str12[12..64]
 end
 
-class Flat_2_Sharp_6_Y3 < Cyclone
+class Flat_2_Sharp_6_Y3 < Vega
 
   def initialize
     j2k6y3
@@ -2914,7 +2914,7 @@ bass_std_j2k6y3 = Proc.new do
   puts Flat_2_Sharp_6_Y3.new.str12[12..64]
 end
 
-class Sharp_2_Flat_5_X1 < Cyclone
+class Sharp_2_Flat_5_X1 < Vega
 
   def initialize
     k2j5x1
@@ -2982,7 +2982,7 @@ bass_std_k2j5x1 = Proc.new do
   puts Sharp_2_Flat_5_X1.new.str12[12..64]
 end
 
-class Flat_25_Sharp_6_Y3 < Cyclone
+class Flat_25_Sharp_6_Y3 < Vega
 
   def initialize
     j25k6y3
@@ -3050,7 +3050,7 @@ bass_std_j25k6y3 = Proc.new do
   puts Flat_25_Sharp_6_Y3.new.str12[12..64]
 end
 
-class Sharp_26_Flat_5_X1 < Cyclone
+class Sharp_26_Flat_5_X1 < Vega
 
   def initialize
     k26j5x1
@@ -3118,7 +3118,7 @@ bass_std_k26j5x1 = Proc.new do
   puts Sharp_26_Flat_5_X1.new.str12[12..64]
 end
 
-class Flat_3_Sharp_6 < Cyclone
+class Flat_3_Sharp_6 < Vega
 
   def initialize
     j3k6
@@ -3186,7 +3186,7 @@ bass_std_j3k6 = Proc.new do
   puts Flat_3_Sharp_6.new.str12[12..64]
 end
 
-class Sharp_1_Flat_5 < Cyclone
+class Sharp_1_Flat_5 < Vega
 
   def initialize
     k1j5
@@ -3254,7 +3254,7 @@ bass_std_k1j5 = Proc.new do
   puts Sharp_1_Flat_5.new.str12[12..64]
 end
 
-class Flat_34 < Cyclone
+class Flat_34 < Vega
 
   def initialize
     j34
@@ -3322,7 +3322,7 @@ bass_std_j34 = Proc.new do
   puts Flat_34.new.str12[12..64]
 end
 
-class Sharp_17 < Cyclone
+class Sharp_17 < Vega
 
   def initialize
     k17
@@ -3390,7 +3390,7 @@ bass_std_k17 = Proc.new do
   puts Sharp_17.new.str12[12..64]
 end
 
-class Sharp_2_Flat_6 < Cyclone
+class Sharp_2_Flat_6 < Vega
 
   def initialize
     k2j6
@@ -3458,7 +3458,7 @@ bass_std_k2j6 = Proc.new do
   puts Sharp_2_Flat_6.new.str12[12..64]
 end
 
-class Flat_2_Sharp_5 < Cyclone
+class Flat_2_Sharp_5 < Vega
 
   def initialize
     j2k5
@@ -3526,7 +3526,7 @@ bass_std_j2k5 = Proc.new do
   puts Flat_2_Sharp_5.new.str12[12..64]
 end
 
-class Sharp_26 < Cyclone
+class Sharp_26 < Vega
 
   def initialize
     k26
@@ -3594,7 +3594,7 @@ bass_std_k26 = Proc.new do
   puts Sharp_26.new.str12[12..64]
 end
 
-class Flat_25 < Cyclone
+class Flat_25 < Vega
 
   def initialize
     j25

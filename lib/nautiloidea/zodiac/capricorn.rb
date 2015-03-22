@@ -29,6 +29,12 @@ module Capricorn
   puts "\nn237"
   star.ruby(:j3)
 
+  puts "\nk146"
+  star.ruby(:j36)
+
+  puts "\nn357"
+  star.ruby(:j6)
+
   puts
 
 end
