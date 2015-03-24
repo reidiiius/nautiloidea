@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-module Epsilon
+module Guitar
 
 eadgbe_n0 = <<EOF
 n0
