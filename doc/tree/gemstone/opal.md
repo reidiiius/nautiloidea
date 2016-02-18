@@ -462,5 +462,5 @@
      TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____
 
 
-> Copyright &copy; 2015 Reid Netterville III
+> Copyright &copy; 2015-2016 Reid Netterville III
 
