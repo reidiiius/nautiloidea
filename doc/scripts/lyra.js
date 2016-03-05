@@ -3,7 +3,9 @@
  *
  */
 
-var n0 = {
+var Vega = {
+
+ n0 : {
  'str00':' ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ',
  'str01':' ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ',
@@ -16,9 +18,9 @@ var n0 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ dn3 ___ en3 fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ '}
+ 'str12':' ___ dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ '},
 
-var k6 = {
+ k6 : {
  'str00':' ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 ___ ',
@@ -31,9 +33,9 @@ var k6 = {
  'str09':' en2 fn2 ___ gn2 ___ ___ ak2 bn2 cn3 ___ dn3 ___ en3 fn3 ___ gn3 ___ ___ ',
  'str10':' bn2 cn2 ___ dn2 ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ '}
+ 'str12':' ___ dn1 ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ '},
 
-var j5 = {
+ j5 : {
  'str00':' ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ ___ ',
@@ -46,9 +48,9 @@ var j5 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ dn3 ___ en3 fn3 gj3 ___ ___ an3 ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 '}
+ 'str12':' ___ dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 '},
 
-var j17y2 = {
+ j17y2 : {
  'str00':' ___ ___ ___ en6 fn6 ___ gn6 ___ an6 bj6 cj7 dy7 ___ ___ ___ en7 fn7 ___ ',
  'str01':' ___ an5 bj5 cj6 dy6 ___ ___ ___ en6 fn6 ___ gn6 ___ an6 bj6 cj7 dy7 ___ ',
  'str02':' ___ en5 fn5 ___ gn5 ___ an5 bj5 cj6 dy6 ___ ___ ___ en6 fn6 ___ gn6 ___ ',
@@ -61,9 +63,9 @@ var j17y2 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 bj2 cj3 dy3 ___ ___ ___ en3 fn3 ___ gn3 ___ an3 ',
  'str10':' cj2 dy2 ___ ___ ___ en2 fn2 ___ gn2 ___ an2 bj2 cj3 dy3 ___ ___ ___ en3 ',
  'str11':' ___ gn1 ___ an1 bj1 cj2 dy2 ___ ___ ___ en2 fn2 ___ gn2 ___ an2 bj2 cj3 ',
- 'str12':' ___ ___ ___ en1 fn1 ___ gn1 ___ an1 bj1 cj2 dy2 ___ ___ ___ en2 fn2 ___ '}
+ 'str12':' ___ ___ ___ en1 fn1 ___ gn1 ___ an1 bj1 cj2 dy2 ___ ___ ___ en2 fn2 ___ '},
 
-var k34x2 = {
+ k34x2 : {
  'str00':' ___ ___ ___ dx6 ek6 fk6 gn6 ___ an6 ___ bn6 cn7 ___ ___ ___ dx7 ek7 fk7 ',
  'str01':' ___ an5 ___ bn5 cn6 ___ ___ ___ dx6 ek6 fk6 gn6 ___ an6 ___ bn6 cn7 ___ ',
  'str02':' ___ dx5 ek5 fk5 gn5 ___ an5 ___ bn5 cn6 ___ ___ ___ dx6 ek6 fk6 gn6 ___ ',
@@ -76,9 +78,9 @@ var k34x2 = {
  'str09':' dx2 ek2 fk2 gn2 ___ an2 ___ bn2 cn3 ___ ___ ___ dx3 ek3 fk3 gn3 ___ an3 ',
  'str10':' bn1 cn2 ___ ___ ___ dx2 ek2 fk2 gn2 ___ an2 ___ bn2 cn3 ___ ___ ___ dx3 ',
  'str11':' fk1 gn1 ___ an1 ___ bn1 cn2 ___ ___ ___ dx2 ek2 fk2 gn2 ___ an2 ___ bn2 ',
- 'str12':' ___ ___ ___ dx1 ek1 fk1 gn1 ___ an1 ___ bn1 cn2 ___ ___ ___ dx2 ek2 fk2 '}
+ 'str12':' ___ ___ ___ dx1 ek1 fk1 gn1 ___ an1 ___ bn1 cn2 ___ ___ ___ dx2 ek2 fk2 '},
 
-var j3 = {
+ j3 : {
  'str00':' ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 ___ ',
  'str01':' ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ',
  'str02':' ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ',
@@ -91,9 +93,9 @@ var j3 = {
  'str09':' ___ fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ dn3 ej3 ___ fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 ___ dn2 ej2 ___ fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ dn3 ej3 ___ ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' ___ dn1 ej1 ___ fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ '}
+ 'str12':' ___ dn1 ej1 ___ fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ '},
 
-var k1 = {
+ k1 : {
  'str00':' ck6 dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 fn7 ___ ',
  'str01':' ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 ___ ck7 ',
  'str02':' ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ',
@@ -106,9 +108,9 @@ var k1 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ bn2 ___ ck3 dn3 ___ en3 fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 ___ ck3 dn3 ___ en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ '}
+ 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ '},
 
-var j17k2 = {
+ j17k2 : {
  'str00':' ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 bj6 cj7 ___ ___ ___ dk7 en7 fn7 ___ ',
  'str01':' ___ an5 bj5 cj6 ___ ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 bj6 cj7 ___ ___ ',
  'str02':' dk5 en5 fn5 ___ gn5 ___ an5 bj5 cj6 ___ ___ ___ dk6 en6 fn6 ___ gn6 ___ ',
@@ -121,9 +123,9 @@ var j17k2 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 bj2 cj3 ___ ___ ___ dk3 en3 fn3 ___ gn3 ___ an3 ',
  'str10':' cj2 ___ ___ ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' ___ gn1 ___ an1 bj1 cj2 ___ ___ ___ dk2 en2 fn2 ___ gn2 ___ an2 bj2 cj3 ',
- 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 bj1 cj2 ___ ___ ___ dk2 en2 fn2 ___ '}
+ 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 bj1 cj2 ___ ___ ___ dk2 en2 fn2 ___ '},
 
-var j2k34 = {
+ j2k34 : {
  'str00':' dj6 ___ ___ ___ ek6 fk6 gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ ___ ek7 fk7 ',
  'str01':' ___ an5 ___ bn5 cn6 dj6 ___ ___ ___ ek6 fk6 gn6 ___ an6 ___ bn6 cn7 dj7 ',
  'str02':' ___ ___ ek5 fk5 gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ ___ ek6 fk6 gn6 ___ ',
@@ -136,9 +138,9 @@ var j2k34 = {
  'str09':' ___ ek2 fk2 gn2 ___ an2 ___ bn2 cn3 dj3 ___ ___ ___ ek3 fk3 gn3 ___ an3 ',
  'str10':' bn1 cn2 dj2 ___ ___ ___ ek2 fk2 gn2 ___ an2 ___ bn2 cn3 dj3 ___ ___ ___ ',
  'str11':' fk1 gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ ___ ek2 fk2 gn2 ___ an2 ___ bn2 ',
- 'str12':' dj1 ___ ___ ___ ek1 fk1 gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ ___ ek2 fk2 '}
+ 'str12':' dj1 ___ ___ ___ ek1 fk1 gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ ___ ek2 fk2 '},
 
-var k26j5 = {
+ k26j5 : {
  'str00':' ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 gj7 ',
  'str01':' ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 ___ ',
  'str02':' dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ',
@@ -151,9 +153,9 @@ var k26j5 = {
  'str09':' en2 fn2 gj2 ___ ___ ___ ak2 bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ ___ ___ ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ ___ ___ ak2 bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' gj1 ___ ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ ___ ___ ak2 bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '}
+ 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '},
 
-var j25k6 = {
+ j25k6 : {
  'str00':' dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 gj7 ',
  'str01':' ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ',
@@ -166,9 +168,9 @@ var j25k6 = {
  'str09':' en2 fn2 gj2 ___ ___ ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 gj3 ___ ___ ___ ',
  'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 gj2 ___ ___ ___ ak2 bn2 cn3 dj3 ___ ___ en3 ',
  'str11':' gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 gj2 ___ ___ ___ ak2 bn2 ',
- 'str12':' dj1 ___ ___ en1 fn1 gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 gj2 '}
+ 'str12':' dj1 ___ ___ en1 fn1 gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 gj2 '},
 
-var j6 = {
+ j6 : {
  'str00':' ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ',
  'str01':' aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ gn6 aj6 ',
@@ -181,9 +183,9 @@ var j6 = {
  'str09':' en2 fn2 ___ gn2 aj2 ___ ___ bn2 cn3 ___ dn3 ___ en3 fn3 ___ gn3 aj3 ___ ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 ___ gn2 aj2 ___ ___ bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' ___ gn1 aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ gn2 aj2 ___ ___ bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ '}
+ 'str12':' ___ dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ '},
 
-var k5 = {
+ k5 : {
  'str00':' ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ',
  'str01':' gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ',
@@ -196,9 +198,9 @@ var k5 = {
  'str09':' en2 fn2 ___ ___ gk2 an2 ___ bn2 cn3 ___ dn3 ___ en3 fn3 ___ ___ gk3 an3 ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 an2 ___ bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 an2 ___ bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ '}
+ 'str12':' ___ dn1 ___ en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ___ en2 fn2 ___ '},
 
-var k56 = {
+ k56 : {
  'str00':' ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ dn7 ___ en7 fn7 ___ ',
  'str01':' gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 ___ dn6 ___ en6 fn6 ___ ___ gk6 ',
@@ -211,9 +213,9 @@ var k56 = {
  'str09':' en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 ___ dn3 ___ en3 fn3 ___ ___ gk3 ___ ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ '}
+ 'str12':' ___ dn1 ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 ___ dn2 ___ en2 fn2 ___ '},
 
-var j56 = {
+ j56 : {
  'str00':' ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ dn7 ___ en7 fn7 ___ ',
  'str01':' aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ dn6 ___ en6 fn6 gj6 ___ aj6 ',
@@ -226,9 +228,9 @@ var j56 = {
  'str09':' en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ dn3 ___ en3 fn3 gj3 ___ aj3 ___ ',
  'str10':' bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ dn3 ___ en3 ',
  'str11':' gj1 ___ aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 ___ aj2 ___ ___ bn2 ',
- 'str12':' ___ dn1 ___ en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 '}
+ 'str12':' ___ dn1 ___ en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ dn2 ___ en2 fn2 gj2 '},
 
-var k127 = {
+ k127 : {
  'str00':' ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 ___ ',
  'str01':' ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ',
  'str02':' dk5 en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 ___ gn6 ___ ',
@@ -241,9 +243,9 @@ var k127 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ ___ bk2 ck3 ___ dk3 en3 fn3 ___ gn3 ___ an3 ',
  'str10':' ___ bk1 ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ ___ bk2 ck3 ___ dk3 en3 ',
  'str11':' ___ gn1 ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ ___ ',
- 'str12':' ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 ___ '}
+ 'str12':' ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 ___ '},
 
-var j234 = {
+ j234 : {
  'str00':' dj6 ___ ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 fj7 ___ ___ ',
  'str01':' ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 dj7 ',
  'str02':' ej5 fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ ',
@@ -256,9 +258,9 @@ var j234 = {
  'str09':' fj2 ___ ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ej3 fj3 ___ ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 dj2 ___ ej2 fj2 ___ ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ej3 fj3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' dj1 ___ ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ '}
+ 'str12':' dj1 ___ ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 fj2 ___ ___ '},
 
-var k127j5 = {
+ k127j5 : {
  'str00':' ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ___ dk7 en7 fn7 gj7 ',
  'str01':' ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ',
  'str02':' dk5 en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 ___ dk6 en6 fn6 gj6 ___ ___ ',
@@ -271,9 +273,9 @@ var k127j5 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ ___ bk2 ck3 ___ dk3 en3 fn3 gj3 ___ ___ an3 ',
  'str10':' ___ bk1 ck2 ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ ___ bk2 ck3 ___ dk3 en3 ',
  'str11':' gj1 ___ ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ ___ ',
- 'str12':' ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 gj2 '}
+ 'str12':' ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 ___ dk2 en2 fn2 gj2 '},
 
-var j234k6 = {
+ j234k6 : {
  'str00':' dj6 ___ ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 fj7 ___ ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ',
  'str02':' ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 fj6 ___ ___ gn6 ___ ',
@@ -286,9 +288,9 @@ var j234k6 = {
  'str09':' fj2 ___ ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ej3 fj3 ___ ___ gn3 ___ ___ ',
  'str10':' bn1 cn2 dj2 ___ ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ej3 fj3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' dj1 ___ ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 fj2 ___ ___ '}
+ 'str12':' dj1 ___ ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 fj2 ___ ___ '},
 
-var k17j6 = {
+ k17j6 : {
  'str00':' ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ ___ bk7 ck7 dn7 ___ en7 fn7 ___ ',
  'str01':' aj5 ___ ___ ___ bk5 ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ ___ bk6 ck7 ',
  'str02':' ___ en5 fn5 ___ gn5 aj5 ___ ___ ___ bk5 ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ',
@@ -301,9 +303,9 @@ var k17j6 = {
  'str09':' en2 fn2 ___ gn2 aj2 ___ ___ ___ bk2 ck3 dn3 ___ en3 fn3 ___ gn3 aj3 ___ ',
  'str10':' ___ bk1 ck2 dn2 ___ en2 fn2 ___ gn2 aj2 ___ ___ ___ bk2 ck3 dn3 ___ en3 ',
  'str11':' ___ gn1 aj1 ___ ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ gn2 aj2 ___ ___ ___ ',
- 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ '}
+ 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ '},
 
-var j34k5 = {
+ j34k5 : {
  'str00':' ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ___ ___ ',
  'str01':' gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 an6 ___ bn6 cn7 ___ ',
  'str02':' ej5 fj5 ___ ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ ___ gk6 ',
@@ -316,9 +318,9 @@ var j34k5 = {
  'str09':' fj2 ___ ___ ___ gk2 an2 ___ bn2 cn3 ___ dn3 ej3 fj3 ___ ___ ___ gk3 an3 ',
  'str10':' bn1 cn2 ___ dn2 ej2 fj2 ___ ___ ___ gk2 an2 ___ bn2 cn3 ___ dn3 ej3 fj3 ',
  'str11':' ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ ___ gk2 an2 ___ bn2 ',
- 'str12':' ___ dn1 ej1 fj1 ___ ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ '}
+ 'str12':' ___ dn1 ej1 fj1 ___ ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ '},
 
-var k1j6 = {
+ k1j6 : {
  'str00':' ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ ck7 dn7 ___ en7 fn7 ___ ',
  'str01':' aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 ___ ck7 ',
  'str02':' ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 aj6 ',
@@ -331,9 +333,9 @@ var k1j6 = {
  'str09':' en2 fn2 ___ gn2 aj2 ___ ___ bn2 ___ ck3 dn3 ___ en3 fn3 ___ gn3 aj3 ___ ',
  'str10':' bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 aj2 ___ ___ bn2 ___ ck3 dn3 ___ en3 ',
  'str11':' ___ gn1 aj1 ___ ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 aj2 ___ ___ bn2 ',
- 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ '}
+ 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 ___ ck2 dn2 ___ en2 fn2 ___ '},
 
-var j3k5 = {
+ j3k5 : {
  'str00':' ___ dn6 ej6 ___ fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 ___ ',
  'str01':' gk5 an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ',
  'str02':' ej5 ___ fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 ___ ___ gk6 ',
@@ -346,9 +348,9 @@ var j3k5 = {
  'str09':' ___ fn2 ___ ___ gk2 an2 ___ bn2 cn3 ___ dn3 ej3 ___ fn3 ___ ___ gk3 an3 ',
  'str10':' bn1 cn2 ___ dn2 ej2 ___ fn2 ___ ___ gk2 an2 ___ bn2 cn3 ___ dn3 ej3 ___ ',
  'str11':' ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ ___ gk2 an2 ___ bn2 ',
- 'str12':' ___ dn1 ej1 ___ fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ '}
+ 'str12':' ___ dn1 ej1 ___ fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 ___ '},
 
-var k16 = {
+ k16 : {
  'str00':' ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ___ en7 fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 ___ ck7 ',
  'str02':' ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ___ en6 fn6 ___ gn6 ___ ',
@@ -361,9 +363,9 @@ var k16 = {
  'str09':' en2 fn2 ___ gn2 ___ ___ ak2 bn2 ___ ck3 dn3 ___ en3 fn3 ___ gn3 ___ ___ ',
  'str10':' bn2 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 ___ ck3 dn3 ___ en3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ___ en2 fn2 ___ '}
+ 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ___ en2 fn2 ___ '},
 
-var j35 = {
+ j35 : {
  'str00':' ___ dn6 ej6 ___ fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ dn7 ej7 ___ fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ',
  'str02':' ej5 ___ fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ dn6 ej6 ___ fn6 gj6 ___ ___ ',
@@ -376,9 +378,9 @@ var j35 = {
  'str09':' ___ fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ dn3 ej3 ___ fn3 gj3 ___ ___ an3 ',
  'str10':' bn1 cn2 ___ dn2 ej2 ___ fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ dn3 ej3 ___ ',
  'str11':' gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 gj2 ___ ___ an2 ___ bn2 ',
- 'str12':' ___ dn1 ej1 ___ fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 gj2 '}
+ 'str12':' ___ dn1 ej1 ___ fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ dn2 ej2 ___ fn2 gj2 '},
 
-var j2 = {
+ j2 : {
  'str00':' dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 ___ ',
  'str01':' ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ',
@@ -391,9 +393,9 @@ var j2 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ___ en3 fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ___ en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' dj1 ___ ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ '}
+ 'str12':' dj1 ___ ___ en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ '},
 
-var k2 = {
+ k2 : {
  'str00':' ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 ___ ',
  'str01':' ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 cn7 ___ ',
  'str02':' dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ',
@@ -406,9 +408,9 @@ var k2 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ '}
+ 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ '},
 
-var j26 = {
+ j26 : {
  'str00':' dj6 ___ ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 dj7 ___ ___ en7 fn7 ___ ',
  'str01':' aj5 ___ ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 aj7 ',
@@ -421,9 +423,9 @@ var j26 = {
  'str09':' en2 fn2 ___ gn2 aj2 ___ ___ bn2 cn3 dj3 ___ ___ en3 fn3 ___ gn3 aj3 ___ ',
  'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 ___ gn2 aj2 ___ ___ bn2 cn3 dj3 ___ ___ en3 ',
  'str11':' ___ gn1 aj1 ___ ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ gn2 aj2 ___ ___ bn2 ',
- 'str12':' dj1 ___ ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ '}
+ 'str12':' dj1 ___ ___ en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ '},
 
-var k25 = {
+ k25 : {
  'str00':' ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 ___ ',
  'str01':' gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 ___ ',
  'str02':' dk5 en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ ___ gk6 ',
@@ -436,9 +438,9 @@ var k25 = {
  'str09':' en2 fn2 ___ ___ gk2 an2 ___ bn2 cn3 ___ ___ dk3 en3 fn3 ___ ___ gk3 an3 ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 ___ ___ gk2 an2 ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' ___ ___ gk1 an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ ___ gk2 an2 ___ bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ '}
+ 'str12':' ___ ___ dk1 en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ '},
 
-var j23 = {
+ j23 : {
  'str00':' dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ___ ej7 ___ fn7 ___ ',
  'str01':' ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ an6 ___ bn6 cn7 dj7 ',
  'str02':' ej5 ___ fn5 ___ gn5 ___ an5 ___ bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ',
@@ -451,9 +453,9 @@ var j23 = {
  'str09':' ___ fn2 ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ej3 ___ fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 dj2 ___ ej2 ___ fn2 ___ gn2 ___ an2 ___ bn2 cn3 dj3 ___ ej3 ___ ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 ___ fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' dj1 ___ ej1 ___ fn1 ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 ___ fn2 ___ '}
+ 'str12':' dj1 ___ ej1 ___ fn1 ___ gn1 ___ an1 ___ bn1 cn2 dj2 ___ ej2 ___ fn2 ___ '},
 
-var k12 = {
+ k12 : {
  'str00':' ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 ___ ',
  'str01':' ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 ___ gn6 ___ an6 ___ bn6 ___ ck7 ',
  'str02':' dk5 en5 fn5 ___ gn5 ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 ___ gn6 ___ ',
@@ -466,9 +468,9 @@ var k12 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 fn3 ___ gn3 ___ an3 ',
  'str10':' bn1 ___ ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 ___ '}
+ 'str12':' ck1 ___ dk1 en1 fn1 ___ gn1 ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 ___ '},
 
-var j23k6 = {
+ j23k6 : {
  'str00':' dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ej7 ___ fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ',
  'str02':' ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ej6 ___ fn6 ___ gn6 ___ ',
@@ -481,9 +483,9 @@ var j23k6 = {
  'str09':' ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ej3 ___ fn3 ___ gn3 ___ ___ ',
  'str10':' bn1 cn2 dj2 ___ ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ej3 ___ ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' dj1 ___ ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 ___ fn2 ___ '}
+ 'str12':' dj1 ___ ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ej2 ___ fn2 ___ '},
 
-var k12j5 = {
+ k12j5 : {
  'str00':' ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ___ dk7 en7 fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ',
  'str02':' dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 ___ dk6 en6 fn6 gj6 ___ ___ ',
@@ -496,9 +498,9 @@ var k12j5 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 fn3 gj3 ___ ___ an3 ',
  'str10':' bn1 ___ ck2 ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ck3 ___ dk3 en3 ',
  'str11':' gj1 ___ ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
- 'str12':' ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 gj2 '}
+ 'str12':' ck1 ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 ___ dk2 en2 fn2 gj2 '},
 
-var j2k6 = {
+ j2k6 : {
  'str00':' dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ gn6 ___ ',
@@ -511,9 +513,9 @@ var j2k6 = {
  'str09':' en2 fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 ___ gn3 ___ ___ ',
  'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ___ ___ en3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' dj1 ___ ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ '}
+ 'str12':' dj1 ___ ___ en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ '},
 
-var k2j5 = {
+ k2j5 : {
  'str00':' ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ___ dk7 en7 fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 ___ ',
  'str02':' dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ ___ ',
@@ -526,9 +528,9 @@ var k2j5 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ ___ an3 ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' gj1 ___ ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '}
+ 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '},
 
-var j2k56 = {
+ j2k56 : {
  'str00':' dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ___ ___ en7 fn7 ___ ',
  'str01':' gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ___ ak6 bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 ___ ___ gk5 ___ ak5 bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ',
@@ -541,9 +543,9 @@ var j2k56 = {
  'str09':' en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 dj3 ___ ___ en3 fn3 ___ ___ gk3 ___ ',
  'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 cn3 dj3 ___ ___ en3 ',
  'str11':' ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 ___ ak2 bn2 ',
- 'str12':' dj1 ___ ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ '}
+ 'str12':' dj1 ___ ___ en1 fn1 ___ ___ gk1 ___ ak1 bn1 cn2 dj2 ___ ___ en2 fn2 ___ '},
 
-var k2j56 = {
+ k2j56 : {
  'str00':' ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 ___ ',
  'str01':' aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ___ ___ bn6 cn7 ___ ',
  'str02':' dk5 en5 fn5 gj5 ___ aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 gj6 ___ aj6 ',
@@ -556,9 +558,9 @@ var k2j56 = {
  'str09':' en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 fn3 gj3 ___ aj3 ___ ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 ___ aj2 ___ ___ bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '}
+ 'str12':' ___ ___ dk1 en1 fn1 gj1 ___ aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 gj2 '},
 
-var j34k6 = {
+ j34k6 : {
  'str00':' ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 fj7 ___ ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 cn7 ___ ',
  'str02':' ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ',
@@ -571,9 +573,9 @@ var j34k6 = {
  'str09':' fj2 ___ ___ gn2 ___ ___ ak2 bn2 cn3 ___ dn3 ej3 fj3 ___ ___ gn3 ___ ___ ',
  'str10':' bn1 cn2 ___ dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 cn3 ___ dn3 ej3 fj3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' ___ dn1 ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 fj2 ___ ___ '}
+ 'str12':' ___ dn1 ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 fj2 ___ ___ '},
 
-var k17j5 = {
+ k17j5 : {
  'str00':' ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 dn7 ___ en7 fn7 gj7 ',
  'str01':' ___ an5 ___ ___ bk5 ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ',
  'str02':' ___ en5 fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 dn6 ___ en6 fn6 gj6 ___ ___ ',
@@ -586,9 +588,9 @@ var k17j5 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ ___ bk2 ck3 dn3 ___ en3 fn3 gj3 ___ ___ an3 ',
  'str10':' ___ bk1 ck2 dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ ___ bk2 ck3 dn3 ___ en3 ',
  'str11':' gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ ___ ',
- 'str12':' ck1 dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 gj2 '}
+ 'str12':' ck1 dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 gj2 '},
 
-var j34k16 = {
+ j34k16 : {
  'str00':' ck6 dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 ___ ck7 dn7 ej7 fj7 ___ ___ ',
  'str01':' ___ ___ ak5 bn5 ___ ck6 dn6 ej6 fj6 ___ ___ gn6 ___ ___ ak6 bn6 ___ ck7 ',
  'str02':' ej5 fj5 ___ ___ gn5 ___ ___ ak5 bn5 ___ ck6 dn6 ej6 fj6 ___ ___ gn6 ___ ',
@@ -601,9 +603,9 @@ var j34k16 = {
  'str09':' fj2 ___ ___ gn2 ___ ___ ak2 bn2 ___ ck3 dn3 ej3 fj3 ___ ___ gn3 ___ ___ ',
  'str10':' bn1 ___ ck2 dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ___ ck3 dn3 ej3 fj3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ej2 fj2 ___ ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' ck1 dn1 ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ej2 fj2 ___ ___ '}
+ 'str12':' ck1 dn1 ej1 fj1 ___ ___ gn1 ___ ___ ak1 bn1 ___ ck2 dn2 ej2 fj2 ___ ___ '},
 
-var k17j35 = {
+ k17j35 : {
  'str00':' ck6 dn6 ej6 ___ fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 dn7 ej7 ___ fn7 gj7 ',
  'str01':' ___ an5 ___ ___ bk5 ck6 dn6 ej6 ___ fn6 gj6 ___ ___ an6 ___ ___ bk6 ck7 ',
  'str02':' ej5 ___ fn5 gj5 ___ ___ an5 ___ ___ bk5 ck6 dn6 ej6 ___ fn6 gj6 ___ ___ ',
@@ -616,9 +618,9 @@ var k17j35 = {
  'str09':' ___ fn2 gj2 ___ ___ an2 ___ ___ bk2 ck3 dn3 ej3 ___ fn3 gj3 ___ ___ an3 ',
  'str10':' ___ bk1 ck2 dn2 ej2 ___ fn2 gj2 ___ ___ an2 ___ ___ bk2 ck3 dn3 ej3 ___ ',
  'str11':' gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ej2 ___ fn2 gj2 ___ ___ an2 ___ ___ ',
- 'str12':' ck1 dn1 ej1 ___ fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ej2 ___ fn2 gj2 '}
+ 'str12':' ck1 dn1 ej1 ___ fn1 gj1 ___ ___ an1 ___ ___ bk1 ck2 dn2 ej2 ___ fn2 gj2 '},
 
-var j2k6y3 = {
+ j2k6y3 : {
  'str00':' dj6 ey6 ___ ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ey7 ___ ___ fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 dj7 ',
  'str02':' ___ ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 ___ gn6 ___ ',
@@ -631,9 +633,9 @@ var j2k6y3 = {
  'str09':' ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ey3 ___ ___ fn3 ___ gn3 ___ ___ ',
  'str10':' bn1 cn2 dj2 ey2 ___ ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 dj3 ey3 ___ ___ ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' dj1 ey1 ___ ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 ___ '}
+ 'str12':' dj1 ey1 ___ ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 ___ '},
 
-var k2j5x1 = {
+ k2j5x1 : {
  'str00':' ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ cx7 dk7 en7 fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ___ ',
  'str02':' dk5 en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ',
@@ -646,9 +648,9 @@ var k2j5x1 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ___ cx3 dk3 en3 fn3 gj3 ___ ___ an3 ',
  'str10':' bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ___ cx3 dk3 en3 ',
  'str11':' gj1 ___ ___ an1 ___ bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
- 'str12':' ___ cx1 dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ___ cx2 dk2 en2 fn2 gj2 '}
+ 'str12':' ___ cx1 dk1 en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ___ cx2 dk2 en2 fn2 gj2 '},
 
-var j25k6y3 = {
+ j25k6y3 : {
  'str00':' dj6 ey6 ___ ___ fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ey7 ___ ___ fn7 gj7 ',
  'str01':' ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 gj6 ___ ___ ___ ak6 bn6 cn7 dj7 ',
  'str02':' ___ ___ fn5 gj5 ___ ___ ___ ak5 bn5 cn6 dj6 ey6 ___ ___ fn6 gj6 ___ ___ ',
@@ -661,9 +663,9 @@ var j25k6y3 = {
  'str09':' ___ fn2 gj2 ___ ___ ___ ak2 bn2 cn3 dj3 ey3 ___ ___ fn3 gj3 ___ ___ ___ ',
  'str10':' bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 ___ ___ ___ ak2 bn2 cn3 dj3 ey3 ___ ___ ',
  'str11':' gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 ___ ___ ___ ak2 bn2 ',
- 'str12':' dj1 ey1 ___ ___ fn1 gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 '}
+ 'str12':' dj1 ey1 ___ ___ fn1 gj1 ___ ___ ___ ak1 bn1 cn2 dj2 ey2 ___ ___ fn2 gj2 '},
 
-var k26j5x1 = {
+ k26j5x1 : {
  'str00':' ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ cx7 dk7 en7 fn7 gj7 ',
  'str01':' ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ___ ak6 bn6 ___ ___ ',
  'str02':' dk5 en5 fn5 gj5 ___ ___ ___ ak5 bn5 ___ ___ cx6 dk6 en6 fn6 gj6 ___ ___ ',
@@ -676,9 +678,9 @@ var k26j5x1 = {
  'str09':' en2 fn2 gj2 ___ ___ ___ ak2 bn2 ___ ___ cx3 dk3 en3 fn3 gj3 ___ ___ ___ ',
  'str10':' bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ___ ___ ___ ak2 bn2 ___ ___ cx3 dk3 en3 ',
  'str11':' gj1 ___ ___ ___ ak1 bn1 ___ ___ cx2 dk2 en2 fn2 gj2 ___ ___ ___ ak2 bn2 ',
- 'str12':' ___ cx1 dk1 en1 fn1 gj1 ___ ___ ___ ak1 bn1 ___ ___ cx2 dk2 en2 fn2 gj2 '}
+ 'str12':' ___ cx1 dk1 en1 fn1 gj1 ___ ___ ___ ak1 bn1 ___ ___ cx2 dk2 en2 fn2 gj2 '},
 
-var j3k6 = {
+ j3k6 : {
  'str00':' ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ dn7 ej7 ___ fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ',
  'str02':' ej5 ___ fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ dn6 ej6 ___ fn6 ___ gn6 ___ ',
@@ -691,9 +693,9 @@ var j3k6 = {
  'str09':' ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 ___ dn3 ej3 ___ fn3 ___ gn3 ___ ___ ',
  'str10':' bn2 cn2 ___ dn2 ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 cn3 ___ dn3 ej3 ___ ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 ___ fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' ___ dn1 ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 ___ fn2 ___ '}
+ 'str12':' ___ dn1 ej1 ___ fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ dn2 ej2 ___ fn2 ___ '},
 
-var k1j5 = {
+ k1j5 : {
  'str00':' ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 dn7 ___ en7 fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 ___ ck7 ',
  'str02':' ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 ___ ck6 dn6 ___ en6 fn6 gj6 ___ ___ ',
@@ -706,9 +708,9 @@ var k1j5 = {
  'str09':' en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ck3 dn3 ___ en3 fn3 gj3 ___ ___ an3 ',
  'str10':' bn1 ___ ck2 dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 ___ ck3 dn3 ___ en3 ',
  'str11':' gj1 ___ ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
- 'str12':' ck1 dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 gj2 '}
+ 'str12':' ck1 dn1 ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 ___ ck2 dn2 ___ en2 fn2 gj2 '},
 
-var j34 = {
+ j34 : {
  'str00':' ___ dn6 ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 ___ dn7 ej7 fj7 ___ ___ ',
  'str01':' ___ an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ an6 ___ bn6 cn7 ___ ',
  'str02':' ej5 fj5 ___ ___ gn5 ___ an5 ___ bn5 cn6 ___ dn6 ej6 fj6 ___ ___ gn6 ___ ',
@@ -721,9 +723,9 @@ var j34 = {
  'str09':' fj2 ___ ___ gn2 ___ an2 ___ bn2 cn3 ___ dn3 ej3 fj3 ___ ___ gn3 ___ an3 ',
  'str10':' bn1 cn2 ___ dn2 ej2 fj2 ___ ___ gn2 ___ an2 ___ bn2 cn3 ___ dn3 ej3 fj3 ',
  'str11':' ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ gn2 ___ an2 ___ bn2 ',
- 'str12':' ___ dn1 ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ '}
+ 'str12':' ___ dn1 ej1 fj1 ___ ___ gn1 ___ an1 ___ bn1 cn2 ___ dn2 ej2 fj2 ___ ___ '},
 
-var k17 = {
+ k17 : {
  'str00':' ck6 dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 dn7 ___ en7 fn7 ___ ',
  'str01':' ___ an5 ___ ___ bk5 ck6 dn6 ___ en6 fn6 ___ gn6 ___ an6 ___ ___ bk6 ck7 ',
  'str02':' ___ en5 fn5 ___ gn5 ___ an5 ___ ___ bk5 ck6 dn6 ___ en6 fn6 ___ gn6 ___ ',
@@ -736,9 +738,9 @@ var k17 = {
  'str09':' en2 fn2 ___ gn2 ___ an2 ___ ___ bk2 ck3 dn3 ___ en3 fn3 ___ gn3 ___ an3 ',
  'str10':' ___ bk1 ck2 dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ ___ bk2 ck3 dn3 ___ en3 ',
  'str11':' ___ gn1 ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ gn2 ___ an2 ___ ___ ',
- 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ '}
+ 'str12':' ck1 dn1 ___ en1 fn1 ___ gn1 ___ an1 ___ ___ bk1 ck2 dn2 ___ en2 fn2 ___ '},
 
-var k2j6 = {
+ k2j6 : {
  'str00':' ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ___ dk7 en7 fn7 ___ ',
  'str01':' aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ___ ___ bn6 cn7 ___ ',
  'str02':' ___ en5 fn5 ___ gn5 aj5 ___ ___ bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 aj6 ',
@@ -751,9 +753,9 @@ var k2j6 = {
  'str09':' en2 fn2 ___ gn2 aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 fn3 ___ gn3 aj3 ___ ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 ___ gn2 aj2 ___ ___ bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' ___ gn1 aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ gn2 aj2 ___ ___ bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ '}
+ 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 aj1 ___ ___ bn1 cn2 ___ ___ dk2 en2 fn2 ___ '},
 
-var j2k5 = {
+ j2k5 : {
  'str00':' dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 ___ ',
  'str01':' gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 an6 ___ bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 ___ ___ gk5 an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 ___ ___ gk6 ',
@@ -766,9 +768,9 @@ var j2k5 = {
  'str09':' en2 fn2 ___ ___ gk2 an2 ___ bn2 cn3 dj3 ___ ___ en3 fn3 ___ ___ gk3 an3 ',
  'str10':' bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 an2 ___ bn2 cn3 dj3 ___ ___ en3 ',
  'str11':' ___ ___ gk1 an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ ___ gk2 an2 ___ bn2 ',
- 'str12':' dj1 ___ ___ en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ '}
+ 'str12':' dj1 ___ ___ en1 fn1 ___ ___ gk1 an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 ___ '},
 
-var k26 = {
+ k26 : {
  'str00':' ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ___ dk7 en7 fn7 ___ ',
  'str01':' ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ___ ak6 bn6 cn7 ___ ',
  'str02':' dk5 en5 fn5 ___ gn5 ___ ___ ak5 bn5 cn6 ___ ___ dk6 en6 fn6 ___ gn6 ___ ',
@@ -781,9 +783,9 @@ var k26 = {
  'str09':' en2 fn2 ___ gn2 ___ ___ ak2 bn2 cn3 ___ ___ dk3 en3 fn3 ___ gn3 ___ ___ ',
  'str10':' bn1 cn2 ___ ___ dk2 en2 fn2 ___ gn2 ___ ___ ak2 bn2 cn3 ___ ___ dk3 en3 ',
  'str11':' ___ gn1 ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 ___ gn2 ___ ___ ak2 bn2 ',
- 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 ___ '}
+ 'str12':' ___ ___ dk1 en1 fn1 ___ gn1 ___ ___ ak1 bn1 cn2 ___ ___ dk2 en2 fn2 ___ '},
 
-var j25 = {
+ j25 : {
  'str00':' dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ___ ___ en7 fn7 gj7 ',
  'str01':' ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ an6 ___ bn6 cn7 dj7 ',
  'str02':' ___ en5 fn5 gj5 ___ ___ an5 ___ bn5 cn6 dj6 ___ ___ en6 fn6 gj6 ___ ___ ',
@@ -798,19 +800,21 @@ var j25 = {
  'str11':' gj1 ___ ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 gj2 ___ ___ an2 ___ bn2 ',
  'str12':' dj1 ___ ___ en1 fn1 gj1 ___ ___ an1 ___ bn1 cn2 dj2 ___ ___ en2 fn2 gj2 '}
 
-function gutr_std(x) {
-  document.getElementById("gutr_str1").innerHTML = x.str00.slice(12,65)
-  document.getElementById("gutr_str2").innerHTML = x.str01.slice(12,65)
-  document.getElementById("gutr_str3").innerHTML = x.str02.slice(16,69)
-  document.getElementById("gutr_str4").innerHTML = x.str03.slice(16,69)
-  document.getElementById("gutr_str5").innerHTML = x.str04.slice(16,69)
-  document.getElementById("gutr_str6").innerHTML = x.str05.slice(16,69)
+};
+
+function guitarTune(x) {
+  document.getElementById("gutr_str1").textContent = x.str00.slice(12,65);
+  document.getElementById("gutr_str2").textContent = x.str01.slice(12,65);
+  document.getElementById("gutr_str3").textContent = x.str02.slice(16,69);
+  document.getElementById("gutr_str4").textContent = x.str03.slice(16,69);
+  document.getElementById("gutr_str5").textContent = x.str04.slice(16,69);
+  document.getElementById("gutr_str6").textContent = x.str05.slice(16,69);
 }
 
-function cello_std(x){
- document.getElementById("cello_str1").innerHTML = x.str06.slice( 8,61)
- document.getElementById("cello_str2").innerHTML = x.str08.slice(20,73)
- document.getElementById("cello_str3").innerHTML = x.str09.slice(12,65)
- document.getElementById("cello_str4").innerHTML = x.str10.slice( 4,57)
+function celloTune(x){
+ document.getElementById("cello_str1").textContent = x.str06.slice( 8,61);
+ document.getElementById("cello_str2").textContent = x.str08.slice(20,73);
+ document.getElementById("cello_str3").textContent = x.str09.slice(12,65);
+ document.getElementById("cello_str4").textContent = x.str10.slice( 4,57);
 }
 

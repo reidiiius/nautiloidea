@@ -10,7 +10,9 @@ h2 {
   color:#d2b48c;
 }
 #nav {
-  margin:1em;
+  position:absolute;
+  left:0.3em;
+  top:1.8em;
 }
 ul {
   list-style-type:square;
@@ -28,7 +30,7 @@ a:hover {
   text-decoration:underline;
   color:#8b4513;
 }
-#calls {
+.calls {
   margin:1em;
   text-align:center;
 }
