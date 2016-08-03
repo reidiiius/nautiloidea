@@ -1,4 +1,4 @@
-#!/user/bin/ruby
+#!/usr/bin/ruby
 
 require_relative "lodestone.rb"
 
