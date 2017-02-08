@@ -1,4 +1,4 @@
-// Copyright 2013-2016 Reid Netterville III
+// Copyright 2013-2017 Reid Netterville III
 
 "use strict";
 
