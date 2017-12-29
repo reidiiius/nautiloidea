@@ -1,6 +1,30 @@
 Nautiloidea
 ===========
-#### Data structures for music composition.
+Data structures for music composition
+
+---
+
+### Download
+
+    git clone https://github.com/reidiiius/nautiloidea.git
+
+---
+
+### Usage
+command line
+
+    cd nautiloidea/operculum
+
+    ruby siphuncle.rb
+
+---
+
+### Distribution
+MIT License
+
+---
+
+### Midi
 
     ___ = nil,
     an0 = 21, an1 = 33, an2 = 45, an3 = 57, an4 = 69, an5 = 81, an6 = 93,

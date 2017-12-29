@@ -2,508 +2,225 @@
 
 require_relative 'signature.rb'
 
+def headstock(qp, str)
+  puts "\n\t#{qp}"
+  puts "\t" + str[:fn]
+  puts "\t" + str[:cn]
+  puts "\t" + str[:gn]
+  puts "\t" + str[:dn]
+  puts "\t" + str[:an]
+  puts "\t" + str[:en]
+  puts "\t" + str[:bn]
+end
+
 n0 = Proc.new do
   str = GemStone::N0
-    puts "\nn0"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('n0', str)
 end
 
 k6 = Proc.new do
   str = GemStone::K6
-    puts "\nk6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k6', str)
 end
 
 j17 = Proc.new do
   str = GemStone::J17
-    puts "\nj17"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j17', str)
 end
 
 k6x5 = Proc.new do
   str = GemStone::K6X5
-    puts "\nk6x5"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k6x5', str)
 end
 
 j17y2 = Proc.new do
   str = GemStone::J17Y2
-    puts "\nj17y2"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j17y2', str)
 end
 
 j3 = Proc.new do
   str = GemStone::J3
-    puts "\nj3"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j3', str)
 end
 
 j34k6 = Proc.new do
   str = GemStone::J34K6
-    puts "\nj34k6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j34k6', str)
 end
 
 j17k2 = Proc.new do
   str = GemStone::J17K2
-    puts "\nj17k2"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j17k2', str)
 end
 
 n26y5 = Proc.new do
   str = GemStone::N26Y5
-    puts "\nn26y5"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('n26y5', str)
 end
 
 k26x5 = Proc.new do
   str = GemStone::K26X5
-    puts "\nk26x5"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k26x5', str)
 end
 
 j6 = Proc.new do
   str = GemStone::J6
-    puts "\nj6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j6', str)
 end
 
 j36 = Proc.new do
   str = GemStone::J36
-    puts "\nj36"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j36', str)
 end
 
 k56 = Proc.new do
   str = GemStone::K56
-    puts "\nk56"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k56', str)
 end
 
 j136y7 = Proc.new do
   str = GemStone::J136Y7
-    puts "\nj136y7"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j136y7', str)
 end
 
 k56x4 = Proc.new do
   str = GemStone::K56X4
-    puts "\nk56x4"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k56x4', str)
 end
 
 n167x4 = Proc.new do
   str = GemStone::N167X4
-    puts "\nn167x4"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('n167x4', str)
 end
 
 j3k5x4 = Proc.new do
   str = GemStone::J3K5X4
-    puts "\nj3k5x4"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j3k5x4', str)
 end
 
 j167y2 = Proc.new do
   str = GemStone::J167Y2
-    puts "\nj167y2"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j167y2', str)
 end
 
 j2k56x4 = Proc.new do
   str = GemStone::J2K56X4
-    puts "\nj2k56x4"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2k56x4', str)
 end
 
 k157x6 = Proc.new do
   str = GemStone::K157X6
-    puts "\nk157x6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k157x6', str)
 end
 
 k1j6 = Proc.new do
   str = GemStone::K1J6
-    puts "\nk1j6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k1j6', str)
 end
 
 n345 = Proc.new do
   str = GemStone::N345
-    puts "\nn345"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('n345', str)
 end
 
 j2 = Proc.new do
   str = GemStone::J2
-    puts "\nj2"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2', str)
 end
 
 j26 = Proc.new do
   str = GemStone::J26
-    puts "\nj26"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j26', str)
 end
 
 j236 = Proc.new do
   str = GemStone::J236
-    puts "\nj236"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j236', str)
 end
 
 j23 = Proc.new do
   str = GemStone::J23
-    puts "\nj23"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j23', str)
 end
 
 j23k6 = Proc.new do
   str = GemStone::J23K6
-    puts "\nj23k6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j23k6', str)
 end
 
 j2y3 = Proc.new do
   str = GemStone::J2Y3
-    puts "\nj2y3"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2y3', str)
 end
 
 j2k6 = Proc.new do
   str = GemStone::J2K6
-    puts "\nj2k6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2k6', str)
 end
 
 j26y3 = Proc.new do
   str = GemStone::J26Y3
-    puts "\nj26y3"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j26y3', str)
 end
 
 j2k56 = Proc.new do
   str = GemStone::J2K56
-    puts "\nj2k56"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2k56', str)
 end
 
 j246y3 = Proc.new do
   str = GemStone::J246Y3
-    puts "\nj246y3"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j246y3', str)
 end
 
 j26y34 = Proc.new do
   str = GemStone::J26Y34
-    puts "\nj26y34"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j26y34', str)
 end
 
 j2k6x5 = Proc.new do
   str = GemStone::J2K6X5
-    puts "\nj2k6x5"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2k6x5', str)
 end
 
 j2k6y3 = Proc.new do
   str = GemStone::J2K6Y3
-    puts "\nj2k6y3"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j2k6y3', str)
 end
 
 j3k6 = Proc.new do
   str = GemStone::J3K6
-    puts "\nj3k6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j3k6', str)
 end
 
 n45y2 = Proc.new do
   str = GemStone::N45Y2
-    puts "\nn45y2"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('n45y2', str)
 end
 
 j3k56x4 = Proc.new do
   str = GemStone::J3K56X4
-    puts "\nj3k56x4"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('j3k56x4', str)
 end
 
 k2j6 = Proc.new do
   str = GemStone::K2J6
-    puts "\nk2j6"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k2j6', str)
 end
 
 n5y2 = Proc.new do
   str = GemStone::N5Y2
-    puts "\nn5y2"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('n5y2', str)
 end
 
 k26 = Proc.new do
   str = GemStone::K26
-    puts "\nk26"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k26', str)
 end
 
 k256 = Proc.new do
   str = GemStone::K256
-    puts "\nk256"
-    puts str[:fn]
-    puts str[:cn]
-    puts str[:gn]
-    puts str[:dn]
-    puts str[:an]
-    puts str[:en]
-    puts str[:bn]
+  headstock('k256', str)
 end
 
 def help

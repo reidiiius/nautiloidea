@@ -1,24 +1,37 @@
 #!/usr/bin/ruby
 
+module Sage
+
 require 'yaml'
 
 str = YAML.load_file 'crucible/lapis.yml'
 
-puts "\nn0" + " STD"
-puts str['n0']['en'][ 0,20]
-puts str['n0']['bn'][ 0,20]
-puts str['n0']['gn'][ 0,20]
-puts str['n0']['dn'][ 0,20]
-puts str['n0']['an'][ 0,20]
-puts str['n0']['en'][ 0,20]
-
-puts "\nn0" + " M3T"
-puts str['n0']['dn'][ 0,60]
-puts str['n0']['an'][ 5,60] << str['n0']['an'][ 0, 5]
-puts str['n0']['fn'][ 5,60] << str['n0']['fn'][ 0, 5]
-puts str['n0']['dn'][ 0,60]
-puts str['n0']['an'][ 5,60] << str['n0']['an'][ 0, 5]
-puts str['n0']['fn'][ 5,60] << str['n0']['fn'][ 0, 5]
+accidentals = ['n0', 'j36']
 
 puts
+
+for qp in accidentals
+
+  gst = ['en','bn','gn','dn','an','en']
+
+  puts "\n\t#{qp}" + " STD"
+  gst.each do |pitch|
+    puts "\t" + str[qp][pitch][ 0,20]
+  end
+
+  puts "\n#{qp}" + " M3T"
+  puts str[qp]['dn'][ 0,60]
+  puts str[qp]['an'][ 5,60] << str[qp]['an'][ 0, 5]
+  puts str[qp]['fn'][ 5,60] << str[qp]['fn'][ 0, 5]
+  puts str[qp]['dn'][ 0,60]
+  puts str[qp]['an'][ 5,60] << str[qp]['an'][ 0, 5]
+  puts str[qp]['fn'][ 5,60] << str[qp]['fn'][ 0, 5]
+
+  puts
+
+end
+
+puts
+
+end
 
