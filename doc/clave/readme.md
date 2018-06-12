@@ -1,9 +1,5 @@
 ## Clave Library
-
----
-
-### Audio examples
-  [ @phragmocone ]( https://sites.google.com/site/phragmocone/ )
+Idiophone patterns
 
 ---
 
