@@ -61,14 +61,14 @@ TriOsc s => dac;
 48=>int bk2;60=>int bk3;72=>int bk4;84=>int bk5;96=>int bk6;108=>int bk7;
 48=>int cn3;60=>int cn4;72=>int cn5;84=>int cn6;96=>int cn7;108=>int cn8;
 
-144 => int tempo;
+180 => int tempo;
   0 => int transport;
 
 [
-[cn5,8],[en5,8],[dn5,8],[fn5,8],[en5,8],[gn5,8],[bn4,8],[dn5,8],
-[en5,8],[cn5,8],[dn5,8],[bn4,8],[cn5,8],[an4,8],[fn5,8],[dn5,8],
-[gn5,8],[ej5,8],[fn5,8],[dn5,8],[ej5,8],[cn5,8],[aj5,8],[fn5,8],
-[en5,8],[cn5,8],[dn5,8],[bn4,8],[aj4,8],[cn5,8],[bj4,8],[dn5,8]
+[cn4,8],[en4,8],[dn4,8],[fn4,8],[en4,8],[gn4,8],[bn3,8],[dn4,8],
+[en4,8],[cn4,8],[dn4,8],[bn3,8],[cn4,8],[an3,8],[fn4,8],[dn4,8],
+[gn4,8],[ej4,8],[fn4,8],[dn4,8],[ej4,8],[cn4,8],[aj4,8],[fn4,8],
+[en4,8],[cn4,8],[dn4,8],[bn3,8],[aj3,8],[cn4,8],[bj3,8],[dj4,8]
 ] @=> int spectra[][];
 
 while ( true )

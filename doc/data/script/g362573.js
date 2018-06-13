@@ -1,4 +1,4 @@
-/* Copyright 2013-2017 Reid Netterville III */
+/* Copyright 2013-2018 Reid Netterville III */
 
 (function() {
   var gtrSTD = ["<pre><code>",
@@ -669,7 +669,7 @@
 "MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ ",
 " ",
 " ",
-"Copyright &#169; 2013-2017 Reid Netterville III ",
+"Copyright &#169; 2013-2018 Reid Netterville III ",
 "<\/code><\/pre>"];
   for (var i = 0; i < gtrSTD.length; i++) {
     document.writeln( gtrSTD[i] );

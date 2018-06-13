@@ -1,5 +1,5 @@
 /*
- * Copyright 2012-2017 Reid Netterville III
+ * Copyright 2012-2018 Reid Netterville III
  *
  */
 

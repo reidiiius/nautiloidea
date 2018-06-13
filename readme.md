@@ -585,5 +585,5 @@ MIT License
 
 
 
-> Copyright &copy; 2013-2017 Reid Netterville III
+> Copyright &copy; 2013-2018 Reid Netterville III
 
