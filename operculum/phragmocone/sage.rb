@@ -8,14 +8,14 @@ str = YAML.load_file 'crucible/lapis.yml'
 
 accidentals = ['n0', 'j36']
 
+pegbox = ['en','bn','gn','dn','an','en']
+
 puts
 
 for qp in accidentals
 
-  gst = ['en','bn','gn','dn','an','en']
-
   puts "\n\t#{qp}" + " STD"
-  gst.each do |pitch|
+  pegbox.each do |pitch|
     puts "\t" + str[qp][pitch][ 0,20]
   end
 
